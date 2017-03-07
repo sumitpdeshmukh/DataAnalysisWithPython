@@ -27,7 +27,7 @@
 
         Here is our forecast
         
-#### 2. Loading data and Parsing
+#### 2. Loading data and Parsing &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Q1.py](stuff/source/Q1.py)&emsp;[Q1_Analysis.ipynb](Q1_ana_[1_3].ipynb)
 - Data is loaded and each email file is parsed into EmailFrame class structure
 - Prepared AllEmails dictionary where "Key -> Message-ID; Value -> EmailFrame Object"
 
@@ -83,7 +83,7 @@
 #### 2. Storing data
 - The articles are stored as "~/year/month/year-month.json" ![Folder structure for storing data](stuff/img/NYT Data Folder Structure.png)
  
-#### 3. Loading and parsing data &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Q2.py](stuff/source/Q2.py)&emsp;[Q2_Analysis.ipynb](Q2_ana_[1_3].ipynb)
+#### 3. Loading and parsing data &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Q2.py](stuff/source/Q2.py)&emsp;[Q2_Analysis.ipynb](Q2_ana_[1_3].ipynb)
 - The data is loaded as json and an Article class object instances are prepared
 
 #### 4. Analysis 1: Answer trivial questions
