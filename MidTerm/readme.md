@@ -38,13 +38,12 @@
   ![Count of Emails according to year, hour and day](Q1img/CountNemails.png)
 
 #### 4. Analysis 2: Find who sends most emails?
-- ![who sends most emails](stuff/img/Most email senders.png)
+![who sends most emails](stuff/img/Most email senders.png)
 - Most personal emails senders?![most personal emails](stuff/img/Most personal email senders.png)
 - From this analysis we understand that we can closely look into these employees for anything suspicious
 
 #### 5. Analysis 3: What do they write in personal Emails?
 - Most frequently used words can be parsed from contents of these emails
 - This wordcloud would tell us about the topics these employees must have discussed
----
 ![Wordcloud of email contents of emails](Q1img/contentcloud.png)
 
