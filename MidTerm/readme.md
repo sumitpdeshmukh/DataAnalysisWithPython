@@ -83,7 +83,7 @@
 #### 2. Storing data
 - The articles are stored as "~/year/month/year-month.json" ![Folder structure for storing data](stuff/img/NYT Data Folder Structure.png)
  
-#### 3. Loading and parsing data &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Q2.py](stuff/source/Q2.py)&emsp;[Q2_Analysis.ipynb](Q2_ana_[1_3].ipynb)
+#### 3. Loading and parsing data &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Q2.py](stuff/source/Q2.py)&emsp;[Q2_Analysis.ipynb](Q2_ana_[1_3].ipynb)
 - The data is loaded as json and an Article class object instances are prepared
 
 #### 4. Analysis 1: Answer trivial questions
