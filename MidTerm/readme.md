@@ -90,7 +90,8 @@
 - Total number of articles
 - What are different News Categories?
 - Number of articles NYT publishes per year?
-- Which author published the most articles?![Frequency of articles](Q2img/YearsArticlePlot.png)
+- Which author published the most articles?
+![Frequency of articles](Q2Img/YearsArticlePlot.png)
 - These things help build analysis of News Categories, Frequency of articles etc.
 
 #### 5. Analysis 2: Reporters on President Donald Trump
@@ -103,4 +104,4 @@
 - NYT provides community API with which we can get comments posted on NYT articles
 - These are stored in "~/comments/" folder as json files
 - The most frequent words that are used by these commenters will give an insight about the general feeling in the population
-![WordCloud representing the most frquents words from comments](Q2img/Articlescloud.png)
+![WordCloud representing the most frquents words from comments](Q2Img/Articlescloud.png)
