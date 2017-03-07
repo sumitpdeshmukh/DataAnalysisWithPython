@@ -6,7 +6,7 @@
 - [Enron Scandal Summary](http://www.investopedia.com/updates/enron-scandal-summary/) - Link to Investopedia article to get a brief summary about what the scandal was.
 - The enron data-set is available at [CMU Enron data 1.82 GB tgz file](https://www.cs.cmu.edu/~./enron/enron_mail_20150507.tgz) .
 - It is downloaded and stored at ~/MidTerm/data/enron/maildir on local folder
-- In this folder there is 1 email per file ![Enron Data Folder Structure](stuff/img/Enron Folder Structure.png = 60x60)
+- In this folder there is 1 email per file ![Enron Data Folder Structure](stuff/img/Enron Folder Structure.png =60x60)
 
 ## 1. Understanding Data
         A typical email file in the dataset will look like
