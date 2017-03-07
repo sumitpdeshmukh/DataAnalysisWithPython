@@ -6,7 +6,7 @@
 - [Enron Scandal Summary](http://www.investopedia.com/updates/enron-scandal-summary/) - Link to Investopedia article to get a brief summary about what the scandal was.
 - The enron data-set is available at [CMU Enron data 1.82 GB tgz file](https://www.cs.cmu.edu/~./enron/enron_mail_20150507.tgz) .
 - It is downloaded and stored at ~/MidTerm/data/enron/maildir on local folder
-- In this folder there is 1 email per file ![Enron Data Folder Structure](stuff/img/Enron Folder Structure.png)
+- In this folder there is 1 email per file ![Enron Data Folder Structure](stuff/img/Enron Folder Structure.png = 60*60)
 
 ## 1. Understanding Data
         A typical email file in the dataset will look like
@@ -39,7 +39,7 @@
   ![Count of Emails according to year, hour and day](Q1img/CountNemails.png)
 
 ## 4. Analysis 2: Find who sends most emails? and most personal emails?
-- ![who sends most emails](stuff/img/Most email senders.png) ![most personal emails](stuff/img/Most personal email senders.png)
+- ![who sends most emails](stuff/img/Most email senders.png =80*80) ![most personal emails](stuff/img/Most personal email senders.png =80*80)
 - From this analysis we understand that we can closely look into these employees for anything suspicious
 
 ## 5. Analysis 3: What do they write in personal Emails?
