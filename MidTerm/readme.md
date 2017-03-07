@@ -31,8 +31,7 @@
 ## 2. Loading data and Parsing
 - Data is loaded and each email file is parsed into EmailFrame class structure
 - Prepare AllEmails dictionary where
-        "Key -> <Message-ID> 
-         Value -> <EmailFrame Object>"
+        "Key -> <Message-ID> Value -> <EmailFrame Object>"
 
 ## 3. Analysis 1 : Count of Emails according to year, hour and day
 - Plotting these emails against time variables to understand email count
@@ -40,7 +39,7 @@
   ![Count of Emails according to year, hour and day](Q1img/CountNemails.png)
 
 ## 4. Analysis 2: Find who sends most emails? and most personal emails?
-- ![who sends most emails](stuff/img/most email senders.png) ![most personal emails](stuff/img/most personal email senders.png)
+- ![who sends most emails](stuff/img/Most email senders.png) ![most personal emails](stuff/img/Most personal email senders.png)
 - From this analysis we understand that we can closely look into these employees for anything suspicious
 
 ## 5. Analysis 3: What do they write in personal Emails?
