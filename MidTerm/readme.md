@@ -81,7 +81,7 @@
         }
  
 #### 2. Storing data
-- The articles are stored as "~/year/month/year-month.json" [Folder structure for storing data](stuff/img/NYT Data Folder Structure.png)
+- The articles are stored as "~/year/month/year-month.json" ![Folder structure for storing data](stuff/img/NYT Data Folder Structure.png)
  
 #### 3. Loading and parsing data
 - The data is loaded as json and an Article class object instances are prepared
@@ -90,7 +90,7 @@
 - Total number of articles
 - What are different News Categories?
 - Number of articles NYT publishes per year?
-- Which author published the most articles?[Frequency of articles](Q2img/YearsArticlePlot.png)
+- Which author published the most articles?![Frequency of articles](Q2img/YearsArticlePlot.png)
 - These things help build analysis of News Categories, Frequency of articles etc.
 
 #### 5. Analysis 2: Reporters on President Donald Trump
@@ -100,4 +100,7 @@
 
 #### 6. Analysis 3: Retrieve user comments and find most frequent words
 - I am intersted in finding user comments on articles of these reporters
+- NYT provides community API with which we can get comments posted on NYT articles
+- These are stored in "~/comments/" folder as json files
 - The most frequent words that are used by these commenters will give an insight about the general feeling in the population
+![WordCloud representing the most frquents words from comments](Q2img/Articlescloud.png)
