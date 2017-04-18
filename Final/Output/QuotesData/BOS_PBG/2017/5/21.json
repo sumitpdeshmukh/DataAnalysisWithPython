@@ -1,0 +1,70 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 851,
+            "Name": "Alaska Airlines"
+        },
+        {
+            "CarrierId": 1331,
+            "Name": "Penair"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "CityId": "BOSA",
+            "CityName": "Boston",
+            "CountryName": "United States",
+            "IataCode": "BOS",
+            "Name": "Boston Logan International",
+            "PlaceId": 42995,
+            "SkyscannerCode": "BOS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PLBA",
+            "CityName": "Plattsburgh",
+            "CountryName": "United States",
+            "IataCode": "PBG",
+            "Name": "Plattsburgh AFB",
+            "PlaceId": 74615,
+            "SkyscannerCode": "PBG",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "InboundLeg": {
+                "CarrierIds": [
+                    851
+                ],
+                "DepartureDate": "2017-05-28T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 74615
+            },
+            "MinPrice": 141.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    851
+                ],
+                "DepartureDate": "2017-05-26T00:00:00",
+                "DestinationId": 74615,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-17T12:36:00",
+            "QuoteId": 1
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 851,
+            "Name": "Alaska Airlines"
+        },
+        {
+            "CarrierId": 870,
+            "Name": "jetBlue"
+        },
+        {
+            "CarrierId": 1467,
+            "Name": "Spirit Airlines"
+        },
+        {
+            "CarrierId": 1721,
+            "Name": "Sun Country Airlines"
+        },
+        {
+            "CarrierId": 1793,
+            "Name": "United"
+        },
+        {
+            "CarrierId": 1864,
+            "Name": "Virgin America"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "CityId": "BOSA",
+            "CityName": "Boston",
+            "CountryName": "United States",
+            "IataCode": "BOS",
+            "Name": "Boston Logan International",
+            "PlaceId": 42995,
+            "SkyscannerCode": "BOS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PDXA",
+            "CityName": "Portland",
+            "CountryName": "United States",
+            "IataCode": "PDX",
+            "Name": "Portland",
+            "PlaceId": 74728,
+            "SkyscannerCode": "PDX",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 928.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1864
+                ],
+                "DepartureDate": "2017-04-21T00:00:00",
+                "DestinationId": 74728,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-17T01:52:00",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "InboundLeg": {
+                "CarrierIds": [
+                    851
+                ],
+                "DepartureDate": "2017-04-23T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 74728
+            },
+            "MinPrice": 1326.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    851
+                ],
+                "DepartureDate": "2017-04-21T00:00:00",
+                "DestinationId": 74728,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-15T22:50:00",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "InboundLeg": {
+                "CarrierIds": [
+                    851
+                ],
+                "DepartureDate": "2017-04-23T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 74728
+            },
+            "MinPrice": 672.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    851
+                ],
+                "DepartureDate": "2017-04-21T00:00:00",
+                "DestinationId": 74728,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-14T01:26:00",
+            "QuoteId": 3
+        }
+    ]
+}

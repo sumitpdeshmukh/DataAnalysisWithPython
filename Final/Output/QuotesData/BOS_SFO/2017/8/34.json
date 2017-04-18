@@ -1,0 +1,146 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 851,
+            "Name": "Alaska Airlines"
+        },
+        {
+            "CarrierId": 870,
+            "Name": "jetBlue"
+        },
+        {
+            "CarrierId": 1721,
+            "Name": "Sun Country Airlines"
+        },
+        {
+            "CarrierId": 1793,
+            "Name": "United"
+        },
+        {
+            "CarrierId": 1864,
+            "Name": "Virgin America"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "CityId": "BOSA",
+            "CityName": "Boston",
+            "CountryName": "United States",
+            "IataCode": "BOS",
+            "Name": "Boston Logan International",
+            "PlaceId": 42995,
+            "SkyscannerCode": "BOS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SFOA",
+            "CityName": "San Francisco",
+            "CountryName": "United States",
+            "IataCode": "SFO",
+            "Name": "San Francisco International",
+            "PlaceId": 81727,
+            "SkyscannerCode": "SFO",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 203.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1864
+                ],
+                "DepartureDate": "2017-08-25T00:00:00",
+                "DestinationId": 81727,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-17T16:09:00",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 165.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1864
+                ],
+                "DepartureDate": "2017-08-25T00:00:00",
+                "DestinationId": 81727,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-16T18:30:00",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "InboundLeg": {
+                "CarrierIds": [
+                    1721
+                ],
+                "DepartureDate": "2017-08-27T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 81727
+            },
+            "MinPrice": 362.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1864
+                ],
+                "DepartureDate": "2017-08-25T00:00:00",
+                "DestinationId": 81727,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-16T18:31:00",
+            "QuoteId": 3
+        },
+        {
+            "Direct": true,
+            "InboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-08-27T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 81727
+            },
+            "MinPrice": 393.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-08-25T00:00:00",
+                "DestinationId": 81727,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-16T18:31:00",
+            "QuoteId": 4
+        },
+        {
+            "Direct": true,
+            "InboundLeg": {
+                "CarrierIds": [
+                    1864
+                ],
+                "DepartureDate": "2017-08-27T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 81727
+            },
+            "MinPrice": 419.0,
+            "QuoteDateTime": "2017-04-16T20:51:00",
+            "QuoteId": 5
+        }
+    ]
+}

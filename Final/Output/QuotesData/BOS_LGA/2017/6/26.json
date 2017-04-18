@@ -1,0 +1,70 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 870,
+            "Name": "jetBlue"
+        },
+        {
+            "CarrierId": 1793,
+            "Name": "United"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "CityId": "BOSA",
+            "CityName": "Boston",
+            "CountryName": "United States",
+            "IataCode": "BOS",
+            "Name": "Boston Logan International",
+            "PlaceId": 42995,
+            "SkyscannerCode": "BOS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NYCA",
+            "CityName": "New York",
+            "CountryName": "United States",
+            "IataCode": "LGA",
+            "Name": "New York LaGuardia",
+            "PlaceId": 65633,
+            "SkyscannerCode": "LGA",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "InboundLeg": {
+                "CarrierIds": [
+                    870
+                ],
+                "DepartureDate": "2017-07-02T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 65633
+            },
+            "MinPrice": 117.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    870
+                ],
+                "DepartureDate": "2017-06-30T00:00:00",
+                "DestinationId": 65633,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-06T22:42:00",
+            "QuoteId": 1
+        }
+    ]
+}

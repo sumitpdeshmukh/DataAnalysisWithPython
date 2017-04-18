@@ -1,0 +1,92 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 870,
+            "Name": "jetBlue"
+        },
+        {
+            "CarrierId": 1902,
+            "Name": "Southwest Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "CityId": "BOSA",
+            "CityName": "Boston",
+            "CountryName": "United States",
+            "IataCode": "BOS",
+            "Name": "Boston Logan International",
+            "PlaceId": 42995,
+            "SkyscannerCode": "BOS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LGBA",
+            "CityName": "Long Beach",
+            "CountryName": "United States",
+            "IataCode": "LGB",
+            "Name": "Long Beach Municipal",
+            "PlaceId": 65634,
+            "SkyscannerCode": "LGB",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "InboundLeg": {
+                "CarrierIds": [
+                    870
+                ],
+                "DepartureDate": "2017-06-11T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 65634
+            },
+            "MinPrice": 482.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    870
+                ],
+                "DepartureDate": "2017-06-09T00:00:00",
+                "DestinationId": 65634,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-03T17:46:00",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "InboundLeg": {
+                "CarrierIds": [
+                    870
+                ],
+                "DepartureDate": "2017-06-11T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 65634
+            },
+            "MinPrice": 434.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    870
+                ],
+                "DepartureDate": "2017-06-09T00:00:00",
+                "DestinationId": 65634,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-03T17:46:00",
+            "QuoteId": 2
+        }
+    ]
+}

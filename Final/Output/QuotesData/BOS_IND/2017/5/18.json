@@ -1,0 +1,74 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 851,
+            "Name": "Alaska Airlines"
+        },
+        {
+            "CarrierId": 1793,
+            "Name": "United"
+        },
+        {
+            "CarrierId": 1902,
+            "Name": "Southwest Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "CityId": "BOSA",
+            "CityName": "Boston",
+            "CountryName": "United States",
+            "IataCode": "BOS",
+            "Name": "Boston Logan International",
+            "PlaceId": 42995,
+            "SkyscannerCode": "BOS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "INDA",
+            "CityName": "Indianapolis",
+            "CountryName": "United States",
+            "IataCode": "IND",
+            "Name": "Indianapolis",
+            "PlaceId": 59060,
+            "SkyscannerCode": "IND",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "InboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-05-07T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 59060
+            },
+            "MinPrice": 676.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-05-05T00:00:00",
+                "DestinationId": 59060,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-17T18:38:00",
+            "QuoteId": 1
+        }
+    ]
+}

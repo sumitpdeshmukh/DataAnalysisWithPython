@@ -1,0 +1,96 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 870,
+            "Name": "jetBlue"
+        },
+        {
+            "CarrierId": 1793,
+            "Name": "United"
+        },
+        {
+            "CarrierId": 1902,
+            "Name": "Southwest Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "CityId": "BOSA",
+            "CityName": "Boston",
+            "CountryName": "United States",
+            "IataCode": "BOS",
+            "Name": "Boston Logan International",
+            "PlaceId": 42995,
+            "SkyscannerCode": "BOS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WASA",
+            "CityName": "Washington",
+            "CountryName": "United States",
+            "IataCode": "DCA",
+            "Name": "Washington Ronald Reagan",
+            "PlaceId": 47009,
+            "SkyscannerCode": "DCA",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "InboundLeg": {
+                "CarrierIds": [
+                    870
+                ],
+                "DepartureDate": "2017-06-18T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 47009
+            },
+            "MinPrice": 199.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    870
+                ],
+                "DepartureDate": "2017-06-16T00:00:00",
+                "DestinationId": 47009,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-15T23:21:00",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "InboundLeg": {
+                "CarrierIds": [
+                    870
+                ],
+                "DepartureDate": "2017-06-18T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 47009
+            },
+            "MinPrice": 182.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    870
+                ],
+                "DepartureDate": "2017-06-16T00:00:00",
+                "DestinationId": 47009,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-15T23:21:00",
+            "QuoteId": 2
+        }
+    ]
+}

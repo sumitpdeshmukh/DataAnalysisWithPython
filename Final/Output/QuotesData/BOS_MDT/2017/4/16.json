@@ -1,0 +1,66 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1793,
+            "Name": "United"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "CityId": "BOSA",
+            "CityName": "Boston",
+            "CountryName": "United States",
+            "IataCode": "BOS",
+            "Name": "Boston Logan International",
+            "PlaceId": 42995,
+            "SkyscannerCode": "BOS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "HARA",
+            "CityName": "Harrisburg",
+            "CountryName": "United States",
+            "IataCode": "MDT",
+            "Name": "Harrisburg International",
+            "PlaceId": 67812,
+            "SkyscannerCode": "MDT",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "InboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-04-23T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 67812
+            },
+            "MinPrice": 764.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-04-21T00:00:00",
+                "DestinationId": 67812,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-17T03:24:00",
+            "QuoteId": 1
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 851,
+            "Name": "Alaska Airlines"
+        },
+        {
+            "CarrierId": 870,
+            "Name": "jetBlue"
+        },
+        {
+            "CarrierId": 1793,
+            "Name": "United"
+        },
+        {
+            "CarrierId": 1864,
+            "Name": "Virgin America"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "CityId": "BOSA",
+            "CityName": "Boston",
+            "CountryName": "United States",
+            "IataCode": "BOS",
+            "Name": "Boston Logan International",
+            "PlaceId": 42995,
+            "SkyscannerCode": "BOS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NYCA",
+            "CityName": "New York",
+            "CountryName": "United States",
+            "IataCode": "EWR",
+            "Name": "New York Newark",
+            "PlaceId": 50290,
+            "SkyscannerCode": "EWR",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "InboundLeg": {
+                "CarrierIds": [
+                    870
+                ],
+                "DepartureDate": "2017-06-25T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 50290
+            },
+            "MinPrice": 133.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    870
+                ],
+                "DepartureDate": "2017-06-23T00:00:00",
+                "DestinationId": 50290,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-16T13:04:00",
+            "QuoteId": 1
+        }
+    ]
+}

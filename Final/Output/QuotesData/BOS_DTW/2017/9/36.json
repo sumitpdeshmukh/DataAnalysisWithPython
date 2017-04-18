@@ -1,0 +1,70 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1467,
+            "Name": "Spirit Airlines"
+        },
+        {
+            "CarrierId": 1793,
+            "Name": "United"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "CityId": "BOSA",
+            "CityName": "Boston",
+            "CountryName": "United States",
+            "IataCode": "BOS",
+            "Name": "Boston Logan International",
+            "PlaceId": 42995,
+            "SkyscannerCode": "BOS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "DTTA",
+            "CityName": "Detroit",
+            "CountryName": "United States",
+            "IataCode": "DTW",
+            "Name": "Detroit Wayne County",
+            "PlaceId": 47847,
+            "SkyscannerCode": "DTW",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "InboundLeg": {
+                "CarrierIds": [
+                    1467
+                ],
+                "DepartureDate": "2017-09-10T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 47847
+            },
+            "MinPrice": 140.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1467
+                ],
+                "DepartureDate": "2017-09-08T00:00:00",
+                "DestinationId": 47847,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-04T03:01:00",
+            "QuoteId": 1
+        }
+    ]
+}
