@@ -1,0 +1,98 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Afghanistan",
+            "PlaceId": 838,
+            "SkyscannerCode": "AF",
+            "Type": "Country"
+        },
+        {
+            "Name": "Turkey",
+            "PlaceId": 1762,
+            "SkyscannerCode": "TR",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BSTA",
+            "CityName": "Bost",
+            "CountryName": "Afghanistan",
+            "IataCode": "BST",
+            "Name": "Bost",
+            "PlaceId": 43188,
+            "SkyscannerCode": "BST",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NYCA",
+            "CityName": "New York",
+            "CountryName": "United States",
+            "IataCode": "EWR",
+            "Name": "New York Newark",
+            "PlaceId": 50290,
+            "SkyscannerCode": "EWR",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 3503.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-20T00:00:00",
+                "DestinationId": 50290,
+                "OriginId": 43188
+            },
+            "QuoteDateTime": "2017-04-09T02:00:36",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1762,
+            "OriginId": 43188
+        },
+        {
+            "DestinationId": 837,
+            "OriginId": 43188
+        },
+        {
+            "DestinationId": 838,
+            "OriginId": 43188
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 43188,
+            "Price": 3503.0,
+            "QuoteDateTime": "2017-04-09T02:00:36",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

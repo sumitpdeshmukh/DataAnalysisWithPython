@@ -1,0 +1,112 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 983,
+            "Name": "Cebgo"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "South Korea",
+            "PlaceId": 1330,
+            "SkyscannerCode": "KR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Philippines",
+            "PlaceId": 1560,
+            "SkyscannerCode": "PH",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CEBP",
+            "CityName": "Cebu",
+            "CountryName": "Philippines",
+            "IataCode": "CEB",
+            "Name": "Mactan-Cebu International",
+            "PlaceId": 44802,
+            "SkyscannerCode": "CEB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SELA",
+            "CityName": "Seoul",
+            "CountryName": "South Korea",
+            "IataCode": "ICN",
+            "Name": "Seoul Incheon Int'l",
+            "PlaceId": 58542,
+            "SkyscannerCode": "ICN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "OMCP",
+            "CityName": "Ormoc",
+            "CountryName": "Philippines",
+            "IataCode": "OMC",
+            "Name": "Ormoc",
+            "PlaceId": 72835,
+            "SkyscannerCode": "OMC",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 6.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    983
+                ],
+                "DepartureDate": "2017-09-03T00:00:00",
+                "DestinationId": 44802,
+                "OriginId": 72835
+            },
+            "QuoteDateTime": "2017-03-30T15:28:12",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 159.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-09-24T00:00:00",
+                "DestinationId": 58542,
+                "OriginId": 72835
+            },
+            "QuoteDateTime": "2017-03-27T04:16:10",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1560,
+            "OriginId": 72835,
+            "Price": 6.0,
+            "QuoteDateTime": "2017-03-30T15:28:12",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1330,
+            "OriginId": 72835,
+            "Price": 159.0,
+            "QuoteDateTime": "2017-03-27T04:16:10",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

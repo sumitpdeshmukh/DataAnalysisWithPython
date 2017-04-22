@@ -1,0 +1,219 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1000,
+            "Name": "Danish Air Transport"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Bulgaria",
+            "PlaceId": 887,
+            "SkyscannerCode": "BG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cyprus",
+            "PlaceId": 953,
+            "SkyscannerCode": "CY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Denmark",
+            "PlaceId": 987,
+            "SkyscannerCode": "DK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Egypt",
+            "PlaceId": 1031,
+            "SkyscannerCode": "EG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Greece",
+            "PlaceId": 1138,
+            "SkyscannerCode": "GR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Norway",
+            "PlaceId": 1471,
+            "SkyscannerCode": "NO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Portugal",
+            "PlaceId": 1572,
+            "SkyscannerCode": "PT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Sweden",
+            "PlaceId": 1701,
+            "SkyscannerCode": "SE",
+            "Type": "Country"
+        },
+        {
+            "CityId": "STOC",
+            "CityName": "Stockholm",
+            "CountryName": "Sweden",
+            "IataCode": "ARN",
+            "Name": "Stockholm Arlanda",
+            "PlaceId": 40830,
+            "SkyscannerCode": "ARN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "BERI",
+            "CityName": "Bergen",
+            "CountryName": "Norway",
+            "IataCode": "BGO",
+            "Name": "Bergen",
+            "PlaceId": 42607,
+            "SkyscannerCode": "BGO",
+            "Type": "Station"
+        },
+        {
+            "CityId": "COPE",
+            "CityName": "Copenhagen",
+            "CountryName": "Denmark",
+            "IataCode": "CPH",
+            "Name": "Copenhagen",
+            "PlaceId": 45336,
+            "SkyscannerCode": "CPH",
+            "Type": "Station"
+        },
+        {
+            "CityId": "RONO",
+            "CityName": "Ronne Bornholm",
+            "CountryName": "Denmark",
+            "IataCode": "RNN",
+            "Name": "Ronne Bornholm",
+            "PlaceId": 79806,
+            "SkyscannerCode": "RNN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 51.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1000
+                ],
+                "DepartureDate": "2017-08-02T00:00:00",
+                "DestinationId": 45336,
+                "OriginId": 79806
+            },
+            "QuoteDateTime": "2017-03-31T05:19:12",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 109.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-01T00:00:00",
+                "DestinationId": 42607,
+                "OriginId": 79806
+            },
+            "QuoteDateTime": "2017-04-03T04:39:33",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 124.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-03T00:00:00",
+                "DestinationId": 40830,
+                "OriginId": 79806
+            },
+            "QuoteDateTime": "2017-04-03T05:17:41",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1031,
+            "OriginId": 79806
+        },
+        {
+            "DestinationId": 1043,
+            "OriginId": 79806
+        },
+        {
+            "DestinationId": 1572,
+            "OriginId": 79806
+        },
+        {
+            "DestinationId": 987,
+            "OriginId": 79806,
+            "Price": 51.0,
+            "QuoteDateTime": "2017-03-31T05:19:12",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1138,
+            "OriginId": 79806
+        },
+        {
+            "DestinationId": 887,
+            "OriginId": 79806
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 79806
+        },
+        {
+            "DestinationId": 1471,
+            "OriginId": 79806,
+            "Price": 109.0,
+            "QuoteDateTime": "2017-04-03T04:39:33",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 953,
+            "OriginId": 79806
+        },
+        {
+            "DestinationId": 1701,
+            "OriginId": 79806,
+            "Price": 124.0,
+            "QuoteDateTime": "2017-04-03T05:17:41",
+            "QuoteIds": [
+                3
+            ]
+        }
+    ]
+}

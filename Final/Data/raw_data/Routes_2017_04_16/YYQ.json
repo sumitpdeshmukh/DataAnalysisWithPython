@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 358,
+            "Name": "First Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "WINB",
+            "CityName": "Winnipeg",
+            "CountryName": "Canada",
+            "IataCode": "YWG",
+            "Name": "Winnipeg",
+            "PlaceId": 96359,
+            "SkyscannerCode": "YWG",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YYQA",
+            "CityName": "Churchill",
+            "CountryName": "Canada",
+            "IataCode": "YYQ",
+            "Name": "Churchill",
+            "PlaceId": 96465,
+            "SkyscannerCode": "YYQ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 493.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    358
+                ],
+                "DepartureDate": "2017-09-01T00:00:00",
+                "DestinationId": 96359,
+                "OriginId": 96465
+            },
+            "QuoteDateTime": "2017-03-12T16:49:24",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 96465,
+            "Price": 493.0,
+            "QuoteDateTime": "2017-03-12T16:49:24",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

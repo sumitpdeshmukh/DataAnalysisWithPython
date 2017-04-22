@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1719,
+            "Name": "Air Namibia"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Namibia",
+            "PlaceId": 1457,
+            "SkyscannerCode": "NA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LUDA",
+            "CityName": "Luderitz",
+            "CountryName": "Namibia",
+            "IataCode": "LUD",
+            "Name": "Luderitz",
+            "PlaceId": 66308,
+            "SkyscannerCode": "LUD",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WDHA",
+            "CityName": "Windhoek",
+            "CountryName": "Namibia",
+            "IataCode": "WDH",
+            "Name": "Windhoek Hosea Kutako",
+            "PlaceId": 90840,
+            "SkyscannerCode": "WDH",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 168.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1719
+                ],
+                "DepartureDate": "2017-05-04T00:00:00",
+                "DestinationId": 90840,
+                "OriginId": 66308
+            },
+            "QuoteDateTime": "2017-03-16T09:17:52",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1457,
+            "OriginId": 66308,
+            "Price": 168.0,
+            "QuoteDateTime": "2017-03-16T09:17:52",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

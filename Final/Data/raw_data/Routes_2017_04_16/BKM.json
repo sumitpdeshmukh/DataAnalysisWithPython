@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1416,
+            "Name": "Malaysia Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Malaysia",
+            "PlaceId": 1433,
+            "SkyscannerCode": "MY",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BBNM",
+            "CityName": "Bario",
+            "CountryName": "Malaysia",
+            "IataCode": "BBN",
+            "Name": "Bario",
+            "PlaceId": 42366,
+            "SkyscannerCode": "BBN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "BKMM",
+            "CityName": "Bakalalan",
+            "CountryName": "Malaysia",
+            "IataCode": "BKM",
+            "Name": "Bakalalan",
+            "PlaceId": 42797,
+            "SkyscannerCode": "BKM",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 18.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1416
+                ],
+                "DepartureDate": "2017-07-06T00:00:00",
+                "DestinationId": 42366,
+                "OriginId": 42797
+            },
+            "QuoteDateTime": "2017-03-27T07:30:31",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1433,
+            "OriginId": 42797,
+            "Price": 18.0,
+            "QuoteDateTime": "2017-03-27T07:30:31",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

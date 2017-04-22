@@ -1,0 +1,104 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 945,
+            "Name": "Coastal Travel Limited"
+        },
+        {
+            "CarrierId": 1921,
+            "Name": "Xtra Airways"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Tanzania",
+            "PlaceId": 1770,
+            "SkyscannerCode": "TZ",
+            "Type": "Country"
+        },
+        {
+            "CityId": "DARA",
+            "CityName": "Dar Es Salaam",
+            "CountryName": "Tanzania",
+            "IataCode": "DAR",
+            "Name": "Dar Es Salaam",
+            "PlaceId": 46930,
+            "SkyscannerCode": "DAR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PMAA",
+            "CityName": "Pemba",
+            "CountryName": "Tanzania",
+            "IataCode": "PMA",
+            "Name": "Pemba",
+            "PlaceId": 75137,
+            "SkyscannerCode": "PMA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ZNZA",
+            "CityName": "Zanzibar",
+            "CountryName": "Tanzania",
+            "IataCode": "ZNZ",
+            "Name": "Zanzibar",
+            "PlaceId": 98250,
+            "SkyscannerCode": "ZNZ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 74.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    945
+                ],
+                "DepartureDate": "2017-04-23T00:00:00",
+                "DestinationId": 46930,
+                "OriginId": 75137
+            },
+            "QuoteDateTime": "2017-04-14T09:08:02",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 97.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1921
+                ],
+                "DepartureDate": "2017-07-24T00:00:00",
+                "DestinationId": 98250,
+                "OriginId": 75137
+            },
+            "QuoteDateTime": "2017-03-22T07:50:51",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1770,
+            "OriginId": 75137,
+            "Price": 74.0,
+            "QuoteDateTime": "2017-04-14T09:08:02",
+            "QuoteIds": [
+                1,
+                2
+            ]
+        }
+    ]
+}

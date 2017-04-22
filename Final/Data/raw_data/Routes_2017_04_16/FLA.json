@@ -1,0 +1,242 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 854,
+            "Name": "Avianca"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Argentina",
+            "PlaceId": 850,
+            "SkyscannerCode": "AR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Bolivia",
+            "PlaceId": 895,
+            "SkyscannerCode": "BO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Chile",
+            "PlaceId": 940,
+            "SkyscannerCode": "CL",
+            "Type": "Country"
+        },
+        {
+            "Name": "Colombia",
+            "PlaceId": 943,
+            "SkyscannerCode": "CO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Ecuador",
+            "PlaceId": 1027,
+            "SkyscannerCode": "EC",
+            "Type": "Country"
+        },
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "Peru",
+            "PlaceId": 1557,
+            "SkyscannerCode": "PE",
+            "Type": "Country"
+        },
+        {
+            "Name": "El Salvador",
+            "PlaceId": 1718,
+            "SkyscannerCode": "SV",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "Name": "Uruguay",
+            "PlaceId": 1817,
+            "SkyscannerCode": "UY",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BOGA",
+            "CityName": "Bogota",
+            "CountryName": "Colombia",
+            "IataCode": "BOG",
+            "Name": "Bogota",
+            "PlaceId": 42983,
+            "SkyscannerCode": "BOG",
+            "Type": "Station"
+        },
+        {
+            "CityId": "FLAA",
+            "CityName": "Florencia",
+            "CountryName": "Colombia",
+            "IataCode": "FLA",
+            "Name": "Florencia",
+            "PlaceId": 52049,
+            "SkyscannerCode": "FLA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NYCA",
+            "CityName": "New York",
+            "CountryName": "United States",
+            "IataCode": "JFK",
+            "Name": "New York John F. Kennedy",
+            "PlaceId": 60987,
+            "SkyscannerCode": "JFK",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 123.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    854
+                ],
+                "DepartureDate": "2017-04-30T00:00:00",
+                "DestinationId": 42983,
+                "OriginId": 52049
+            },
+            "QuoteDateTime": "2017-04-15T15:04:11",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 529.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-01T00:00:00",
+                "DestinationId": 60987,
+                "OriginId": 52049
+            },
+            "QuoteDateTime": "2017-04-11T08:47:23",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1557,
+            "OriginId": 52049
+        },
+        {
+            "DestinationId": 943,
+            "OriginId": 52049,
+            "Price": 123.0,
+            "QuoteDateTime": "2017-04-15T15:04:11",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 850,
+            "OriginId": 52049
+        },
+        {
+            "DestinationId": 1027,
+            "OriginId": 52049
+        },
+        {
+            "DestinationId": 940,
+            "OriginId": 52049
+        },
+        {
+            "DestinationId": 895,
+            "OriginId": 52049
+        },
+        {
+            "DestinationId": 1817,
+            "OriginId": 52049
+        },
+        {
+            "DestinationId": 898,
+            "OriginId": 52049
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 52049
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 52049
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 52049,
+            "Price": 529.0,
+            "QuoteDateTime": "2017-04-11T08:47:23",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1718,
+            "OriginId": 52049
+        },
+        {
+            "DestinationId": 1043,
+            "OriginId": 52049
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 52049
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 52049
+        }
+    ]
+}

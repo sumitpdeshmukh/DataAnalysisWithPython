@@ -1,0 +1,95 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 841,
+            "Name": "Air India"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Bangladesh",
+            "PlaceId": 884,
+            "SkyscannerCode": "BD",
+            "Type": "Country"
+        },
+        {
+            "Name": "India",
+            "PlaceId": 1230,
+            "SkyscannerCode": "IN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ICCU",
+            "CityName": "Kolkata",
+            "CountryName": "India",
+            "IataCode": "CCU",
+            "Name": "Kolkata",
+            "PlaceId": 44725,
+            "SkyscannerCode": "CCU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ISHL",
+            "CityName": "Shillong",
+            "CountryName": "India",
+            "IataCode": "SHL",
+            "Name": "Shillong",
+            "PlaceId": 81820,
+            "SkyscannerCode": "SHL",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 64.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    841
+                ],
+                "DepartureDate": "2017-05-02T00:00:00",
+                "DestinationId": 44725,
+                "OriginId": 81820
+            },
+            "QuoteDateTime": "2017-03-29T14:48:38",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1703,
+            "OriginId": 81820
+        },
+        {
+            "DestinationId": 1230,
+            "OriginId": 81820,
+            "Price": 64.0,
+            "QuoteDateTime": "2017-03-29T14:48:38",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 884,
+            "OriginId": 81820
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1153,
+            "Name": "North-Wright Airways"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "YGHA",
+            "CityName": "Fort Good Hope",
+            "CountryName": "Canada",
+            "IataCode": "YGH",
+            "Name": "Fort Good Hope",
+            "PlaceId": 95592,
+            "SkyscannerCode": "YGH",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YELB",
+            "CityName": "Yellowknife",
+            "CountryName": "Canada",
+            "IataCode": "YZF",
+            "Name": "Yellowknife",
+            "PlaceId": 96502,
+            "SkyscannerCode": "YZF",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 1032.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1153
+                ],
+                "DepartureDate": "2017-06-14T00:00:00",
+                "DestinationId": 96502,
+                "OriginId": 95592
+            },
+            "QuoteDateTime": "2017-04-10T19:16:36",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 95592,
+            "Price": 1032.0,
+            "QuoteDateTime": "2017-04-10T19:16:36",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

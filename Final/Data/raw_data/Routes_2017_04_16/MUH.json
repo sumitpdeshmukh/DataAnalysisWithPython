@@ -1,0 +1,115 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1471,
+            "Name": "Neos Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Cape Verde",
+            "PlaceId": 950,
+            "SkyscannerCode": "CV",
+            "Type": "Country"
+        },
+        {
+            "Name": "Italy",
+            "PlaceId": 1236,
+            "SkyscannerCode": "IT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Kenya",
+            "PlaceId": 1317,
+            "SkyscannerCode": "KE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Madagascar",
+            "PlaceId": 1415,
+            "SkyscannerCode": "MG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Tanzania",
+            "PlaceId": 1770,
+            "SkyscannerCode": "TZ",
+            "Type": "Country"
+        },
+        {
+            "CityId": "MERS",
+            "CityName": "Mersa Matruh",
+            "CountryName": "Egypt",
+            "IataCode": "MUH",
+            "Name": "Mersa Matruh",
+            "PlaceId": 68616,
+            "SkyscannerCode": "MUH",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MILA",
+            "CityName": "Milan",
+            "CountryName": "Italy",
+            "IataCode": "MXP",
+            "Name": "Milan Malpensa",
+            "PlaceId": 68768,
+            "SkyscannerCode": "MXP",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 140.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1471
+                ],
+                "DepartureDate": "2017-09-12T00:00:00",
+                "DestinationId": 68768,
+                "OriginId": 68616
+            },
+            "QuoteDateTime": "2017-03-30T14:34:13",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 950,
+            "OriginId": 68616
+        },
+        {
+            "DestinationId": 1415,
+            "OriginId": 68616
+        },
+        {
+            "DestinationId": 1770,
+            "OriginId": 68616
+        },
+        {
+            "DestinationId": 1317,
+            "OriginId": 68616
+        },
+        {
+            "DestinationId": 1236,
+            "OriginId": 68616,
+            "Price": 140.0,
+            "QuoteDateTime": "2017-03-30T14:34:13",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

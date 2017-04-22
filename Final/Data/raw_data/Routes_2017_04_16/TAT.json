@@ -1,0 +1,145 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1914,
+            "Name": "Wizz Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Denmark",
+            "PlaceId": 987,
+            "SkyscannerCode": "DK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Estonia",
+            "PlaceId": 1029,
+            "SkyscannerCode": "EE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Finland",
+            "PlaceId": 1081,
+            "SkyscannerCode": "FI",
+            "Type": "Country"
+        },
+        {
+            "Name": "Lithuania",
+            "PlaceId": 1380,
+            "SkyscannerCode": "LT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Latvia",
+            "PlaceId": 1382,
+            "SkyscannerCode": "LV",
+            "Type": "Country"
+        },
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Sweden",
+            "PlaceId": 1701,
+            "SkyscannerCode": "SE",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LOND",
+            "CityName": "London",
+            "CountryName": "United Kingdom",
+            "IataCode": "LTN",
+            "Name": "London Luton",
+            "PlaceId": 66270,
+            "SkyscannerCode": "LTN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "POPR",
+            "CityName": "Poprad",
+            "CountryName": "Slovakia",
+            "IataCode": "TAT",
+            "Name": "Poprad-Tatry",
+            "PlaceId": 83796,
+            "SkyscannerCode": "TAT",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 17.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1914
+                ],
+                "DepartureDate": "2017-12-16T00:00:00",
+                "DestinationId": 66270,
+                "OriginId": 83796
+            },
+            "QuoteDateTime": "2017-04-16T16:37:22",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1669,
+            "OriginId": 83796
+        },
+        {
+            "DestinationId": 1081,
+            "OriginId": 83796
+        },
+        {
+            "DestinationId": 1029,
+            "OriginId": 83796
+        },
+        {
+            "DestinationId": 1701,
+            "OriginId": 83796
+        },
+        {
+            "DestinationId": 987,
+            "OriginId": 83796
+        },
+        {
+            "DestinationId": 1380,
+            "OriginId": 83796
+        },
+        {
+            "DestinationId": 1382,
+            "OriginId": 83796
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 83796,
+            "Price": 17.0,
+            "QuoteDateTime": "2017-04-16T16:37:22",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

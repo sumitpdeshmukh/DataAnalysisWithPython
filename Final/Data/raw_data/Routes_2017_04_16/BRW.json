@@ -1,0 +1,128 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 851,
+            "Name": "Alaska Airlines"
+        },
+        {
+            "CarrierId": 981,
+            "Name": "Condor"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Indonesia",
+            "PlaceId": 1220,
+            "SkyscannerCode": "ID",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ANCA",
+            "CityName": "Anchorage",
+            "CountryName": "United States",
+            "IataCode": "ANC",
+            "Name": "Anchorage International",
+            "PlaceId": 40627,
+            "SkyscannerCode": "ANC",
+            "Type": "Station"
+        },
+        {
+            "CityId": "BRWA",
+            "CityName": "Barrow",
+            "CountryName": "United States",
+            "IataCode": "BRW",
+            "Name": "Barrow Wiley Post / W.Rogers M",
+            "PlaceId": 43143,
+            "SkyscannerCode": "BRW",
+            "Type": "Station"
+        },
+        {
+            "CityId": "BERL",
+            "CityName": "Berlin",
+            "CountryName": "Germany",
+            "IataCode": "TXL",
+            "Name": "Berlin Tegel",
+            "PlaceId": 84892,
+            "SkyscannerCode": "TXL",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 143.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    851
+                ],
+                "DepartureDate": "2017-05-16T00:00:00",
+                "DestinationId": 40627,
+                "OriginId": 43143
+            },
+            "QuoteDateTime": "2017-03-31T13:56:33",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 740.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    981
+                ],
+                "DepartureDate": "2017-06-20T00:00:00",
+                "DestinationId": 84892,
+                "OriginId": 43143
+            },
+            "QuoteDateTime": "2017-03-14T17:20:04",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 43143,
+            "Price": 143.0,
+            "QuoteDateTime": "2017-03-31T13:56:33",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 43143,
+            "Price": 740.0,
+            "QuoteDateTime": "2017-03-14T17:20:04",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1220,
+            "OriginId": 43143
+        }
+    ]
+}

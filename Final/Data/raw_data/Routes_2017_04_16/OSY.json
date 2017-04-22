@@ -1,0 +1,115 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "Finland",
+            "PlaceId": 1081,
+            "SkyscannerCode": "FI",
+            "Type": "Country"
+        },
+        {
+            "Name": "Norway",
+            "PlaceId": 1471,
+            "SkyscannerCode": "NO",
+            "Type": "Country"
+        },
+        {
+            "CityId": "MALA",
+            "CityName": "Malaga",
+            "CountryName": "Spain",
+            "IataCode": "AGP",
+            "Name": "Malaga",
+            "PlaceId": 40304,
+            "SkyscannerCode": "AGP",
+            "Type": "Station"
+        },
+        {
+            "CityId": "HELS",
+            "CityName": "Helsinki",
+            "CountryName": "Finland",
+            "IataCode": "HEL",
+            "Name": "Helsinki Vantaa",
+            "PlaceId": 56332,
+            "SkyscannerCode": "HEL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NAMS",
+            "CityName": "Namsos",
+            "CountryName": "Norway",
+            "IataCode": "OSY",
+            "Name": "Namsos",
+            "PlaceId": 73145,
+            "SkyscannerCode": "OSY",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 159.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-18T00:00:00",
+                "DestinationId": 56332,
+                "OriginId": 73145
+            },
+            "QuoteDateTime": "2017-03-29T07:22:07",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 218.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-08-18T00:00:00",
+                "DestinationId": 40304,
+                "OriginId": 73145
+            },
+            "QuoteDateTime": "2017-04-03T19:48:29",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1471,
+            "OriginId": 73145
+        },
+        {
+            "DestinationId": 1081,
+            "OriginId": 73145,
+            "Price": 159.0,
+            "QuoteDateTime": "2017-03-29T07:22:07",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1043,
+            "OriginId": 73145,
+            "Price": 218.0,
+            "QuoteDateTime": "2017-04-03T19:48:29",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

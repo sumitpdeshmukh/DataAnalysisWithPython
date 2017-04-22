@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1352,
+            "Name": "Pobeda"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LWNA",
+            "CityName": "Gyoumri",
+            "CountryName": "Armenia",
+            "IataCode": "LWN",
+            "Name": "Gyoumri",
+            "PlaceId": 66414,
+            "SkyscannerCode": "LWN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MOSC",
+            "CityName": "Moscow",
+            "CountryName": "Russia",
+            "IataCode": "VKO",
+            "Name": "Moscow Vnukovo",
+            "PlaceId": 88879,
+            "SkyscannerCode": "VKO",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 64.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1352
+                ],
+                "DepartureDate": "2017-05-23T00:00:00",
+                "DestinationId": 88879,
+                "OriginId": 66414
+            },
+            "QuoteDateTime": "2017-04-17T18:19:33",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1669,
+            "OriginId": 66414,
+            "Price": 64.0,
+            "QuoteDateTime": "2017-04-17T18:19:33",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

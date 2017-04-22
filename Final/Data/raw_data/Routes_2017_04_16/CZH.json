@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1431,
+            "Name": "Maya Island Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Belize",
+            "PlaceId": 906,
+            "SkyscannerCode": "BZ",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CZHB",
+            "CityName": "Corozal",
+            "CountryName": "Belize",
+            "IataCode": "CZH",
+            "Name": "Corozal",
+            "PlaceId": 45816,
+            "SkyscannerCode": "CZH",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SPRA",
+            "CityName": "San Pedro",
+            "CountryName": "Belize",
+            "IataCode": "SPR",
+            "Name": "San Pedro",
+            "PlaceId": 82210,
+            "SkyscannerCode": "SPR",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 72.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1431
+                ],
+                "DepartureDate": "2017-08-26T00:00:00",
+                "DestinationId": 82210,
+                "OriginId": 45816
+            },
+            "QuoteDateTime": "2017-03-20T09:56:18",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 906,
+            "OriginId": 45816,
+            "Price": 72.0,
+            "QuoteDateTime": "2017-03-20T09:56:18",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

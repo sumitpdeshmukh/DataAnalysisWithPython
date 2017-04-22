@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1710,
+            "Name": "Brussels Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Croatia",
+            "PlaceId": 1186,
+            "SkyscannerCode": "HR",
+            "Type": "Country"
+        },
+        {
+            "CityId": "MILA",
+            "CityName": "Milan",
+            "CountryName": "Italy",
+            "IataCode": "LIN",
+            "Name": "Milan Linate",
+            "PlaceId": 65742,
+            "SkyscannerCode": "LIN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ZAGR",
+            "CityName": "Zagreb",
+            "CountryName": "Croatia",
+            "IataCode": "ZAG",
+            "Name": "Zagreb",
+            "PlaceId": 97607,
+            "SkyscannerCode": "ZAG",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 249.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1710
+                ],
+                "DepartureDate": "2017-05-01T00:00:00",
+                "DestinationId": 97607,
+                "OriginId": 65742
+            },
+            "QuoteDateTime": "2017-04-18T19:44:52",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1186,
+            "OriginId": 65742,
+            "Price": 249.0,
+            "QuoteDateTime": "2017-04-18T19:44:52",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

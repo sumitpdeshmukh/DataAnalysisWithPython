@@ -1,0 +1,140 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 471,
+            "Name": "Jet Airways"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "India",
+            "PlaceId": 1230,
+            "SkyscannerCode": "IN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Sri Lanka",
+            "PlaceId": 1371,
+            "SkyscannerCode": "LK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Malaysia",
+            "PlaceId": 1433,
+            "SkyscannerCode": "MY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ICCU",
+            "CityName": "Kolkata",
+            "CountryName": "India",
+            "IataCode": "CCU",
+            "Name": "Kolkata",
+            "PlaceId": 44725,
+            "SkyscannerCode": "CCU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "IGAU",
+            "CityName": "Guwahati",
+            "CountryName": "India",
+            "IataCode": "GAU",
+            "Name": "Guwahati",
+            "PlaceId": 53845,
+            "SkyscannerCode": "GAU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "IJRH",
+            "CityName": "Jorhat",
+            "CountryName": "India",
+            "IataCode": "JRH",
+            "Name": "Jorhat",
+            "PlaceId": 61560,
+            "SkyscannerCode": "JRH",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 63.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    471
+                ],
+                "DepartureDate": "2017-05-30T00:00:00",
+                "DestinationId": 44725,
+                "OriginId": 61560
+            },
+            "QuoteDateTime": "2017-03-14T12:19:27",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 98.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    471
+                ],
+                "DepartureDate": "2017-05-21T00:00:00",
+                "DestinationId": 53845,
+                "OriginId": 61560
+            },
+            "QuoteDateTime": "2017-04-08T03:19:44",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1230,
+            "OriginId": 61560,
+            "Price": 63.0,
+            "QuoteDateTime": "2017-03-14T12:19:27",
+            "QuoteIds": [
+                1,
+                2
+            ]
+        },
+        {
+            "DestinationId": 837,
+            "OriginId": 61560
+        },
+        {
+            "DestinationId": 1703,
+            "OriginId": 61560
+        },
+        {
+            "DestinationId": 1433,
+            "OriginId": 61560
+        },
+        {
+            "DestinationId": 1371,
+            "OriginId": 61560
+        }
+    ]
+}

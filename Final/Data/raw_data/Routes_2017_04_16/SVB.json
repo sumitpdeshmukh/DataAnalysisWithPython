@@ -1,0 +1,145 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1412,
+            "Name": "Air Madagascar"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Comoros",
+            "PlaceId": 1325,
+            "SkyscannerCode": "KM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Madagascar",
+            "PlaceId": 1415,
+            "SkyscannerCode": "MG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mauritius",
+            "PlaceId": 1429,
+            "SkyscannerCode": "MU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Reunion",
+            "PlaceId": 1653,
+            "SkyscannerCode": "RE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Seychelles",
+            "PlaceId": 1699,
+            "SkyscannerCode": "SC",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mayotte",
+            "PlaceId": 2004,
+            "SkyscannerCode": "YT",
+            "Type": "Country"
+        },
+        {
+            "CityId": "SVBA",
+            "CityName": "Sambava",
+            "CountryName": "Madagascar",
+            "IataCode": "SVB",
+            "Name": "Sambava",
+            "PlaceId": 82482,
+            "SkyscannerCode": "SVB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WMNA",
+            "CityName": "Maroantsetra",
+            "CountryName": "Madagascar",
+            "IataCode": "WMN",
+            "Name": "Maroantsetra",
+            "PlaceId": 91278,
+            "SkyscannerCode": "WMN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 125.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1412
+                ],
+                "DepartureDate": "2017-06-15T00:00:00",
+                "DestinationId": 91278,
+                "OriginId": 82482
+            },
+            "QuoteDateTime": "2017-03-28T08:31:06",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1325,
+            "OriginId": 82482
+        },
+        {
+            "DestinationId": 1429,
+            "OriginId": 82482
+        },
+        {
+            "DestinationId": 1415,
+            "OriginId": 82482,
+            "Price": 125.0,
+            "QuoteDateTime": "2017-03-28T08:31:06",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 2004,
+            "OriginId": 82482
+        },
+        {
+            "DestinationId": 1699,
+            "OriginId": 82482
+        },
+        {
+            "DestinationId": 1653,
+            "OriginId": 82482
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 82482
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 82482
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1282,
+            "Name": "MAP Linhas A\u00e9reas"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "CityId": "STMB",
+            "CityName": "Santarem",
+            "CountryName": "Brazil",
+            "IataCode": "STM",
+            "Name": "Santarem",
+            "PlaceId": 82397,
+            "SkyscannerCode": "STM",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TMTA",
+            "CityName": "Trombetas",
+            "CountryName": "Brazil",
+            "IataCode": "TMT",
+            "Name": "Trombetas",
+            "PlaceId": 84372,
+            "SkyscannerCode": "TMT",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 50.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1282
+                ],
+                "DepartureDate": "2017-07-20T00:00:00",
+                "DestinationId": 82397,
+                "OriginId": 84372
+            },
+            "QuoteDateTime": "2017-04-17T05:28:31",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 898,
+            "OriginId": 84372,
+            "Price": 50.0,
+            "QuoteDateTime": "2017-04-17T05:28:31",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

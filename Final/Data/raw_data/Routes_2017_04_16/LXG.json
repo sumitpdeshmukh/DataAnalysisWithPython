@@ -1,0 +1,105 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1230,
+            "Name": "Lao Skyway"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "South Korea",
+            "PlaceId": 1330,
+            "SkyscannerCode": "KR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Laos",
+            "PlaceId": 1361,
+            "SkyscannerCode": "LA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Thailand",
+            "PlaceId": 1752,
+            "SkyscannerCode": "TH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Vietnam",
+            "PlaceId": 1854,
+            "SkyscannerCode": "VN",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LXGL",
+            "CityName": "Luang Namtha",
+            "CountryName": "Laos",
+            "IataCode": "LXG",
+            "Name": "Luang Namtha",
+            "PlaceId": 66455,
+            "SkyscannerCode": "LXG",
+            "Type": "Station"
+        },
+        {
+            "CityId": "VTEL",
+            "CityName": "Vientiane",
+            "CountryName": "Laos",
+            "IataCode": "VTE",
+            "Name": "Vientiane",
+            "PlaceId": 89301,
+            "SkyscannerCode": "VTE",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 70.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1230
+                ],
+                "DepartureDate": "2017-12-03T00:00:00",
+                "DestinationId": 89301,
+                "OriginId": 66455
+            },
+            "QuoteDateTime": "2017-04-15T17:54:42",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1752,
+            "OriginId": 66455
+        },
+        {
+            "DestinationId": 1854,
+            "OriginId": 66455
+        },
+        {
+            "DestinationId": 1330,
+            "OriginId": 66455
+        },
+        {
+            "DestinationId": 1361,
+            "OriginId": 66455,
+            "Price": 70.0,
+            "QuoteDateTime": "2017-04-15T17:54:42",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 210,
+            "Name": "Boutique Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "DENA",
+            "CityName": "Denver",
+            "CountryName": "United States",
+            "IataCode": "DEN",
+            "Name": "Denver International",
+            "PlaceId": 47118,
+            "SkyscannerCode": "DEN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MCKA",
+            "CityName": "Mccook",
+            "CountryName": "United States",
+            "IataCode": "MCK",
+            "Name": "Mccook",
+            "PlaceId": 67755,
+            "SkyscannerCode": "MCK",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 49.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    210
+                ],
+                "DepartureDate": "2017-05-15T00:00:00",
+                "DestinationId": 47118,
+                "OriginId": 67755
+            },
+            "QuoteDateTime": "2017-04-01T21:46:59",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 67755,
+            "Price": 49.0,
+            "QuoteDateTime": "2017-04-01T21:46:59",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

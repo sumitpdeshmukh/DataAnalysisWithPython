@@ -1,0 +1,114 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 774,
+            "Name": "Tus Airways"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Cyprus",
+            "PlaceId": 953,
+            "SkyscannerCode": "CY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Greece",
+            "PlaceId": 1138,
+            "SkyscannerCode": "GR",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ATHE",
+            "CityName": "Athens",
+            "CountryName": "Greece",
+            "IataCode": "ATH",
+            "Name": "Athens International",
+            "PlaceId": 40920,
+            "SkyscannerCode": "ATH",
+            "Type": "Station"
+        },
+        {
+            "CityId": "HAIF",
+            "CityName": "Haifa",
+            "CountryName": "Israel",
+            "IataCode": "HFA",
+            "Name": "Haifa",
+            "PlaceId": 56369,
+            "SkyscannerCode": "HFA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LARN",
+            "CityName": "Larnaca",
+            "CountryName": "Cyprus",
+            "IataCode": "LCA",
+            "Name": "Larnaca",
+            "PlaceId": 65441,
+            "SkyscannerCode": "LCA",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 83.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    774
+                ],
+                "DepartureDate": "2017-05-04T00:00:00",
+                "DestinationId": 40920,
+                "OriginId": 56369
+            },
+            "QuoteDateTime": "2017-04-17T13:03:54",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 87.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    774
+                ],
+                "DepartureDate": "2017-10-01T00:00:00",
+                "DestinationId": 65441,
+                "OriginId": 56369
+            },
+            "QuoteDateTime": "2017-04-15T17:05:17",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1138,
+            "OriginId": 56369,
+            "Price": 83.0,
+            "QuoteDateTime": "2017-04-17T13:03:54",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 953,
+            "OriginId": 56369,
+            "Price": 87.0,
+            "QuoteDateTime": "2017-04-15T17:05:17",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

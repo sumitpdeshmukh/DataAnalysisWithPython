@@ -1,0 +1,231 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1082,
+            "Name": "Fiji Airways"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Fiji",
+            "PlaceId": 1082,
+            "SkyscannerCode": "FJ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hong Kong",
+            "PlaceId": 1179,
+            "SkyscannerCode": "HK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Kiribati",
+            "PlaceId": 1321,
+            "SkyscannerCode": "KI",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Zealand",
+            "PlaceId": 1482,
+            "SkyscannerCode": "NZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Solomon Islands",
+            "PlaceId": 1698,
+            "SkyscannerCode": "SB",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Tonga",
+            "PlaceId": 1759,
+            "SkyscannerCode": "TO",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "Name": "Vanuatu",
+            "PlaceId": 1861,
+            "SkyscannerCode": "VU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Samoa",
+            "PlaceId": 1907,
+            "SkyscannerCode": "WS",
+            "Type": "Country"
+        },
+        {
+            "CityId": "NANF",
+            "CityName": "Nadi",
+            "CountryName": "Fiji",
+            "IataCode": "NAN",
+            "Name": "Nadi",
+            "PlaceId": 69966,
+            "SkyscannerCode": "NAN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SFOA",
+            "CityName": "San Francisco",
+            "CountryName": "United States",
+            "IataCode": "SFO",
+            "Name": "San Francisco International",
+            "PlaceId": 81727,
+            "SkyscannerCode": "SFO",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SVUF",
+            "CityName": "Savusavu",
+            "CountryName": "Fiji",
+            "IataCode": "SVU",
+            "Name": "Savusavu",
+            "PlaceId": 82501,
+            "SkyscannerCode": "SVU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SYDA",
+            "CityName": "Sydney",
+            "CountryName": "Australia",
+            "IataCode": "SYD",
+            "Name": "Sydney Kingsford Smith",
+            "PlaceId": 82628,
+            "SkyscannerCode": "SYD",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 144.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1082
+                ],
+                "DepartureDate": "2018-01-19T00:00:00",
+                "DestinationId": 69966,
+                "OriginId": 82501
+            },
+            "QuoteDateTime": "2017-04-03T08:06:47",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 783.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1082
+                ],
+                "DepartureDate": "2017-10-19T00:00:00",
+                "DestinationId": 81727,
+                "OriginId": 82501
+            },
+            "QuoteDateTime": "2017-04-03T11:06:12",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 431.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-17T00:00:00",
+                "DestinationId": 82628,
+                "OriginId": 82501
+            },
+            "QuoteDateTime": "2017-03-24T07:58:59",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1703,
+            "OriginId": 82501
+        },
+        {
+            "DestinationId": 1179,
+            "OriginId": 82501
+        },
+        {
+            "DestinationId": 1698,
+            "OriginId": 82501
+        },
+        {
+            "DestinationId": 1482,
+            "OriginId": 82501
+        },
+        {
+            "DestinationId": 1082,
+            "OriginId": 82501,
+            "Price": 144.0,
+            "QuoteDateTime": "2017-04-03T08:06:47",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 82501,
+            "Price": 783.0,
+            "QuoteDateTime": "2017-04-03T11:06:12",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1907,
+            "OriginId": 82501
+        },
+        {
+            "DestinationId": 1321,
+            "OriginId": 82501
+        },
+        {
+            "DestinationId": 1759,
+            "OriginId": 82501
+        },
+        {
+            "DestinationId": 1861,
+            "OriginId": 82501
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 82501,
+            "Price": 431.0,
+            "QuoteDateTime": "2017-03-24T07:58:59",
+            "QuoteIds": [
+                3
+            ]
+        }
+    ]
+}

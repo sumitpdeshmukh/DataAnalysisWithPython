@@ -1,0 +1,78 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Portugal",
+            "PlaceId": 1572,
+            "SkyscannerCode": "PT",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CORV",
+            "CityName": "Corvo Island",
+            "CountryName": "Portugal",
+            "IataCode": "CVU",
+            "Name": "Corvo Island",
+            "PlaceId": 45637,
+            "SkyscannerCode": "CVU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NYCA",
+            "CityName": "New York",
+            "CountryName": "United States",
+            "IataCode": "JFK",
+            "Name": "New York John F. Kennedy",
+            "PlaceId": 60987,
+            "SkyscannerCode": "JFK",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 353.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-15T00:00:00",
+                "DestinationId": 60987,
+                "OriginId": 45637
+            },
+            "QuoteDateTime": "2017-03-30T03:12:13",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1572,
+            "OriginId": 45637
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 45637,
+            "Price": 353.0,
+            "QuoteDateTime": "2017-03-30T03:12:13",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

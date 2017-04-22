@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 79,
+            "Name": "Real Tonga Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Tonga",
+            "PlaceId": 1759,
+            "SkyscannerCode": "TO",
+            "Type": "Country"
+        },
+        {
+            "CityId": "HPAA",
+            "CityName": "Ha'Apai",
+            "CountryName": "Tonga",
+            "IataCode": "HPA",
+            "Name": "Ha'Apai",
+            "PlaceId": 56849,
+            "SkyscannerCode": "HPA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "VAVA",
+            "CityName": "Vava'u",
+            "CountryName": "Tonga",
+            "IataCode": "VAV",
+            "Name": "Vava'u",
+            "PlaceId": 88406,
+            "SkyscannerCode": "VAV",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 90.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    79
+                ],
+                "DepartureDate": "2017-10-24T00:00:00",
+                "DestinationId": 88406,
+                "OriginId": 56849
+            },
+            "QuoteDateTime": "2017-04-15T20:30:36",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1759,
+            "OriginId": 56849,
+            "Price": 90.0,
+            "QuoteDateTime": "2017-04-15T20:30:36",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

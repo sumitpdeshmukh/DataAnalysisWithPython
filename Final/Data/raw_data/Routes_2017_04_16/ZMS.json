@@ -1,0 +1,114 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1352,
+            "Name": "Pobeda"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Italy",
+            "PlaceId": 1236,
+            "SkyscannerCode": "IT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "PISA",
+            "CityName": "Pisa",
+            "CountryName": "Italy",
+            "IataCode": "PSA",
+            "Name": "Pisa",
+            "PlaceId": 75425,
+            "SkyscannerCode": "PSA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MOSC",
+            "CityName": "Moscow",
+            "CountryName": "Russia",
+            "IataCode": "VKO",
+            "Name": "Moscow Vnukovo",
+            "PlaceId": 88879,
+            "SkyscannerCode": "VKO",
+            "Type": "Station"
+        },
+        {
+            "CityId": "FLOR",
+            "CityName": "Florence",
+            "CountryName": "Italy",
+            "IataCode": "ZMS",
+            "Name": "Florence",
+            "PlaceId": 98195,
+            "SkyscannerCode": "ZMS",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 9.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1352
+                ],
+                "DepartureDate": "2017-04-22T00:00:00",
+                "DestinationId": 75425,
+                "OriginId": 98195
+            },
+            "QuoteDateTime": "2017-04-18T21:36:36",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 87.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1352
+                ],
+                "DepartureDate": "2017-05-16T00:00:00",
+                "DestinationId": 88879,
+                "OriginId": 98195
+            },
+            "QuoteDateTime": "2017-04-18T17:29:34",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1236,
+            "OriginId": 98195,
+            "Price": 9.0,
+            "QuoteDateTime": "2017-04-18T21:36:36",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1669,
+            "OriginId": 98195,
+            "Price": 87.0,
+            "QuoteDateTime": "2017-04-18T17:29:34",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

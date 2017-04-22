@@ -1,0 +1,185 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 194,
+            "Name": "Sky Express"
+        },
+        {
+            "CarrierId": 819,
+            "Name": "Aegean Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Switzerland",
+            "PlaceId": 936,
+            "SkyscannerCode": "CH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Greece",
+            "PlaceId": 1138,
+            "SkyscannerCode": "GR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Turkey",
+            "PlaceId": 1762,
+            "SkyscannerCode": "TR",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ATHE",
+            "CityName": "Athens",
+            "CountryName": "Greece",
+            "IataCode": "ATH",
+            "Name": "Athens International",
+            "PlaceId": 40920,
+            "SkyscannerCode": "ATH",
+            "Type": "Station"
+        },
+        {
+            "CityId": "HOUA",
+            "CityName": "Houston",
+            "CountryName": "United States",
+            "IataCode": "IAH",
+            "Name": "Houston George Bush Intercntl.",
+            "PlaceId": 58440,
+            "SkyscannerCode": "IAH",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ISTA",
+            "CityName": "Istanbul",
+            "CountryName": "Turkey",
+            "IataCode": "IST",
+            "Name": "Istanbul Ataturk",
+            "PlaceId": 59316,
+            "SkyscannerCode": "IST",
+            "Type": "Station"
+        },
+        {
+            "CityId": "JKLA",
+            "CityName": "Kalymnos",
+            "CountryName": "Greece",
+            "IataCode": "JKL",
+            "Name": "Kalymnos",
+            "PlaceId": 61228,
+            "SkyscannerCode": "JKL",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 11.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    194
+                ],
+                "DepartureDate": "2017-05-29T00:00:00",
+                "DestinationId": 40920,
+                "OriginId": 61228
+            },
+            "QuoteDateTime": "2017-04-17T04:53:53",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 679.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    819
+                ],
+                "DepartureDate": "2017-07-03T00:00:00",
+                "DestinationId": 59316,
+                "OriginId": 61228
+            },
+            "QuoteDateTime": "2017-04-12T12:44:10",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 4722.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-31T00:00:00",
+                "DestinationId": 58440,
+                "OriginId": 61228
+            },
+            "QuoteDateTime": "2017-04-07T16:49:25",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1138,
+            "OriginId": 61228,
+            "Price": 11.0,
+            "QuoteDateTime": "2017-04-17T04:53:53",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1669,
+            "OriginId": 61228
+        },
+        {
+            "DestinationId": 936,
+            "OriginId": 61228
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 61228
+        },
+        {
+            "DestinationId": 1762,
+            "OriginId": 61228,
+            "Price": 679.0,
+            "QuoteDateTime": "2017-04-12T12:44:10",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 61228,
+            "Price": 4722.0,
+            "QuoteDateTime": "2017-04-07T16:49:25",
+            "QuoteIds": [
+                3
+            ]
+        }
+    ]
+}

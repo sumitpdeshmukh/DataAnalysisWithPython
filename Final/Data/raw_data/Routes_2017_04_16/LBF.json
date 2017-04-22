@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 851,
+            "Name": "Alaska Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "DENA",
+            "CityName": "Denver",
+            "CountryName": "United States",
+            "IataCode": "DEN",
+            "Name": "Denver International",
+            "PlaceId": 47118,
+            "SkyscannerCode": "DEN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LBFA",
+            "CityName": "North Platte",
+            "CountryName": "United States",
+            "IataCode": "LBF",
+            "Name": "North Platte",
+            "PlaceId": 65398,
+            "SkyscannerCode": "LBF",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 78.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    851
+                ],
+                "DepartureDate": "2017-06-14T00:00:00",
+                "DestinationId": 47118,
+                "OriginId": 65398
+            },
+            "QuoteDateTime": "2017-03-31T20:35:07",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 65398,
+            "Price": 78.0,
+            "QuoteDateTime": "2017-03-31T20:35:07",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

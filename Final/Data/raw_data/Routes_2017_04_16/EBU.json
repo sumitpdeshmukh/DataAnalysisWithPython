@@ -1,0 +1,125 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Algeria",
+            "PlaceId": 1002,
+            "SkyscannerCode": "DZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Morocco",
+            "PlaceId": 1409,
+            "SkyscannerCode": "MA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Portugal",
+            "PlaceId": 1572,
+            "SkyscannerCode": "PT",
+            "Type": "Country"
+        },
+        {
+            "CityId": "STET",
+            "CityName": "St Etienne",
+            "CountryName": "France",
+            "IataCode": "EBU",
+            "Name": "St Etienne",
+            "PlaceId": 49285,
+            "SkyscannerCode": "EBU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "OUJD",
+            "CityName": "Oujda",
+            "CountryName": "Morocco",
+            "IataCode": "OUD",
+            "Name": "Oujda L. Angades",
+            "PlaceId": 73220,
+            "SkyscannerCode": "OUD",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TLMA",
+            "CityName": "Tlemcen",
+            "CountryName": "Algeria",
+            "IataCode": "TLM",
+            "Name": "Tlemcen",
+            "PlaceId": 84317,
+            "SkyscannerCode": "TLM",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 881.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-17T00:00:00",
+                "DestinationId": 84317,
+                "OriginId": 49285
+            },
+            "QuoteDateTime": "2017-04-17T06:09:09",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1809.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-17T00:00:00",
+                "DestinationId": 73220,
+                "OriginId": 49285
+            },
+            "QuoteDateTime": "2017-04-17T06:09:07",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1090,
+            "OriginId": 49285
+        },
+        {
+            "DestinationId": 1002,
+            "OriginId": 49285,
+            "Price": 881.0,
+            "QuoteDateTime": "2017-04-17T06:09:09",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1572,
+            "OriginId": 49285
+        },
+        {
+            "DestinationId": 1409,
+            "OriginId": 49285,
+            "Price": 1809.0,
+            "QuoteDateTime": "2017-04-17T06:09:07",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

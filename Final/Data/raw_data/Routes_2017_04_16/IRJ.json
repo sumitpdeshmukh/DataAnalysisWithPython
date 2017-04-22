@@ -1,0 +1,185 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 850,
+            "Name": "Aerolineas Argentinas"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Argentina",
+            "PlaceId": 850,
+            "SkyscannerCode": "AR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Colombia",
+            "PlaceId": 943,
+            "SkyscannerCode": "CO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Dominican Republic",
+            "PlaceId": 991,
+            "SkyscannerCode": "DO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "Italy",
+            "PlaceId": 1236,
+            "SkyscannerCode": "IT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Zealand",
+            "PlaceId": 1482,
+            "SkyscannerCode": "NZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Paraguay",
+            "PlaceId": 1577,
+            "SkyscannerCode": "PY",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "Name": "Uruguay",
+            "PlaceId": 1817,
+            "SkyscannerCode": "UY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Venezuela",
+            "PlaceId": 1845,
+            "SkyscannerCode": "VE",
+            "Type": "Country"
+        },
+        {
+            "CityId": "AKLN",
+            "CityName": "Auckland",
+            "CountryName": "New Zealand",
+            "IataCode": "AKL",
+            "Name": "Auckland International",
+            "PlaceId": 40492,
+            "SkyscannerCode": "AKL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "IRJB",
+            "CityName": "La Rioja",
+            "CountryName": "Argentina",
+            "IataCode": "IRJ",
+            "Name": "La Rioja",
+            "PlaceId": 59258,
+            "SkyscannerCode": "IRJ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 1128.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    850
+                ],
+                "DepartureDate": "2017-06-28T00:00:00",
+                "DestinationId": 40492,
+                "OriginId": 59258
+            },
+            "QuoteDateTime": "2017-03-30T13:52:58",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1577,
+            "OriginId": 59258
+        },
+        {
+            "DestinationId": 943,
+            "OriginId": 59258
+        },
+        {
+            "DestinationId": 850,
+            "OriginId": 59258
+        },
+        {
+            "DestinationId": 1482,
+            "OriginId": 59258,
+            "Price": 1128.0,
+            "QuoteDateTime": "2017-03-30T13:52:58",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1845,
+            "OriginId": 59258
+        },
+        {
+            "DestinationId": 1817,
+            "OriginId": 59258
+        },
+        {
+            "DestinationId": 898,
+            "OriginId": 59258
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 59258
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 59258
+        },
+        {
+            "DestinationId": 991,
+            "OriginId": 59258
+        },
+        {
+            "DestinationId": 1043,
+            "OriginId": 59258
+        },
+        {
+            "DestinationId": 1236,
+            "OriginId": 59258
+        }
+    ]
+}

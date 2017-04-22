@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1922,
+            "Name": "Compagnie Africaine d'Aviation"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "DR Congo",
+            "PlaceId": 932,
+            "SkyscannerCode": "CD",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BKYA",
+            "CityName": "Bukavu",
+            "CountryName": "DR Congo",
+            "IataCode": "BKY",
+            "Name": "Bukavu",
+            "PlaceId": 42809,
+            "SkyscannerCode": "BKY",
+            "Type": "Station"
+        },
+        {
+            "CityId": "FIHA",
+            "CityName": "Kinshasa",
+            "CountryName": "DR Congo",
+            "IataCode": "FIH",
+            "Name": "Kinshasa N'Djili",
+            "PlaceId": 51912,
+            "SkyscannerCode": "FIH",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 297.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1922
+                ],
+                "DepartureDate": "2017-05-05T00:00:00",
+                "DestinationId": 51912,
+                "OriginId": 42809
+            },
+            "QuoteDateTime": "2017-04-18T04:34:16",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 932,
+            "OriginId": 42809,
+            "Price": 297.0,
+            "QuoteDateTime": "2017-04-18T04:34:16",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

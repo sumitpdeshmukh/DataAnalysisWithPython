@@ -1,0 +1,124 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 836,
+            "Name": "Azul Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Portugal",
+            "PlaceId": 1572,
+            "SkyscannerCode": "PT",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BHZA",
+            "CityName": "Belo Horizonte",
+            "CountryName": "Brazil",
+            "IataCode": "CNF",
+            "Name": "Belo Horizonte Tancredo Neves Int'l.",
+            "PlaceId": 45238,
+            "SkyscannerCode": "CNF",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MIAA",
+            "CityName": "Miami",
+            "CountryName": "United States",
+            "IataCode": "FLL",
+            "Name": "Fort Lauderdale International",
+            "PlaceId": 52060,
+            "SkyscannerCode": "FLL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PGZA",
+            "CityName": "Ponta Grossa",
+            "CountryName": "Brazil",
+            "IataCode": "PGZ",
+            "Name": "Ponta Grossa",
+            "PlaceId": 74874,
+            "SkyscannerCode": "PGZ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 64.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    836
+                ],
+                "DepartureDate": "2017-06-26T00:00:00",
+                "DestinationId": 45238,
+                "OriginId": 74874
+            },
+            "QuoteDateTime": "2017-04-14T15:16:00",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 921.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    836
+                ],
+                "DepartureDate": "2017-07-14T00:00:00",
+                "DestinationId": 52060,
+                "OriginId": 74874
+            },
+            "QuoteDateTime": "2017-04-16T23:34:27",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 898,
+            "OriginId": 74874,
+            "Price": 64.0,
+            "QuoteDateTime": "2017-04-14T15:16:00",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 74874,
+            "Price": 921.0,
+            "QuoteDateTime": "2017-04-16T23:34:27",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1572,
+            "OriginId": 74874
+        }
+    ]
+}

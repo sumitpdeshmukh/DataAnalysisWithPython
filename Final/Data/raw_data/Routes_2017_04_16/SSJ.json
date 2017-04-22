@@ -1,0 +1,98 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Norway",
+            "PlaceId": 1471,
+            "SkyscannerCode": "NO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Romania",
+            "PlaceId": 1663,
+            "SkyscannerCode": "RO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Sweden",
+            "PlaceId": 1701,
+            "SkyscannerCode": "SE",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BUCH",
+            "CityName": "Bucharest",
+            "CountryName": "Romania",
+            "IataCode": "OTP",
+            "Name": "Bucharest Otopeni",
+            "PlaceId": 73184,
+            "SkyscannerCode": "OTP",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SANE",
+            "CityName": "Sandnessjoen",
+            "CountryName": "Norway",
+            "IataCode": "SSJ",
+            "Name": "Sandnessjoen",
+            "PlaceId": 82346,
+            "SkyscannerCode": "SSJ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 446.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-30T00:00:00",
+                "DestinationId": 73184,
+                "OriginId": 82346
+            },
+            "QuoteDateTime": "2017-03-27T13:55:47",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1701,
+            "OriginId": 82346
+        },
+        {
+            "DestinationId": 1471,
+            "OriginId": 82346
+        },
+        {
+            "DestinationId": 1663,
+            "OriginId": 82346,
+            "Price": 446.0,
+            "QuoteDateTime": "2017-03-27T13:55:47",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 82346
+        }
+    ]
+}

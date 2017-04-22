@@ -1,0 +1,191 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1808,
+            "Name": "Bahamasair"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Bahamas",
+            "PlaceId": 899,
+            "SkyscannerCode": "BS",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cuba",
+            "PlaceId": 949,
+            "SkyscannerCode": "CU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Curacao",
+            "PlaceId": 951,
+            "SkyscannerCode": "CW",
+            "Type": "Country"
+        },
+        {
+            "Name": "Dominican Republic",
+            "PlaceId": 991,
+            "SkyscannerCode": "DO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Jamaica",
+            "PlaceId": 1277,
+            "SkyscannerCode": "JM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Turks and Caicos Islands",
+            "PlaceId": 1747,
+            "SkyscannerCode": "TC",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "HAVA",
+            "CityName": "Havana",
+            "CountryName": "Cuba",
+            "IataCode": "HAV",
+            "Name": "Havana",
+            "PlaceId": 56150,
+            "SkyscannerCode": "HAV",
+            "Type": "Station"
+        },
+        {
+            "CityId": "KINA",
+            "CityName": "Kingston",
+            "CountryName": "Jamaica",
+            "IataCode": "KIN",
+            "Name": "Kingston Norman Manley",
+            "PlaceId": 63438,
+            "SkyscannerCode": "KIN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NASA",
+            "CityName": "Nassau",
+            "CountryName": "Bahamas",
+            "IataCode": "NAS",
+            "Name": "Nassau International",
+            "PlaceId": 69971,
+            "SkyscannerCode": "NAS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "RSDA",
+            "CityName": "Rock Sound",
+            "CountryName": "Bahamas",
+            "IataCode": "RSD",
+            "Name": "Rock Sound",
+            "PlaceId": 80036,
+            "SkyscannerCode": "RSD",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 73.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1808
+                ],
+                "DepartureDate": "2018-01-02T00:00:00",
+                "DestinationId": 69971,
+                "OriginId": 80036
+            },
+            "QuoteDateTime": "2017-03-23T12:45:02",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 303.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1808
+                ],
+                "DepartureDate": "2017-07-23T00:00:00",
+                "DestinationId": 56150,
+                "OriginId": 80036
+            },
+            "QuoteDateTime": "2017-03-21T19:48:54",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 352.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-04T00:00:00",
+                "DestinationId": 63438,
+                "OriginId": 80036
+            },
+            "QuoteDateTime": "2017-04-15T20:57:11",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 80036
+        },
+        {
+            "DestinationId": 991,
+            "OriginId": 80036
+        },
+        {
+            "DestinationId": 899,
+            "OriginId": 80036,
+            "Price": 73.0,
+            "QuoteDateTime": "2017-03-23T12:45:02",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1747,
+            "OriginId": 80036
+        },
+        {
+            "DestinationId": 951,
+            "OriginId": 80036
+        },
+        {
+            "DestinationId": 949,
+            "OriginId": 80036,
+            "Price": 303.0,
+            "QuoteDateTime": "2017-03-21T19:48:54",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1277,
+            "OriginId": 80036,
+            "Price": 352.0,
+            "QuoteDateTime": "2017-04-15T20:57:11",
+            "QuoteIds": [
+                3
+            ]
+        }
+    ]
+}

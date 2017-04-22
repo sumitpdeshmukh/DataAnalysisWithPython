@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1860,
+            "Name": "Air Tahiti"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "French Polynesia",
+            "PlaceId": 1558,
+            "SkyscannerCode": "PF",
+            "Type": "Country"
+        },
+        {
+            "CityId": "GMRP",
+            "CityName": "Gambier Is",
+            "CountryName": "French Polynesia",
+            "IataCode": "GMR",
+            "Name": "Gambier Is",
+            "PlaceId": 54418,
+            "SkyscannerCode": "GMR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PPTP",
+            "CityName": "Papeete",
+            "CountryName": "French Polynesia",
+            "IataCode": "PPT",
+            "Name": "Papeete",
+            "PlaceId": 75300,
+            "SkyscannerCode": "PPT",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 389.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1860
+                ],
+                "DepartureDate": "2017-06-06T00:00:00",
+                "DestinationId": 75300,
+                "OriginId": 54418
+            },
+            "QuoteDateTime": "2017-04-08T17:33:08",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1558,
+            "OriginId": 54418,
+            "Price": 389.0,
+            "QuoteDateTime": "2017-04-08T17:33:08",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

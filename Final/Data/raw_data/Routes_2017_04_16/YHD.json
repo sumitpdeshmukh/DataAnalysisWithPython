@@ -1,0 +1,112 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1286,
+            "Name": "Bearskin Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "HOUA",
+            "CityName": "Houston",
+            "CountryName": "United States",
+            "IataCode": "IAH",
+            "Name": "Houston George Bush Intercntl.",
+            "PlaceId": 58440,
+            "SkyscannerCode": "IAH",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YHDA",
+            "CityName": "Dryden",
+            "CountryName": "Canada",
+            "IataCode": "YHD",
+            "Name": "Dryden",
+            "PlaceId": 95636,
+            "SkyscannerCode": "YHD",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WINB",
+            "CityName": "Winnipeg",
+            "CountryName": "Canada",
+            "IataCode": "YWG",
+            "Name": "Winnipeg",
+            "PlaceId": 96359,
+            "SkyscannerCode": "YWG",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 330.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1286
+                ],
+                "DepartureDate": "2017-05-17T00:00:00",
+                "DestinationId": 96359,
+                "OriginId": 95636
+            },
+            "QuoteDateTime": "2017-04-18T00:48:11",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 992.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-04-30T00:00:00",
+                "DestinationId": 58440,
+                "OriginId": 95636
+            },
+            "QuoteDateTime": "2017-04-07T22:18:31",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 95636,
+            "Price": 330.0,
+            "QuoteDateTime": "2017-04-18T00:48:11",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 95636,
+            "Price": 992.0,
+            "QuoteDateTime": "2017-04-07T22:18:31",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

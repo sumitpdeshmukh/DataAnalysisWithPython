@@ -1,0 +1,151 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1808,
+            "Name": "Bahamasair"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Bahamas",
+            "PlaceId": 899,
+            "SkyscannerCode": "BS",
+            "Type": "Country"
+        },
+        {
+            "Name": "Turkey",
+            "PlaceId": 1762,
+            "SkyscannerCode": "TR",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "MIAA",
+            "CityName": "Miami",
+            "CountryName": "United States",
+            "IataCode": "FLL",
+            "Name": "Fort Lauderdale International",
+            "PlaceId": 52060,
+            "SkyscannerCode": "FLL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ISTA",
+            "CityName": "Istanbul",
+            "CountryName": "Turkey",
+            "IataCode": "IST",
+            "Name": "Istanbul Ataturk",
+            "PlaceId": 59316,
+            "SkyscannerCode": "IST",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LGIA",
+            "CityName": "Long Island",
+            "CountryName": "Bahamas",
+            "IataCode": "LGI",
+            "Name": "Long Island",
+            "PlaceId": 65641,
+            "SkyscannerCode": "LGI",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NASA",
+            "CityName": "Nassau",
+            "CountryName": "Bahamas",
+            "IataCode": "NAS",
+            "Name": "Nassau International",
+            "PlaceId": 69971,
+            "SkyscannerCode": "NAS",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 255.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1808
+                ],
+                "DepartureDate": "2017-04-30T00:00:00",
+                "DestinationId": 52060,
+                "OriginId": 65641
+            },
+            "QuoteDateTime": "2017-04-07T23:17:11",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 107.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1808
+                ],
+                "DepartureDate": "2017-05-09T00:00:00",
+                "DestinationId": 69971,
+                "OriginId": 65641
+            },
+            "QuoteDateTime": "2017-04-16T10:13:09",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 2037.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-04-27T00:00:00",
+                "DestinationId": 59316,
+                "OriginId": 65641
+            },
+            "QuoteDateTime": "2017-04-18T21:10:09",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 65641,
+            "Price": 255.0,
+            "QuoteDateTime": "2017-04-07T23:17:11",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 899,
+            "OriginId": 65641,
+            "Price": 107.0,
+            "QuoteDateTime": "2017-04-16T10:13:09",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1762,
+            "OriginId": 65641,
+            "Price": 2037.0,
+            "QuoteDateTime": "2017-04-18T21:10:09",
+            "QuoteIds": [
+                3
+            ]
+        }
+    ]
+}

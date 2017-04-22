@@ -1,0 +1,165 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1276,
+            "Name": "Japan Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Finland",
+            "PlaceId": 1081,
+            "SkyscannerCode": "FI",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hong Kong",
+            "PlaceId": 1179,
+            "SkyscannerCode": "HK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "Malaysia",
+            "PlaceId": 1433,
+            "SkyscannerCode": "MY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Thailand",
+            "PlaceId": 1752,
+            "SkyscannerCode": "TH",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "OSAA",
+            "CityName": "Osaka",
+            "CountryName": "Japan",
+            "IataCode": "ITM",
+            "Name": "Osaka Itami",
+            "PlaceId": 59357,
+            "SkyscannerCode": "ITM",
+            "Type": "Station"
+        },
+        {
+            "CityId": "JMMJ",
+            "CityName": "Matsumoto",
+            "CountryName": "Japan",
+            "IataCode": "MMJ",
+            "Name": "Matsumoto",
+            "PlaceId": 68234,
+            "SkyscannerCode": "MMJ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 97.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1276
+                ],
+                "DepartureDate": "2017-08-19T00:00:00",
+                "DestinationId": 59357,
+                "OriginId": 68234
+            },
+            "QuoteDateTime": "2017-03-28T07:33:50",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1752,
+            "OriginId": 68234
+        },
+        {
+            "DestinationId": 1433,
+            "OriginId": 68234
+        },
+        {
+            "DestinationId": 1179,
+            "OriginId": 68234
+        },
+        {
+            "DestinationId": 837,
+            "OriginId": 68234
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 68234
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 68234
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 68234
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 68234,
+            "Price": 97.0,
+            "QuoteDateTime": "2017-03-28T07:33:50",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1669,
+            "OriginId": 68234
+        },
+        {
+            "DestinationId": 1081,
+            "OriginId": 68234
+        }
+    ]
+}

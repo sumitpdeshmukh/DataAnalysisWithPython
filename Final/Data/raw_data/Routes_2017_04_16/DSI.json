@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 175,
+            "Name": "Southern Airways Express"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "DSIA",
+            "CityName": "Destin",
+            "CountryName": "United States",
+            "IataCode": "DSI",
+            "Name": "Destin",
+            "PlaceId": 47785,
+            "SkyscannerCode": "DSI",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MEMA",
+            "CityName": "Memphis",
+            "CountryName": "United States",
+            "IataCode": "MEM",
+            "Name": "Memphis International",
+            "PlaceId": 67853,
+            "SkyscannerCode": "MEM",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 196.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    175
+                ],
+                "DepartureDate": "2017-07-08T00:00:00",
+                "DestinationId": 67853,
+                "OriginId": 47785
+            },
+            "QuoteDateTime": "2017-03-29T15:22:25",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 47785,
+            "Price": 196.0,
+            "QuoteDateTime": "2017-03-29T15:22:25",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

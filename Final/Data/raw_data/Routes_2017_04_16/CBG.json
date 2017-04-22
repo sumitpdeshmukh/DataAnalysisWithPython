@@ -1,0 +1,196 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 881,
+            "Name": "British Airways"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Denmark",
+            "PlaceId": 987,
+            "SkyscannerCode": "DK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Italy",
+            "PlaceId": 1236,
+            "SkyscannerCode": "IT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Sweden",
+            "PlaceId": 1701,
+            "SkyscannerCode": "SE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Slovenia",
+            "PlaceId": 1705,
+            "SkyscannerCode": "SI",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CBGA",
+            "CityName": "Cambridge",
+            "CountryName": "United Kingdom",
+            "IataCode": "CBG",
+            "Name": "Cambridge",
+            "PlaceId": 44663,
+            "SkyscannerCode": "CBG",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ROME",
+            "CityName": "Rome",
+            "CountryName": "Italy",
+            "IataCode": "FCO",
+            "Name": "Rome Fiumicino",
+            "PlaceId": 51631,
+            "SkyscannerCode": "FCO",
+            "Type": "Station"
+        },
+        {
+            "CityId": "GOTH",
+            "CityName": "Gothenburg",
+            "CountryName": "Sweden",
+            "IataCode": "GOT",
+            "Name": "Gothenburg Landvetter",
+            "PlaceId": 54516,
+            "SkyscannerCode": "GOT",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NYCA",
+            "CityName": "New York",
+            "CountryName": "United States",
+            "IataCode": "JFK",
+            "Name": "New York John F. Kennedy",
+            "PlaceId": 60987,
+            "SkyscannerCode": "JFK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LJUB",
+            "CityName": "Ljubljana",
+            "CountryName": "Slovenia",
+            "IataCode": "LJU",
+            "Name": "Ljubljana",
+            "PlaceId": 65797,
+            "SkyscannerCode": "LJU",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 903.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    881
+                ],
+                "DepartureDate": "2017-08-17T00:00:00",
+                "DestinationId": 54516,
+                "OriginId": 44663
+            },
+            "QuoteDateTime": "2017-03-17T15:15:08",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1091.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-01T00:00:00",
+                "DestinationId": 51631,
+                "OriginId": 44663
+            },
+            "QuoteDateTime": "2017-04-17T03:55:57",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1879.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-01T00:00:00",
+                "DestinationId": 65797,
+                "OriginId": 44663
+            },
+            "QuoteDateTime": "2017-04-17T03:57:15",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1389.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-17T00:00:00",
+                "DestinationId": 60987,
+                "OriginId": 44663
+            },
+            "QuoteDateTime": "2017-03-18T12:53:51",
+            "QuoteId": 4
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 987,
+            "OriginId": 44663
+        },
+        {
+            "DestinationId": 1701,
+            "OriginId": 44663,
+            "Price": 903.0,
+            "QuoteDateTime": "2017-03-17T15:15:08",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1236,
+            "OriginId": 44663,
+            "Price": 1091.0,
+            "QuoteDateTime": "2017-04-17T03:55:57",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1705,
+            "OriginId": 44663,
+            "Price": 1879.0,
+            "QuoteDateTime": "2017-04-17T03:57:15",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 44663,
+            "Price": 1389.0,
+            "QuoteDateTime": "2017-03-18T12:53:51",
+            "QuoteIds": [
+                4
+            ]
+        }
+    ]
+}

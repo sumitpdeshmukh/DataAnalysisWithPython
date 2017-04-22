@@ -1,0 +1,85 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 369,
+            "Name": "Ulendo Airlink"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Malawi",
+            "PlaceId": 1431,
+            "SkyscannerCode": "MW",
+            "Type": "Country"
+        },
+        {
+            "Name": "Zambia",
+            "PlaceId": 2045,
+            "SkyscannerCode": "ZM",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LLWA",
+            "CityName": "Lilongwe",
+            "CountryName": "Malawi",
+            "IataCode": "LLW",
+            "Name": "Lilongwe",
+            "PlaceId": 65895,
+            "SkyscannerCode": "LLW",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ZZUA",
+            "CityName": "Mzuzu",
+            "CountryName": "Malawi",
+            "IataCode": "ZZU",
+            "Name": "Mzuzu",
+            "PlaceId": 98821,
+            "SkyscannerCode": "ZZU",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 176.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    369
+                ],
+                "DepartureDate": "2017-11-15T00:00:00",
+                "DestinationId": 65895,
+                "OriginId": 98821
+            },
+            "QuoteDateTime": "2017-04-18T23:48:54",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 2045,
+            "OriginId": 98821
+        },
+        {
+            "DestinationId": 1431,
+            "OriginId": 98821,
+            "Price": 176.0,
+            "QuoteDateTime": "2017-04-18T23:48:54",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

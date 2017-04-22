@@ -1,0 +1,100 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 388,
+            "Name": "Passaredo"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BSBA",
+            "CityName": "Brasilia",
+            "CountryName": "Brazil",
+            "IataCode": "BSB",
+            "Name": "Brasilia",
+            "PlaceId": 43170,
+            "SkyscannerCode": "BSB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "GYNA",
+            "CityName": "Goiania",
+            "CountryName": "Brazil",
+            "IataCode": "GYN",
+            "Name": "Goiania",
+            "PlaceId": 54990,
+            "SkyscannerCode": "GYN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SMTB",
+            "CityName": "Sorriso",
+            "CountryName": "Brazil",
+            "IataCode": "SMT",
+            "Name": "Sorriso",
+            "PlaceId": 82068,
+            "SkyscannerCode": "SMT",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 100.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    388
+                ],
+                "DepartureDate": "2017-08-08T00:00:00",
+                "DestinationId": 54990,
+                "OriginId": 82068
+            },
+            "QuoteDateTime": "2017-03-15T17:12:45",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 112.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    388
+                ],
+                "DepartureDate": "2017-05-08T00:00:00",
+                "DestinationId": 43170,
+                "OriginId": 82068
+            },
+            "QuoteDateTime": "2017-04-14T06:03:21",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 898,
+            "OriginId": 82068,
+            "Price": 100.0,
+            "QuoteDateTime": "2017-03-15T17:12:45",
+            "QuoteIds": [
+                1,
+                2
+            ]
+        }
+    ]
+}

@@ -1,0 +1,225 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1482,
+            "Name": "Air New Zealand"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Argentina",
+            "PlaceId": 850,
+            "SkyscannerCode": "AR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cook Islands",
+            "PlaceId": 939,
+            "SkyscannerCode": "CK",
+            "Type": "Country"
+        },
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Fiji",
+            "PlaceId": 1082,
+            "SkyscannerCode": "FJ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hong Kong",
+            "PlaceId": 1179,
+            "SkyscannerCode": "HK",
+            "Type": "Country"
+        },
+        {
+            "Name": "India",
+            "PlaceId": 1230,
+            "SkyscannerCode": "IN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Zealand",
+            "PlaceId": 1482,
+            "SkyscannerCode": "NZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "French Polynesia",
+            "PlaceId": 1558,
+            "SkyscannerCode": "PF",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Tonga",
+            "PlaceId": 1759,
+            "SkyscannerCode": "TO",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "Name": "Samoa",
+            "PlaceId": 1907,
+            "SkyscannerCode": "WS",
+            "Type": "Country"
+        },
+        {
+            "CityId": "NLKN",
+            "CityName": "Norfolk Island",
+            "CountryName": "Australia",
+            "IataCode": "NLK",
+            "Name": "Norfolk Island",
+            "PlaceId": 70491,
+            "SkyscannerCode": "NLK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SYDA",
+            "CityName": "Sydney",
+            "CountryName": "Australia",
+            "IataCode": "SYD",
+            "Name": "Sydney Kingsford Smith",
+            "PlaceId": 82628,
+            "SkyscannerCode": "SYD",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 212.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1482
+                ],
+                "DepartureDate": "2017-07-17T00:00:00",
+                "DestinationId": 82628,
+                "OriginId": 70491
+            },
+            "QuoteDateTime": "2017-04-18T05:37:39",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1703,
+            "OriginId": 70491
+        },
+        {
+            "DestinationId": 1179,
+            "OriginId": 70491
+        },
+        {
+            "DestinationId": 1558,
+            "OriginId": 70491
+        },
+        {
+            "DestinationId": 939,
+            "OriginId": 70491
+        },
+        {
+            "DestinationId": 850,
+            "OriginId": 70491
+        },
+        {
+            "DestinationId": 1482,
+            "OriginId": 70491
+        },
+        {
+            "DestinationId": 1082,
+            "OriginId": 70491
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 70491
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 70491
+        },
+        {
+            "DestinationId": 1907,
+            "OriginId": 70491
+        },
+        {
+            "DestinationId": 1759,
+            "OriginId": 70491
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 70491,
+            "Price": 212.0,
+            "QuoteDateTime": "2017-04-18T05:37:39",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 70491
+        },
+        {
+            "DestinationId": 1230,
+            "OriginId": 70491
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 70491
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 70491
+        }
+    ]
+}

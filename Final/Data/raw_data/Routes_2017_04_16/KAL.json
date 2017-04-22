@@ -1,0 +1,68 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "KALB",
+            "CityName": "Kaltag",
+            "CountryName": "United States",
+            "IataCode": "KAL",
+            "Name": "Kaltag",
+            "PlaceId": 63052,
+            "SkyscannerCode": "KAL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "CHIA",
+            "CityName": "Chicago",
+            "CountryName": "United States",
+            "IataCode": "ORD",
+            "Name": "Chicago O'Hare International",
+            "PlaceId": 73076,
+            "SkyscannerCode": "ORD",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 687.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-04-28T00:00:00",
+                "DestinationId": 73076,
+                "OriginId": 63052
+            },
+            "QuoteDateTime": "2017-04-15T23:02:02",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 63052,
+            "Price": 687.0,
+            "QuoteDateTime": "2017-04-15T23:02:02",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

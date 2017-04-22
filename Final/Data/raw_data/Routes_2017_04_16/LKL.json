@@ -1,0 +1,205 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1001,
+            "Name": "Norwegian"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Bulgaria",
+            "PlaceId": 887,
+            "SkyscannerCode": "BG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Greece",
+            "PlaceId": 1138,
+            "SkyscannerCode": "GR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Croatia",
+            "PlaceId": 1186,
+            "SkyscannerCode": "HR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Italy",
+            "PlaceId": 1236,
+            "SkyscannerCode": "IT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Kosovo",
+            "PlaceId": 1327,
+            "SkyscannerCode": "KO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Montenegro",
+            "PlaceId": 1413,
+            "SkyscannerCode": "ME",
+            "Type": "Country"
+        },
+        {
+            "Name": "Norway",
+            "PlaceId": 1471,
+            "SkyscannerCode": "NO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Poland",
+            "PlaceId": 1564,
+            "SkyscannerCode": "PL",
+            "Type": "Country"
+        },
+        {
+            "Name": "Portugal",
+            "PlaceId": 1572,
+            "SkyscannerCode": "PT",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LAKE",
+            "CityName": "Lakselv",
+            "CountryName": "Norway",
+            "IataCode": "LKL",
+            "Name": "Lakselv",
+            "PlaceId": 65836,
+            "SkyscannerCode": "LKL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "OSLO",
+            "CityName": "Oslo",
+            "CountryName": "Norway",
+            "IataCode": "OSL",
+            "Name": "Oslo Gardermoen",
+            "PlaceId": 73132,
+            "SkyscannerCode": "OSL",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 125.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1001
+                ],
+                "DepartureDate": "2017-07-02T00:00:00",
+                "DestinationId": 73132,
+                "OriginId": 65836
+            },
+            "QuoteDateTime": "2017-04-18T12:43:25",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 65836
+        },
+        {
+            "DestinationId": 1413,
+            "OriginId": 65836
+        },
+        {
+            "DestinationId": 1043,
+            "OriginId": 65836
+        },
+        {
+            "DestinationId": 1572,
+            "OriginId": 65836
+        },
+        {
+            "DestinationId": 1236,
+            "OriginId": 65836
+        },
+        {
+            "DestinationId": 1327,
+            "OriginId": 65836
+        },
+        {
+            "DestinationId": 1186,
+            "OriginId": 65836
+        },
+        {
+            "DestinationId": 1138,
+            "OriginId": 65836
+        },
+        {
+            "DestinationId": 1471,
+            "OriginId": 65836,
+            "Price": 125.0,
+            "QuoteDateTime": "2017-04-18T12:43:25",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 887,
+            "OriginId": 65836
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 65836
+        },
+        {
+            "DestinationId": 1564,
+            "OriginId": 65836
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 65836
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 65836
+        }
+    ]
+}

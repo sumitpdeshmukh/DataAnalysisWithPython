@@ -1,0 +1,122 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1661,
+            "Name": "Hunnu Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Kazakhstan",
+            "PlaceId": 1338,
+            "SkyscannerCode": "KZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mongolia",
+            "PlaceId": 1422,
+            "SkyscannerCode": "MN",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ALAA",
+            "CityName": "Almaty",
+            "CountryName": "Kazakhstan",
+            "IataCode": "ALA",
+            "Name": "Almaty",
+            "PlaceId": 40529,
+            "SkyscannerCode": "ALA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ULGA",
+            "CityName": "Ulgit",
+            "CountryName": "Mongolia",
+            "IataCode": "ULG",
+            "Name": "Ulgit",
+            "PlaceId": 86615,
+            "SkyscannerCode": "ULG",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ULNA",
+            "CityName": "Ulaanbaatar",
+            "CountryName": "Mongolia",
+            "IataCode": "ULN",
+            "Name": "Ulaanbaatar",
+            "PlaceId": 86622,
+            "SkyscannerCode": "ULN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 144.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1661
+                ],
+                "DepartureDate": "2017-08-13T00:00:00",
+                "DestinationId": 86622,
+                "OriginId": 86615
+            },
+            "QuoteDateTime": "2017-03-18T17:13:24",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 809.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-03T00:00:00",
+                "DestinationId": 40529,
+                "OriginId": 86615
+            },
+            "QuoteDateTime": "2017-04-11T10:52:28",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1422,
+            "OriginId": 86615,
+            "Price": 144.0,
+            "QuoteDateTime": "2017-03-18T17:13:24",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 86615
+        },
+        {
+            "DestinationId": 1338,
+            "OriginId": 86615,
+            "Price": 809.0,
+            "QuoteDateTime": "2017-04-11T10:52:28",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

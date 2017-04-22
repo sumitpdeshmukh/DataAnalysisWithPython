@@ -1,0 +1,145 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Micronesia",
+            "PlaceId": 1085,
+            "SkyscannerCode": "FM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Papua New Guinea",
+            "PlaceId": 1559,
+            "SkyscannerCode": "PG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Philippines",
+            "PlaceId": 1560,
+            "SkyscannerCode": "PH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Turkey",
+            "PlaceId": 1762,
+            "SkyscannerCode": "TR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Ukraine",
+            "PlaceId": 1793,
+            "SkyscannerCode": "UA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ANKA",
+            "CityName": "Ankara",
+            "CountryName": "Turkey",
+            "IataCode": "ESB",
+            "Name": "Ankara Esenboga",
+            "PlaceId": 50082,
+            "SkyscannerCode": "ESB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "KIEV",
+            "CityName": "Kyiv",
+            "CountryName": "Ukraine",
+            "IataCode": "KBP",
+            "Name": "Kyiv Boryspil",
+            "PlaceId": 63104,
+            "SkyscannerCode": "KBP",
+            "Type": "Station"
+        },
+        {
+            "CityId": "KIEP",
+            "CityName": "Kieta",
+            "CountryName": "Papua New Guinea",
+            "IataCode": "KIE",
+            "Name": "Kieta",
+            "PlaceId": 63429,
+            "SkyscannerCode": "KIE",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 4388.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-22T00:00:00",
+                "DestinationId": 63104,
+                "OriginId": 63429
+            },
+            "QuoteDateTime": "2017-04-11T18:44:22",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 3986.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-04-29T00:00:00",
+                "DestinationId": 50082,
+                "OriginId": 63429
+            },
+            "QuoteDateTime": "2017-04-14T06:46:30",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1560,
+            "OriginId": 63429
+        },
+        {
+            "DestinationId": 1085,
+            "OriginId": 63429
+        },
+        {
+            "DestinationId": 1559,
+            "OriginId": 63429
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 63429
+        },
+        {
+            "DestinationId": 1793,
+            "OriginId": 63429,
+            "Price": 4388.0,
+            "QuoteDateTime": "2017-04-11T18:44:22",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1762,
+            "OriginId": 63429,
+            "Price": 3986.0,
+            "QuoteDateTime": "2017-04-14T06:46:30",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

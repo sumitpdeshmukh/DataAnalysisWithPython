@@ -1,0 +1,115 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1825,
+            "Name": "Virgin Australia"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cocos (Keeling) Islands",
+            "PlaceId": 931,
+            "SkyscannerCode": "CC",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Zealand",
+            "PlaceId": 1482,
+            "SkyscannerCode": "NZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Africa",
+            "PlaceId": 2033,
+            "SkyscannerCode": "ZA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "PERA",
+            "CityName": "Perth",
+            "CountryName": "Australia",
+            "IataCode": "PER",
+            "Name": "Perth",
+            "PlaceId": 74770,
+            "SkyscannerCode": "PER",
+            "Type": "Station"
+        },
+        {
+            "CityId": "XCHA",
+            "CityName": "Christmas Island",
+            "CountryName": "Christmas Island",
+            "IataCode": "XCH",
+            "Name": "Christmas Island",
+            "PlaceId": 93096,
+            "SkyscannerCode": "XCH",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 406.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1825
+                ],
+                "DepartureDate": "2017-09-26T00:00:00",
+                "DestinationId": 74770,
+                "OriginId": 93096
+            },
+            "QuoteDateTime": "2017-03-14T14:53:30",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1482,
+            "OriginId": 93096
+        },
+        {
+            "DestinationId": 837,
+            "OriginId": 93096
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 93096,
+            "Price": 406.0,
+            "QuoteDateTime": "2017-03-14T14:53:30",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 2033,
+            "OriginId": 93096
+        },
+        {
+            "DestinationId": 931,
+            "OriginId": 93096
+        }
+    ]
+}

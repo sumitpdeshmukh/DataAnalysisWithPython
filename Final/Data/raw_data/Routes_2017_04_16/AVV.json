@@ -1,0 +1,275 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1281,
+            "Name": "Jetstar"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Chile",
+            "PlaceId": 940,
+            "SkyscannerCode": "CL",
+            "Type": "Country"
+        },
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Fiji",
+            "PlaceId": 1082,
+            "SkyscannerCode": "FJ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hong Kong",
+            "PlaceId": 1179,
+            "SkyscannerCode": "HK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Indonesia",
+            "PlaceId": 1220,
+            "SkyscannerCode": "ID",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Korea",
+            "PlaceId": 1330,
+            "SkyscannerCode": "KR",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Caledonia",
+            "PlaceId": 1459,
+            "SkyscannerCode": "NC",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Zealand",
+            "PlaceId": 1482,
+            "SkyscannerCode": "NZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Papua New Guinea",
+            "PlaceId": 1559,
+            "SkyscannerCode": "PG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Philippines",
+            "PlaceId": 1560,
+            "SkyscannerCode": "PH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Thailand",
+            "PlaceId": 1752,
+            "SkyscannerCode": "TH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Taiwan",
+            "PlaceId": 1767,
+            "SkyscannerCode": "TW",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "Name": "Vietnam",
+            "PlaceId": 1854,
+            "SkyscannerCode": "VN",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Africa",
+            "PlaceId": 2033,
+            "SkyscannerCode": "ZA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "MELA",
+            "CityName": "Melbourne",
+            "CountryName": "Australia",
+            "IataCode": "AVV",
+            "Name": "Melbourne Avalon",
+            "PlaceId": 41030,
+            "SkyscannerCode": "AVV",
+            "Type": "Station"
+        },
+        {
+            "CityId": "HBAA",
+            "CityName": "Hobart",
+            "CountryName": "Australia",
+            "IataCode": "HBA",
+            "Name": "Hobart",
+            "PlaceId": 56177,
+            "SkyscannerCode": "HBA",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 31.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1281
+                ],
+                "DepartureDate": "2017-05-29T00:00:00",
+                "DestinationId": 56177,
+                "OriginId": 41030
+            },
+            "QuoteDateTime": "2017-04-17T12:57:49",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1752,
+            "OriginId": 41030
+        },
+        {
+            "DestinationId": 1703,
+            "OriginId": 41030
+        },
+        {
+            "DestinationId": 1767,
+            "OriginId": 41030
+        },
+        {
+            "DestinationId": 1854,
+            "OriginId": 41030
+        },
+        {
+            "DestinationId": 1560,
+            "OriginId": 41030
+        },
+        {
+            "DestinationId": 1220,
+            "OriginId": 41030
+        },
+        {
+            "DestinationId": 1179,
+            "OriginId": 41030
+        },
+        {
+            "DestinationId": 1459,
+            "OriginId": 41030
+        },
+        {
+            "DestinationId": 1482,
+            "OriginId": 41030
+        },
+        {
+            "DestinationId": 940,
+            "OriginId": 41030
+        },
+        {
+            "DestinationId": 1082,
+            "OriginId": 41030
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 41030
+        },
+        {
+            "DestinationId": 837,
+            "OriginId": 41030
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 41030
+        },
+        {
+            "DestinationId": 1559,
+            "OriginId": 41030
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 41030,
+            "Price": 31.0,
+            "QuoteDateTime": "2017-04-17T12:57:49",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 41030
+        },
+        {
+            "DestinationId": 1330,
+            "OriginId": 41030
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 41030
+        },
+        {
+            "DestinationId": 2033,
+            "OriginId": 41030
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 41030
+        }
+    ]
+}

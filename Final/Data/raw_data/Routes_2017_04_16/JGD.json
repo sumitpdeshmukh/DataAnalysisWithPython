@@ -1,0 +1,205 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1273,
+            "Name": "Joy Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Bangladesh",
+            "PlaceId": 884,
+            "SkyscannerCode": "BD",
+            "Type": "Country"
+        },
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Indonesia",
+            "PlaceId": 1220,
+            "SkyscannerCode": "ID",
+            "Type": "Country"
+        },
+        {
+            "Name": "India",
+            "PlaceId": 1230,
+            "SkyscannerCode": "IN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Italy",
+            "PlaceId": 1236,
+            "SkyscannerCode": "IT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Laos",
+            "PlaceId": 1361,
+            "SkyscannerCode": "LA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Myanmar",
+            "PlaceId": 1421,
+            "SkyscannerCode": "MM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Northern Mariana Islands",
+            "PlaceId": 1424,
+            "SkyscannerCode": "MP",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mauritius",
+            "PlaceId": 1429,
+            "SkyscannerCode": "MU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Thailand",
+            "PlaceId": 1752,
+            "SkyscannerCode": "TH",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "Name": "Vietnam",
+            "PlaceId": 1854,
+            "SkyscannerCode": "VN",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CJGD",
+            "CityName": "Jiagedaqi District",
+            "CountryName": "China",
+            "IataCode": "JGD",
+            "Name": "Jiagedaqi Airport",
+            "PlaceId": 61028,
+            "SkyscannerCode": "JGD",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MOHE",
+            "CityName": "Mohe",
+            "CountryName": "China",
+            "IataCode": "OHE",
+            "Name": "Mohe",
+            "PlaceId": 72597,
+            "SkyscannerCode": "OHE",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 91.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1273
+                ],
+                "DepartureDate": "2017-06-28T00:00:00",
+                "DestinationId": 72597,
+                "OriginId": 61028
+            },
+            "QuoteDateTime": "2017-04-16T09:05:37",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 942,
+            "OriginId": 61028,
+            "Price": 91.0,
+            "QuoteDateTime": "2017-04-16T09:05:37",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1752,
+            "OriginId": 61028
+        },
+        {
+            "DestinationId": 1854,
+            "OriginId": 61028
+        },
+        {
+            "DestinationId": 1220,
+            "OriginId": 61028
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 61028
+        },
+        {
+            "DestinationId": 1429,
+            "OriginId": 61028
+        },
+        {
+            "DestinationId": 1424,
+            "OriginId": 61028
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 61028
+        },
+        {
+            "DestinationId": 1236,
+            "OriginId": 61028
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 61028
+        },
+        {
+            "DestinationId": 1421,
+            "OriginId": 61028
+        },
+        {
+            "DestinationId": 1361,
+            "OriginId": 61028
+        },
+        {
+            "DestinationId": 1230,
+            "OriginId": 61028
+        },
+        {
+            "DestinationId": 884,
+            "OriginId": 61028
+        }
+    ]
+}

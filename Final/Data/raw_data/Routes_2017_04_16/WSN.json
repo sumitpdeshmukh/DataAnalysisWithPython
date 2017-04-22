@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1139,
+            "Name": "Grant Aviation"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CLPA",
+            "CityName": "Clarks Point",
+            "CountryName": "United States",
+            "IataCode": "CLP",
+            "Name": "Clarks Point",
+            "PlaceId": 45152,
+            "SkyscannerCode": "CLP",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WSNA",
+            "CityName": "South Naknek",
+            "CountryName": "United States",
+            "IataCode": "WSN",
+            "Name": "South Naknek",
+            "PlaceId": 91566,
+            "SkyscannerCode": "WSN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 74.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1139
+                ],
+                "DepartureDate": "2017-07-10T00:00:00",
+                "DestinationId": 45152,
+                "OriginId": 91566
+            },
+            "QuoteDateTime": "2017-03-28T09:24:29",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 91566,
+            "Price": 74.0,
+            "QuoteDateTime": "2017-03-28T09:24:29",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

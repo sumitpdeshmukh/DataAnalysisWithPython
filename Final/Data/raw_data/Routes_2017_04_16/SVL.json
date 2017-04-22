@@ -1,0 +1,88 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "Finland",
+            "PlaceId": 1081,
+            "SkyscannerCode": "FI",
+            "Type": "Country"
+        },
+        {
+            "Name": "Norway",
+            "PlaceId": 1471,
+            "SkyscannerCode": "NO",
+            "Type": "Country"
+        },
+        {
+            "CityId": "OSLO",
+            "CityName": "Oslo",
+            "CountryName": "Norway",
+            "IataCode": "OSL",
+            "Name": "Oslo Gardermoen",
+            "PlaceId": 73132,
+            "SkyscannerCode": "OSL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SAVO",
+            "CityName": "Savonlinna",
+            "CountryName": "Finland",
+            "IataCode": "SVL",
+            "Name": "Savonlinna",
+            "PlaceId": 82492,
+            "SkyscannerCode": "SVL",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 1226.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-13T00:00:00",
+                "DestinationId": 73132,
+                "OriginId": 82492
+            },
+            "QuoteDateTime": "2017-04-09T20:04:33",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1081,
+            "OriginId": 82492
+        },
+        {
+            "DestinationId": 1043,
+            "OriginId": 82492
+        },
+        {
+            "DestinationId": 1471,
+            "OriginId": 82492,
+            "Price": 1226.0,
+            "QuoteDateTime": "2017-04-09T20:04:33",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 360,
+            "Name": "Era Aviation"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ANCA",
+            "CityName": "Anchorage",
+            "CountryName": "United States",
+            "IataCode": "ANC",
+            "Name": "Anchorage International",
+            "PlaceId": 40627,
+            "SkyscannerCode": "ANC",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ORVA",
+            "CityName": "Noorvik",
+            "CountryName": "United States",
+            "IataCode": "ORV",
+            "Name": "Noorvik",
+            "PlaceId": 73094,
+            "SkyscannerCode": "ORV",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 313.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    360
+                ],
+                "DepartureDate": "2017-06-21T00:00:00",
+                "DestinationId": 40627,
+                "OriginId": 73094
+            },
+            "QuoteDateTime": "2017-04-13T05:06:27",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 73094,
+            "Price": 313.0,
+            "QuoteDateTime": "2017-04-13T05:06:27",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

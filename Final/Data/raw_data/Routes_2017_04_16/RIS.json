@@ -1,0 +1,125 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1276,
+            "Name": "Japan Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Guam",
+            "PlaceId": 1141,
+            "SkyscannerCode": "GU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hong Kong",
+            "PlaceId": 1179,
+            "SkyscannerCode": "HK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Korea",
+            "PlaceId": 1330,
+            "SkyscannerCode": "KR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Thailand",
+            "PlaceId": 1752,
+            "SkyscannerCode": "TH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Taiwan",
+            "PlaceId": 1767,
+            "SkyscannerCode": "TW",
+            "Type": "Country"
+        },
+        {
+            "CityId": "SPKA",
+            "CityName": "Sapporo",
+            "CountryName": "Japan",
+            "IataCode": "OKD",
+            "Name": "Sapporo Okadama",
+            "PlaceId": 72740,
+            "SkyscannerCode": "OKD",
+            "Type": "Station"
+        },
+        {
+            "CityId": "JRIS",
+            "CityName": "Rishiri",
+            "CountryName": "Japan",
+            "IataCode": "RIS",
+            "Name": "Rishiri",
+            "PlaceId": 79571,
+            "SkyscannerCode": "RIS",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 99.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1276
+                ],
+                "DepartureDate": "2017-05-29T00:00:00",
+                "DestinationId": 72740,
+                "OriginId": 79571
+            },
+            "QuoteDateTime": "2017-03-31T14:00:24",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1752,
+            "OriginId": 79571
+        },
+        {
+            "DestinationId": 1767,
+            "OriginId": 79571
+        },
+        {
+            "DestinationId": 1179,
+            "OriginId": 79571
+        },
+        {
+            "DestinationId": 1141,
+            "OriginId": 79571
+        },
+        {
+            "DestinationId": 1330,
+            "OriginId": 79571
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 79571,
+            "Price": 99.0,
+            "QuoteDateTime": "2017-03-31T14:00:24",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

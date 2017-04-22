@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1824,
+            "Name": "Conviasa"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Venezuela",
+            "PlaceId": 1845,
+            "SkyscannerCode": "VE",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CCSA",
+            "CityName": "Caracas",
+            "CountryName": "Venezuela",
+            "IataCode": "CCS",
+            "Name": "Caracas",
+            "PlaceId": 44723,
+            "SkyscannerCode": "CCS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "CUMA",
+            "CityName": "Cumana",
+            "CountryName": "Venezuela",
+            "IataCode": "CUM",
+            "Name": "Cumana",
+            "PlaceId": 45581,
+            "SkyscannerCode": "CUM",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 1749.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1824
+                ],
+                "DepartureDate": "2017-04-27T00:00:00",
+                "DestinationId": 44723,
+                "OriginId": 45581
+            },
+            "QuoteDateTime": "2017-04-16T13:59:37",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1845,
+            "OriginId": 45581,
+            "Price": 1749.0,
+            "QuoteDateTime": "2017-04-16T13:59:37",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

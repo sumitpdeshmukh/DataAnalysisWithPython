@@ -1,0 +1,112 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 55,
+            "Name": "RusLine"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ATLA",
+            "CityName": "Atlanta",
+            "CountryName": "United States",
+            "IataCode": "ATL",
+            "Name": "Atlanta Hartsfield-Jackson",
+            "PlaceId": 40924,
+            "SkyscannerCode": "ATL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MOSC",
+            "CityName": "Moscow",
+            "CountryName": "Russia",
+            "IataCode": "DME",
+            "Name": "Moscow Domodedovo",
+            "PlaceId": 47493,
+            "SkyscannerCode": "DME",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ELIS",
+            "CityName": "Elista",
+            "CountryName": "Russia",
+            "IataCode": "ESL",
+            "Name": "Elista",
+            "PlaceId": 50092,
+            "SkyscannerCode": "ESL",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 203.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    55
+                ],
+                "DepartureDate": "2017-06-25T00:00:00",
+                "DestinationId": 47493,
+                "OriginId": 50092
+            },
+            "QuoteDateTime": "2017-04-07T11:15:02",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 3881.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-04-27T00:00:00",
+                "DestinationId": 40924,
+                "OriginId": 50092
+            },
+            "QuoteDateTime": "2017-04-08T18:49:41",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1669,
+            "OriginId": 50092,
+            "Price": 203.0,
+            "QuoteDateTime": "2017-04-07T11:15:02",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 50092,
+            "Price": 3881.0,
+            "QuoteDateTime": "2017-04-08T18:49:41",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

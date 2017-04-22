@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1843,
+            "Name": "ViaAir"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CLTA",
+            "CityName": "Charlotte",
+            "CountryName": "United States",
+            "IataCode": "CLT",
+            "Name": "Charlotte Douglas",
+            "PlaceId": 45156,
+            "SkyscannerCode": "CLT",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SHDA",
+            "CityName": "Staunton",
+            "CountryName": "United States",
+            "IataCode": "SHD",
+            "Name": "Staunton",
+            "PlaceId": 81812,
+            "SkyscannerCode": "SHD",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 43.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1843
+                ],
+                "DepartureDate": "2017-05-24T00:00:00",
+                "DestinationId": 45156,
+                "OriginId": 81812
+            },
+            "QuoteDateTime": "2017-03-26T11:54:45",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 81812,
+            "Price": 43.0,
+            "QuoteDateTime": "2017-03-26T11:54:45",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

@@ -1,0 +1,272 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 230,
+            "Name": "VietJet Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hong Kong",
+            "PlaceId": 1179,
+            "SkyscannerCode": "HK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cambodia",
+            "PlaceId": 1320,
+            "SkyscannerCode": "KH",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Korea",
+            "PlaceId": 1330,
+            "SkyscannerCode": "KR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Myanmar",
+            "PlaceId": 1421,
+            "SkyscannerCode": "MM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Malaysia",
+            "PlaceId": 1433,
+            "SkyscannerCode": "MY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Philippines",
+            "PlaceId": 1560,
+            "SkyscannerCode": "PH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Thailand",
+            "PlaceId": 1752,
+            "SkyscannerCode": "TH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Taiwan",
+            "PlaceId": 1767,
+            "SkyscannerCode": "TW",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "Name": "Vietnam",
+            "PlaceId": 1854,
+            "SkyscannerCode": "VN",
+            "Type": "Country"
+        },
+        {
+            "CityId": "WASA",
+            "CityName": "Washington",
+            "CountryName": "United States",
+            "IataCode": "BWI",
+            "Name": "Baltimore Washington International",
+            "PlaceId": 43369,
+            "SkyscannerCode": "BWI",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NHAV",
+            "CityName": "Nha Trang",
+            "CountryName": "Vietnam",
+            "IataCode": "CXR",
+            "Name": "Nha Trang Cam Ranh",
+            "PlaceId": 45730,
+            "SkyscannerCode": "CXR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "THDV",
+            "CityName": "Thanh Hoa",
+            "CountryName": "Vietnam",
+            "IataCode": "THD",
+            "Name": "Thanh Hoa Tho Xuan",
+            "PlaceId": 84116,
+            "SkyscannerCode": "THD",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 27.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    230
+                ],
+                "DepartureDate": "2017-09-22T00:00:00",
+                "DestinationId": 45730,
+                "OriginId": 84116
+            },
+            "QuoteDateTime": "2017-03-26T05:53:29",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 2690.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-09T00:00:00",
+                "DestinationId": 43369,
+                "OriginId": 84116
+            },
+            "QuoteDateTime": "2017-04-15T03:51:44",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1752,
+            "OriginId": 84116
+        },
+        {
+            "DestinationId": 1703,
+            "OriginId": 84116
+        },
+        {
+            "DestinationId": 1767,
+            "OriginId": 84116
+        },
+        {
+            "DestinationId": 1854,
+            "OriginId": 84116,
+            "Price": 27.0,
+            "QuoteDateTime": "2017-03-26T05:53:29",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1560,
+            "OriginId": 84116
+        },
+        {
+            "DestinationId": 1433,
+            "OriginId": 84116
+        },
+        {
+            "DestinationId": 1179,
+            "OriginId": 84116
+        },
+        {
+            "DestinationId": 1320,
+            "OriginId": 84116
+        },
+        {
+            "DestinationId": 1421,
+            "OriginId": 84116
+        },
+        {
+            "DestinationId": 837,
+            "OriginId": 84116
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 84116
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 84116
+        },
+        {
+            "DestinationId": 1330,
+            "OriginId": 84116
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 84116
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 84116
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 84116
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 84116
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 84116,
+            "Price": 2690.0,
+            "QuoteDateTime": "2017-04-15T03:51:44",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

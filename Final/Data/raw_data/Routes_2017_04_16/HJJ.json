@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1106,
+            "Name": "Tianjin Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "CityId": "HJJA",
+            "CityName": "Huai Hua",
+            "CountryName": "China",
+            "IataCode": "HJJ",
+            "Name": "Huai Hua",
+            "PlaceId": 56570,
+            "SkyscannerCode": "HJJ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "XIAN",
+            "CityName": "Xi An",
+            "CountryName": "China",
+            "IataCode": "XIY",
+            "Name": "Xi An Xianyang",
+            "PlaceId": 93401,
+            "SkyscannerCode": "XIY",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 69.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1106
+                ],
+                "DepartureDate": "2017-05-20T00:00:00",
+                "DestinationId": 93401,
+                "OriginId": 56570
+            },
+            "QuoteDateTime": "2017-04-16T17:49:46",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 942,
+            "OriginId": 56570,
+            "Price": 69.0,
+            "QuoteDateTime": "2017-04-16T17:49:46",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

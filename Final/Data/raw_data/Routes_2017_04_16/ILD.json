@@ -1,0 +1,284 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1218,
+            "Name": "Iberia"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Antigua and Barbuda",
+            "PlaceId": 839,
+            "SkyscannerCode": "AG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Austria",
+            "PlaceId": 852,
+            "SkyscannerCode": "AT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Barbados",
+            "PlaceId": 882,
+            "SkyscannerCode": "BB",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cuba",
+            "PlaceId": 949,
+            "SkyscannerCode": "CU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cape Verde",
+            "PlaceId": 950,
+            "SkyscannerCode": "CV",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cyprus",
+            "PlaceId": 953,
+            "SkyscannerCode": "CY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Dominican Republic",
+            "PlaceId": 991,
+            "SkyscannerCode": "DO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Egypt",
+            "PlaceId": 1031,
+            "SkyscannerCode": "EG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "Finland",
+            "PlaceId": 1081,
+            "SkyscannerCode": "FI",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Gambia",
+            "PlaceId": 1133,
+            "SkyscannerCode": "GM",
+            "Type": "Country"
+        },
+        {
+            "Name": "India",
+            "PlaceId": 1230,
+            "SkyscannerCode": "IN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Saint Lucia",
+            "PlaceId": 1363,
+            "SkyscannerCode": "LC",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mauritius",
+            "PlaceId": 1429,
+            "SkyscannerCode": "MU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Africa",
+            "PlaceId": 2033,
+            "SkyscannerCode": "ZA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LLEI",
+            "CityName": "Lleida",
+            "CountryName": "Spain",
+            "IataCode": "ILD",
+            "Name": "Lleida",
+            "PlaceId": 58964,
+            "SkyscannerCode": "ILD",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LOND",
+            "CityName": "London",
+            "CountryName": "United Kingdom",
+            "IataCode": "LCY",
+            "Name": "London City",
+            "PlaceId": 65465,
+            "SkyscannerCode": "LCY",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MENO",
+            "CityName": "Menorca",
+            "CountryName": "Spain",
+            "IataCode": "MAH",
+            "Name": "Menorca",
+            "PlaceId": 67656,
+            "SkyscannerCode": "MAH",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 40.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1218
+                ],
+                "DepartureDate": "2017-08-11T00:00:00",
+                "DestinationId": 67656,
+                "OriginId": 58964
+            },
+            "QuoteDateTime": "2017-04-16T17:37:32",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 207.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1218
+                ],
+                "DepartureDate": "2017-07-09T00:00:00",
+                "DestinationId": 65465,
+                "OriginId": 58964
+            },
+            "QuoteDateTime": "2017-04-11T08:48:42",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 950,
+            "OriginId": 58964
+        },
+        {
+            "DestinationId": 1031,
+            "OriginId": 58964
+        },
+        {
+            "DestinationId": 1133,
+            "OriginId": 58964
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 58964
+        },
+        {
+            "DestinationId": 953,
+            "OriginId": 58964
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 58964
+        },
+        {
+            "DestinationId": 1429,
+            "OriginId": 58964
+        },
+        {
+            "DestinationId": 839,
+            "OriginId": 58964
+        },
+        {
+            "DestinationId": 991,
+            "OriginId": 58964
+        },
+        {
+            "DestinationId": 1363,
+            "OriginId": 58964
+        },
+        {
+            "DestinationId": 882,
+            "OriginId": 58964
+        },
+        {
+            "DestinationId": 949,
+            "OriginId": 58964
+        },
+        {
+            "DestinationId": 1230,
+            "OriginId": 58964
+        },
+        {
+            "DestinationId": 1081,
+            "OriginId": 58964
+        },
+        {
+            "DestinationId": 852,
+            "OriginId": 58964
+        },
+        {
+            "DestinationId": 1043,
+            "OriginId": 58964,
+            "Price": 40.0,
+            "QuoteDateTime": "2017-04-16T17:37:32",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 2033,
+            "OriginId": 58964
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 58964
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 58964,
+            "Price": 207.0,
+            "QuoteDateTime": "2017-04-11T08:48:42",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

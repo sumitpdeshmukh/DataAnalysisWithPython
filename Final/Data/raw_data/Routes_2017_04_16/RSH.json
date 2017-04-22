@@ -1,0 +1,68 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "WASA",
+            "CityName": "Washington",
+            "CountryName": "United States",
+            "IataCode": "BWI",
+            "Name": "Baltimore Washington International",
+            "PlaceId": 43369,
+            "SkyscannerCode": "BWI",
+            "Type": "Station"
+        },
+        {
+            "CityId": "RSHA",
+            "CityName": "Russian Mission",
+            "CountryName": "United States",
+            "IataCode": "RSH",
+            "Name": "Russian Mission",
+            "PlaceId": 80040,
+            "SkyscannerCode": "RSH",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 535.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-04T00:00:00",
+                "DestinationId": 43369,
+                "OriginId": 80040
+            },
+            "QuoteDateTime": "2017-03-26T03:31:42",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 80040,
+            "Price": 535.0,
+            "QuoteDateTime": "2017-03-26T03:31:42",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

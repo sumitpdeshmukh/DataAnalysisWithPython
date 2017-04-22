@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1555,
+            "Name": "Polar airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "SUYA",
+            "CityName": "Suntar",
+            "CountryName": "Russia",
+            "IataCode": "SUY",
+            "Name": "Suntar",
+            "PlaceId": 82457,
+            "SkyscannerCode": "SUY",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YAKU",
+            "CityName": "Yakutsk",
+            "CountryName": "Russia",
+            "IataCode": "YKS",
+            "Name": "Yakutsk",
+            "PlaceId": 95795,
+            "SkyscannerCode": "YKS",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 225.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1555
+                ],
+                "DepartureDate": "2017-05-08T00:00:00",
+                "DestinationId": 95795,
+                "OriginId": 82457
+            },
+            "QuoteDateTime": "2017-03-30T07:39:27",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1669,
+            "OriginId": 82457,
+            "Price": 225.0,
+            "QuoteDateTime": "2017-03-30T07:39:27",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

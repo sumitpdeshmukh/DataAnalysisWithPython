@@ -1,0 +1,115 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1482,
+            "Name": "Air New Zealand"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cook Islands",
+            "PlaceId": 939,
+            "SkyscannerCode": "CK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Fiji",
+            "PlaceId": 1082,
+            "SkyscannerCode": "FJ",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Zealand",
+            "PlaceId": 1482,
+            "SkyscannerCode": "NZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "CityId": "IVCN",
+            "CityName": "Invercargill",
+            "CountryName": "New Zealand",
+            "IataCode": "IVC",
+            "Name": "Invercargill",
+            "PlaceId": 59443,
+            "SkyscannerCode": "IVC",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NANF",
+            "CityName": "Nadi",
+            "CountryName": "Fiji",
+            "IataCode": "NAN",
+            "Name": "Nadi",
+            "PlaceId": 69966,
+            "SkyscannerCode": "NAN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 365.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1482
+                ],
+                "DepartureDate": "2017-07-05T00:00:00",
+                "DestinationId": 69966,
+                "OriginId": 59443
+            },
+            "QuoteDateTime": "2017-04-06T14:11:35",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1703,
+            "OriginId": 59443
+        },
+        {
+            "DestinationId": 939,
+            "OriginId": 59443
+        },
+        {
+            "DestinationId": 1482,
+            "OriginId": 59443
+        },
+        {
+            "DestinationId": 1082,
+            "OriginId": 59443,
+            "Price": 365.0,
+            "QuoteDateTime": "2017-04-06T14:11:35",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 59443
+        }
+    ]
+}

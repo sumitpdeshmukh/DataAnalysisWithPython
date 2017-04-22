@@ -1,0 +1,125 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 835,
+            "Name": "Air Canada"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cuba",
+            "PlaceId": 949,
+            "SkyscannerCode": "CU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Dominican Republic",
+            "PlaceId": 991,
+            "SkyscannerCode": "DO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CHIA",
+            "CityName": "Chicago",
+            "CountryName": "United States",
+            "IataCode": "ORD",
+            "Name": "Chicago O'Hare International",
+            "PlaceId": 73076,
+            "SkyscannerCode": "ORD",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YYRA",
+            "CityName": "Goose Bay",
+            "CountryName": "Canada",
+            "IataCode": "YYR",
+            "Name": "Goose Bay",
+            "PlaceId": 96466,
+            "SkyscannerCode": "YYR",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 348.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    835
+                ],
+                "DepartureDate": "2017-05-14T00:00:00",
+                "DestinationId": 73076,
+                "OriginId": 96466
+            },
+            "QuoteDateTime": "2017-04-13T05:59:58",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 96466
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 96466
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 96466,
+            "Price": 348.0,
+            "QuoteDateTime": "2017-04-13T05:59:58",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 991,
+            "OriginId": 96466
+        },
+        {
+            "DestinationId": 949,
+            "OriginId": 96466
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 96466
+        }
+    ]
+}

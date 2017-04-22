@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 210,
+            "Name": "Boutique Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "MSPA",
+            "CityName": "Minneapolis",
+            "CountryName": "United States",
+            "IataCode": "MSP",
+            "Name": "Minneapolis St Paul",
+            "PlaceId": 68528,
+            "SkyscannerCode": "MSP",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TVFA",
+            "CityName": "Thief River Falls",
+            "CountryName": "United States",
+            "IataCode": "TVF",
+            "Name": "Thief River Falls",
+            "PlaceId": 84790,
+            "SkyscannerCode": "TVF",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 60.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    210
+                ],
+                "DepartureDate": "2017-08-01T00:00:00",
+                "DestinationId": 68528,
+                "OriginId": 84790
+            },
+            "QuoteDateTime": "2017-04-18T22:30:10",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 84790,
+            "Price": 60.0,
+            "QuoteDateTime": "2017-04-18T22:30:10",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

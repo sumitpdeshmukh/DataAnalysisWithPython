@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 851,
+            "Name": "Alaska Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "DUTA",
+            "CityName": "Dutch Harbor",
+            "CountryName": "United States",
+            "IataCode": "DUT",
+            "Name": "Dutch Harbor",
+            "PlaceId": 47892,
+            "SkyscannerCode": "DUT",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SEAA",
+            "CityName": "Seattle",
+            "CountryName": "United States",
+            "IataCode": "SEA",
+            "Name": "Seattle / Tacoma International",
+            "PlaceId": 81665,
+            "SkyscannerCode": "SEA",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 567.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    851
+                ],
+                "DepartureDate": "2017-06-12T00:00:00",
+                "DestinationId": 81665,
+                "OriginId": 47892
+            },
+            "QuoteDateTime": "2017-04-16T22:51:28",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 47892,
+            "Price": 567.0,
+            "QuoteDateTime": "2017-04-16T22:51:28",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "YTOA",
+            "CityName": "Toronto",
+            "CountryName": "Canada",
+            "IataCode": "YTZ",
+            "Name": "Toronto Island",
+            "PlaceId": 96234,
+            "SkyscannerCode": "YTZ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YVMA",
+            "CityName": "Qikiqtarjuaq",
+            "CountryName": "Canada",
+            "IataCode": "YVM",
+            "Name": "Qikiqtarjuaq",
+            "PlaceId": 96317,
+            "SkyscannerCode": "YVM",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 1345.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-14T00:00:00",
+                "DestinationId": 96234,
+                "OriginId": 96317
+            },
+            "QuoteDateTime": "2017-04-17T00:18:32",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 96317,
+            "Price": 1345.0,
+            "QuoteDateTime": "2017-04-17T00:18:32",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

@@ -1,0 +1,245 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 840,
+            "Name": "Air Algerie"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Burkina Faso",
+            "PlaceId": 886,
+            "SkyscannerCode": "BF",
+            "Type": "Country"
+        },
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Algeria",
+            "PlaceId": 1002,
+            "SkyscannerCode": "DZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Egypt",
+            "PlaceId": 1031,
+            "SkyscannerCode": "EG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hungary",
+            "PlaceId": 1189,
+            "SkyscannerCode": "HU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Jordan",
+            "PlaceId": 1279,
+            "SkyscannerCode": "JO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Lebanon",
+            "PlaceId": 1362,
+            "SkyscannerCode": "LB",
+            "Type": "Country"
+        },
+        {
+            "Name": "Niger",
+            "PlaceId": 1461,
+            "SkyscannerCode": "NE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Portugal",
+            "PlaceId": 1572,
+            "SkyscannerCode": "PT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Saudi Arabia",
+            "PlaceId": 1697,
+            "SkyscannerCode": "SA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Senegal",
+            "PlaceId": 1710,
+            "SkyscannerCode": "SN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Tunisia",
+            "PlaceId": 1758,
+            "SkyscannerCode": "TN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Turkey",
+            "PlaceId": 1762,
+            "SkyscannerCode": "TR",
+            "Type": "Country"
+        },
+        {
+            "CityId": "AZRA",
+            "CityName": "Adrar",
+            "CountryName": "Algeria",
+            "IataCode": "AZR",
+            "Name": "Adrar",
+            "PlaceId": 41218,
+            "SkyscannerCode": "AZR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YMQA",
+            "CityName": "Montreal",
+            "CountryName": "Canada",
+            "IataCode": "YUL",
+            "Name": "Montreal Pierre Elliott Trudeau",
+            "PlaceId": 96268,
+            "SkyscannerCode": "YUL",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 877.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    840
+                ],
+                "DepartureDate": "2017-08-19T00:00:00",
+                "DestinationId": 96268,
+                "OriginId": 41218
+            },
+            "QuoteDateTime": "2017-03-27T08:47:57",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 886,
+            "OriginId": 41218
+        },
+        {
+            "DestinationId": 1762,
+            "OriginId": 41218
+        },
+        {
+            "DestinationId": 1697,
+            "OriginId": 41218
+        },
+        {
+            "DestinationId": 1031,
+            "OriginId": 41218
+        },
+        {
+            "DestinationId": 1002,
+            "OriginId": 41218
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 41218,
+            "Price": 877.0,
+            "QuoteDateTime": "2017-03-27T08:47:57",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 837,
+            "OriginId": 41218
+        },
+        {
+            "DestinationId": 1362,
+            "OriginId": 41218
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 41218
+        },
+        {
+            "DestinationId": 1669,
+            "OriginId": 41218
+        },
+        {
+            "DestinationId": 1758,
+            "OriginId": 41218
+        },
+        {
+            "DestinationId": 1043,
+            "OriginId": 41218
+        },
+        {
+            "DestinationId": 1572,
+            "OriginId": 41218
+        },
+        {
+            "DestinationId": 1710,
+            "OriginId": 41218
+        },
+        {
+            "DestinationId": 1189,
+            "OriginId": 41218
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 41218
+        },
+        {
+            "DestinationId": 1279,
+            "OriginId": 41218
+        },
+        {
+            "DestinationId": 1461,
+            "OriginId": 41218
+        }
+    ]
+}

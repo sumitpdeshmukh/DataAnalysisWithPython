@@ -1,0 +1,105 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "MSPA",
+            "CityName": "Minneapolis",
+            "CountryName": "United States",
+            "IataCode": "MSP",
+            "Name": "Minneapolis St Paul",
+            "PlaceId": 68528,
+            "SkyscannerCode": "MSP",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YQKA",
+            "CityName": "Kenora",
+            "CountryName": "Canada",
+            "IataCode": "YQK",
+            "Name": "Kenora",
+            "PlaceId": 96075,
+            "SkyscannerCode": "YQK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YTOA",
+            "CityName": "Toronto",
+            "CountryName": "Canada",
+            "IataCode": "YYZ",
+            "Name": "Toronto Pearson International",
+            "PlaceId": 96474,
+            "SkyscannerCode": "YYZ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 395.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-01T00:00:00",
+                "DestinationId": 96474,
+                "OriginId": 96075
+            },
+            "QuoteDateTime": "2017-03-19T17:00:42",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 713.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-08-07T00:00:00",
+                "DestinationId": 68528,
+                "OriginId": 96075
+            },
+            "QuoteDateTime": "2017-04-06T16:10:42",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 96075,
+            "Price": 395.0,
+            "QuoteDateTime": "2017-03-19T17:00:42",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 96075,
+            "Price": 713.0,
+            "QuoteDateTime": "2017-04-06T16:10:42",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

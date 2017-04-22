@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 977,
+            "Name": "Daily Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Taiwan",
+            "PlaceId": 1767,
+            "SkyscannerCode": "TW",
+            "Type": "Country"
+        },
+        {
+            "CityId": "KHHT",
+            "CityName": "Kaohsiung",
+            "CountryName": "Taiwan",
+            "IataCode": "KHH",
+            "Name": "Kaohsiung",
+            "PlaceId": 63384,
+            "SkyscannerCode": "KHH",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WOTT",
+            "CityName": "Wonan",
+            "CountryName": "Taiwan",
+            "IataCode": "WOT",
+            "Name": "Wonan",
+            "PlaceId": 91380,
+            "SkyscannerCode": "WOT",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 259.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    977
+                ],
+                "DepartureDate": "2017-05-26T00:00:00",
+                "DestinationId": 63384,
+                "OriginId": 91380
+            },
+            "QuoteDateTime": "2017-04-18T01:42:16",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1767,
+            "OriginId": 91380,
+            "Price": 259.0,
+            "QuoteDateTime": "2017-04-18T01:42:16",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

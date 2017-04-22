@@ -1,0 +1,88 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Bahamas",
+            "PlaceId": 899,
+            "SkyscannerCode": "BS",
+            "Type": "Country"
+        },
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CRIA",
+            "CityName": "Crooked Island",
+            "CountryName": "Bahamas",
+            "IataCode": "CRI",
+            "Name": "Crooked Island",
+            "PlaceId": 45433,
+            "SkyscannerCode": "CRI",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YTOA",
+            "CityName": "Toronto",
+            "CountryName": "Canada",
+            "IataCode": "YYZ",
+            "Name": "Toronto Pearson International",
+            "PlaceId": 96474,
+            "SkyscannerCode": "YYZ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 644.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2018-01-06T00:00:00",
+                "DestinationId": 96474,
+                "OriginId": 45433
+            },
+            "QuoteDateTime": "2017-04-13T19:13:04",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 45433
+        },
+        {
+            "DestinationId": 899,
+            "OriginId": 45433
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 45433,
+            "Price": 644.0,
+            "QuoteDateTime": "2017-04-13T19:13:04",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

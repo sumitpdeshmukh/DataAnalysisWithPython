@@ -1,0 +1,137 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1286,
+            "Name": "Bearskin Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "DFWA",
+            "CityName": "Dallas",
+            "CountryName": "United States",
+            "IataCode": "DFW",
+            "Name": "Dallas Fort Worth International",
+            "PlaceId": 47175,
+            "SkyscannerCode": "DFW",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YQTA",
+            "CityName": "Thunder Bay",
+            "CountryName": "Canada",
+            "IataCode": "YQT",
+            "Name": "Thunder Bay",
+            "PlaceId": 96084,
+            "SkyscannerCode": "YQT",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YRLA",
+            "CityName": "Red Lake",
+            "CountryName": "Canada",
+            "IataCode": "YRL",
+            "Name": "Red Lake",
+            "PlaceId": 96124,
+            "SkyscannerCode": "YRL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WINB",
+            "CityName": "Winnipeg",
+            "CountryName": "Canada",
+            "IataCode": "YWG",
+            "Name": "Winnipeg",
+            "PlaceId": 96359,
+            "SkyscannerCode": "YWG",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 285.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1286
+                ],
+                "DepartureDate": "2017-07-20T00:00:00",
+                "DestinationId": 96084,
+                "OriginId": 96124
+            },
+            "QuoteDateTime": "2017-04-15T02:46:38",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 336.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1286
+                ],
+                "DepartureDate": "2017-06-11T00:00:00",
+                "DestinationId": 96359,
+                "OriginId": 96124
+            },
+            "QuoteDateTime": "2017-03-28T14:25:54",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 536.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-02T00:00:00",
+                "DestinationId": 47175,
+                "OriginId": 96124
+            },
+            "QuoteDateTime": "2017-04-07T21:22:07",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 96124,
+            "Price": 285.0,
+            "QuoteDateTime": "2017-04-15T02:46:38",
+            "QuoteIds": [
+                1,
+                2
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 96124,
+            "Price": 536.0,
+            "QuoteDateTime": "2017-04-07T21:22:07",
+            "QuoteIds": [
+                3
+            ]
+        }
+    ]
+}

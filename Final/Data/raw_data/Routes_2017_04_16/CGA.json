@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1299,
+            "Name": "Taquan Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CGAA",
+            "CityName": "Craig",
+            "CountryName": "United States",
+            "IataCode": "CGA",
+            "Name": "Craig",
+            "PlaceId": 44897,
+            "SkyscannerCode": "CGA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "KTNA",
+            "CityName": "Ketchikan",
+            "CountryName": "United States",
+            "IataCode": "WFB",
+            "Name": "Ketchikan Waterfront SPB",
+            "PlaceId": 90930,
+            "SkyscannerCode": "WFB",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 137.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1299
+                ],
+                "DepartureDate": "2017-08-18T00:00:00",
+                "DestinationId": 90930,
+                "OriginId": 44897
+            },
+            "QuoteDateTime": "2017-04-13T20:15:21",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 44897,
+            "Price": 137.0,
+            "QuoteDateTime": "2017-04-13T20:15:21",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

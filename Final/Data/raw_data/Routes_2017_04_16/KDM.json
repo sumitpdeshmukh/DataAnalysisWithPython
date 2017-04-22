@@ -1,0 +1,125 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1586,
+            "Name": "Maldivian"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Bangladesh",
+            "PlaceId": 884,
+            "SkyscannerCode": "BD",
+            "Type": "Country"
+        },
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "India",
+            "PlaceId": 1230,
+            "SkyscannerCode": "IN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Sri Lanka",
+            "PlaceId": 1371,
+            "SkyscannerCode": "LK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Maldives",
+            "PlaceId": 1430,
+            "SkyscannerCode": "MV",
+            "Type": "Country"
+        },
+        {
+            "Name": "Thailand",
+            "PlaceId": 1752,
+            "SkyscannerCode": "TH",
+            "Type": "Country"
+        },
+        {
+            "CityId": "KDMA",
+            "CityName": "Kaadedhdhoo",
+            "CountryName": "Maldives",
+            "IataCode": "KDM",
+            "Name": "Kaadedhdhoo",
+            "PlaceId": 63197,
+            "SkyscannerCode": "KDM",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MLEA",
+            "CityName": "Male",
+            "CountryName": "Maldives",
+            "IataCode": "MLE",
+            "Name": "Velana International",
+            "PlaceId": 68181,
+            "SkyscannerCode": "MLE",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 210.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1586
+                ],
+                "DepartureDate": "2017-08-28T00:00:00",
+                "DestinationId": 68181,
+                "OriginId": 63197
+            },
+            "QuoteDateTime": "2017-03-22T06:51:42",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1752,
+            "OriginId": 63197
+        },
+        {
+            "DestinationId": 1230,
+            "OriginId": 63197
+        },
+        {
+            "DestinationId": 1430,
+            "OriginId": 63197,
+            "Price": 210.0,
+            "QuoteDateTime": "2017-03-22T06:51:42",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 63197
+        },
+        {
+            "DestinationId": 884,
+            "OriginId": 63197
+        },
+        {
+            "DestinationId": 1371,
+            "OriginId": 63197
+        }
+    ]
+}

@@ -1,0 +1,227 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1431,
+            "Name": "Maya Island Air"
+        },
+        {
+            "CarrierId": 1565,
+            "Name": "Tropic Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Belize",
+            "PlaceId": 906,
+            "SkyscannerCode": "BZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Guatemala",
+            "PlaceId": 1140,
+            "SkyscannerCode": "GT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Honduras",
+            "PlaceId": 1182,
+            "SkyscannerCode": "HN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BZEA",
+            "CityName": "Belize City",
+            "CountryName": "Belize",
+            "IataCode": "BZE",
+            "Name": "Belize City Philip S.W.Goldson Int",
+            "PlaceId": 43509,
+            "SkyscannerCode": "BZE",
+            "Type": "Station"
+        },
+        {
+            "CityId": "GUAA",
+            "CityName": "Guatemala City",
+            "CountryName": "Guatemala",
+            "IataCode": "GUA",
+            "Name": "Guatemala City",
+            "PlaceId": 54785,
+            "SkyscannerCode": "GUA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WASA",
+            "CityName": "Washington",
+            "CountryName": "United States",
+            "IataCode": "IAD",
+            "Name": "Washington Dulles",
+            "PlaceId": 58436,
+            "SkyscannerCode": "IAD",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PLJA",
+            "CityName": "Placencia",
+            "CountryName": "Belize",
+            "IataCode": "PLJ",
+            "Name": "Placencia",
+            "PlaceId": 75098,
+            "SkyscannerCode": "PLJ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "RTBA",
+            "CityName": "Roatan",
+            "CountryName": "Honduras",
+            "IataCode": "RTB",
+            "Name": "Roatan",
+            "PlaceId": 80082,
+            "SkyscannerCode": "RTB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "BZEA",
+            "CityName": "Belize City",
+            "CountryName": "Belize",
+            "IataCode": "TZA",
+            "Name": "Belize City Municipal",
+            "PlaceId": 84977,
+            "SkyscannerCode": "TZA",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 313.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1565
+                ],
+                "DepartureDate": "2017-06-15T00:00:00",
+                "DestinationId": 80082,
+                "OriginId": 75098
+            },
+            "QuoteDateTime": "2017-04-02T04:05:35",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 420.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-11T00:00:00",
+                "DestinationId": 54785,
+                "OriginId": 75098
+            },
+            "QuoteDateTime": "2017-04-16T16:47:40",
+            "QuoteId": 2
+        },
+        {
+            "Direct": true,
+            "MinPrice": 126.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1431
+                ],
+                "DepartureDate": "2017-05-15T00:00:00",
+                "DestinationId": 43509,
+                "OriginId": 75098
+            },
+            "QuoteDateTime": "2017-04-17T18:03:31",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 111.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1431
+                ],
+                "DepartureDate": "2017-05-15T00:00:00",
+                "DestinationId": 84977,
+                "OriginId": 75098
+            },
+            "QuoteDateTime": "2017-04-17T18:03:31",
+            "QuoteId": 4
+        },
+        {
+            "Direct": false,
+            "MinPrice": 570.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-09-04T00:00:00",
+                "DestinationId": 58436,
+                "OriginId": 75098
+            },
+            "QuoteDateTime": "2017-04-14T15:39:07",
+            "QuoteId": 5
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1432,
+            "OriginId": 75098
+        },
+        {
+            "DestinationId": 1182,
+            "OriginId": 75098,
+            "Price": 313.0,
+            "QuoteDateTime": "2017-04-02T04:05:35",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1140,
+            "OriginId": 75098,
+            "Price": 420.0,
+            "QuoteDateTime": "2017-04-16T16:47:40",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 906,
+            "OriginId": 75098,
+            "Price": 111.0,
+            "QuoteDateTime": "2017-04-17T18:03:31",
+            "QuoteIds": [
+                3,
+                4
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 75098,
+            "Price": 570.0,
+            "QuoteDateTime": "2017-04-14T15:39:07",
+            "QuoteIds": [
+                5
+            ]
+        }
+    ]
+}

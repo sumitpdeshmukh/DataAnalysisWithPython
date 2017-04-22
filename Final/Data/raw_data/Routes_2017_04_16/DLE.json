@@ -1,0 +1,159 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1947,
+            "Name": "Air Corsica"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Morocco",
+            "PlaceId": 1409,
+            "SkyscannerCode": "MA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Portugal",
+            "PlaceId": 1572,
+            "SkyscannerCode": "PT",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BAST",
+            "CityName": "Bastia - Corsica",
+            "CountryName": "France",
+            "IataCode": "BIA",
+            "Name": "Bastia - Corsica",
+            "PlaceId": 42689,
+            "SkyscannerCode": "BIA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "DOLE",
+            "CityName": "Dole Tavaux",
+            "CountryName": "France",
+            "IataCode": "DLE",
+            "Name": "Dole Tavaux",
+            "PlaceId": 47445,
+            "SkyscannerCode": "DLE",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LOND",
+            "CityName": "London",
+            "CountryName": "United Kingdom",
+            "IataCode": "LHR",
+            "Name": "London Heathrow",
+            "PlaceId": 65698,
+            "SkyscannerCode": "LHR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PORT",
+            "CityName": "Porto",
+            "CountryName": "Portugal",
+            "IataCode": "OPO",
+            "Name": "Porto",
+            "PlaceId": 72991,
+            "SkyscannerCode": "OPO",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 139.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1947
+                ],
+                "DepartureDate": "2017-09-08T00:00:00",
+                "DestinationId": 42689,
+                "OriginId": 47445
+            },
+            "QuoteDateTime": "2017-04-14T08:00:10",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1600.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-08-01T00:00:00",
+                "DestinationId": 72991,
+                "OriginId": 47445
+            },
+            "QuoteDateTime": "2017-03-14T15:10:41",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1065.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-07T00:00:00",
+                "DestinationId": 65698,
+                "OriginId": 47445
+            },
+            "QuoteDateTime": "2017-03-25T07:43:09",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1090,
+            "OriginId": 47445,
+            "Price": 139.0,
+            "QuoteDateTime": "2017-04-14T08:00:10",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1572,
+            "OriginId": 47445,
+            "Price": 1600.0,
+            "QuoteDateTime": "2017-03-14T15:10:41",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1409,
+            "OriginId": 47445
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 47445,
+            "Price": 1065.0,
+            "QuoteDateTime": "2017-03-25T07:43:09",
+            "QuoteIds": [
+                3
+            ]
+        }
+    ]
+}

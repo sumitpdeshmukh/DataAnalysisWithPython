@@ -1,0 +1,193 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1698,
+            "Name": "Aircalin"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Fiji",
+            "PlaceId": 1082,
+            "SkyscannerCode": "FJ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Caledonia",
+            "PlaceId": 1459,
+            "SkyscannerCode": "NC",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Zealand",
+            "PlaceId": 1482,
+            "SkyscannerCode": "NZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Vanuatu",
+            "PlaceId": 1861,
+            "SkyscannerCode": "VU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Wallis and Futuna Islands",
+            "PlaceId": 1894,
+            "SkyscannerCode": "WF",
+            "Type": "Country"
+        },
+        {
+            "CityId": "NANF",
+            "CityName": "Nadi",
+            "CountryName": "Fiji",
+            "IataCode": "NAN",
+            "Name": "Nadi",
+            "PlaceId": 69966,
+            "SkyscannerCode": "NAN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NOUN",
+            "CityName": "Noumea",
+            "CountryName": "New Caledonia",
+            "IataCode": "NOU",
+            "Name": "Noumea Tontouta",
+            "PlaceId": 70645,
+            "SkyscannerCode": "NOU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TYOA",
+            "CityName": "Tokyo",
+            "CountryName": "Japan",
+            "IataCode": "NRT",
+            "Name": "Tokyo Narita",
+            "PlaceId": 70788,
+            "SkyscannerCode": "NRT",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WLSA",
+            "CityName": "Wallis Island",
+            "CountryName": "Wallis and Futuna Islands",
+            "IataCode": "WLS",
+            "Name": "Wallis Island",
+            "PlaceId": 91235,
+            "SkyscannerCode": "WLS",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 788.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1698
+                ],
+                "DepartureDate": "2017-06-16T00:00:00",
+                "DestinationId": 70788,
+                "OriginId": 91235
+            },
+            "QuoteDateTime": "2017-04-17T11:49:55",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 253.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1698
+                ],
+                "DepartureDate": "2017-07-28T00:00:00",
+                "DestinationId": 70645,
+                "OriginId": 91235
+            },
+            "QuoteDateTime": "2017-04-02T07:46:19",
+            "QuoteId": 2
+        },
+        {
+            "Direct": true,
+            "MinPrice": 162.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1698
+                ],
+                "DepartureDate": "2017-11-13T00:00:00",
+                "DestinationId": 69966,
+                "OriginId": 91235
+            },
+            "QuoteDateTime": "2017-03-19T04:34:39",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1482,
+            "OriginId": 91235
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 91235
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 91235,
+            "Price": 788.0,
+            "QuoteDateTime": "2017-04-17T11:49:55",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1861,
+            "OriginId": 91235
+        },
+        {
+            "DestinationId": 1459,
+            "OriginId": 91235,
+            "Price": 253.0,
+            "QuoteDateTime": "2017-04-02T07:46:19",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1082,
+            "OriginId": 91235,
+            "Price": 162.0,
+            "QuoteDateTime": "2017-03-19T04:34:39",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 1894,
+            "OriginId": 91235
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Argentina",
+            "PlaceId": 850,
+            "SkyscannerCode": "AR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Portugal",
+            "PlaceId": 1572,
+            "SkyscannerCode": "PT",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LAXA",
+            "CityName": "Los Angeles",
+            "CountryName": "United States",
+            "IataCode": "LAX",
+            "Name": "Los Angeles International",
+            "PlaceId": 65368,
+            "SkyscannerCode": "LAX",
+            "Type": "Station"
+        },
+        {
+            "CityId": "VALA",
+            "CityName": "Valenca",
+            "CountryName": "Brazil",
+            "IataCode": "VAL",
+            "Name": "Valenca",
+            "PlaceId": 88396,
+            "SkyscannerCode": "VAL",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 1085.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-27T00:00:00",
+                "DestinationId": 65368,
+                "OriginId": 88396
+            },
+            "QuoteDateTime": "2017-04-17T19:17:39",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 850,
+            "OriginId": 88396
+        },
+        {
+            "DestinationId": 898,
+            "OriginId": 88396
+        },
+        {
+            "DestinationId": 1572,
+            "OriginId": 88396
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 88396,
+            "Price": 1085.0,
+            "QuoteDateTime": "2017-04-17T19:17:39",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

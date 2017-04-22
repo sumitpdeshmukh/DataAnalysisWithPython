@@ -1,0 +1,115 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "TYOA",
+            "CityName": "Tokyo",
+            "CountryName": "Japan",
+            "IataCode": "HND",
+            "Name": "Tokyo Haneda",
+            "PlaceId": 56756,
+            "SkyscannerCode": "HND",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WASA",
+            "CityName": "Washington",
+            "CountryName": "United States",
+            "IataCode": "IAD",
+            "Name": "Washington Dulles",
+            "PlaceId": 58436,
+            "SkyscannerCode": "IAD",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YAGA",
+            "CityName": "Fort Frances",
+            "CountryName": "Canada",
+            "IataCode": "YAG",
+            "Name": "Fort Frances",
+            "PlaceId": 95303,
+            "SkyscannerCode": "YAG",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 612.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-07T00:00:00",
+                "DestinationId": 58436,
+                "OriginId": 95303
+            },
+            "QuoteDateTime": "2017-03-16T17:08:40",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1133.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-12T00:00:00",
+                "DestinationId": 56756,
+                "OriginId": 95303
+            },
+            "QuoteDateTime": "2017-04-13T16:35:35",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 95303
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 95303,
+            "Price": 612.0,
+            "QuoteDateTime": "2017-03-16T17:08:40",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 95303,
+            "Price": 1133.0,
+            "QuoteDateTime": "2017-04-13T16:35:35",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

@@ -1,0 +1,302 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1281,
+            "Name": "Jetstar"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hong Kong",
+            "PlaceId": 1179,
+            "SkyscannerCode": "HK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "Kenya",
+            "PlaceId": 1317,
+            "SkyscannerCode": "KE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cambodia",
+            "PlaceId": 1320,
+            "SkyscannerCode": "KH",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Korea",
+            "PlaceId": 1330,
+            "SkyscannerCode": "KR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Laos",
+            "PlaceId": 1361,
+            "SkyscannerCode": "LA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Myanmar",
+            "PlaceId": 1421,
+            "SkyscannerCode": "MM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Macau",
+            "PlaceId": 1423,
+            "SkyscannerCode": "MO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Malaysia",
+            "PlaceId": 1433,
+            "SkyscannerCode": "MY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Philippines",
+            "PlaceId": 1560,
+            "SkyscannerCode": "PH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Thailand",
+            "PlaceId": 1752,
+            "SkyscannerCode": "TH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Taiwan",
+            "PlaceId": 1767,
+            "SkyscannerCode": "TW",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "Name": "Vietnam",
+            "PlaceId": 1854,
+            "SkyscannerCode": "VN",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BMVV",
+            "CityName": "Banmethuot",
+            "CountryName": "Vietnam",
+            "IataCode": "BMV",
+            "Name": "Banmethuot",
+            "PlaceId": 42902,
+            "SkyscannerCode": "BMV",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ORLB",
+            "CityName": "Orlando",
+            "CountryName": "United States",
+            "IataCode": "MCO",
+            "Name": "Orlando International",
+            "PlaceId": 67759,
+            "SkyscannerCode": "MCO",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SGNV",
+            "CityName": "Ho Chi Minh City",
+            "CountryName": "Vietnam",
+            "IataCode": "SGN",
+            "Name": "Ho Chi Minh City",
+            "PlaceId": 81774,
+            "SkyscannerCode": "SGN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 16.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1281
+                ],
+                "DepartureDate": "2017-08-16T00:00:00",
+                "DestinationId": 81774,
+                "OriginId": 42902
+            },
+            "QuoteDateTime": "2017-03-14T09:34:47",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 875.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-18T00:00:00",
+                "DestinationId": 67759,
+                "OriginId": 42902
+            },
+            "QuoteDateTime": "2017-03-29T03:03:12",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1752,
+            "OriginId": 42902
+        },
+        {
+            "DestinationId": 1703,
+            "OriginId": 42902
+        },
+        {
+            "DestinationId": 1767,
+            "OriginId": 42902
+        },
+        {
+            "DestinationId": 1854,
+            "OriginId": 42902,
+            "Price": 16.0,
+            "QuoteDateTime": "2017-03-14T09:34:47",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1317,
+            "OriginId": 42902
+        },
+        {
+            "DestinationId": 1560,
+            "OriginId": 42902
+        },
+        {
+            "DestinationId": 1423,
+            "OriginId": 42902
+        },
+        {
+            "DestinationId": 1433,
+            "OriginId": 42902
+        },
+        {
+            "DestinationId": 1179,
+            "OriginId": 42902
+        },
+        {
+            "DestinationId": 1320,
+            "OriginId": 42902
+        },
+        {
+            "DestinationId": 1421,
+            "OriginId": 42902
+        },
+        {
+            "DestinationId": 1361,
+            "OriginId": 42902
+        },
+        {
+            "DestinationId": 837,
+            "OriginId": 42902
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 42902
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 42902
+        },
+        {
+            "DestinationId": 1330,
+            "OriginId": 42902
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 42902
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 42902
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 42902
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 42902
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 42902,
+            "Price": 875.0,
+            "QuoteDateTime": "2017-03-29T03:03:12",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

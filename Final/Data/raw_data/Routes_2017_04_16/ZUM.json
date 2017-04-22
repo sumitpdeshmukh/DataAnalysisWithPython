@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1554,
+            "Name": "Provincial Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "YWKA",
+            "CityName": "Wabush",
+            "CountryName": "Canada",
+            "IataCode": "YWK",
+            "Name": "Wabush",
+            "PlaceId": 96363,
+            "SkyscannerCode": "YWK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ZUMA",
+            "CityName": "Churchill Falls",
+            "CountryName": "Canada",
+            "IataCode": "ZUM",
+            "Name": "Churchill Falls",
+            "PlaceId": 98573,
+            "SkyscannerCode": "ZUM",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 213.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1554
+                ],
+                "DepartureDate": "2018-01-09T00:00:00",
+                "DestinationId": 96363,
+                "OriginId": 98573
+            },
+            "QuoteDateTime": "2017-04-07T11:06:11",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 98573,
+            "Price": 213.0,
+            "QuoteDateTime": "2017-04-07T11:06:11",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

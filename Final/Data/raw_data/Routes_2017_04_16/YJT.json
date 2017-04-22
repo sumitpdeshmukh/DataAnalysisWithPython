@@ -1,0 +1,135 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1556,
+            "Name": "Porter Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cuba",
+            "PlaceId": 949,
+            "SkyscannerCode": "CU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Dominican Republic",
+            "PlaceId": 991,
+            "SkyscannerCode": "DO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Jamaica",
+            "PlaceId": 1277,
+            "SkyscannerCode": "JM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "St Maarten",
+            "PlaceId": 1720,
+            "SkyscannerCode": "SX",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "YHZA",
+            "CityName": "Halifax",
+            "CountryName": "Canada",
+            "IataCode": "YHZ",
+            "Name": "Halifax International",
+            "PlaceId": 95658,
+            "SkyscannerCode": "YHZ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YJTA",
+            "CityName": "Stephenville",
+            "CountryName": "Canada",
+            "IataCode": "YJT",
+            "Name": "Stephenville",
+            "PlaceId": 95748,
+            "SkyscannerCode": "YJT",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 111.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1556
+                ],
+                "DepartureDate": "2017-08-09T00:00:00",
+                "DestinationId": 95658,
+                "OriginId": 95748
+            },
+            "QuoteDateTime": "2017-04-18T20:19:28",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 95748,
+            "Price": 111.0,
+            "QuoteDateTime": "2017-04-18T20:19:28",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 95748
+        },
+        {
+            "DestinationId": 991,
+            "OriginId": 95748
+        },
+        {
+            "DestinationId": 1720,
+            "OriginId": 95748
+        },
+        {
+            "DestinationId": 949,
+            "OriginId": 95748
+        },
+        {
+            "DestinationId": 1277,
+            "OriginId": 95748
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 95748
+        }
+    ]
+}

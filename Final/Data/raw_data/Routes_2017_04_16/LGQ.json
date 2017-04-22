@@ -1,0 +1,152 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1041,
+            "Name": "TAME"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Bolivia",
+            "PlaceId": 895,
+            "SkyscannerCode": "BO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Colombia",
+            "PlaceId": 943,
+            "SkyscannerCode": "CO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Ecuador",
+            "PlaceId": 1027,
+            "SkyscannerCode": "EC",
+            "Type": "Country"
+        },
+        {
+            "Name": "Panama",
+            "PlaceId": 1553,
+            "SkyscannerCode": "PA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Peru",
+            "PlaceId": 1557,
+            "SkyscannerCode": "PE",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LGQA",
+            "CityName": "Lago Agrio",
+            "CountryName": "Ecuador",
+            "IataCode": "LGQ",
+            "Name": "Lago Agrio",
+            "PlaceId": 65649,
+            "SkyscannerCode": "LGQ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "STLA",
+            "CityName": "St Louis",
+            "CountryName": "United States",
+            "IataCode": "STL",
+            "Name": "St Louis",
+            "PlaceId": 82396,
+            "SkyscannerCode": "STL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "UIOA",
+            "CityName": "Quito",
+            "CountryName": "Ecuador",
+            "IataCode": "UIO",
+            "Name": "Quito",
+            "PlaceId": 86479,
+            "SkyscannerCode": "UIO",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 64.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1041
+                ],
+                "DepartureDate": "2017-05-22T00:00:00",
+                "DestinationId": 86479,
+                "OriginId": 65649
+            },
+            "QuoteDateTime": "2017-03-19T13:04:07",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1196.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-22T00:00:00",
+                "DestinationId": 82396,
+                "OriginId": 65649
+            },
+            "QuoteDateTime": "2017-03-19T13:04:02",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1557,
+            "OriginId": 65649
+        },
+        {
+            "DestinationId": 943,
+            "OriginId": 65649
+        },
+        {
+            "DestinationId": 1027,
+            "OriginId": 65649,
+            "Price": 64.0,
+            "QuoteDateTime": "2017-03-19T13:04:07",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 65649,
+            "Price": 1196.0,
+            "QuoteDateTime": "2017-03-19T13:04:02",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 895,
+            "OriginId": 65649
+        },
+        {
+            "DestinationId": 1553,
+            "OriginId": 65649
+        }
+    ]
+}

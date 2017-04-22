@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1231,
+            "Name": "IrAero"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "IRKU",
+            "CityName": "Irkutsk",
+            "CountryName": "Russia",
+            "IataCode": "IKT",
+            "Name": "Irkutsk",
+            "PlaceId": 58932,
+            "SkyscannerCode": "IKT",
+            "Type": "Station"
+        },
+        {
+            "CityId": "BODA",
+            "CityName": "Bodaybo",
+            "CountryName": "Russia",
+            "IataCode": "ODO",
+            "Name": "Bodaybo",
+            "PlaceId": 72415,
+            "SkyscannerCode": "ODO",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 218.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1231
+                ],
+                "DepartureDate": "2017-04-30T00:00:00",
+                "DestinationId": 58932,
+                "OriginId": 72415
+            },
+            "QuoteDateTime": "2017-04-09T05:59:22",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1669,
+            "OriginId": 72415,
+            "Price": 218.0,
+            "QuoteDateTime": "2017-04-09T05:59:22",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

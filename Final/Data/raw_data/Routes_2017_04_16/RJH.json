@@ -1,0 +1,165 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 887,
+            "Name": "Biman Bangladesh Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Bangladesh",
+            "PlaceId": 884,
+            "SkyscannerCode": "BD",
+            "Type": "Country"
+        },
+        {
+            "Name": "India",
+            "PlaceId": 1230,
+            "SkyscannerCode": "IN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Kuwait",
+            "PlaceId": 1335,
+            "SkyscannerCode": "KW",
+            "Type": "Country"
+        },
+        {
+            "Name": "Malaysia",
+            "PlaceId": 1433,
+            "SkyscannerCode": "MY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Oman",
+            "PlaceId": 1517,
+            "SkyscannerCode": "OM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Qatar",
+            "PlaceId": 1601,
+            "SkyscannerCode": "QA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Saudi Arabia",
+            "PlaceId": 1697,
+            "SkyscannerCode": "SA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "CityId": "DACA",
+            "CityName": "Dhaka",
+            "CountryName": "Bangladesh",
+            "IataCode": "DAC",
+            "Name": "Dhaka",
+            "PlaceId": 46915,
+            "SkyscannerCode": "DAC",
+            "Type": "Station"
+        },
+        {
+            "CityId": "RJHA",
+            "CityName": "Rajshahi",
+            "CountryName": "Bangladesh",
+            "IataCode": "RJH",
+            "Name": "Rajshahi",
+            "PlaceId": 79608,
+            "SkyscannerCode": "RJH",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 34.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    887
+                ],
+                "DepartureDate": "2017-04-25T00:00:00",
+                "DestinationId": 46915,
+                "OriginId": 79608
+            },
+            "QuoteDateTime": "2017-04-18T12:09:44",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1703,
+            "OriginId": 79608
+        },
+        {
+            "DestinationId": 1697,
+            "OriginId": 79608
+        },
+        {
+            "DestinationId": 1433,
+            "OriginId": 79608
+        },
+        {
+            "DestinationId": 1601,
+            "OriginId": 79608
+        },
+        {
+            "DestinationId": 1335,
+            "OriginId": 79608
+        },
+        {
+            "DestinationId": 1517,
+            "OriginId": 79608
+        },
+        {
+            "DestinationId": 837,
+            "OriginId": 79608
+        },
+        {
+            "DestinationId": 1230,
+            "OriginId": 79608
+        },
+        {
+            "DestinationId": 884,
+            "OriginId": 79608,
+            "Price": 34.0,
+            "QuoteDateTime": "2017-04-18T12:09:44",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 79608
+        }
+    ]
+}

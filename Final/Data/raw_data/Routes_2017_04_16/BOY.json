@@ -1,0 +1,135 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 122,
+            "Name": "Air Burkina"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Burkina Faso",
+            "PlaceId": 886,
+            "SkyscannerCode": "BF",
+            "Type": "Country"
+        },
+        {
+            "Name": "Ivory Coast",
+            "PlaceId": 937,
+            "SkyscannerCode": "CI",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Kenya",
+            "PlaceId": 1317,
+            "SkyscannerCode": "KE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mali",
+            "PlaceId": 1420,
+            "SkyscannerCode": "ML",
+            "Type": "Country"
+        },
+        {
+            "Name": "Niger",
+            "PlaceId": 1461,
+            "SkyscannerCode": "NE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Senegal",
+            "PlaceId": 1710,
+            "SkyscannerCode": "SN",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ABJA",
+            "CityName": "Abidjan",
+            "CountryName": "Ivory Coast",
+            "IataCode": "ABJ",
+            "Name": "Abidjan",
+            "PlaceId": 40058,
+            "SkyscannerCode": "ABJ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "BOYA",
+            "CityName": "Bobo Dioulasso",
+            "CountryName": "Burkina Faso",
+            "IataCode": "BOY",
+            "Name": "Bobo Dioulasso",
+            "PlaceId": 43001,
+            "SkyscannerCode": "BOY",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 212.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    122
+                ],
+                "DepartureDate": "2018-02-08T00:00:00",
+                "DestinationId": 40058,
+                "OriginId": 43001
+            },
+            "QuoteDateTime": "2017-04-13T23:42:09",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1317,
+            "OriginId": 43001
+        },
+        {
+            "DestinationId": 1420,
+            "OriginId": 43001
+        },
+        {
+            "DestinationId": 1461,
+            "OriginId": 43001
+        },
+        {
+            "DestinationId": 1710,
+            "OriginId": 43001
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 43001
+        },
+        {
+            "DestinationId": 886,
+            "OriginId": 43001
+        },
+        {
+            "DestinationId": 937,
+            "OriginId": 43001,
+            "Price": 212.0,
+            "QuoteDateTime": "2017-04-13T23:42:09",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

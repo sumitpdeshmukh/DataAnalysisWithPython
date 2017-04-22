@@ -1,0 +1,152 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "Name": "Uruguay",
+            "PlaceId": 1817,
+            "SkyscannerCode": "UY",
+            "Type": "Country"
+        },
+        {
+            "CityId": "PARI",
+            "CityName": "Paris",
+            "CountryName": "France",
+            "IataCode": "CDG",
+            "Name": "Paris Charles de Gaulle",
+            "PlaceId": 44759,
+            "SkyscannerCode": "CDG",
+            "Type": "Station"
+        },
+        {
+            "CityId": "CUNA",
+            "CityName": "Cancun",
+            "CountryName": "Mexico",
+            "IataCode": "CUN",
+            "Name": "Cancun",
+            "PlaceId": 45582,
+            "SkyscannerCode": "CUN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "IPLA",
+            "CityName": "Imperial",
+            "CountryName": "United States",
+            "IataCode": "IPL",
+            "Name": "Imperial County",
+            "PlaceId": 59164,
+            "SkyscannerCode": "IPL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MVDA",
+            "CityName": "Montevideo",
+            "CountryName": "Uruguay",
+            "IataCode": "MVD",
+            "Name": "Montevideo",
+            "PlaceId": 68660,
+            "SkyscannerCode": "MVD",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 893.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-04-21T00:00:00",
+                "DestinationId": 68660,
+                "OriginId": 59164
+            },
+            "QuoteDateTime": "2017-04-18T05:33:47",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 228.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-04-28T00:00:00",
+                "DestinationId": 45582,
+                "OriginId": 59164
+            },
+            "QuoteDateTime": "2017-04-10T05:59:56",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 927.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-02T00:00:00",
+                "DestinationId": 44759,
+                "OriginId": 59164
+            },
+            "QuoteDateTime": "2017-03-19T22:16:48",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 59164
+        },
+        {
+            "DestinationId": 1817,
+            "OriginId": 59164,
+            "Price": 893.0,
+            "QuoteDateTime": "2017-04-18T05:33:47",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 59164,
+            "Price": 228.0,
+            "QuoteDateTime": "2017-04-10T05:59:56",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 59164,
+            "Price": 927.0,
+            "QuoteDateTime": "2017-03-19T22:16:48",
+            "QuoteIds": [
+                3
+            ]
+        }
+    ]
+}

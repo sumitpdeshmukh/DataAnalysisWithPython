@@ -1,0 +1,179 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1331,
+            "Name": "Penair"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Costa Rica",
+            "PlaceId": 946,
+            "SkyscannerCode": "CR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "FRAN",
+            "CityName": "Frankfurt",
+            "CountryName": "Germany",
+            "IataCode": "FRA",
+            "Name": "Frankfurt am Main",
+            "PlaceId": 52337,
+            "SkyscannerCode": "FRA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LMTA",
+            "CityName": "Klamath Falls",
+            "CountryName": "United States",
+            "IataCode": "LMT",
+            "Name": "Klamath Falls",
+            "PlaceId": 65940,
+            "SkyscannerCode": "LMT",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PDXA",
+            "CityName": "Portland",
+            "CountryName": "United States",
+            "IataCode": "PDX",
+            "Name": "Portland",
+            "PlaceId": 74728,
+            "SkyscannerCode": "PDX",
+            "Type": "Station"
+        },
+        {
+            "CityId": "BJSA",
+            "CityName": "Beijing",
+            "CountryName": "China",
+            "IataCode": "PEK",
+            "Name": "Beijing Capital",
+            "PlaceId": 74763,
+            "SkyscannerCode": "PEK",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 89.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1331
+                ],
+                "DepartureDate": "2017-05-07T00:00:00",
+                "DestinationId": 74728,
+                "OriginId": 65940
+            },
+            "QuoteDateTime": "2017-04-07T16:59:21",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1229.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-21T00:00:00",
+                "DestinationId": 74763,
+                "OriginId": 65940
+            },
+            "QuoteDateTime": "2017-03-18T09:36:48",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 3296.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-09T00:00:00",
+                "DestinationId": 52337,
+                "OriginId": 65940
+            },
+            "QuoteDateTime": "2017-03-20T12:37:03",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 65940
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 65940
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 65940,
+            "Price": 89.0,
+            "QuoteDateTime": "2017-04-07T16:59:21",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 946,
+            "OriginId": 65940
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 65940,
+            "Price": 1229.0,
+            "QuoteDateTime": "2017-03-18T09:36:48",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 65940,
+            "Price": 3296.0,
+            "QuoteDateTime": "2017-03-20T12:37:03",
+            "QuoteIds": [
+                3
+            ]
+        }
+    ]
+}

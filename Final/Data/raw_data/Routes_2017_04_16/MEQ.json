@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1239,
+            "Name": "Wings Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Indonesia",
+            "PlaceId": 1220,
+            "SkyscannerCode": "ID",
+            "Type": "Country"
+        },
+        {
+            "CityId": "MESI",
+            "CityName": "Medan",
+            "CountryName": "Indonesia",
+            "IataCode": "KNO",
+            "Name": "Medan Kuala Namu",
+            "PlaceId": 63679,
+            "SkyscannerCode": "KNO",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MEQI",
+            "CityName": "Meulaboh",
+            "CountryName": "Indonesia",
+            "IataCode": "MEQ",
+            "Name": "Meulaboh",
+            "PlaceId": 67857,
+            "SkyscannerCode": "MEQ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 23.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1239
+                ],
+                "DepartureDate": "2017-04-28T00:00:00",
+                "DestinationId": 63679,
+                "OriginId": 67857
+            },
+            "QuoteDateTime": "2017-04-14T15:34:21",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1220,
+            "OriginId": 67857,
+            "Price": 23.0,
+            "QuoteDateTime": "2017-04-14T15:34:21",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

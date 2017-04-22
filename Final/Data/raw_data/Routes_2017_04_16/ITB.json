@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1282,
+            "Name": "MAP Linhas A\u00e9reas"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ATMA",
+            "CityName": "Altamira",
+            "CountryName": "Brazil",
+            "IataCode": "ATM",
+            "Name": "Altamira",
+            "PlaceId": 40925,
+            "SkyscannerCode": "ATM",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ITBA",
+            "CityName": "Itaituba",
+            "CountryName": "Brazil",
+            "IataCode": "ITB",
+            "Name": "Itaituba",
+            "PlaceId": 59346,
+            "SkyscannerCode": "ITB",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 75.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1282
+                ],
+                "DepartureDate": "2017-08-05T00:00:00",
+                "DestinationId": 40925,
+                "OriginId": 59346
+            },
+            "QuoteDateTime": "2017-04-16T18:50:35",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 898,
+            "OriginId": 59346,
+            "Price": 75.0,
+            "QuoteDateTime": "2017-04-16T18:50:35",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

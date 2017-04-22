@@ -1,0 +1,159 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1860,
+            "Name": "Air Tahiti"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Cook Islands",
+            "PlaceId": 939,
+            "SkyscannerCode": "CK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Myanmar",
+            "PlaceId": 1421,
+            "SkyscannerCode": "MM",
+            "Type": "Country"
+        },
+        {
+            "Name": "French Polynesia",
+            "PlaceId": 1558,
+            "SkyscannerCode": "PF",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BOBP",
+            "CityName": "Bora Bora",
+            "CountryName": "French Polynesia",
+            "IataCode": "BOB",
+            "Name": "Bora Bora",
+            "PlaceId": 42978,
+            "SkyscannerCode": "BOB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "HUHP",
+            "CityName": "Huahine",
+            "CountryName": "French Polynesia",
+            "IataCode": "HUH",
+            "Name": "Huahine",
+            "PlaceId": 57096,
+            "SkyscannerCode": "HUH",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NYCA",
+            "CityName": "New York",
+            "CountryName": "United States",
+            "IataCode": "JFK",
+            "Name": "New York John F. Kennedy",
+            "PlaceId": 60987,
+            "SkyscannerCode": "JFK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "RGNM",
+            "CityName": "Yangon",
+            "CountryName": "Myanmar",
+            "IataCode": "RGN",
+            "Name": "Yangon",
+            "PlaceId": 79470,
+            "SkyscannerCode": "RGN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 108.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1860
+                ],
+                "DepartureDate": "2017-05-12T00:00:00",
+                "DestinationId": 42978,
+                "OriginId": 57096
+            },
+            "QuoteDateTime": "2017-04-16T15:07:15",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 2393.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-14T00:00:00",
+                "DestinationId": 79470,
+                "OriginId": 57096
+            },
+            "QuoteDateTime": "2017-04-10T15:52:26",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1715.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-15T00:00:00",
+                "DestinationId": 60987,
+                "OriginId": 57096
+            },
+            "QuoteDateTime": "2017-04-01T05:36:52",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1558,
+            "OriginId": 57096,
+            "Price": 108.0,
+            "QuoteDateTime": "2017-04-16T15:07:15",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 939,
+            "OriginId": 57096
+        },
+        {
+            "DestinationId": 1421,
+            "OriginId": 57096,
+            "Price": 2393.0,
+            "QuoteDateTime": "2017-04-10T15:52:26",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 57096,
+            "Price": 1715.0,
+            "QuoteDateTime": "2017-04-01T05:36:52",
+            "QuoteIds": [
+                3
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1843,
+            "Name": "ViaAir"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BKWA",
+            "CityName": "Beckley",
+            "CountryName": "United States",
+            "IataCode": "BKW",
+            "Name": "Beckley",
+            "PlaceId": 42807,
+            "SkyscannerCode": "BKW",
+            "Type": "Station"
+        },
+        {
+            "CityId": "CKBA",
+            "CityName": "Clarksburg",
+            "CountryName": "United States",
+            "IataCode": "CKB",
+            "Name": "Clarksburg",
+            "PlaceId": 45090,
+            "SkyscannerCode": "CKB",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 14.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1843
+                ],
+                "DepartureDate": "2017-04-28T00:00:00",
+                "DestinationId": 42807,
+                "OriginId": 45090
+            },
+            "QuoteDateTime": "2017-03-30T06:15:57",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 45090,
+            "Price": 14.0,
+            "QuoteDateTime": "2017-03-30T06:15:57",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

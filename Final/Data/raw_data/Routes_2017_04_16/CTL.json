@@ -1,0 +1,168 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Fiji",
+            "PlaceId": 1082,
+            "SkyscannerCode": "FJ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hong Kong",
+            "PlaceId": 1179,
+            "SkyscannerCode": "HK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Caledonia",
+            "PlaceId": 1459,
+            "SkyscannerCode": "NC",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Zealand",
+            "PlaceId": 1482,
+            "SkyscannerCode": "NZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Taiwan",
+            "PlaceId": 1767,
+            "SkyscannerCode": "TW",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CTLA",
+            "CityName": "Charleville",
+            "CountryName": "Australia",
+            "IataCode": "CTL",
+            "Name": "Charleville",
+            "PlaceId": 45532,
+            "SkyscannerCode": "CTL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LAXA",
+            "CityName": "Los Angeles",
+            "CountryName": "United States",
+            "IataCode": "LAX",
+            "Name": "Los Angeles International",
+            "PlaceId": 65368,
+            "SkyscannerCode": "LAX",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 871.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-04-29T00:00:00",
+                "DestinationId": 65368,
+                "OriginId": 45532
+            },
+            "QuoteDateTime": "2017-04-11T16:45:21",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1703,
+            "OriginId": 45532
+        },
+        {
+            "DestinationId": 1767,
+            "OriginId": 45532
+        },
+        {
+            "DestinationId": 1179,
+            "OriginId": 45532
+        },
+        {
+            "DestinationId": 1482,
+            "OriginId": 45532
+        },
+        {
+            "DestinationId": 1082,
+            "OriginId": 45532
+        },
+        {
+            "DestinationId": 837,
+            "OriginId": 45532
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 45532,
+            "Price": 871.0,
+            "QuoteDateTime": "2017-04-11T16:45:21",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 45532
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 45532
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 45532
+        },
+        {
+            "DestinationId": 1459,
+            "OriginId": 45532
+        }
+    ]
+}

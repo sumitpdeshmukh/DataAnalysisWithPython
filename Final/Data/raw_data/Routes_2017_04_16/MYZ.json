@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 369,
+            "Name": "Ulendo Airlink"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Malawi",
+            "PlaceId": 1431,
+            "SkyscannerCode": "MW",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LLWA",
+            "CityName": "Lilongwe",
+            "CountryName": "Malawi",
+            "IataCode": "LLW",
+            "Name": "Lilongwe",
+            "PlaceId": 65895,
+            "SkyscannerCode": "LLW",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MYZA",
+            "CityName": "Monkey Bay",
+            "CountryName": "Malawi",
+            "IataCode": "MYZ",
+            "Name": "Monkey Bay",
+            "PlaceId": 68826,
+            "SkyscannerCode": "MYZ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 231.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    369
+                ],
+                "DepartureDate": "2017-09-10T00:00:00",
+                "DestinationId": 65895,
+                "OriginId": 68826
+            },
+            "QuoteDateTime": "2017-04-03T12:04:06",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1431,
+            "OriginId": 68826,
+            "Price": 231.0,
+            "QuoteDateTime": "2017-04-03T12:04:06",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

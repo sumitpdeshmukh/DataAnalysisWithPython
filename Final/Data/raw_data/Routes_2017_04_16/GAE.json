@@ -1,0 +1,112 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1799,
+            "Name": "TunisAir Express"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Tunisia",
+            "PlaceId": 1758,
+            "SkyscannerCode": "TN",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "GABE",
+            "CityName": "Gabes",
+            "CountryName": "Tunisia",
+            "IataCode": "GAE",
+            "Name": "Gabes",
+            "PlaceId": 53829,
+            "SkyscannerCode": "GAE",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LAXA",
+            "CityName": "Los Angeles",
+            "CountryName": "United States",
+            "IataCode": "LAX",
+            "Name": "Los Angeles International",
+            "PlaceId": 65368,
+            "SkyscannerCode": "LAX",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TUNI",
+            "CityName": "Tunis Carthage",
+            "CountryName": "Tunisia",
+            "IataCode": "TUN",
+            "Name": "Tunis Carthage",
+            "PlaceId": 84750,
+            "SkyscannerCode": "TUN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 52.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1799
+                ],
+                "DepartureDate": "2017-05-10T00:00:00",
+                "DestinationId": 84750,
+                "OriginId": 53829
+            },
+            "QuoteDateTime": "2017-03-30T11:24:19",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 2603.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-17T00:00:00",
+                "DestinationId": 65368,
+                "OriginId": 53829
+            },
+            "QuoteDateTime": "2017-04-04T04:04:07",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1758,
+            "OriginId": 53829,
+            "Price": 52.0,
+            "QuoteDateTime": "2017-03-30T11:24:19",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 53829,
+            "Price": 2603.0,
+            "QuoteDateTime": "2017-04-04T04:04:07",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

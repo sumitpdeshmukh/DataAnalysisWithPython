@@ -1,0 +1,98 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Czech Republic",
+            "PlaceId": 954,
+            "SkyscannerCode": "CZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Morocco",
+            "PlaceId": 1409,
+            "SkyscannerCode": "MA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Turkey",
+            "PlaceId": 1762,
+            "SkyscannerCode": "TR",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ISTA",
+            "CityName": "Istanbul",
+            "CountryName": "Turkey",
+            "IataCode": "IST",
+            "Name": "Istanbul Ataturk",
+            "PlaceId": 59316,
+            "SkyscannerCode": "IST",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ONQA",
+            "CityName": "Zonguldak",
+            "CountryName": "Turkey",
+            "IataCode": "ONQ",
+            "Name": "Zonguldak",
+            "PlaceId": 72897,
+            "SkyscannerCode": "ONQ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 320.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-05T00:00:00",
+                "DestinationId": 59316,
+                "OriginId": 72897
+            },
+            "QuoteDateTime": "2017-04-04T10:58:27",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1409,
+            "OriginId": 72897
+        },
+        {
+            "DestinationId": 954,
+            "OriginId": 72897
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 72897
+        },
+        {
+            "DestinationId": 1762,
+            "OriginId": 72897,
+            "Price": 320.0,
+            "QuoteDateTime": "2017-04-04T10:58:27",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

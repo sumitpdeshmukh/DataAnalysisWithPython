@@ -1,0 +1,145 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1250,
+            "Name": "Azerbaijan Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Crimea",
+            "PlaceId": 933,
+            "SkyscannerCode": "CE",
+            "Type": "Country"
+        },
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cyprus",
+            "PlaceId": 953,
+            "SkyscannerCode": "CY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "Italy",
+            "PlaceId": 1236,
+            "SkyscannerCode": "IT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Kyrgyzstan",
+            "PlaceId": 1319,
+            "SkyscannerCode": "KG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Thailand",
+            "PlaceId": 1752,
+            "SkyscannerCode": "TH",
+            "Type": "Country"
+        },
+        {
+            "CityId": "MOSC",
+            "CityName": "Moscow",
+            "CountryName": "Russia",
+            "IataCode": "DME",
+            "Name": "Moscow Domodedovo",
+            "PlaceId": 47493,
+            "SkyscannerCode": "DME",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LANK",
+            "CityName": "Lankaran",
+            "CountryName": "Azerbaijan",
+            "IataCode": "LLK",
+            "Name": "Lankaran International",
+            "PlaceId": 65883,
+            "SkyscannerCode": "LLK",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 108.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1250
+                ],
+                "DepartureDate": "2017-05-07T00:00:00",
+                "DestinationId": 47493,
+                "OriginId": 65883
+            },
+            "QuoteDateTime": "2017-04-07T06:53:44",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 953,
+            "OriginId": 65883
+        },
+        {
+            "DestinationId": 1319,
+            "OriginId": 65883
+        },
+        {
+            "DestinationId": 1669,
+            "OriginId": 65883,
+            "Price": 108.0,
+            "QuoteDateTime": "2017-04-07T06:53:44",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1043,
+            "OriginId": 65883
+        },
+        {
+            "DestinationId": 1236,
+            "OriginId": 65883
+        },
+        {
+            "DestinationId": 933,
+            "OriginId": 65883
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 65883
+        },
+        {
+            "DestinationId": 1752,
+            "OriginId": 65883
+        }
+    ]
+}

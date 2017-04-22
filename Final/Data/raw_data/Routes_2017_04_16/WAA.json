@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 360,
+            "Name": "Era Aviation"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "OMEA",
+            "CityName": "Nome",
+            "CountryName": "United States",
+            "IataCode": "OME",
+            "Name": "Nome",
+            "PlaceId": 72837,
+            "SkyscannerCode": "OME",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WAAA",
+            "CityName": "Wales",
+            "CountryName": "United States",
+            "IataCode": "WAA",
+            "Name": "Wales",
+            "PlaceId": 90689,
+            "SkyscannerCode": "WAA",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 231.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    360
+                ],
+                "DepartureDate": "2017-07-15T00:00:00",
+                "DestinationId": 72837,
+                "OriginId": 90689
+            },
+            "QuoteDateTime": "2017-01-29T20:38:28",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 90689,
+            "Price": 231.0,
+            "QuoteDateTime": "2017-01-29T20:38:28",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

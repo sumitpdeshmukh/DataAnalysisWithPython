@@ -1,0 +1,251 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 264,
+            "Name": "Fly540"
+        },
+        {
+            "CarrierId": 1329,
+            "Name": "Kenya Airways"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Kenya",
+            "PlaceId": 1317,
+            "SkyscannerCode": "KE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Malawi",
+            "PlaceId": 1431,
+            "SkyscannerCode": "MW",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Sudan",
+            "PlaceId": 1715,
+            "SkyscannerCode": "SS",
+            "Type": "Country"
+        },
+        {
+            "Name": "Uganda",
+            "PlaceId": 1799,
+            "SkyscannerCode": "UG",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "Name": "Zimbabwe",
+            "PlaceId": 2055,
+            "SkyscannerCode": "ZW",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BIRM",
+            "CityName": "Birmingham",
+            "CountryName": "United Kingdom",
+            "IataCode": "BHX",
+            "Name": "Birmingham",
+            "PlaceId": 42664,
+            "SkyscannerCode": "BHX",
+            "Type": "Station"
+        },
+        {
+            "CityId": "HREA",
+            "CityName": "Harare",
+            "CountryName": "Zimbabwe",
+            "IataCode": "HRE",
+            "Name": "Harare",
+            "PlaceId": 56949,
+            "SkyscannerCode": "HRE",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NYCA",
+            "CityName": "New York",
+            "CountryName": "United States",
+            "IataCode": "JFK",
+            "Name": "New York John F. Kennedy",
+            "PlaceId": 60987,
+            "SkyscannerCode": "JFK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LLWA",
+            "CityName": "Lilongwe",
+            "CountryName": "Malawi",
+            "IataCode": "LLW",
+            "Name": "Lilongwe",
+            "PlaceId": 65895,
+            "SkyscannerCode": "LLW",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MYDA",
+            "CityName": "Malindi",
+            "CountryName": "Kenya",
+            "IataCode": "MYD",
+            "Name": "Malindi",
+            "PlaceId": 68804,
+            "SkyscannerCode": "MYD",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NBOA",
+            "CityName": "Nairobi",
+            "CountryName": "Kenya",
+            "IataCode": "WIL",
+            "Name": "Nairobi Wilson",
+            "PlaceId": 91084,
+            "SkyscannerCode": "WIL",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 47.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    264
+                ],
+                "DepartureDate": "2017-07-17T00:00:00",
+                "DestinationId": 91084,
+                "OriginId": 68804
+            },
+            "QuoteDateTime": "2017-03-29T06:28:26",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 633.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1329
+                ],
+                "DepartureDate": "2017-06-11T00:00:00",
+                "DestinationId": 56949,
+                "OriginId": 68804
+            },
+            "QuoteDateTime": "2017-04-18T15:38:32",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 638.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-08-04T00:00:00",
+                "DestinationId": 60987,
+                "OriginId": 68804
+            },
+            "QuoteDateTime": "2017-03-16T20:29:20",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 686.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1329
+                ],
+                "DepartureDate": "2017-05-17T00:00:00",
+                "DestinationId": 65895,
+                "OriginId": 68804
+            },
+            "QuoteDateTime": "2017-04-18T16:50:19",
+            "QuoteId": 4
+        },
+        {
+            "Direct": false,
+            "MinPrice": 857.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-08-18T00:00:00",
+                "DestinationId": 42664,
+                "OriginId": 68804
+            },
+            "QuoteDateTime": "2017-04-08T17:53:09",
+            "QuoteId": 5
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1317,
+            "OriginId": 68804,
+            "Price": 47.0,
+            "QuoteDateTime": "2017-03-29T06:28:26",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1799,
+            "OriginId": 68804
+        },
+        {
+            "DestinationId": 1715,
+            "OriginId": 68804
+        },
+        {
+            "DestinationId": 2055,
+            "OriginId": 68804,
+            "Price": 633.0,
+            "QuoteDateTime": "2017-04-18T15:38:32",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 68804,
+            "Price": 638.0,
+            "QuoteDateTime": "2017-03-16T20:29:20",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 1431,
+            "OriginId": 68804,
+            "Price": 686.0,
+            "QuoteDateTime": "2017-04-18T16:50:19",
+            "QuoteIds": [
+                4
+            ]
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 68804,
+            "Price": 857.0,
+            "QuoteDateTime": "2017-04-08T17:53:09",
+            "QuoteIds": [
+                5
+            ]
+        }
+    ]
+}

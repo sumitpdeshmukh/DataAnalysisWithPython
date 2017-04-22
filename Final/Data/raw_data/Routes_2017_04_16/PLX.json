@@ -1,0 +1,78 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Czech Republic",
+            "PlaceId": 954,
+            "SkyscannerCode": "CZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Kazakhstan",
+            "PlaceId": 1338,
+            "SkyscannerCode": "KZ",
+            "Type": "Country"
+        },
+        {
+            "CityId": "PLXA",
+            "CityName": "Semipalatinsk",
+            "CountryName": "Kazakhstan",
+            "IataCode": "PLX",
+            "Name": "Semipalatinsk",
+            "PlaceId": 75112,
+            "SkyscannerCode": "PLX",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PRAG",
+            "CityName": "Prague",
+            "CountryName": "Czech Republic",
+            "IataCode": "PRG",
+            "Name": "Prague",
+            "PlaceId": 75383,
+            "SkyscannerCode": "PRG",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 431.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-05T00:00:00",
+                "DestinationId": 75383,
+                "OriginId": 75112
+            },
+            "QuoteDateTime": "2017-03-19T04:36:45",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1338,
+            "OriginId": 75112
+        },
+        {
+            "DestinationId": 954,
+            "OriginId": 75112,
+            "Price": 431.0,
+            "QuoteDateTime": "2017-03-19T04:36:45",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

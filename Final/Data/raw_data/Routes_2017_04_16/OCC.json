@@ -1,0 +1,128 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 854,
+            "Name": "Avianca"
+        },
+        {
+            "CarrierId": 1041,
+            "Name": "TAME"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Ecuador",
+            "PlaceId": 1027,
+            "SkyscannerCode": "EC",
+            "Type": "Country"
+        },
+        {
+            "Name": "Peru",
+            "PlaceId": 1557,
+            "SkyscannerCode": "PE",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "NYCA",
+            "CityName": "New York",
+            "CountryName": "United States",
+            "IataCode": "JFK",
+            "Name": "New York John F. Kennedy",
+            "PlaceId": 60987,
+            "SkyscannerCode": "JFK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "OCCA",
+            "CityName": "Coca",
+            "CountryName": "Ecuador",
+            "IataCode": "OCC",
+            "Name": "Coca",
+            "PlaceId": 72355,
+            "SkyscannerCode": "OCC",
+            "Type": "Station"
+        },
+        {
+            "CityId": "UIOA",
+            "CityName": "Quito",
+            "CountryName": "Ecuador",
+            "IataCode": "UIO",
+            "Name": "Quito",
+            "PlaceId": 86479,
+            "SkyscannerCode": "UIO",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 44.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    854
+                ],
+                "DepartureDate": "2017-06-05T00:00:00",
+                "DestinationId": 86479,
+                "OriginId": 72355
+            },
+            "QuoteDateTime": "2017-03-28T05:35:33",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 468.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1041
+                ],
+                "DepartureDate": "2017-05-15T00:00:00",
+                "DestinationId": 60987,
+                "OriginId": 72355
+            },
+            "QuoteDateTime": "2017-03-12T17:54:20",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1557,
+            "OriginId": 72355
+        },
+        {
+            "DestinationId": 1027,
+            "OriginId": 72355,
+            "Price": 44.0,
+            "QuoteDateTime": "2017-03-28T05:35:33",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 72355,
+            "Price": 468.0,
+            "QuoteDateTime": "2017-03-12T17:54:20",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

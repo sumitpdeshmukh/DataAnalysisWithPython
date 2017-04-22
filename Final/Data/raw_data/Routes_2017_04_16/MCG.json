@@ -1,0 +1,78 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LOND",
+            "CityName": "London",
+            "CountryName": "United Kingdom",
+            "IataCode": "LHR",
+            "Name": "London Heathrow",
+            "PlaceId": 65698,
+            "SkyscannerCode": "LHR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MCGA",
+            "CityName": "Mcgrath",
+            "CountryName": "United States",
+            "IataCode": "MCG",
+            "Name": "Mcgrath",
+            "PlaceId": 67751,
+            "SkyscannerCode": "MCG",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 3954.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-04-25T00:00:00",
+                "DestinationId": 65698,
+                "OriginId": 67751
+            },
+            "QuoteDateTime": "2017-04-18T05:23:29",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 67751
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 67751,
+            "Price": 3954.0,
+            "QuoteDateTime": "2017-04-18T05:23:29",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

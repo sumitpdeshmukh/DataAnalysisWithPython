@@ -1,0 +1,68 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "CityId": "NICE",
+            "CityName": "Nice",
+            "CountryName": "France",
+            "IataCode": "NCE",
+            "Name": "Nice",
+            "PlaceId": 70053,
+            "SkyscannerCode": "NCE",
+            "Type": "Station"
+        },
+        {
+            "CityId": "STNA",
+            "CityName": "St. Nazaire Montoir",
+            "CountryName": "France",
+            "IataCode": "SNR",
+            "Name": "St. Nazaire Montoir",
+            "PlaceId": 82114,
+            "SkyscannerCode": "SNR",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 843.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-14T00:00:00",
+                "DestinationId": 70053,
+                "OriginId": 82114
+            },
+            "QuoteDateTime": "2017-03-20T10:22:16",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1090,
+            "OriginId": 82114,
+            "Price": 843.0,
+            "QuoteDateTime": "2017-03-20T10:22:16",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

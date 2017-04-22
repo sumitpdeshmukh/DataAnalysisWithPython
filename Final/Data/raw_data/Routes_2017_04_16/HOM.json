@@ -1,0 +1,225 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 851,
+            "Name": "Alaska Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Morocco",
+            "PlaceId": 1409,
+            "SkyscannerCode": "MA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Sweden",
+            "PlaceId": 1701,
+            "SkyscannerCode": "SE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ANCA",
+            "CityName": "Anchorage",
+            "CountryName": "United States",
+            "IataCode": "ANC",
+            "Name": "Anchorage International",
+            "PlaceId": 40627,
+            "SkyscannerCode": "ANC",
+            "Type": "Station"
+        },
+        {
+            "CityId": "CASA",
+            "CityName": "Casablanca",
+            "CountryName": "Morocco",
+            "IataCode": "CMN",
+            "Name": "Casablanca Mohamed V.",
+            "PlaceId": 45198,
+            "SkyscannerCode": "CMN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "GOTH",
+            "CityName": "Gothenburg",
+            "CountryName": "Sweden",
+            "IataCode": "GOT",
+            "Name": "Gothenburg Landvetter",
+            "PlaceId": 54516,
+            "SkyscannerCode": "GOT",
+            "Type": "Station"
+        },
+        {
+            "CityId": "HOMA",
+            "CityName": "Homer",
+            "CountryName": "United States",
+            "IataCode": "HOM",
+            "Name": "Homer",
+            "PlaceId": 56813,
+            "SkyscannerCode": "HOM",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SINS",
+            "CityName": "Singapore",
+            "CountryName": "Singapore",
+            "IataCode": "SIN",
+            "Name": "Singapore Changi",
+            "PlaceId": 81870,
+            "SkyscannerCode": "SIN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YVRA",
+            "CityName": "Vancouver",
+            "CountryName": "Canada",
+            "IataCode": "YVR",
+            "Name": "Vancouver International",
+            "PlaceId": 96322,
+            "SkyscannerCode": "YVR",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 95.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    851
+                ],
+                "DepartureDate": "2017-04-22T00:00:00",
+                "DestinationId": 40627,
+                "OriginId": 56813
+            },
+            "QuoteDateTime": "2017-04-14T00:00:34",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 6361.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-23T00:00:00",
+                "DestinationId": 54516,
+                "OriginId": 56813
+            },
+            "QuoteDateTime": "2017-03-27T14:17:00",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 386.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    851
+                ],
+                "DepartureDate": "2017-06-28T00:00:00",
+                "DestinationId": 96322,
+                "OriginId": 56813
+            },
+            "QuoteDateTime": "2017-03-19T07:43:59",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 6370.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-09-15T00:00:00",
+                "DestinationId": 45198,
+                "OriginId": 56813
+            },
+            "QuoteDateTime": "2017-03-30T15:16:32",
+            "QuoteId": 4
+        },
+        {
+            "Direct": false,
+            "MinPrice": 976.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-20T00:00:00",
+                "DestinationId": 81870,
+                "OriginId": 56813
+            },
+            "QuoteDateTime": "2017-03-26T03:19:44",
+            "QuoteId": 5
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 56813,
+            "Price": 95.0,
+            "QuoteDateTime": "2017-04-14T00:00:34",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1701,
+            "OriginId": 56813,
+            "Price": 6361.0,
+            "QuoteDateTime": "2017-03-27T14:17:00",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 56813,
+            "Price": 386.0,
+            "QuoteDateTime": "2017-03-19T07:43:59",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 1409,
+            "OriginId": 56813,
+            "Price": 6370.0,
+            "QuoteDateTime": "2017-03-30T15:16:32",
+            "QuoteIds": [
+                4
+            ]
+        },
+        {
+            "DestinationId": 1703,
+            "OriginId": 56813,
+            "Price": 976.0,
+            "QuoteDateTime": "2017-03-26T03:19:44",
+            "QuoteIds": [
+                5
+            ]
+        }
+    ]
+}

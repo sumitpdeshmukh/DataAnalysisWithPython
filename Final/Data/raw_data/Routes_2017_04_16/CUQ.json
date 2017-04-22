@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 76,
+            "Name": "Fly Tiwi"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CNSA",
+            "CityName": "Cairns",
+            "CountryName": "Australia",
+            "IataCode": "CNS",
+            "Name": "Cairns",
+            "PlaceId": 45251,
+            "SkyscannerCode": "CNS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "CUQA",
+            "CityName": "Coen",
+            "CountryName": "Australia",
+            "IataCode": "CUQ",
+            "Name": "Coen",
+            "PlaceId": 45585,
+            "SkyscannerCode": "CUQ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 289.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    76
+                ],
+                "DepartureDate": "2017-11-01T00:00:00",
+                "DestinationId": 45251,
+                "OriginId": 45585
+            },
+            "QuoteDateTime": "2017-04-13T11:18:22",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 853,
+            "OriginId": 45585,
+            "Price": 289.0,
+            "QuoteDateTime": "2017-04-13T11:18:22",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1894,
+            "Name": "Wideroe"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Norway",
+            "PlaceId": 1471,
+            "SkyscannerCode": "NO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Sweden",
+            "PlaceId": 1701,
+            "SkyscannerCode": "SE",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "FORD",
+            "CityName": "Forde",
+            "CountryName": "Norway",
+            "IataCode": "FDE",
+            "Name": "Forde Bringeland",
+            "PlaceId": 51669,
+            "SkyscannerCode": "FDE",
+            "Type": "Station"
+        },
+        {
+            "CityId": "GOTH",
+            "CityName": "Gothenburg",
+            "CountryName": "Sweden",
+            "IataCode": "GOT",
+            "Name": "Gothenburg Landvetter",
+            "PlaceId": 54516,
+            "SkyscannerCode": "GOT",
+            "Type": "Station"
+        },
+        {
+            "CityId": "OSLO",
+            "CityName": "Oslo",
+            "CountryName": "Norway",
+            "IataCode": "OSL",
+            "Name": "Oslo Gardermoen",
+            "PlaceId": 73132,
+            "SkyscannerCode": "OSL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "STLA",
+            "CityName": "St Louis",
+            "CountryName": "United States",
+            "IataCode": "STL",
+            "Name": "St Louis",
+            "PlaceId": 82396,
+            "SkyscannerCode": "STL",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 142.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-04-27T00:00:00",
+                "DestinationId": 54516,
+                "OriginId": 51669
+            },
+            "QuoteDateTime": "2017-03-27T07:47:10",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 91.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1894
+                ],
+                "DepartureDate": "2017-08-08T00:00:00",
+                "DestinationId": 73132,
+                "OriginId": 51669
+            },
+            "QuoteDateTime": "2017-04-18T09:24:59",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1401.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-08-08T00:00:00",
+                "DestinationId": 82396,
+                "OriginId": 51669
+            },
+            "QuoteDateTime": "2017-04-16T20:06:57",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1701,
+            "OriginId": 51669,
+            "Price": 142.0,
+            "QuoteDateTime": "2017-03-27T07:47:10",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1471,
+            "OriginId": 51669,
+            "Price": 91.0,
+            "QuoteDateTime": "2017-04-18T09:24:59",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 51669,
+            "Price": 1401.0,
+            "QuoteDateTime": "2017-04-16T20:06:57",
+            "QuoteIds": [
+                3
+            ]
+        }
+    ]
+}

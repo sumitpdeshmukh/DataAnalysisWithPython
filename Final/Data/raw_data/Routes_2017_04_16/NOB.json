@@ -1,0 +1,125 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 249,
+            "Name": "Nature Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Chile",
+            "PlaceId": 940,
+            "SkyscannerCode": "CL",
+            "Type": "Country"
+        },
+        {
+            "Name": "Costa Rica",
+            "PlaceId": 946,
+            "SkyscannerCode": "CR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Guatemala",
+            "PlaceId": 1140,
+            "SkyscannerCode": "GT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Nicaragua",
+            "PlaceId": 1465,
+            "SkyscannerCode": "NI",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LIRA",
+            "CityName": "Liberia",
+            "CountryName": "Costa Rica",
+            "IataCode": "LIR",
+            "Name": "Liberia",
+            "PlaceId": 65746,
+            "SkyscannerCode": "LIR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NOBA",
+            "CityName": "Nosara Beach",
+            "CountryName": "Costa Rica",
+            "IataCode": "NOB",
+            "Name": "Nosara Beach",
+            "PlaceId": 70626,
+            "SkyscannerCode": "NOB",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 70.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    249
+                ],
+                "DepartureDate": "2017-05-17T00:00:00",
+                "DestinationId": 65746,
+                "OriginId": 70626
+            },
+            "QuoteDateTime": "2017-04-06T06:13:44",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1140,
+            "OriginId": 70626
+        },
+        {
+            "DestinationId": 1465,
+            "OriginId": 70626
+        },
+        {
+            "DestinationId": 946,
+            "OriginId": 70626,
+            "Price": 70.0,
+            "QuoteDateTime": "2017-04-06T06:13:44",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 70626
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 70626
+        },
+        {
+            "DestinationId": 940,
+            "OriginId": 70626
+        }
+    ]
+}

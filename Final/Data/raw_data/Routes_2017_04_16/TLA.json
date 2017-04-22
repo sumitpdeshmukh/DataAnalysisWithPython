@@ -1,0 +1,68 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "SEAA",
+            "CityName": "Seattle",
+            "CountryName": "United States",
+            "IataCode": "SEA",
+            "Name": "Seattle / Tacoma International",
+            "PlaceId": 81665,
+            "SkyscannerCode": "SEA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TLAA",
+            "CityName": "Teller",
+            "CountryName": "United States",
+            "IataCode": "TLA",
+            "Name": "Teller",
+            "PlaceId": 84305,
+            "SkyscannerCode": "TLA",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 500.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-09T00:00:00",
+                "DestinationId": 81665,
+                "OriginId": 84305
+            },
+            "QuoteDateTime": "2017-03-15T14:24:42",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 84305,
+            "Price": 500.0,
+            "QuoteDateTime": "2017-03-15T14:24:42",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

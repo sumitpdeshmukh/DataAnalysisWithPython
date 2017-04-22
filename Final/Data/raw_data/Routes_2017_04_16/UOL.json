@@ -1,0 +1,68 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Indonesia",
+            "PlaceId": 1220,
+            "SkyscannerCode": "ID",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CGKI",
+            "CityName": "Jakarta",
+            "CountryName": "Indonesia",
+            "IataCode": "CGK",
+            "Name": "Soekarno-Hatta",
+            "PlaceId": 44907,
+            "SkyscannerCode": "CGK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "UOLI",
+            "CityName": "Buol",
+            "CountryName": "Indonesia",
+            "IataCode": "UOL",
+            "Name": "Buol",
+            "PlaceId": 86764,
+            "SkyscannerCode": "UOL",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 168.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-30T00:00:00",
+                "DestinationId": 44907,
+                "OriginId": 86764
+            },
+            "QuoteDateTime": "2017-03-24T06:52:39",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1220,
+            "OriginId": 86764,
+            "Price": 168.0,
+            "QuoteDateTime": "2017-03-24T06:52:39",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

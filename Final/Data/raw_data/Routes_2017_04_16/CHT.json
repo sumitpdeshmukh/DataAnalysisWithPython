@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 912,
+            "Name": "Air Chathams"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "New Zealand",
+            "PlaceId": 1482,
+            "SkyscannerCode": "NZ",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CHTN",
+            "CityName": "Chatham Island",
+            "CountryName": "New Zealand",
+            "IataCode": "CHT",
+            "Name": "Chatham Island",
+            "PlaceId": 44964,
+            "SkyscannerCode": "CHT",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WLGN",
+            "CityName": "Wellington",
+            "CountryName": "New Zealand",
+            "IataCode": "WLG",
+            "Name": "Wellington",
+            "PlaceId": 91223,
+            "SkyscannerCode": "WLG",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 461.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    912
+                ],
+                "DepartureDate": "2017-10-20T00:00:00",
+                "DestinationId": 91223,
+                "OriginId": 44964
+            },
+            "QuoteDateTime": "2017-04-18T21:34:24",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1482,
+            "OriginId": 44964,
+            "Price": 461.0,
+            "QuoteDateTime": "2017-04-18T21:34:24",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

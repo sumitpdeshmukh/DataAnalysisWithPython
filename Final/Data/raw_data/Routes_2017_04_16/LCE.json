@@ -1,0 +1,228 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 881,
+            "Name": "British Airways"
+        },
+        {
+            "CarrierId": 1336,
+            "Name": "Cayman Airways"
+        },
+        {
+            "CarrierId": 1540,
+            "Name": "Aerolineas Sosa"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Colombia",
+            "PlaceId": 943,
+            "SkyscannerCode": "CO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Guatemala",
+            "PlaceId": 1140,
+            "SkyscannerCode": "GT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Honduras",
+            "PlaceId": 1182,
+            "SkyscannerCode": "HN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Jamaica",
+            "PlaceId": 1277,
+            "SkyscannerCode": "JM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cayman Islands",
+            "PlaceId": 1337,
+            "SkyscannerCode": "KY",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "GCMA",
+            "CityName": "Grand Cayman Island",
+            "CountryName": "Cayman Islands",
+            "IataCode": "GCM",
+            "Name": "Grand Cayman Island",
+            "PlaceId": 53933,
+            "SkyscannerCode": "GCM",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LCEA",
+            "CityName": "La Ceiba",
+            "CountryName": "Honduras",
+            "IataCode": "LCE",
+            "Name": "La Ceiba",
+            "PlaceId": 65445,
+            "SkyscannerCode": "LCE",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MDEA",
+            "CityName": "Medellin",
+            "CountryName": "Colombia",
+            "IataCode": "MDE",
+            "Name": "Medellin Jose Maria Cordova",
+            "PlaceId": 67797,
+            "SkyscannerCode": "MDE",
+            "Type": "Station"
+        },
+        {
+            "CityId": "RTBA",
+            "CityName": "Roatan",
+            "CountryName": "Honduras",
+            "IataCode": "RTB",
+            "Name": "Roatan",
+            "PlaceId": 80082,
+            "SkyscannerCode": "RTB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YTOA",
+            "CityName": "Toronto",
+            "CountryName": "Canada",
+            "IataCode": "YYZ",
+            "Name": "Toronto Pearson International",
+            "PlaceId": 96474,
+            "SkyscannerCode": "YYZ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 36.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1540
+                ],
+                "DepartureDate": "2017-05-20T00:00:00",
+                "DestinationId": 80082,
+                "OriginId": 65445
+            },
+            "QuoteDateTime": "2017-04-18T19:18:46",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 248.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1336
+                ],
+                "DepartureDate": "2017-05-08T00:00:00",
+                "DestinationId": 53933,
+                "OriginId": 65445
+            },
+            "QuoteDateTime": "2017-04-16T21:38:20",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 603.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-26T00:00:00",
+                "DestinationId": 67797,
+                "OriginId": 65445
+            },
+            "QuoteDateTime": "2017-04-10T19:23:06",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 5173.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    881
+                ],
+                "DepartureDate": "2017-04-24T00:00:00",
+                "DestinationId": 96474,
+                "OriginId": 65445
+            },
+            "QuoteDateTime": "2017-04-15T21:40:31",
+            "QuoteId": 4
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 65445
+        },
+        {
+            "DestinationId": 1182,
+            "OriginId": 65445,
+            "Price": 36.0,
+            "QuoteDateTime": "2017-04-18T19:18:46",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1140,
+            "OriginId": 65445
+        },
+        {
+            "DestinationId": 1337,
+            "OriginId": 65445,
+            "Price": 248.0,
+            "QuoteDateTime": "2017-04-16T21:38:20",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1277,
+            "OriginId": 65445
+        },
+        {
+            "DestinationId": 943,
+            "OriginId": 65445,
+            "Price": 603.0,
+            "QuoteDateTime": "2017-04-10T19:23:06",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 65445,
+            "Price": 5173.0,
+            "QuoteDateTime": "2017-04-15T21:40:31",
+            "QuoteIds": [
+                4
+            ]
+        }
+    ]
+}

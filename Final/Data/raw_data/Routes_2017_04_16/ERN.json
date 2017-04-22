@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1282,
+            "Name": "MAP Linhas A\u00e9reas"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ERNA",
+            "CityName": "Eirunepe",
+            "CountryName": "Brazil",
+            "IataCode": "ERN",
+            "Name": "Eirunepe",
+            "PlaceId": 50046,
+            "SkyscannerCode": "ERN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TFFA",
+            "CityName": "Tefe",
+            "CountryName": "Brazil",
+            "IataCode": "TFF",
+            "Name": "Tefe",
+            "PlaceId": 84022,
+            "SkyscannerCode": "TFF",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 177.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1282
+                ],
+                "DepartureDate": "2017-07-23T00:00:00",
+                "DestinationId": 84022,
+                "OriginId": 50046
+            },
+            "QuoteDateTime": "2017-04-16T04:14:36",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 898,
+            "OriginId": 50046,
+            "Price": 177.0,
+            "QuoteDateTime": "2017-04-16T04:14:36",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

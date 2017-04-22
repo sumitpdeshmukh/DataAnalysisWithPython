@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1218,
+            "Name": "Iberia"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Netherlands",
+            "PlaceId": 1468,
+            "SkyscannerCode": "NL",
+            "Type": "Country"
+        },
+        {
+            "CityId": "AMST",
+            "CityName": "Amsterdam",
+            "CountryName": "Netherlands",
+            "IataCode": "AMS",
+            "Name": "Amsterdam",
+            "PlaceId": 40595,
+            "SkyscannerCode": "AMS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MELI",
+            "CityName": "Melilla",
+            "CountryName": "Spain",
+            "IataCode": "MLN",
+            "Name": "Melilla",
+            "PlaceId": 68190,
+            "SkyscannerCode": "MLN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 300.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1218
+                ],
+                "DepartureDate": "2017-05-02T00:00:00",
+                "DestinationId": 40595,
+                "OriginId": 68190
+            },
+            "QuoteDateTime": "2017-04-09T20:34:00",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1468,
+            "OriginId": 68190,
+            "Price": 300.0,
+            "QuoteDateTime": "2017-04-09T20:34:00",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

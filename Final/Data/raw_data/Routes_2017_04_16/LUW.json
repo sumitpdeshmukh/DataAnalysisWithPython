@@ -1,0 +1,132 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1239,
+            "Name": "Wings Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Indonesia",
+            "PlaceId": 1220,
+            "SkyscannerCode": "ID",
+            "Type": "Country"
+        },
+        {
+            "Name": "Malaysia",
+            "PlaceId": 1433,
+            "SkyscannerCode": "MY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Saudi Arabia",
+            "PlaceId": 1697,
+            "SkyscannerCode": "SA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "CityId": "GTOI",
+            "CityName": "Gorontalo",
+            "CountryName": "Indonesia",
+            "IataCode": "GTO",
+            "Name": "Gorontalo",
+            "PlaceId": 54751,
+            "SkyscannerCode": "GTO",
+            "Type": "Station"
+        },
+        {
+            "CityId": "KULM",
+            "CityName": "Kuala Lumpur",
+            "CountryName": "Malaysia",
+            "IataCode": "KUL",
+            "Name": "Kuala Lumpur International",
+            "PlaceId": 64012,
+            "SkyscannerCode": "KUL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LUWI",
+            "CityName": "Banggai (Luwuk)",
+            "CountryName": "Indonesia",
+            "IataCode": "LUW",
+            "Name": "Banggai (Luwuk)",
+            "PlaceId": 66327,
+            "SkyscannerCode": "LUW",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 25.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1239
+                ],
+                "DepartureDate": "2017-05-29T00:00:00",
+                "DestinationId": 54751,
+                "OriginId": 66327
+            },
+            "QuoteDateTime": "2017-03-25T19:25:31",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 262.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-04-21T00:00:00",
+                "DestinationId": 64012,
+                "OriginId": 66327
+            },
+            "QuoteDateTime": "2017-04-17T00:38:52",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1703,
+            "OriginId": 66327
+        },
+        {
+            "DestinationId": 1697,
+            "OriginId": 66327
+        },
+        {
+            "DestinationId": 1220,
+            "OriginId": 66327,
+            "Price": 25.0,
+            "QuoteDateTime": "2017-03-25T19:25:31",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1433,
+            "OriginId": 66327,
+            "Price": 262.0,
+            "QuoteDateTime": "2017-04-17T00:38:52",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

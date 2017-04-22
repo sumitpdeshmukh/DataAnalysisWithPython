@@ -1,0 +1,95 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1555,
+            "Name": "Polar airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Crimea",
+            "PlaceId": 933,
+            "SkyscannerCode": "CE",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Korea",
+            "PlaceId": 1330,
+            "SkyscannerCode": "KR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "MQJC",
+            "CityName": "Khonnu",
+            "CountryName": "Russia",
+            "IataCode": "MQJ",
+            "Name": "Moma Airport",
+            "PlaceId": 68426,
+            "SkyscannerCode": "MQJ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YAKU",
+            "CityName": "Yakutsk",
+            "CountryName": "Russia",
+            "IataCode": "YKS",
+            "Name": "Yakutsk",
+            "PlaceId": 95795,
+            "SkyscannerCode": "YKS",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 218.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1555
+                ],
+                "DepartureDate": "2017-06-05T00:00:00",
+                "DestinationId": 95795,
+                "OriginId": 68426
+            },
+            "QuoteDateTime": "2017-04-18T11:22:18",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1330,
+            "OriginId": 68426
+        },
+        {
+            "DestinationId": 1669,
+            "OriginId": 68426,
+            "Price": 218.0,
+            "QuoteDateTime": "2017-04-18T11:22:18",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 933,
+            "OriginId": 68426
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1121,
+            "Name": "Garuda Indonesia"
+        },
+        {
+            "CarrierId": 1239,
+            "Name": "Wings Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Indonesia",
+            "PlaceId": 1220,
+            "SkyscannerCode": "ID",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BMUI",
+            "CityName": "Bima",
+            "CountryName": "Indonesia",
+            "IataCode": "BMU",
+            "Name": "Bima",
+            "PlaceId": 42901,
+            "SkyscannerCode": "BMU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LOPA",
+            "CityName": "Praya",
+            "CountryName": "Indonesia",
+            "IataCode": "LOP",
+            "Name": "Lombok International",
+            "PlaceId": 66032,
+            "SkyscannerCode": "LOP",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SINS",
+            "CityName": "Singapore",
+            "CountryName": "Singapore",
+            "IataCode": "SIN",
+            "Name": "Singapore Changi",
+            "PlaceId": 81870,
+            "SkyscannerCode": "SIN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 198.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1121
+                ],
+                "DepartureDate": "2017-08-16T00:00:00",
+                "DestinationId": 81870,
+                "OriginId": 42901
+            },
+            "QuoteDateTime": "2017-04-10T06:14:44",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 33.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1239
+                ],
+                "DepartureDate": "2017-12-26T00:00:00",
+                "DestinationId": 66032,
+                "OriginId": 42901
+            },
+            "QuoteDateTime": "2017-04-05T14:20:51",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1703,
+            "OriginId": 42901,
+            "Price": 198.0,
+            "QuoteDateTime": "2017-04-10T06:14:44",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1220,
+            "OriginId": 42901,
+            "Price": 33.0,
+            "QuoteDateTime": "2017-04-05T14:20:51",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 76,
+            "Name": "Fly Tiwi"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "HIDA",
+            "CityName": "Horn Island",
+            "CountryName": "Australia",
+            "IataCode": "HID",
+            "Name": "Horn Island",
+            "PlaceId": 56516,
+            "SkyscannerCode": "HID",
+            "Type": "Station"
+        },
+        {
+            "CityId": "KUGA",
+            "CityName": "Kubin Island",
+            "CountryName": "Australia",
+            "IataCode": "KUG",
+            "Name": "Kubin Island",
+            "PlaceId": 64007,
+            "SkyscannerCode": "KUG",
+            "Type": "Station"
+        },
+        {
+            "CityId": "UBBA",
+            "CityName": "Mabuiag Island",
+            "CountryName": "Australia",
+            "IataCode": "UBB",
+            "Name": "Mabuiag Island",
+            "PlaceId": 86130,
+            "SkyscannerCode": "UBB",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 180.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    76
+                ],
+                "DepartureDate": "2017-08-07T00:00:00",
+                "DestinationId": 56516,
+                "OriginId": 86130
+            },
+            "QuoteDateTime": "2017-04-13T16:36:28",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 190.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    76
+                ],
+                "DepartureDate": "2017-08-10T00:00:00",
+                "DestinationId": 64007,
+                "OriginId": 86130
+            },
+            "QuoteDateTime": "2017-03-29T08:16:02",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 853,
+            "OriginId": 86130,
+            "Price": 180.0,
+            "QuoteDateTime": "2017-04-13T16:36:28",
+            "QuoteIds": [
+                1,
+                2
+            ]
+        }
+    ]
+}

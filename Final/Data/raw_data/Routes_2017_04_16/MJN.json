@@ -1,0 +1,188 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1412,
+            "Name": "Air Madagascar"
+        },
+        {
+            "CarrierId": 1951,
+            "Name": "Ewa  Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Comoros",
+            "PlaceId": 1325,
+            "SkyscannerCode": "KM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Madagascar",
+            "PlaceId": 1415,
+            "SkyscannerCode": "MG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mauritius",
+            "PlaceId": 1429,
+            "SkyscannerCode": "MU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Reunion",
+            "PlaceId": 1653,
+            "SkyscannerCode": "RE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Seychelles",
+            "PlaceId": 1699,
+            "SkyscannerCode": "SC",
+            "Type": "Country"
+        },
+        {
+            "Name": "Tanzania",
+            "PlaceId": 1770,
+            "SkyscannerCode": "TZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mayotte",
+            "PlaceId": 2004,
+            "SkyscannerCode": "YT",
+            "Type": "Country"
+        },
+        {
+            "CityId": "DZAA",
+            "CityName": "Dzaoudzi",
+            "CountryName": "Mayotte",
+            "IataCode": "DZA",
+            "Name": "Dzaoudzi",
+            "PlaceId": 48113,
+            "SkyscannerCode": "DZA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MJNA",
+            "CityName": "Majunga",
+            "CountryName": "Madagascar",
+            "IataCode": "MJN",
+            "Name": "Majunga",
+            "PlaceId": 68094,
+            "SkyscannerCode": "MJN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TNRA",
+            "CityName": "Antananarivo",
+            "CountryName": "Madagascar",
+            "IataCode": "TNR",
+            "Name": "Antananarivo",
+            "PlaceId": 84418,
+            "SkyscannerCode": "TNR",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 267.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1412
+                ],
+                "DepartureDate": "2017-06-06T00:00:00",
+                "DestinationId": 84418,
+                "OriginId": 68094
+            },
+            "QuoteDateTime": "2017-03-30T13:06:42",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 190.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1951
+                ],
+                "DepartureDate": "2017-04-21T00:00:00",
+                "DestinationId": 48113,
+                "OriginId": 68094
+            },
+            "QuoteDateTime": "2017-04-17T18:21:40",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1325,
+            "OriginId": 68094
+        },
+        {
+            "DestinationId": 1429,
+            "OriginId": 68094
+        },
+        {
+            "DestinationId": 1415,
+            "OriginId": 68094,
+            "Price": 267.0,
+            "QuoteDateTime": "2017-03-30T13:06:42",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1770,
+            "OriginId": 68094
+        },
+        {
+            "DestinationId": 1699,
+            "OriginId": 68094
+        },
+        {
+            "DestinationId": 1653,
+            "OriginId": 68094
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 68094
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 68094
+        },
+        {
+            "DestinationId": 2004,
+            "OriginId": 68094,
+            "Price": 190.0,
+            "QuoteDateTime": "2017-04-17T18:21:40",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

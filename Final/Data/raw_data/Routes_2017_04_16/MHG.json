@@ -1,0 +1,162 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Morocco",
+            "PlaceId": 1409,
+            "SkyscannerCode": "MA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Netherlands",
+            "PlaceId": 1468,
+            "SkyscannerCode": "NL",
+            "Type": "Country"
+        },
+        {
+            "Name": "Turkey",
+            "PlaceId": 1762,
+            "SkyscannerCode": "TR",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "AMST",
+            "CityName": "Amsterdam",
+            "CountryName": "Netherlands",
+            "IataCode": "AMS",
+            "Name": "Amsterdam",
+            "PlaceId": 40595,
+            "SkyscannerCode": "AMS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "CASA",
+            "CityName": "Casablanca",
+            "CountryName": "Morocco",
+            "IataCode": "CMN",
+            "Name": "Casablanca Mohamed V.",
+            "PlaceId": 45198,
+            "SkyscannerCode": "CMN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NYCA",
+            "CityName": "New York",
+            "CountryName": "United States",
+            "IataCode": "EWR",
+            "Name": "New York Newark",
+            "PlaceId": 50290,
+            "SkyscannerCode": "EWR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MANN",
+            "CityName": "Mannheim",
+            "CountryName": "Germany",
+            "IataCode": "MHG",
+            "Name": "Mannheim",
+            "PlaceId": 67991,
+            "SkyscannerCode": "MHG",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 3292.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-30T00:00:00",
+                "DestinationId": 50290,
+                "OriginId": 67991
+            },
+            "QuoteDateTime": "2017-04-13T21:09:20",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1140.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-18T00:00:00",
+                "DestinationId": 45198,
+                "OriginId": 67991
+            },
+            "QuoteDateTime": "2017-03-30T15:01:05",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 810.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-17T00:00:00",
+                "DestinationId": 40595,
+                "OriginId": 67991
+            },
+            "QuoteDateTime": "2017-03-20T16:02:13",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1762,
+            "OriginId": 67991
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 67991
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 67991,
+            "Price": 3292.0,
+            "QuoteDateTime": "2017-04-13T21:09:20",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1409,
+            "OriginId": 67991,
+            "Price": 1140.0,
+            "QuoteDateTime": "2017-03-30T15:01:05",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1468,
+            "OriginId": 67991,
+            "Price": 810.0,
+            "QuoteDateTime": "2017-03-20T16:02:13",
+            "QuoteIds": [
+                3
+            ]
+        }
+    ]
+}

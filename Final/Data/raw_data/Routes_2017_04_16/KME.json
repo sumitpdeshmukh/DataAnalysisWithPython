@@ -1,0 +1,208 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Belgium",
+            "PlaceId": 885,
+            "SkyscannerCode": "BE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Burundi",
+            "PlaceId": 889,
+            "SkyscannerCode": "BI",
+            "Type": "Country"
+        },
+        {
+            "Name": "Benin",
+            "PlaceId": 890,
+            "SkyscannerCode": "BJ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Ivory Coast",
+            "PlaceId": 937,
+            "SkyscannerCode": "CI",
+            "Type": "Country"
+        },
+        {
+            "Name": "Ethiopia",
+            "PlaceId": 1044,
+            "SkyscannerCode": "ET",
+            "Type": "Country"
+        },
+        {
+            "Name": "Ghana",
+            "PlaceId": 1128,
+            "SkyscannerCode": "GH",
+            "Type": "Country"
+        },
+        {
+            "Name": "India",
+            "PlaceId": 1230,
+            "SkyscannerCode": "IN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Kenya",
+            "PlaceId": 1317,
+            "SkyscannerCode": "KE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Nigeria",
+            "PlaceId": 1463,
+            "SkyscannerCode": "NG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Rwanda",
+            "PlaceId": 1671,
+            "SkyscannerCode": "RW",
+            "Type": "Country"
+        },
+        {
+            "Name": "Turkey",
+            "PlaceId": 1762,
+            "SkyscannerCode": "TR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Uganda",
+            "PlaceId": 1799,
+            "SkyscannerCode": "UG",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Africa",
+            "PlaceId": 2033,
+            "SkyscannerCode": "ZA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ADDA",
+            "CityName": "Addis Ababa",
+            "CountryName": "Ethiopia",
+            "IataCode": "ADD",
+            "Name": "Addis Ababa",
+            "PlaceId": 40148,
+            "SkyscannerCode": "ADD",
+            "Type": "Station"
+        },
+        {
+            "CityId": "KMEA",
+            "CityName": "Kamembe",
+            "CountryName": "Rwanda",
+            "IataCode": "KME",
+            "Name": "Kamembe",
+            "PlaceId": 63621,
+            "SkyscannerCode": "KME",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 548.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-08-17T00:00:00",
+                "DestinationId": 40148,
+                "OriginId": 63621
+            },
+            "QuoteDateTime": "2017-03-28T05:58:59",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1317,
+            "OriginId": 63621
+        },
+        {
+            "DestinationId": 889,
+            "OriginId": 63621
+        },
+        {
+            "DestinationId": 1044,
+            "OriginId": 63621,
+            "Price": 548.0,
+            "QuoteDateTime": "2017-03-28T05:58:59",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 837,
+            "OriginId": 63621
+        },
+        {
+            "DestinationId": 1230,
+            "OriginId": 63621
+        },
+        {
+            "DestinationId": 1463,
+            "OriginId": 63621
+        },
+        {
+            "DestinationId": 2033,
+            "OriginId": 63621
+        },
+        {
+            "DestinationId": 1799,
+            "OriginId": 63621
+        },
+        {
+            "DestinationId": 885,
+            "OriginId": 63621
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 63621
+        },
+        {
+            "DestinationId": 890,
+            "OriginId": 63621
+        },
+        {
+            "DestinationId": 1762,
+            "OriginId": 63621
+        },
+        {
+            "DestinationId": 1128,
+            "OriginId": 63621
+        },
+        {
+            "DestinationId": 937,
+            "OriginId": 63621
+        },
+        {
+            "DestinationId": 1671,
+            "OriginId": 63621
+        }
+    ]
+}

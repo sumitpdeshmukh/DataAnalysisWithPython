@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 977,
+            "Name": "Daily Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Taiwan",
+            "PlaceId": 1767,
+            "SkyscannerCode": "TW",
+            "Type": "Country"
+        },
+        {
+            "CityId": "GNIT",
+            "CityName": "Green Island",
+            "CountryName": "Taiwan",
+            "IataCode": "GNI",
+            "Name": "Green Island",
+            "PlaceId": 54457,
+            "SkyscannerCode": "GNI",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TTTT",
+            "CityName": "Taitung",
+            "CountryName": "Taiwan",
+            "IataCode": "TTT",
+            "Name": "Taitung",
+            "PlaceId": 84708,
+            "SkyscannerCode": "TTT",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 143.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    977
+                ],
+                "DepartureDate": "2017-04-23T00:00:00",
+                "DestinationId": 84708,
+                "OriginId": 54457
+            },
+            "QuoteDateTime": "2017-04-18T05:03:41",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1767,
+            "OriginId": 54457,
+            "Price": 143.0,
+            "QuoteDateTime": "2017-04-18T05:03:41",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

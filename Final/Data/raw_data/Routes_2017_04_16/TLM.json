@@ -1,0 +1,325 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 840,
+            "Name": "Air Algerie"
+        },
+        {
+            "CarrierId": 1746,
+            "Name": "Tuifly.be"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Belgium",
+            "PlaceId": 885,
+            "SkyscannerCode": "BE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Ivory Coast",
+            "PlaceId": 937,
+            "SkyscannerCode": "CI",
+            "Type": "Country"
+        },
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cuba",
+            "PlaceId": 949,
+            "SkyscannerCode": "CU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Algeria",
+            "PlaceId": 1002,
+            "SkyscannerCode": "DZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Egypt",
+            "PlaceId": 1031,
+            "SkyscannerCode": "EG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Guinea",
+            "PlaceId": 1134,
+            "SkyscannerCode": "GN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Jordan",
+            "PlaceId": 1279,
+            "SkyscannerCode": "JO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Lebanon",
+            "PlaceId": 1362,
+            "SkyscannerCode": "LB",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "Portugal",
+            "PlaceId": 1572,
+            "SkyscannerCode": "PT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Saudi Arabia",
+            "PlaceId": 1697,
+            "SkyscannerCode": "SA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Turkey",
+            "PlaceId": 1762,
+            "SkyscannerCode": "TR",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ALGA",
+            "CityName": "Algiers",
+            "CountryName": "Algeria",
+            "IataCode": "ALG",
+            "Name": "Algiers",
+            "PlaceId": 40535,
+            "SkyscannerCode": "ALG",
+            "Type": "Station"
+        },
+        {
+            "CityId": "BRUS",
+            "CityName": "Brussels",
+            "CountryName": "Belgium",
+            "IataCode": "CRL",
+            "Name": "Brussels S. Charleroi",
+            "PlaceId": 45436,
+            "SkyscannerCode": "CRL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NYCA",
+            "CityName": "New York",
+            "CountryName": "United States",
+            "IataCode": "JFK",
+            "Name": "New York John F. Kennedy",
+            "PlaceId": 60987,
+            "SkyscannerCode": "JFK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TLMA",
+            "CityName": "Tlemcen",
+            "CountryName": "Algeria",
+            "IataCode": "TLM",
+            "Name": "Tlemcen",
+            "PlaceId": 84317,
+            "SkyscannerCode": "TLM",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 49.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    840
+                ],
+                "DepartureDate": "2017-05-21T00:00:00",
+                "DestinationId": 40535,
+                "OriginId": 84317
+            },
+            "QuoteDateTime": "2017-03-17T17:50:00",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 54.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1746
+                ],
+                "DepartureDate": "2017-07-06T00:00:00",
+                "DestinationId": 45436,
+                "OriginId": 84317
+            },
+            "QuoteDateTime": "2017-04-02T18:05:55",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 550.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-12T00:00:00",
+                "DestinationId": 60987,
+                "OriginId": 84317
+            },
+            "QuoteDateTime": "2017-04-12T04:26:19",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1762,
+            "OriginId": 84317
+        },
+        {
+            "DestinationId": 1697,
+            "OriginId": 84317
+        },
+        {
+            "DestinationId": 1279,
+            "OriginId": 84317
+        },
+        {
+            "DestinationId": 1031,
+            "OriginId": 84317
+        },
+        {
+            "DestinationId": 937,
+            "OriginId": 84317
+        },
+        {
+            "DestinationId": 1002,
+            "OriginId": 84317,
+            "Price": 49.0,
+            "QuoteDateTime": "2017-03-17T17:50:00",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 84317
+        },
+        {
+            "DestinationId": 837,
+            "OriginId": 84317
+        },
+        {
+            "DestinationId": 1362,
+            "OriginId": 84317
+        },
+        {
+            "DestinationId": 949,
+            "OriginId": 84317
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 84317
+        },
+        {
+            "DestinationId": 1669,
+            "OriginId": 84317
+        },
+        {
+            "DestinationId": 1043,
+            "OriginId": 84317
+        },
+        {
+            "DestinationId": 1572,
+            "OriginId": 84317
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 84317
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 84317
+        },
+        {
+            "DestinationId": 1134,
+            "OriginId": 84317
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 84317
+        },
+        {
+            "DestinationId": 885,
+            "OriginId": 84317,
+            "Price": 54.0,
+            "QuoteDateTime": "2017-04-02T18:05:55",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 84317,
+            "Price": 550.0,
+            "QuoteDateTime": "2017-04-12T04:26:19",
+            "QuoteIds": [
+                3
+            ]
+        }
+    ]
+}

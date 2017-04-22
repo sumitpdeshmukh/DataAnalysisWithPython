@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 461,
+            "Name": "Central Mountain Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "YLLA",
+            "CityName": "Lloydminster",
+            "CountryName": "Canada",
+            "IataCode": "YLL",
+            "Name": "Lloydminster",
+            "PlaceId": 95836,
+            "SkyscannerCode": "YLL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YYCA",
+            "CityName": "Calgary",
+            "CountryName": "Canada",
+            "IataCode": "YYC",
+            "Name": "Calgary",
+            "PlaceId": 96451,
+            "SkyscannerCode": "YYC",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 104.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    461
+                ],
+                "DepartureDate": "2017-05-15T00:00:00",
+                "DestinationId": 96451,
+                "OriginId": 95836
+            },
+            "QuoteDateTime": "2017-04-09T20:05:19",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 95836,
+            "Price": 104.0,
+            "QuoteDateTime": "2017-04-09T20:05:19",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

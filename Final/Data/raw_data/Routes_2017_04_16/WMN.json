@@ -1,0 +1,95 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1412,
+            "Name": "Air Madagascar"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Madagascar",
+            "PlaceId": 1415,
+            "SkyscannerCode": "MG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mauritius",
+            "PlaceId": 1429,
+            "SkyscannerCode": "MU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "SVBA",
+            "CityName": "Sambava",
+            "CountryName": "Madagascar",
+            "IataCode": "SVB",
+            "Name": "Sambava",
+            "PlaceId": 82482,
+            "SkyscannerCode": "SVB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WMNA",
+            "CityName": "Maroantsetra",
+            "CountryName": "Madagascar",
+            "IataCode": "WMN",
+            "Name": "Maroantsetra",
+            "PlaceId": 91278,
+            "SkyscannerCode": "WMN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 131.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1412
+                ],
+                "DepartureDate": "2017-06-22T00:00:00",
+                "DestinationId": 82482,
+                "OriginId": 91278
+            },
+            "QuoteDateTime": "2017-03-12T17:33:16",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1429,
+            "OriginId": 91278
+        },
+        {
+            "DestinationId": 1415,
+            "OriginId": 91278,
+            "Price": 131.0,
+            "QuoteDateTime": "2017-03-12T17:33:16",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 91278
+        }
+    ]
+}

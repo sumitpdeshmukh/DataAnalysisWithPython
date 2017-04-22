@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 227,
+            "Name": "Safarilink"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Kenya",
+            "PlaceId": 1317,
+            "SkyscannerCode": "KE",
+            "Type": "Country"
+        },
+        {
+            "CityId": "UASA",
+            "CityName": "Samburu",
+            "CountryName": "Kenya",
+            "IataCode": "UAS",
+            "Name": "Samburu",
+            "PlaceId": 86099,
+            "SkyscannerCode": "UAS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NBOA",
+            "CityName": "Nairobi",
+            "CountryName": "Kenya",
+            "IataCode": "WIL",
+            "Name": "Nairobi Wilson",
+            "PlaceId": 91084,
+            "SkyscannerCode": "WIL",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 205.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    227
+                ],
+                "DepartureDate": "2017-12-26T00:00:00",
+                "DestinationId": 91084,
+                "OriginId": 86099
+            },
+            "QuoteDateTime": "2017-04-17T23:36:36",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1317,
+            "OriginId": 86099,
+            "Price": 205.0,
+            "QuoteDateTime": "2017-04-17T23:36:36",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

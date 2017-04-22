@@ -1,0 +1,285 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1482,
+            "Name": "Air New Zealand"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Argentina",
+            "PlaceId": 850,
+            "SkyscannerCode": "AR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cook Islands",
+            "PlaceId": 939,
+            "SkyscannerCode": "CK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Chile",
+            "PlaceId": 940,
+            "SkyscannerCode": "CL",
+            "Type": "Country"
+        },
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Fiji",
+            "PlaceId": 1082,
+            "SkyscannerCode": "FJ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hong Kong",
+            "PlaceId": 1179,
+            "SkyscannerCode": "HK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Indonesia",
+            "PlaceId": 1220,
+            "SkyscannerCode": "ID",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Caledonia",
+            "PlaceId": 1459,
+            "SkyscannerCode": "NC",
+            "Type": "Country"
+        },
+        {
+            "Name": "Niue",
+            "PlaceId": 1477,
+            "SkyscannerCode": "NU",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Zealand",
+            "PlaceId": 1482,
+            "SkyscannerCode": "NZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "French Polynesia",
+            "PlaceId": 1558,
+            "SkyscannerCode": "PF",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Thailand",
+            "PlaceId": 1752,
+            "SkyscannerCode": "TH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Tonga",
+            "PlaceId": 1759,
+            "SkyscannerCode": "TO",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "Name": "Vietnam",
+            "PlaceId": 1854,
+            "SkyscannerCode": "VN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Samoa",
+            "PlaceId": 1907,
+            "SkyscannerCode": "WS",
+            "Type": "Country"
+        },
+        {
+            "CityId": "TYOA",
+            "CityName": "Tokyo",
+            "CountryName": "Japan",
+            "IataCode": "HND",
+            "Name": "Tokyo Haneda",
+            "PlaceId": 56756,
+            "SkyscannerCode": "HND",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NSNN",
+            "CityName": "Nelson",
+            "CountryName": "New Zealand",
+            "IataCode": "NSN",
+            "Name": "Nelson",
+            "PlaceId": 70830,
+            "SkyscannerCode": "NSN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 655.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1482
+                ],
+                "DepartureDate": "2017-09-24T00:00:00",
+                "DestinationId": 56756,
+                "OriginId": 70830
+            },
+            "QuoteDateTime": "2017-04-19T04:10:07",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1703,
+            "OriginId": 70830
+        },
+        {
+            "DestinationId": 1854,
+            "OriginId": 70830
+        },
+        {
+            "DestinationId": 1220,
+            "OriginId": 70830
+        },
+        {
+            "DestinationId": 1179,
+            "OriginId": 70830
+        },
+        {
+            "DestinationId": 1558,
+            "OriginId": 70830
+        },
+        {
+            "DestinationId": 939,
+            "OriginId": 70830
+        },
+        {
+            "DestinationId": 1459,
+            "OriginId": 70830
+        },
+        {
+            "DestinationId": 1477,
+            "OriginId": 70830
+        },
+        {
+            "DestinationId": 850,
+            "OriginId": 70830
+        },
+        {
+            "DestinationId": 1482,
+            "OriginId": 70830
+        },
+        {
+            "DestinationId": 940,
+            "OriginId": 70830
+        },
+        {
+            "DestinationId": 1082,
+            "OriginId": 70830
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 70830
+        },
+        {
+            "DestinationId": 837,
+            "OriginId": 70830
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 70830
+        },
+        {
+            "DestinationId": 1907,
+            "OriginId": 70830
+        },
+        {
+            "DestinationId": 1759,
+            "OriginId": 70830
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 70830
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 70830
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 70830,
+            "Price": 655.0,
+            "QuoteDateTime": "2017-04-19T04:10:07",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1752,
+            "OriginId": 70830
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 70830
+        }
+    ]
+}

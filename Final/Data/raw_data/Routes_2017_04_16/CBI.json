@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1087,
+            "Name": "Airlines of Tasmania"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CBIA",
+            "CityName": "Cape Barren Island",
+            "CountryName": "Australia",
+            "IataCode": "CBI",
+            "Name": "Cape Barren Island",
+            "PlaceId": 44665,
+            "SkyscannerCode": "CBI",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LSTA",
+            "CityName": "Launceston",
+            "CountryName": "Australia",
+            "IataCode": "LST",
+            "Name": "Launceston",
+            "PlaceId": 66228,
+            "SkyscannerCode": "LST",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 94.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1087
+                ],
+                "DepartureDate": "2017-05-23T00:00:00",
+                "DestinationId": 66228,
+                "OriginId": 44665
+            },
+            "QuoteDateTime": "2017-04-13T16:32:54",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 853,
+            "OriginId": 44665,
+            "Price": 94.0,
+            "QuoteDateTime": "2017-04-13T16:32:54",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

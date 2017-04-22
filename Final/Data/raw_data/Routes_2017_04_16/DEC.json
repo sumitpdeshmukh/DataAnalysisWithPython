@@ -1,0 +1,78 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Peru",
+            "PlaceId": 1557,
+            "SkyscannerCode": "PE",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "DECA",
+            "CityName": "Decatur",
+            "CountryName": "United States",
+            "IataCode": "DEC",
+            "Name": "Decatur",
+            "PlaceId": 47107,
+            "SkyscannerCode": "DEC",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LIMA",
+            "CityName": "Lima",
+            "CountryName": "Peru",
+            "IataCode": "LIM",
+            "Name": "Lima",
+            "PlaceId": 65741,
+            "SkyscannerCode": "LIM",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 394.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-08-03T00:00:00",
+                "DestinationId": 65741,
+                "OriginId": 47107
+            },
+            "QuoteDateTime": "2017-04-14T15:45:24",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 47107
+        },
+        {
+            "DestinationId": 1557,
+            "OriginId": 47107,
+            "Price": 394.0,
+            "QuoteDateTime": "2017-04-14T15:45:24",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

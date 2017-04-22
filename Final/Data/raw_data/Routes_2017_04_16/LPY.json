@@ -1,0 +1,88 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Italy",
+            "PlaceId": 1236,
+            "SkyscannerCode": "IT",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LEPU",
+            "CityName": "Le Puy Loudes",
+            "CountryName": "France",
+            "IataCode": "LPY",
+            "Name": "Le Puy Loudes",
+            "PlaceId": 66089,
+            "SkyscannerCode": "LPY",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NURE",
+            "CityName": "Nuremberg",
+            "CountryName": "Germany",
+            "IataCode": "NUE",
+            "Name": "Nuremberg",
+            "PlaceId": 70917,
+            "SkyscannerCode": "NUE",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 327.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-23T00:00:00",
+                "DestinationId": 70917,
+                "OriginId": 66089
+            },
+            "QuoteDateTime": "2017-03-27T08:41:46",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1090,
+            "OriginId": 66089
+        },
+        {
+            "DestinationId": 1236,
+            "OriginId": 66089
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 66089,
+            "Price": 327.0,
+            "QuoteDateTime": "2017-03-27T08:41:46",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

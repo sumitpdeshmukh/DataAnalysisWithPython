@@ -1,0 +1,231 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1606,
+            "Name": "Qantas"
+        },
+        {
+            "CarrierId": 1713,
+            "Name": "Singapore Airlines"
+        },
+        {
+            "CarrierId": 1825,
+            "Name": "Virgin Australia"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cocos (Keeling) Islands",
+            "PlaceId": 931,
+            "SkyscannerCode": "CC",
+            "Type": "Country"
+        },
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Fiji",
+            "PlaceId": 1082,
+            "SkyscannerCode": "FJ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Indonesia",
+            "PlaceId": 1220,
+            "SkyscannerCode": "ID",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Zealand",
+            "PlaceId": 1482,
+            "SkyscannerCode": "NZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "Name": "East Timor",
+            "PlaceId": 1756,
+            "SkyscannerCode": "TL",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Africa",
+            "PlaceId": 2033,
+            "SkyscannerCode": "ZA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BMEA",
+            "CityName": "Broome",
+            "CountryName": "Australia",
+            "IataCode": "BME",
+            "Name": "Broome",
+            "PlaceId": 42885,
+            "SkyscannerCode": "BME",
+            "Type": "Station"
+        },
+        {
+            "CityId": "KNXA",
+            "CityName": "Kununurra",
+            "CountryName": "Australia",
+            "IataCode": "KNX",
+            "Name": "Kununurra",
+            "PlaceId": 63688,
+            "SkyscannerCode": "KNX",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NANF",
+            "CityName": "Nadi",
+            "CountryName": "Fiji",
+            "IataCode": "NAN",
+            "Name": "Nadi",
+            "PlaceId": 69966,
+            "SkyscannerCode": "NAN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SINS",
+            "CityName": "Singapore",
+            "CountryName": "Singapore",
+            "IataCode": "SIN",
+            "Name": "Singapore Changi",
+            "PlaceId": 81870,
+            "SkyscannerCode": "SIN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 403.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1713
+                ],
+                "DepartureDate": "2017-05-01T00:00:00",
+                "DestinationId": 81870,
+                "OriginId": 63688
+            },
+            "QuoteDateTime": "2017-04-18T03:03:06",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 139.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1606
+                ],
+                "DepartureDate": "2018-01-16T00:00:00",
+                "DestinationId": 42885,
+                "OriginId": 63688
+            },
+            "QuoteDateTime": "2017-03-30T04:31:11",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 627.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1825
+                ],
+                "DepartureDate": "2017-06-27T00:00:00",
+                "DestinationId": 69966,
+                "OriginId": 63688
+            },
+            "QuoteDateTime": "2017-04-17T08:11:00",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1703,
+            "OriginId": 63688,
+            "Price": 403.0,
+            "QuoteDateTime": "2017-04-18T03:03:06",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1756,
+            "OriginId": 63688
+        },
+        {
+            "DestinationId": 931,
+            "OriginId": 63688
+        },
+        {
+            "DestinationId": 1220,
+            "OriginId": 63688
+        },
+        {
+            "DestinationId": 1482,
+            "OriginId": 63688
+        },
+        {
+            "DestinationId": 837,
+            "OriginId": 63688
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 63688,
+            "Price": 139.0,
+            "QuoteDateTime": "2017-03-30T04:31:11",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 63688
+        },
+        {
+            "DestinationId": 2033,
+            "OriginId": 63688
+        },
+        {
+            "DestinationId": 1082,
+            "OriginId": 63688,
+            "Price": 627.0,
+            "QuoteDateTime": "2017-04-17T08:11:00",
+            "QuoteIds": [
+                3
+            ]
+        }
+    ]
+}

@@ -1,0 +1,382 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1154,
+            "Name": "Sky Airline"
+        },
+        {
+            "CarrierId": 1361,
+            "Name": "LATAM Airlines Group"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Argentina",
+            "PlaceId": 850,
+            "SkyscannerCode": "AR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Bolivia",
+            "PlaceId": 895,
+            "SkyscannerCode": "BO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Chile",
+            "PlaceId": 940,
+            "SkyscannerCode": "CL",
+            "Type": "Country"
+        },
+        {
+            "Name": "Colombia",
+            "PlaceId": 943,
+            "SkyscannerCode": "CO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Dominican Republic",
+            "PlaceId": 991,
+            "SkyscannerCode": "DO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Ecuador",
+            "PlaceId": 1027,
+            "SkyscannerCode": "EC",
+            "Type": "Country"
+        },
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Zealand",
+            "PlaceId": 1482,
+            "SkyscannerCode": "NZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Peru",
+            "PlaceId": 1557,
+            "SkyscannerCode": "PE",
+            "Type": "Country"
+        },
+        {
+            "Name": "French Polynesia",
+            "PlaceId": 1558,
+            "SkyscannerCode": "PF",
+            "Type": "Country"
+        },
+        {
+            "Name": "Paraguay",
+            "PlaceId": 1577,
+            "SkyscannerCode": "PY",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "Name": "Uruguay",
+            "PlaceId": 1817,
+            "SkyscannerCode": "UY",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CPOA",
+            "CityName": "Copiapo",
+            "CountryName": "Chile",
+            "IataCode": "CPO",
+            "Name": "Copiapo",
+            "PlaceId": 45343,
+            "SkyscannerCode": "CPO",
+            "Type": "Station"
+        },
+        {
+            "CityId": "CTGA",
+            "CityName": "Cartagena",
+            "CountryName": "Colombia",
+            "IataCode": "CTG",
+            "Name": "Cartagena",
+            "PlaceId": 45527,
+            "SkyscannerCode": "CTG",
+            "Type": "Station"
+        },
+        {
+            "CityId": "DENA",
+            "CityName": "Denver",
+            "CountryName": "United States",
+            "IataCode": "DEN",
+            "Name": "Denver International",
+            "PlaceId": 47118,
+            "SkyscannerCode": "DEN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SAOA",
+            "CityName": "Sao Paulo",
+            "CountryName": "Brazil",
+            "IataCode": "GRU",
+            "Name": "Sao Paulo Guarulhos",
+            "PlaceId": 54661,
+            "SkyscannerCode": "GRU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LIMA",
+            "CityName": "Lima",
+            "CountryName": "Peru",
+            "IataCode": "LIM",
+            "Name": "Lima",
+            "PlaceId": 65741,
+            "SkyscannerCode": "LIM",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MVDA",
+            "CityName": "Montevideo",
+            "CountryName": "Uruguay",
+            "IataCode": "MVD",
+            "Name": "Montevideo",
+            "PlaceId": 68660,
+            "SkyscannerCode": "MVD",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SCLA",
+            "CityName": "Santiago",
+            "CountryName": "Chile",
+            "IataCode": "SCL",
+            "Name": "Santiago Arturo Merino Benitez",
+            "PlaceId": 81580,
+            "SkyscannerCode": "SCL",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 397.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1361
+                ],
+                "DepartureDate": "2017-05-27T00:00:00",
+                "DestinationId": 65741,
+                "OriginId": 45343
+            },
+            "QuoteDateTime": "2017-03-19T20:26:01",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 711.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1361
+                ],
+                "DepartureDate": "2017-07-13T00:00:00",
+                "DestinationId": 45527,
+                "OriginId": 45343
+            },
+            "QuoteDateTime": "2017-03-18T06:54:59",
+            "QuoteId": 2
+        },
+        {
+            "Direct": true,
+            "MinPrice": 42.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1154
+                ],
+                "DepartureDate": "2017-06-14T00:00:00",
+                "DestinationId": 81580,
+                "OriginId": 45343
+            },
+            "QuoteDateTime": "2017-04-18T04:07:55",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 277.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1361
+                ],
+                "DepartureDate": "2017-07-01T00:00:00",
+                "DestinationId": 68660,
+                "OriginId": 45343
+            },
+            "QuoteDateTime": "2017-03-29T08:28:58",
+            "QuoteId": 4
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1068.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1361
+                ],
+                "DepartureDate": "2017-09-06T00:00:00",
+                "DestinationId": 54661,
+                "OriginId": 45343
+            },
+            "QuoteDateTime": "2017-03-29T19:05:16",
+            "QuoteId": 5
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1512.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-08-08T00:00:00",
+                "DestinationId": 47118,
+                "OriginId": 45343
+            },
+            "QuoteDateTime": "2017-04-04T21:49:57",
+            "QuoteId": 6
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1577,
+            "OriginId": 45343
+        },
+        {
+            "DestinationId": 1557,
+            "OriginId": 45343,
+            "Price": 397.0,
+            "QuoteDateTime": "2017-03-19T20:26:01",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 943,
+            "OriginId": 45343,
+            "Price": 711.0,
+            "QuoteDateTime": "2017-03-18T06:54:59",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 850,
+            "OriginId": 45343
+        },
+        {
+            "DestinationId": 1482,
+            "OriginId": 45343
+        },
+        {
+            "DestinationId": 1027,
+            "OriginId": 45343
+        },
+        {
+            "DestinationId": 940,
+            "OriginId": 45343,
+            "Price": 42.0,
+            "QuoteDateTime": "2017-04-18T04:07:55",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 1817,
+            "OriginId": 45343,
+            "Price": 277.0,
+            "QuoteDateTime": "2017-03-29T08:28:58",
+            "QuoteIds": [
+                4
+            ]
+        },
+        {
+            "DestinationId": 898,
+            "OriginId": 45343,
+            "Price": 1068.0,
+            "QuoteDateTime": "2017-03-29T19:05:16",
+            "QuoteIds": [
+                5
+            ]
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 45343
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 45343,
+            "Price": 1512.0,
+            "QuoteDateTime": "2017-04-04T21:49:57",
+            "QuoteIds": [
+                6
+            ]
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 45343
+        },
+        {
+            "DestinationId": 991,
+            "OriginId": 45343
+        },
+        {
+            "DestinationId": 1043,
+            "OriginId": 45343
+        },
+        {
+            "DestinationId": 895,
+            "OriginId": 45343
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 45343
+        },
+        {
+            "DestinationId": 1558,
+            "OriginId": 45343
+        }
+    ]
+}

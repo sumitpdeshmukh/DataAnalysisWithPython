@@ -1,0 +1,95 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 836,
+            "Name": "Azul Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Portugal",
+            "PlaceId": 1572,
+            "SkyscannerCode": "PT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Uruguay",
+            "PlaceId": 1817,
+            "SkyscannerCode": "UY",
+            "Type": "Country"
+        },
+        {
+            "CityId": "FLNA",
+            "CityName": "Florianopolis",
+            "CountryName": "Brazil",
+            "IataCode": "FLN",
+            "Name": "Florianopolis",
+            "PlaceId": 52062,
+            "SkyscannerCode": "FLN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PETA",
+            "CityName": "Pelotas",
+            "CountryName": "Brazil",
+            "IataCode": "PET",
+            "Name": "Pelotas",
+            "PlaceId": 74772,
+            "SkyscannerCode": "PET",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 103.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    836
+                ],
+                "DepartureDate": "2017-04-30T00:00:00",
+                "DestinationId": 52062,
+                "OriginId": 74772
+            },
+            "QuoteDateTime": "2017-04-14T13:45:06",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1817,
+            "OriginId": 74772
+        },
+        {
+            "DestinationId": 898,
+            "OriginId": 74772,
+            "Price": 103.0,
+            "QuoteDateTime": "2017-04-14T13:45:06",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1572,
+            "OriginId": 74772
+        }
+    ]
+}

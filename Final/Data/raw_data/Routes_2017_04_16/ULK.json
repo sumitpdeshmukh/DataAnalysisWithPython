@@ -1,0 +1,95 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1231,
+            "Name": "IrAero"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Crimea",
+            "PlaceId": 933,
+            "SkyscannerCode": "CE",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Korea",
+            "PlaceId": 1330,
+            "SkyscannerCode": "KR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ULKC",
+            "CityName": "Lensk",
+            "CountryName": "Russia",
+            "IataCode": "ULK",
+            "Name": "Lensk Airport",
+            "PlaceId": 86619,
+            "SkyscannerCode": "ULK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YAKU",
+            "CityName": "Yakutsk",
+            "CountryName": "Russia",
+            "IataCode": "YKS",
+            "Name": "Yakutsk",
+            "PlaceId": 95795,
+            "SkyscannerCode": "YKS",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 193.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1231
+                ],
+                "DepartureDate": "2017-06-05T00:00:00",
+                "DestinationId": 95795,
+                "OriginId": 86619
+            },
+            "QuoteDateTime": "2017-03-29T04:17:12",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1330,
+            "OriginId": 86619
+        },
+        {
+            "DestinationId": 1669,
+            "OriginId": 86619,
+            "Price": 193.0,
+            "QuoteDateTime": "2017-03-29T04:17:12",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 933,
+            "OriginId": 86619
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1545,
+            "Name": "Skippers Aviation"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "PERA",
+            "CityName": "Perth",
+            "CountryName": "Australia",
+            "IataCode": "PER",
+            "Name": "Perth",
+            "PlaceId": 74770,
+            "SkyscannerCode": "PER",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WUNA",
+            "CityName": "Wiluna",
+            "CountryName": "Australia",
+            "IataCode": "WUN",
+            "Name": "Wiluna",
+            "PlaceId": 91662,
+            "SkyscannerCode": "WUN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 153.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1545
+                ],
+                "DepartureDate": "2017-11-17T00:00:00",
+                "DestinationId": 74770,
+                "OriginId": 91662
+            },
+            "QuoteDateTime": "2017-03-30T08:10:11",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 266.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1545
+                ],
+                "DepartureDate": "2017-05-29T00:00:00",
+                "DestinationId": 74770,
+                "OriginId": 91662
+            },
+            "QuoteDateTime": "2017-04-11T07:06:19",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 853,
+            "OriginId": 91662,
+            "Price": 153.0,
+            "QuoteDateTime": "2017-03-30T08:10:11",
+            "QuoteIds": [
+                1,
+                2
+            ]
+        }
+    ]
+}

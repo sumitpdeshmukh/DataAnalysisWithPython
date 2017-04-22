@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 2043,
+            "Name": "Great Lakes Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ATYA",
+            "CityName": "Watertown",
+            "CountryName": "United States",
+            "IataCode": "ATY",
+            "Name": "Watertown",
+            "PlaceId": 40937,
+            "SkyscannerCode": "ATY",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PIRA",
+            "CityName": "Pierre",
+            "CountryName": "United States",
+            "IataCode": "PIR",
+            "Name": "Pierre",
+            "PlaceId": 74962,
+            "SkyscannerCode": "PIR",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 49.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    2043
+                ],
+                "DepartureDate": "2017-06-04T00:00:00",
+                "DestinationId": 74962,
+                "OriginId": 40937
+            },
+            "QuoteDateTime": "2017-04-08T21:35:01",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 40937,
+            "Price": 49.0,
+            "QuoteDateTime": "2017-04-08T21:35:01",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

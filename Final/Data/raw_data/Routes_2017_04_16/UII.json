@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1540,
+            "Name": "Aerolineas Sosa"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Honduras",
+            "PlaceId": 1182,
+            "SkyscannerCode": "HN",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LCEA",
+            "CityName": "La Ceiba",
+            "CountryName": "Honduras",
+            "IataCode": "LCE",
+            "Name": "La Ceiba",
+            "PlaceId": 65445,
+            "SkyscannerCode": "LCE",
+            "Type": "Station"
+        },
+        {
+            "CityId": "UIIA",
+            "CityName": "Utila",
+            "CountryName": "Honduras",
+            "IataCode": "UII",
+            "Name": "Utila",
+            "PlaceId": 86473,
+            "SkyscannerCode": "UII",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 51.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1540
+                ],
+                "DepartureDate": "2017-08-24T00:00:00",
+                "DestinationId": 65445,
+                "OriginId": 86473
+            },
+            "QuoteDateTime": "2017-03-29T12:58:48",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1182,
+            "OriginId": 86473,
+            "Price": 51.0,
+            "QuoteDateTime": "2017-03-29T12:58:48",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

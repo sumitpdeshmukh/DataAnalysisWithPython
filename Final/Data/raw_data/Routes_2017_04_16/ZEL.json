@@ -1,0 +1,90 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 416,
+            "Name": "Pacific Coastal Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "YVRA",
+            "CityName": "Vancouver",
+            "CountryName": "Canada",
+            "IataCode": "YVR",
+            "Name": "Vancouver International",
+            "PlaceId": 96322,
+            "SkyscannerCode": "YVR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ZELA",
+            "CityName": "Bella Bella",
+            "CountryName": "Canada",
+            "IataCode": "ZEL",
+            "Name": "Bella Bella",
+            "PlaceId": 97804,
+            "SkyscannerCode": "ZEL",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 112.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    416
+                ],
+                "DepartureDate": "2017-04-28T00:00:00",
+                "DestinationId": 96322,
+                "OriginId": 97804
+            },
+            "QuoteDateTime": "2017-03-29T15:44:05",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 165.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    416
+                ],
+                "DepartureDate": "2017-06-15T00:00:00",
+                "DestinationId": 96322,
+                "OriginId": 97804
+            },
+            "QuoteDateTime": "2017-03-24T16:32:21",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 97804,
+            "Price": 112.0,
+            "QuoteDateTime": "2017-03-29T15:44:05",
+            "QuoteIds": [
+                1,
+                2
+            ]
+        }
+    ]
+}

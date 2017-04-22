@@ -1,0 +1,178 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 935,
+            "Name": "Airlines  PNG"
+        },
+        {
+            "CarrierId": 1576,
+            "Name": "Air Niugini"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Fiji",
+            "PlaceId": 1082,
+            "SkyscannerCode": "FJ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hong Kong",
+            "PlaceId": 1179,
+            "SkyscannerCode": "HK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Indonesia",
+            "PlaceId": 1220,
+            "SkyscannerCode": "ID",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "Papua New Guinea",
+            "PlaceId": 1559,
+            "SkyscannerCode": "PG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Philippines",
+            "PlaceId": 1560,
+            "SkyscannerCode": "PH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "CityId": "HKNP",
+            "CityName": "Hoskins",
+            "CountryName": "Papua New Guinea",
+            "IataCode": "HKN",
+            "Name": "Hoskins",
+            "PlaceId": 56622,
+            "SkyscannerCode": "HKN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NANF",
+            "CityName": "Nadi",
+            "CountryName": "Fiji",
+            "IataCode": "NAN",
+            "Name": "Nadi",
+            "PlaceId": 69966,
+            "SkyscannerCode": "NAN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "POMP",
+            "CityName": "Port Moresby",
+            "CountryName": "Papua New Guinea",
+            "IataCode": "POM",
+            "Name": "Port Moresby",
+            "PlaceId": 75245,
+            "SkyscannerCode": "POM",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 126.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    935
+                ],
+                "DepartureDate": "2017-10-02T00:00:00",
+                "DestinationId": 75245,
+                "OriginId": 56622
+            },
+            "QuoteDateTime": "2017-03-27T15:12:34",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 416.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1576
+                ],
+                "DepartureDate": "2017-06-10T00:00:00",
+                "DestinationId": 69966,
+                "OriginId": 56622
+            },
+            "QuoteDateTime": "2017-04-16T05:13:27",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1703,
+            "OriginId": 56622
+        },
+        {
+            "DestinationId": 1560,
+            "OriginId": 56622
+        },
+        {
+            "DestinationId": 1220,
+            "OriginId": 56622
+        },
+        {
+            "DestinationId": 1179,
+            "OriginId": 56622
+        },
+        {
+            "DestinationId": 1559,
+            "OriginId": 56622,
+            "Price": 126.0,
+            "QuoteDateTime": "2017-03-27T15:12:34",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 56622
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 56622
+        },
+        {
+            "DestinationId": 1082,
+            "OriginId": 56622,
+            "Price": 416.0,
+            "QuoteDateTime": "2017-04-16T05:13:27",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

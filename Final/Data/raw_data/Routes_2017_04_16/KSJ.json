@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 194,
+            "Name": "Sky Express"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Greece",
+            "PlaceId": 1138,
+            "SkyscannerCode": "GR",
+            "Type": "Country"
+        },
+        {
+            "CityId": "KARP",
+            "CityName": "Karpathos",
+            "CountryName": "Greece",
+            "IataCode": "AOK",
+            "Name": "Karpathos",
+            "PlaceId": 40683,
+            "SkyscannerCode": "AOK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "KASO",
+            "CityName": "Kasos Island",
+            "CountryName": "Greece",
+            "IataCode": "KSJ",
+            "Name": "Kasos Island",
+            "PlaceId": 63914,
+            "SkyscannerCode": "KSJ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 47.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    194
+                ],
+                "DepartureDate": "2017-05-20T00:00:00",
+                "DestinationId": 40683,
+                "OriginId": 63914
+            },
+            "QuoteDateTime": "2017-04-18T08:21:39",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1138,
+            "OriginId": 63914,
+            "Price": 47.0,
+            "QuoteDateTime": "2017-04-18T08:21:39",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

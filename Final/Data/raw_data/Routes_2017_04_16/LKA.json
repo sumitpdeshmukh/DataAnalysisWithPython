@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 0,
+            "Name": "NAM Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Indonesia",
+            "PlaceId": 1220,
+            "SkyscannerCode": "ID",
+            "Type": "Country"
+        },
+        {
+            "CityId": "KOEA",
+            "CityName": "Kupang",
+            "CountryName": "Indonesia",
+            "IataCode": "KOE",
+            "Name": "Kupang",
+            "PlaceId": 63717,
+            "SkyscannerCode": "KOE",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LKAI",
+            "CityName": "Larantuka",
+            "CountryName": "Indonesia",
+            "IataCode": "LKA",
+            "Name": "Larantuka",
+            "PlaceId": 65825,
+            "SkyscannerCode": "LKA",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 22.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    0
+                ],
+                "DepartureDate": "2017-07-06T00:00:00",
+                "DestinationId": 63717,
+                "OriginId": 65825
+            },
+            "QuoteDateTime": "2017-04-10T15:39:12",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1220,
+            "OriginId": 65825,
+            "Price": 22.0,
+            "QuoteDateTime": "2017-04-10T15:39:12",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

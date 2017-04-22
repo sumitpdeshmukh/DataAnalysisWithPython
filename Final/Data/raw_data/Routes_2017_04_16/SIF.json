@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 8,
+            "Name": "Buddha Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Nepal",
+            "PlaceId": 1472,
+            "SkyscannerCode": "NP",
+            "Type": "Country"
+        },
+        {
+            "CityId": "KTMA",
+            "CityName": "Kathmandu",
+            "CountryName": "Nepal",
+            "IataCode": "KTM",
+            "Name": "Kathmandu",
+            "PlaceId": 63965,
+            "SkyscannerCode": "KTM",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SIFA",
+            "CityName": "Simara",
+            "CountryName": "Nepal",
+            "IataCode": "SIF",
+            "Name": "Simara",
+            "PlaceId": 81862,
+            "SkyscannerCode": "SIF",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 103.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    8
+                ],
+                "DepartureDate": "2017-04-29T00:00:00",
+                "DestinationId": 63965,
+                "OriginId": 81862
+            },
+            "QuoteDateTime": "2017-04-17T22:28:33",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1472,
+            "OriginId": 81862,
+            "Price": 103.0,
+            "QuoteDateTime": "2017-04-17T22:28:33",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

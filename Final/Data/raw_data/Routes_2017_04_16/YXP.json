@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 358,
+            "Name": "First Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "YMQA",
+            "CityName": "Montreal",
+            "CountryName": "Canada",
+            "IataCode": "YUL",
+            "Name": "Montreal Pierre Elliott Trudeau",
+            "PlaceId": 96268,
+            "SkyscannerCode": "YUL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YXPA",
+            "CityName": "Pangnirtung",
+            "CountryName": "Canada",
+            "IataCode": "YXP",
+            "Name": "Pangnirtung",
+            "PlaceId": 96416,
+            "SkyscannerCode": "YXP",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 1232.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    358
+                ],
+                "DepartureDate": "2017-05-16T00:00:00",
+                "DestinationId": 96268,
+                "OriginId": 96416
+            },
+            "QuoteDateTime": "2017-03-17T16:04:45",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 96416,
+            "Price": 1232.0,
+            "QuoteDateTime": "2017-03-17T16:04:45",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1545,
+            "Name": "Skippers Aviation"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "MKRA",
+            "CityName": "Meekatharra",
+            "CountryName": "Australia",
+            "IataCode": "MKR",
+            "Name": "Meekatharra",
+            "PlaceId": 68146,
+            "SkyscannerCode": "MKR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PERA",
+            "CityName": "Perth",
+            "CountryName": "Australia",
+            "IataCode": "PER",
+            "Name": "Perth",
+            "PlaceId": 74770,
+            "SkyscannerCode": "PER",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 176.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1545
+                ],
+                "DepartureDate": "2017-05-08T00:00:00",
+                "DestinationId": 74770,
+                "OriginId": 68146
+            },
+            "QuoteDateTime": "2017-03-29T06:26:54",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 308.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1545
+                ],
+                "DepartureDate": "2017-05-05T00:00:00",
+                "DestinationId": 74770,
+                "OriginId": 68146
+            },
+            "QuoteDateTime": "2017-04-18T23:52:19",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 853,
+            "OriginId": 68146,
+            "Price": 176.0,
+            "QuoteDateTime": "2017-03-29T06:26:54",
+            "QuoteIds": [
+                1,
+                2
+            ]
+        }
+    ]
+}

@@ -1,0 +1,172 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 935,
+            "Name": "Airlines  PNG"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Micronesia",
+            "PlaceId": 1085,
+            "SkyscannerCode": "FM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hong Kong",
+            "PlaceId": 1179,
+            "SkyscannerCode": "HK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Indonesia",
+            "PlaceId": 1220,
+            "SkyscannerCode": "ID",
+            "Type": "Country"
+        },
+        {
+            "Name": "Papua New Guinea",
+            "PlaceId": 1559,
+            "SkyscannerCode": "PG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Philippines",
+            "PlaceId": 1560,
+            "SkyscannerCode": "PH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BUAP",
+            "CityName": "Buka",
+            "CountryName": "Papua New Guinea",
+            "IataCode": "BUA",
+            "Name": "Buka",
+            "PlaceId": 43265,
+            "SkyscannerCode": "BUA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LASA",
+            "CityName": "Las Vegas",
+            "CountryName": "United States",
+            "IataCode": "LAS",
+            "Name": "Las Vegas Mccarran",
+            "PlaceId": 65363,
+            "SkyscannerCode": "LAS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "RABP",
+            "CityName": "Rabaul",
+            "CountryName": "Papua New Guinea",
+            "IataCode": "RAB",
+            "Name": "Rabaul",
+            "PlaceId": 79170,
+            "SkyscannerCode": "RAB",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 113.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    935
+                ],
+                "DepartureDate": "2017-05-07T00:00:00",
+                "DestinationId": 79170,
+                "OriginId": 43265
+            },
+            "QuoteDateTime": "2017-03-22T08:26:28",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 2126.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-22T00:00:00",
+                "DestinationId": 65363,
+                "OriginId": 43265
+            },
+            "QuoteDateTime": "2017-04-07T11:33:20",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1560,
+            "OriginId": 43265
+        },
+        {
+            "DestinationId": 1220,
+            "OriginId": 43265
+        },
+        {
+            "DestinationId": 1179,
+            "OriginId": 43265
+        },
+        {
+            "DestinationId": 1559,
+            "OriginId": 43265,
+            "Price": 113.0,
+            "QuoteDateTime": "2017-03-22T08:26:28",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 43265
+        },
+        {
+            "DestinationId": 1703,
+            "OriginId": 43265
+        },
+        {
+            "DestinationId": 1085,
+            "OriginId": 43265
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 43265,
+            "Price": 2126.0,
+            "QuoteDateTime": "2017-04-07T11:33:20",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

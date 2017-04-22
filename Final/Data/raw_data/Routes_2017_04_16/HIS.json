@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1606,
+            "Name": "Qantas"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BNEA",
+            "CityName": "Brisbane",
+            "CountryName": "Australia",
+            "IataCode": "BNE",
+            "Name": "Brisbane",
+            "PlaceId": 42933,
+            "SkyscannerCode": "BNE",
+            "Type": "Station"
+        },
+        {
+            "CityId": "HISA",
+            "CityName": "Hayman Island",
+            "CountryName": "Australia",
+            "IataCode": "HIS",
+            "Name": "Hayman Island",
+            "PlaceId": 56531,
+            "SkyscannerCode": "HIS",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 245.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1606
+                ],
+                "DepartureDate": "2017-06-15T00:00:00",
+                "DestinationId": 42933,
+                "OriginId": 56531
+            },
+            "QuoteDateTime": "2017-03-25T15:43:52",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 853,
+            "OriginId": 56531,
+            "Price": 245.0,
+            "QuoteDateTime": "2017-03-25T15:43:52",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

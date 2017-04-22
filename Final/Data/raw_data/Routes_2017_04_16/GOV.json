@@ -1,0 +1,132 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1756,
+            "Name": "Airnorth "
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Italy",
+            "PlaceId": 1236,
+            "SkyscannerCode": "IT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "East Timor",
+            "PlaceId": 1756,
+            "SkyscannerCode": "TL",
+            "Type": "Country"
+        },
+        {
+            "CityId": "DRWA",
+            "CityName": "Darwin",
+            "CountryName": "Australia",
+            "IataCode": "DRW",
+            "Name": "Darwin",
+            "PlaceId": 47751,
+            "SkyscannerCode": "DRW",
+            "Type": "Station"
+        },
+        {
+            "CityId": "GENO",
+            "CityName": "Genoa",
+            "CountryName": "Italy",
+            "IataCode": "GOA",
+            "Name": "Genoa",
+            "PlaceId": 54497,
+            "SkyscannerCode": "GOA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "GOVA",
+            "CityName": "Gove",
+            "CountryName": "Australia",
+            "IataCode": "GOV",
+            "Name": "Gove",
+            "PlaceId": 54518,
+            "SkyscannerCode": "GOV",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 199.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1756
+                ],
+                "DepartureDate": "2017-06-29T00:00:00",
+                "DestinationId": 47751,
+                "OriginId": 54518
+            },
+            "QuoteDateTime": "2017-03-19T07:24:22",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 5309.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-18T00:00:00",
+                "DestinationId": 54497,
+                "OriginId": 54518
+            },
+            "QuoteDateTime": "2017-04-09T09:21:15",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1756,
+            "OriginId": 54518
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 54518,
+            "Price": 199.0,
+            "QuoteDateTime": "2017-03-19T07:24:22",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 54518
+        },
+        {
+            "DestinationId": 1236,
+            "OriginId": 54518,
+            "Price": 5309.0,
+            "QuoteDateTime": "2017-04-09T09:21:15",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

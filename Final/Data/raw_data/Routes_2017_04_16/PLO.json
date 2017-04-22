@@ -1,0 +1,132 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 2044,
+            "Name": "Regional Express"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ADLA",
+            "CityName": "Adelaide",
+            "CountryName": "Australia",
+            "IataCode": "ADL",
+            "Name": "Adelaide",
+            "PlaceId": 40156,
+            "SkyscannerCode": "ADL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "HNLA",
+            "CityName": "Honolulu",
+            "CountryName": "United States",
+            "IataCode": "HNL",
+            "Name": "Honolulu International",
+            "PlaceId": 56764,
+            "SkyscannerCode": "HNL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PLOA",
+            "CityName": "Port Lincoln",
+            "CountryName": "Australia",
+            "IataCode": "PLO",
+            "Name": "Port Lincoln",
+            "PlaceId": 75103,
+            "SkyscannerCode": "PLO",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 108.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    2044
+                ],
+                "DepartureDate": "2017-04-23T00:00:00",
+                "DestinationId": 40156,
+                "OriginId": 75103
+            },
+            "QuoteDateTime": "2017-04-13T04:03:16",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 604.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-11T00:00:00",
+                "DestinationId": 56764,
+                "OriginId": 75103
+            },
+            "QuoteDateTime": "2017-04-12T19:58:45",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 837,
+            "OriginId": 75103
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 75103,
+            "Price": 108.0,
+            "QuoteDateTime": "2017-04-13T04:03:16",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 75103
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 75103,
+            "Price": 604.0,
+            "QuoteDateTime": "2017-04-12T19:58:45",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

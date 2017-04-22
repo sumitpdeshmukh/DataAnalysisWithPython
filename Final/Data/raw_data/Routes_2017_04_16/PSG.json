@@ -1,0 +1,135 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Estonia",
+            "PlaceId": 1029,
+            "SkyscannerCode": "EE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Lebanon",
+            "PlaceId": 1362,
+            "SkyscannerCode": "LB",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "PSGA",
+            "CityName": "Petersburg",
+            "CountryName": "United States",
+            "IataCode": "PSG",
+            "Name": "Petersburg",
+            "PlaceId": 75431,
+            "SkyscannerCode": "PSG",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TALL",
+            "CityName": "Tallinn",
+            "CountryName": "Estonia",
+            "IataCode": "TLL",
+            "Name": "Tallinn",
+            "PlaceId": 84316,
+            "SkyscannerCode": "TLL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YTOA",
+            "CityName": "Toronto",
+            "CountryName": "Canada",
+            "IataCode": "YYZ",
+            "Name": "Toronto Pearson International",
+            "PlaceId": 96474,
+            "SkyscannerCode": "YYZ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 529.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-30T00:00:00",
+                "DestinationId": 96474,
+                "OriginId": 75431
+            },
+            "QuoteDateTime": "2017-03-27T13:33:11",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1350.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-03T00:00:00",
+                "DestinationId": 84316,
+                "OriginId": 75431
+            },
+            "QuoteDateTime": "2017-04-18T07:05:19",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 75431
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 75431,
+            "Price": 529.0,
+            "QuoteDateTime": "2017-03-27T13:33:11",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 75431
+        },
+        {
+            "DestinationId": 1362,
+            "OriginId": 75431
+        },
+        {
+            "DestinationId": 1029,
+            "OriginId": 75431,
+            "Price": 1350.0,
+            "QuoteDateTime": "2017-04-18T07:05:19",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

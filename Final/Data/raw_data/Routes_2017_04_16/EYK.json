@@ -1,0 +1,118 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1368,
+            "Name": "Lufthansa"
+        },
+        {
+            "CarrierId": 1812,
+            "Name": "UTair"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "DTTA",
+            "CityName": "Detroit",
+            "CountryName": "United States",
+            "IataCode": "DTW",
+            "Name": "Detroit Wayne County",
+            "PlaceId": 47847,
+            "SkyscannerCode": "DTW",
+            "Type": "Station"
+        },
+        {
+            "CityId": "EYKA",
+            "CityName": "Beloyarsky",
+            "CountryName": "Russia",
+            "IataCode": "EYK",
+            "Name": "Beloyarsky",
+            "PlaceId": 50379,
+            "SkyscannerCode": "EYK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NYAA",
+            "CityName": "Nyagan",
+            "CountryName": "Russia",
+            "IataCode": "NYA",
+            "Name": "Nyagan",
+            "PlaceId": 71105,
+            "SkyscannerCode": "NYA",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 38.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1812
+                ],
+                "DepartureDate": "2017-06-07T00:00:00",
+                "DestinationId": 71105,
+                "OriginId": 50379
+            },
+            "QuoteDateTime": "2017-03-23T08:19:30",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 4172.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1368
+                ],
+                "DepartureDate": "2017-07-02T00:00:00",
+                "DestinationId": 47847,
+                "OriginId": 50379
+            },
+            "QuoteDateTime": "2017-04-12T11:46:57",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1669,
+            "OriginId": 50379,
+            "Price": 38.0,
+            "QuoteDateTime": "2017-03-23T08:19:30",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 50379,
+            "Price": 4172.0,
+            "QuoteDateTime": "2017-04-12T11:46:57",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

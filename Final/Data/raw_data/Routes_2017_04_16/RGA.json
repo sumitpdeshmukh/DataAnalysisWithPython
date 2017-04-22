@@ -1,0 +1,293 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 850,
+            "Name": "Aerolineas Argentinas"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Argentina",
+            "PlaceId": 850,
+            "SkyscannerCode": "AR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Bolivia",
+            "PlaceId": 895,
+            "SkyscannerCode": "BO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Chile",
+            "PlaceId": 940,
+            "SkyscannerCode": "CL",
+            "Type": "Country"
+        },
+        {
+            "Name": "Colombia",
+            "PlaceId": 943,
+            "SkyscannerCode": "CO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Dominica",
+            "PlaceId": 989,
+            "SkyscannerCode": "DM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Dominican Republic",
+            "PlaceId": 991,
+            "SkyscannerCode": "DO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "Italy",
+            "PlaceId": 1236,
+            "SkyscannerCode": "IT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Zealand",
+            "PlaceId": 1482,
+            "SkyscannerCode": "NZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Peru",
+            "PlaceId": 1557,
+            "SkyscannerCode": "PE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Paraguay",
+            "PlaceId": 1577,
+            "SkyscannerCode": "PY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Senegal",
+            "PlaceId": 1710,
+            "SkyscannerCode": "SN",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "Name": "Uruguay",
+            "PlaceId": 1817,
+            "SkyscannerCode": "UY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Venezuela",
+            "PlaceId": 1845,
+            "SkyscannerCode": "VE",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ATLA",
+            "CityName": "Atlanta",
+            "CountryName": "United States",
+            "IataCode": "ATL",
+            "Name": "Atlanta Hartsfield-Jackson",
+            "PlaceId": 40924,
+            "SkyscannerCode": "ATL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "BARC",
+            "CityName": "Barcelona",
+            "CountryName": "Spain",
+            "IataCode": "BCN",
+            "Name": "Barcelona",
+            "PlaceId": 42414,
+            "SkyscannerCode": "BCN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "RGAA",
+            "CityName": "Rio Grande",
+            "CountryName": "Argentina",
+            "IataCode": "RGA",
+            "Name": "Rio Grande",
+            "PlaceId": 79457,
+            "SkyscannerCode": "RGA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SRZA",
+            "CityName": "Santa Cruz",
+            "CountryName": "Bolivia",
+            "IataCode": "VVI",
+            "Name": "Santa Cruz Viru Viru",
+            "PlaceId": 89401,
+            "SkyscannerCode": "VVI",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 406.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    850
+                ],
+                "DepartureDate": "2017-07-29T00:00:00",
+                "DestinationId": 89401,
+                "OriginId": 79457
+            },
+            "QuoteDateTime": "2017-03-24T08:11:06",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1528.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    850
+                ],
+                "DepartureDate": "2017-05-14T00:00:00",
+                "DestinationId": 40924,
+                "OriginId": 79457
+            },
+            "QuoteDateTime": "2017-04-14T22:19:25",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 732.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    850
+                ],
+                "DepartureDate": "2017-10-23T00:00:00",
+                "DestinationId": 42414,
+                "OriginId": 79457
+            },
+            "QuoteDateTime": "2017-03-29T18:42:01",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1577,
+            "OriginId": 79457
+        },
+        {
+            "DestinationId": 1557,
+            "OriginId": 79457
+        },
+        {
+            "DestinationId": 943,
+            "OriginId": 79457
+        },
+        {
+            "DestinationId": 850,
+            "OriginId": 79457
+        },
+        {
+            "DestinationId": 1482,
+            "OriginId": 79457
+        },
+        {
+            "DestinationId": 1845,
+            "OriginId": 79457
+        },
+        {
+            "DestinationId": 940,
+            "OriginId": 79457
+        },
+        {
+            "DestinationId": 895,
+            "OriginId": 79457,
+            "Price": 406.0,
+            "QuoteDateTime": "2017-03-24T08:11:06",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1817,
+            "OriginId": 79457
+        },
+        {
+            "DestinationId": 898,
+            "OriginId": 79457
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 79457
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 79457,
+            "Price": 1528.0,
+            "QuoteDateTime": "2017-04-14T22:19:25",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 991,
+            "OriginId": 79457
+        },
+        {
+            "DestinationId": 1043,
+            "OriginId": 79457,
+            "Price": 732.0,
+            "QuoteDateTime": "2017-03-29T18:42:01",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 1236,
+            "OriginId": 79457
+        },
+        {
+            "DestinationId": 989,
+            "OriginId": 79457
+        },
+        {
+            "DestinationId": 1710,
+            "OriginId": 79457
+        }
+    ]
+}

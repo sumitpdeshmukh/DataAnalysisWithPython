@@ -1,0 +1,204 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1793,
+            "Name": "United"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Micronesia",
+            "PlaceId": 1085,
+            "SkyscannerCode": "FM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Guam",
+            "PlaceId": 1141,
+            "SkyscannerCode": "GU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hong Kong",
+            "PlaceId": 1179,
+            "SkyscannerCode": "HK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "Marshall Islands",
+            "PlaceId": 1416,
+            "SkyscannerCode": "MH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Northern Mariana Islands",
+            "PlaceId": 1424,
+            "SkyscannerCode": "MP",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Zealand",
+            "PlaceId": 1482,
+            "SkyscannerCode": "NZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Philippines",
+            "PlaceId": 1560,
+            "SkyscannerCode": "PH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Palau",
+            "PlaceId": 1575,
+            "SkyscannerCode": "PW",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "HNLA",
+            "CityName": "Honolulu",
+            "CountryName": "United States",
+            "IataCode": "HNL",
+            "Name": "Honolulu International",
+            "PlaceId": 56764,
+            "SkyscannerCode": "HNL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "KSAA",
+            "CityName": "Kosrae",
+            "CountryName": "Micronesia",
+            "IataCode": "KSA",
+            "Name": "Kosrae",
+            "PlaceId": 63905,
+            "SkyscannerCode": "KSA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MAJA",
+            "CityName": "Majuro",
+            "CountryName": "Marshall Islands",
+            "IataCode": "MAJ",
+            "Name": "Majuro",
+            "PlaceId": 67658,
+            "SkyscannerCode": "MAJ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 1085.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-06-12T00:00:00",
+                "DestinationId": 56764,
+                "OriginId": 63905
+            },
+            "QuoteDateTime": "2017-04-18T07:30:40",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 402.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-04-28T00:00:00",
+                "DestinationId": 67658,
+                "OriginId": 63905
+            },
+            "QuoteDateTime": "2017-04-10T09:43:16",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1560,
+            "OriginId": 63905
+        },
+        {
+            "DestinationId": 1179,
+            "OriginId": 63905
+        },
+        {
+            "DestinationId": 1482,
+            "OriginId": 63905
+        },
+        {
+            "DestinationId": 1575,
+            "OriginId": 63905
+        },
+        {
+            "DestinationId": 1085,
+            "OriginId": 63905
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 63905,
+            "Price": 1085.0,
+            "QuoteDateTime": "2017-04-18T07:30:40",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1424,
+            "OriginId": 63905
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 63905
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 63905
+        },
+        {
+            "DestinationId": 1416,
+            "OriginId": 63905,
+            "Price": 402.0,
+            "QuoteDateTime": "2017-04-10T09:43:16",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1141,
+            "OriginId": 63905
+        }
+    ]
+}

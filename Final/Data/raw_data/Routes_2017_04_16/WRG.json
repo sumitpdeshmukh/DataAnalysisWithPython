@@ -1,0 +1,171 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 851,
+            "Name": "Alaska Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Azerbaijan",
+            "PlaceId": 858,
+            "SkyscannerCode": "AZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cuba",
+            "PlaceId": 949,
+            "SkyscannerCode": "CU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BAKA",
+            "CityName": "Baku",
+            "CountryName": "Azerbaijan",
+            "IataCode": "GYD",
+            "Name": "Baku Heydar Aliyev International",
+            "PlaceId": 54980,
+            "SkyscannerCode": "GYD",
+            "Type": "Station"
+        },
+        {
+            "CityId": "JNUA",
+            "CityName": "Juneau",
+            "CountryName": "United States",
+            "IataCode": "JNU",
+            "Name": "Juneau",
+            "PlaceId": 61381,
+            "SkyscannerCode": "JNU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WRGA",
+            "CityName": "Wrangell",
+            "CountryName": "United States",
+            "IataCode": "WRG",
+            "Name": "Wrangell",
+            "PlaceId": 91511,
+            "SkyscannerCode": "WRG",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YVRA",
+            "CityName": "Vancouver",
+            "CountryName": "Canada",
+            "IataCode": "YVR",
+            "Name": "Vancouver International",
+            "PlaceId": 96322,
+            "SkyscannerCode": "YVR",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 140.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    851
+                ],
+                "DepartureDate": "2017-07-27T00:00:00",
+                "DestinationId": 61381,
+                "OriginId": 91511
+            },
+            "QuoteDateTime": "2017-03-29T06:30:01",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 261.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    851
+                ],
+                "DepartureDate": "2017-09-30T00:00:00",
+                "DestinationId": 96322,
+                "OriginId": 91511
+            },
+            "QuoteDateTime": "2017-03-26T12:47:59",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 873.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-08-17T00:00:00",
+                "DestinationId": 54980,
+                "OriginId": 91511
+            },
+            "QuoteDateTime": "2017-04-14T19:42:18",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 91511,
+            "Price": 140.0,
+            "QuoteDateTime": "2017-03-29T06:30:01",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 91511,
+            "Price": 261.0,
+            "QuoteDateTime": "2017-03-26T12:47:59",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 91511
+        },
+        {
+            "DestinationId": 949,
+            "OriginId": 91511
+        },
+        {
+            "DestinationId": 858,
+            "OriginId": 91511,
+            "Price": 873.0,
+            "QuoteDateTime": "2017-04-14T19:42:18",
+            "QuoteIds": [
+                3
+            ]
+        }
+    ]
+}

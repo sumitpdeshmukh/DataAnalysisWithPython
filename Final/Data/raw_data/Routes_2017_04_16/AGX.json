@@ -1,0 +1,135 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 841,
+            "Name": "Air India"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "India",
+            "PlaceId": 1230,
+            "SkyscannerCode": "IN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mauritius",
+            "PlaceId": 1429,
+            "SkyscannerCode": "MU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Oman",
+            "PlaceId": 1517,
+            "SkyscannerCode": "OM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Saudi Arabia",
+            "PlaceId": 1697,
+            "SkyscannerCode": "SA",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "IAGX",
+            "CityName": "Agatti Island",
+            "CountryName": "India",
+            "IataCode": "AGX",
+            "Name": "Agatti island",
+            "PlaceId": 40312,
+            "SkyscannerCode": "AGX",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ICOK",
+            "CityName": "Kochi",
+            "CountryName": "India",
+            "IataCode": "COK",
+            "Name": "Kochi",
+            "PlaceId": 45291,
+            "SkyscannerCode": "COK",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 74.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    841
+                ],
+                "DepartureDate": "2017-11-04T00:00:00",
+                "DestinationId": 45291,
+                "OriginId": 40312
+            },
+            "QuoteDateTime": "2017-04-09T21:16:36",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1697,
+            "OriginId": 40312
+        },
+        {
+            "DestinationId": 1230,
+            "OriginId": 40312,
+            "Price": 74.0,
+            "QuoteDateTime": "2017-04-09T21:16:36",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 40312
+        },
+        {
+            "DestinationId": 1517,
+            "OriginId": 40312
+        },
+        {
+            "DestinationId": 837,
+            "OriginId": 40312
+        },
+        {
+            "DestinationId": 1429,
+            "OriginId": 40312
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 40312
+        }
+    ]
+}

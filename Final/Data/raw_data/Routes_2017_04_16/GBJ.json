@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1768,
+            "Name": "Air Caraibes"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "CityId": "GBJA",
+            "CityName": "Marie Galante",
+            "CountryName": "Guadeloupe",
+            "IataCode": "GBJ",
+            "Name": "Marie Galante",
+            "PlaceId": 53882,
+            "SkyscannerCode": "GBJ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PARI",
+            "CityName": "Paris",
+            "CountryName": "France",
+            "IataCode": "ORY",
+            "Name": "Paris Orly",
+            "PlaceId": 73097,
+            "SkyscannerCode": "ORY",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 474.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1768
+                ],
+                "DepartureDate": "2017-12-20T00:00:00",
+                "DestinationId": 73097,
+                "OriginId": 53882
+            },
+            "QuoteDateTime": "2017-04-12T12:07:06",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1090,
+            "OriginId": 53882,
+            "Price": 474.0,
+            "QuoteDateTime": "2017-04-12T12:07:06",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

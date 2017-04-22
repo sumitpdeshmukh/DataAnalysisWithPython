@@ -1,0 +1,168 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 777,
+            "Name": "Madagasikara Airways"
+        },
+        {
+            "CarrierId": 1412,
+            "Name": "Air Madagascar"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Comoros",
+            "PlaceId": 1325,
+            "SkyscannerCode": "KM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Madagascar",
+            "PlaceId": 1415,
+            "SkyscannerCode": "MG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mauritius",
+            "PlaceId": 1429,
+            "SkyscannerCode": "MU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Reunion",
+            "PlaceId": 1653,
+            "SkyscannerCode": "RE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Seychelles",
+            "PlaceId": 1699,
+            "SkyscannerCode": "SC",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mayotte",
+            "PlaceId": 2004,
+            "SkyscannerCode": "YT",
+            "Type": "Country"
+        },
+        {
+            "CityId": "MOQA",
+            "CityName": "Morondava",
+            "CountryName": "Madagascar",
+            "IataCode": "MOQ",
+            "Name": "Morondava",
+            "PlaceId": 68337,
+            "SkyscannerCode": "MOQ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MRUA",
+            "CityName": "Mauritius",
+            "CountryName": "Mauritius",
+            "IataCode": "MRU",
+            "Name": "Mauritius",
+            "PlaceId": 68485,
+            "SkyscannerCode": "MRU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TNRA",
+            "CityName": "Antananarivo",
+            "CountryName": "Madagascar",
+            "IataCode": "TNR",
+            "Name": "Antananarivo",
+            "PlaceId": 84418,
+            "SkyscannerCode": "TNR",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 625.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1412
+                ],
+                "DepartureDate": "2017-08-21T00:00:00",
+                "DestinationId": 68485,
+                "OriginId": 68337
+            },
+            "QuoteDateTime": "2017-04-16T12:03:21",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 177.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    777
+                ],
+                "DepartureDate": "2017-05-28T00:00:00",
+                "DestinationId": 84418,
+                "OriginId": 68337
+            },
+            "QuoteDateTime": "2017-03-18T17:09:29",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1325,
+            "OriginId": 68337
+        },
+        {
+            "DestinationId": 1429,
+            "OriginId": 68337,
+            "Price": 625.0,
+            "QuoteDateTime": "2017-04-16T12:03:21",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1415,
+            "OriginId": 68337,
+            "Price": 177.0,
+            "QuoteDateTime": "2017-03-18T17:09:29",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 2004,
+            "OriginId": 68337
+        },
+        {
+            "DestinationId": 1699,
+            "OriginId": 68337
+        },
+        {
+            "DestinationId": 1653,
+            "OriginId": 68337
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 68337
+        }
+    ]
+}

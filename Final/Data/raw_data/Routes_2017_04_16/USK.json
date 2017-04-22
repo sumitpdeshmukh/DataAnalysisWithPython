@@ -1,0 +1,164 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1812,
+            "Name": "UTair"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Austria",
+            "PlaceId": 852,
+            "SkyscannerCode": "AT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Azerbaijan",
+            "PlaceId": 858,
+            "SkyscannerCode": "AZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Greece",
+            "PlaceId": 1138,
+            "SkyscannerCode": "GR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Tajikistan",
+            "PlaceId": 1754,
+            "SkyscannerCode": "TJ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Turkey",
+            "PlaceId": 1762,
+            "SkyscannerCode": "TR",
+            "Type": "Country"
+        },
+        {
+            "CityId": "DYUA",
+            "CityName": "Dushanbe",
+            "CountryName": "Tajikistan",
+            "IataCode": "DYU",
+            "Name": "Dushanbe",
+            "PlaceId": 48085,
+            "SkyscannerCode": "DYU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MUNI",
+            "CityName": "Munich",
+            "CountryName": "Germany",
+            "IataCode": "MUC",
+            "Name": "Munich",
+            "PlaceId": 68611,
+            "SkyscannerCode": "MUC",
+            "Type": "Station"
+        },
+        {
+            "CityId": "USIN",
+            "CityName": "Usinsk",
+            "CountryName": "Russia",
+            "IataCode": "USK",
+            "Name": "Usinsk",
+            "PlaceId": 86955,
+            "SkyscannerCode": "USK",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 363.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1812
+                ],
+                "DepartureDate": "2017-06-05T00:00:00",
+                "DestinationId": 48085,
+                "OriginId": 86955
+            },
+            "QuoteDateTime": "2017-03-27T13:49:08",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 236.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1812
+                ],
+                "DepartureDate": "2017-05-19T00:00:00",
+                "DestinationId": 68611,
+                "OriginId": 86955
+            },
+            "QuoteDateTime": "2017-03-27T06:22:01",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1669,
+            "OriginId": 86955
+        },
+        {
+            "DestinationId": 1762,
+            "OriginId": 86955
+        },
+        {
+            "DestinationId": 1754,
+            "OriginId": 86955,
+            "Price": 363.0,
+            "QuoteDateTime": "2017-03-27T13:49:08",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 858,
+            "OriginId": 86955
+        },
+        {
+            "DestinationId": 852,
+            "OriginId": 86955
+        },
+        {
+            "DestinationId": 1138,
+            "OriginId": 86955
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 86955,
+            "Price": 236.0,
+            "QuoteDateTime": "2017-03-27T06:22:01",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

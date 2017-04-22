@@ -1,0 +1,95 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 980,
+            "Name": "Nok Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Myanmar",
+            "PlaceId": 1421,
+            "SkyscannerCode": "MM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Thailand",
+            "PlaceId": 1752,
+            "SkyscannerCode": "TH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Vietnam",
+            "PlaceId": 1854,
+            "SkyscannerCode": "VN",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BKKT",
+            "CityName": "Bangkok",
+            "CountryName": "Thailand",
+            "IataCode": "DMK",
+            "Name": "Bangkok Don Meung",
+            "PlaceId": 47499,
+            "SkyscannerCode": "DMK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PRHT",
+            "CityName": "Phrae",
+            "CountryName": "Thailand",
+            "IataCode": "PRH",
+            "Name": "Phrae",
+            "PlaceId": 75384,
+            "SkyscannerCode": "PRH",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 31.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    980
+                ],
+                "DepartureDate": "2017-06-22T00:00:00",
+                "DestinationId": 47499,
+                "OriginId": 75384
+            },
+            "QuoteDateTime": "2017-04-04T16:00:25",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1752,
+            "OriginId": 75384,
+            "Price": 31.0,
+            "QuoteDateTime": "2017-04-04T16:00:25",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1854,
+            "OriginId": 75384
+        },
+        {
+            "DestinationId": 1421,
+            "OriginId": 75384
+        }
+    ]
+}

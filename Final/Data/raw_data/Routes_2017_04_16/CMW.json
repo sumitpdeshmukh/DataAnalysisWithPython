@@ -1,0 +1,535 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 474,
+            "Name": "Sunrise Airways"
+        },
+        {
+            "CarrierId": 870,
+            "Name": "jetBlue"
+        },
+        {
+            "CarrierId": 949,
+            "Name": "Cubana"
+        },
+        {
+            "CarrierId": 1763,
+            "Name": "Air Transat"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Argentina",
+            "PlaceId": 850,
+            "SkyscannerCode": "AR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Belgium",
+            "PlaceId": 885,
+            "SkyscannerCode": "BE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Bulgaria",
+            "PlaceId": 887,
+            "SkyscannerCode": "BG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Bolivia",
+            "PlaceId": 895,
+            "SkyscannerCode": "BO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Bahamas",
+            "PlaceId": 899,
+            "SkyscannerCode": "BS",
+            "Type": "Country"
+        },
+        {
+            "Name": "Belize",
+            "PlaceId": 906,
+            "SkyscannerCode": "BZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Switzerland",
+            "PlaceId": 936,
+            "SkyscannerCode": "CH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Chile",
+            "PlaceId": 940,
+            "SkyscannerCode": "CL",
+            "Type": "Country"
+        },
+        {
+            "Name": "Colombia",
+            "PlaceId": 943,
+            "SkyscannerCode": "CO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cuba",
+            "PlaceId": 949,
+            "SkyscannerCode": "CU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Czech Republic",
+            "PlaceId": 954,
+            "SkyscannerCode": "CZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Dominican Republic",
+            "PlaceId": 991,
+            "SkyscannerCode": "DO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Ecuador",
+            "PlaceId": 1027,
+            "SkyscannerCode": "EC",
+            "Type": "Country"
+        },
+        {
+            "Name": "Egypt",
+            "PlaceId": 1031,
+            "SkyscannerCode": "EG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Greece",
+            "PlaceId": 1138,
+            "SkyscannerCode": "GR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Haiti",
+            "PlaceId": 1188,
+            "SkyscannerCode": "HT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Italy",
+            "PlaceId": 1236,
+            "SkyscannerCode": "IT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "Peru",
+            "PlaceId": 1557,
+            "SkyscannerCode": "PE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Puerto Rico",
+            "PlaceId": 1570,
+            "SkyscannerCode": "PR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "Name": "Uruguay",
+            "PlaceId": 1817,
+            "SkyscannerCode": "UY",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BZEA",
+            "CityName": "Belize City",
+            "CountryName": "Belize",
+            "IataCode": "BZE",
+            "Name": "Belize City Philip S.W.Goldson Int",
+            "PlaceId": 43509,
+            "SkyscannerCode": "BZE",
+            "Type": "Station"
+        },
+        {
+            "CityId": "CMWA",
+            "CityName": "Camaguey",
+            "CountryName": "Cuba",
+            "IataCode": "CMW",
+            "Name": "Camaguey",
+            "PlaceId": 45207,
+            "SkyscannerCode": "CMW",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WASA",
+            "CityName": "Washington",
+            "CountryName": "United States",
+            "IataCode": "DCA",
+            "Name": "Washington Ronald Reagan",
+            "PlaceId": 47009,
+            "SkyscannerCode": "DCA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "HAVA",
+            "CityName": "Havana",
+            "CountryName": "Cuba",
+            "IataCode": "HAV",
+            "Name": "Havana",
+            "PlaceId": 56150,
+            "SkyscannerCode": "HAV",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PAPA",
+            "CityName": "Port Au Prince",
+            "CountryName": "Haiti",
+            "IataCode": "PAP",
+            "Name": "Port Au Prince",
+            "PlaceId": 74576,
+            "SkyscannerCode": "PAP",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SDQA",
+            "CityName": "Santo Domingo",
+            "CountryName": "Dominican Republic",
+            "IataCode": "SDQ",
+            "Name": "Santo Domingo Las Americas",
+            "PlaceId": 81633,
+            "SkyscannerCode": "SDQ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SOFI",
+            "CityName": "Sofia",
+            "CountryName": "Bulgaria",
+            "IataCode": "SOF",
+            "Name": "Sofia",
+            "PlaceId": 82150,
+            "SkyscannerCode": "SOF",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YMQA",
+            "CityName": "Montreal",
+            "CountryName": "Canada",
+            "IataCode": "YUL",
+            "Name": "Montreal Pierre Elliott Trudeau",
+            "PlaceId": 96268,
+            "SkyscannerCode": "YUL",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 224.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1763
+                ],
+                "DepartureDate": "2017-07-06T00:00:00",
+                "DestinationId": 96268,
+                "OriginId": 45207
+            },
+            "QuoteDateTime": "2017-04-16T16:39:52",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 201.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    870
+                ],
+                "DepartureDate": "2017-06-12T00:00:00",
+                "DestinationId": 47009,
+                "OriginId": 45207
+            },
+            "QuoteDateTime": "2017-03-31T16:19:49",
+            "QuoteId": 2
+        },
+        {
+            "Direct": true,
+            "MinPrice": 277.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    474
+                ],
+                "DepartureDate": "2017-07-10T00:00:00",
+                "DestinationId": 74576,
+                "OriginId": 45207
+            },
+            "QuoteDateTime": "2017-03-29T16:45:33",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 487.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-12-08T00:00:00",
+                "DestinationId": 81633,
+                "OriginId": 45207
+            },
+            "QuoteDateTime": "2017-03-22T04:53:42",
+            "QuoteId": 4
+        },
+        {
+            "Direct": true,
+            "MinPrice": 101.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    949
+                ],
+                "DepartureDate": "2017-10-15T00:00:00",
+                "DestinationId": 56150,
+                "OriginId": 45207
+            },
+            "QuoteDateTime": "2017-03-16T20:28:50",
+            "QuoteId": 5
+        },
+        {
+            "Direct": false,
+            "MinPrice": 614.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-07T00:00:00",
+                "DestinationId": 43509,
+                "OriginId": 45207
+            },
+            "QuoteDateTime": "2017-04-14T20:53:00",
+            "QuoteId": 6
+        },
+        {
+            "Direct": false,
+            "MinPrice": 941.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-16T00:00:00",
+                "DestinationId": 82150,
+                "OriginId": 45207
+            },
+            "QuoteDateTime": "2017-04-18T05:22:12",
+            "QuoteId": 7
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1031,
+            "OriginId": 45207
+        },
+        {
+            "DestinationId": 1557,
+            "OriginId": 45207
+        },
+        {
+            "DestinationId": 943,
+            "OriginId": 45207
+        },
+        {
+            "DestinationId": 850,
+            "OriginId": 45207
+        },
+        {
+            "DestinationId": 1027,
+            "OriginId": 45207
+        },
+        {
+            "DestinationId": 940,
+            "OriginId": 45207
+        },
+        {
+            "DestinationId": 895,
+            "OriginId": 45207
+        },
+        {
+            "DestinationId": 1817,
+            "OriginId": 45207
+        },
+        {
+            "DestinationId": 898,
+            "OriginId": 45207
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 45207,
+            "Price": 224.0,
+            "QuoteDateTime": "2017-04-16T16:39:52",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 45207
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 45207,
+            "Price": 201.0,
+            "QuoteDateTime": "2017-03-31T16:19:49",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1570,
+            "OriginId": 45207
+        },
+        {
+            "DestinationId": 1188,
+            "OriginId": 45207,
+            "Price": 277.0,
+            "QuoteDateTime": "2017-03-29T16:45:33",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 991,
+            "OriginId": 45207,
+            "Price": 487.0,
+            "QuoteDateTime": "2017-03-22T04:53:42",
+            "QuoteIds": [
+                4
+            ]
+        },
+        {
+            "DestinationId": 899,
+            "OriginId": 45207
+        },
+        {
+            "DestinationId": 949,
+            "OriginId": 45207,
+            "Price": 101.0,
+            "QuoteDateTime": "2017-03-16T20:28:50",
+            "QuoteIds": [
+                5
+            ]
+        },
+        {
+            "DestinationId": 1669,
+            "OriginId": 45207
+        },
+        {
+            "DestinationId": 1043,
+            "OriginId": 45207
+        },
+        {
+            "DestinationId": 1236,
+            "OriginId": 45207
+        },
+        {
+            "DestinationId": 1138,
+            "OriginId": 45207
+        },
+        {
+            "DestinationId": 885,
+            "OriginId": 45207
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 45207
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 45207
+        },
+        {
+            "DestinationId": 954,
+            "OriginId": 45207
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 45207
+        },
+        {
+            "DestinationId": 936,
+            "OriginId": 45207
+        },
+        {
+            "DestinationId": 906,
+            "OriginId": 45207,
+            "Price": 614.0,
+            "QuoteDateTime": "2017-04-14T20:53:00",
+            "QuoteIds": [
+                6
+            ]
+        },
+        {
+            "DestinationId": 887,
+            "OriginId": 45207,
+            "Price": 941.0,
+            "QuoteDateTime": "2017-04-18T05:22:12",
+            "QuoteIds": [
+                7
+            ]
+        }
+    ]
+}

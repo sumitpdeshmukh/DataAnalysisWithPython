@@ -1,0 +1,95 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 851,
+            "Name": "Alaska Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Cuba",
+            "PlaceId": 949,
+            "SkyscannerCode": "CU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "JNUA",
+            "CityName": "Juneau",
+            "CountryName": "United States",
+            "IataCode": "JNU",
+            "Name": "Juneau",
+            "PlaceId": 61381,
+            "SkyscannerCode": "JNU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YAKA",
+            "CityName": "Yakutat",
+            "CountryName": "United States",
+            "IataCode": "YAK",
+            "Name": "Yakutat",
+            "PlaceId": 95307,
+            "SkyscannerCode": "YAK",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 152.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    851
+                ],
+                "DepartureDate": "2017-07-04T00:00:00",
+                "DestinationId": 61381,
+                "OriginId": 95307
+            },
+            "QuoteDateTime": "2017-04-17T05:07:42",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 95307,
+            "Price": 152.0,
+            "QuoteDateTime": "2017-04-17T05:07:42",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 95307
+        },
+        {
+            "DestinationId": 949,
+            "OriginId": 95307
+        }
+    ]
+}

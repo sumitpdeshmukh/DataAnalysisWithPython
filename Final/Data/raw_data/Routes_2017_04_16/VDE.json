@@ -1,0 +1,152 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1476,
+            "Name": "Binter Canarias"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "Ireland",
+            "PlaceId": 1221,
+            "SkyscannerCode": "IE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Morocco",
+            "PlaceId": 1409,
+            "SkyscannerCode": "MA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Portugal",
+            "PlaceId": 1572,
+            "SkyscannerCode": "PT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Senegal",
+            "PlaceId": 1710,
+            "SkyscannerCode": "SN",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CASA",
+            "CityName": "Casablanca",
+            "CountryName": "Morocco",
+            "IataCode": "CMN",
+            "Name": "Casablanca Mohamed V.",
+            "PlaceId": 45198,
+            "SkyscannerCode": "CMN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "DUBL",
+            "CityName": "Dublin",
+            "CountryName": "Ireland",
+            "IataCode": "DUB",
+            "Name": "Dublin",
+            "PlaceId": 47874,
+            "SkyscannerCode": "DUB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "VALV",
+            "CityName": "Valverde Hierro",
+            "CountryName": "Spain",
+            "IataCode": "VDE",
+            "Name": "Valverde Hierro",
+            "PlaceId": 88533,
+            "SkyscannerCode": "VDE",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 128.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1476
+                ],
+                "DepartureDate": "2017-07-12T00:00:00",
+                "DestinationId": 45198,
+                "OriginId": 88533
+            },
+            "QuoteDateTime": "2017-04-18T19:10:03",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 213.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-05T00:00:00",
+                "DestinationId": 47874,
+                "OriginId": 88533
+            },
+            "QuoteDateTime": "2017-04-04T04:44:31",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1043,
+            "OriginId": 88533
+        },
+        {
+            "DestinationId": 1572,
+            "OriginId": 88533
+        },
+        {
+            "DestinationId": 1710,
+            "OriginId": 88533
+        },
+        {
+            "DestinationId": 1409,
+            "OriginId": 88533,
+            "Price": 128.0,
+            "QuoteDateTime": "2017-04-18T19:10:03",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1221,
+            "OriginId": 88533,
+            "Price": 213.0,
+            "QuoteDateTime": "2017-04-04T04:44:31",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 88533
+        }
+    ]
+}

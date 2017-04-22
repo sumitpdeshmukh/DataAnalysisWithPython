@@ -1,0 +1,187 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1793,
+            "Name": "United"
+        },
+        {
+            "CarrierId": 2043,
+            "Name": "Great Lakes Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Costa Rica",
+            "PlaceId": 946,
+            "SkyscannerCode": "CR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "TYOA",
+            "CityName": "Tokyo",
+            "CountryName": "Japan",
+            "IataCode": "NRT",
+            "Name": "Tokyo Narita",
+            "PlaceId": 70788,
+            "SkyscannerCode": "NRT",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PGAA",
+            "CityName": "Page",
+            "CountryName": "United States",
+            "IataCode": "PGA",
+            "Name": "Page",
+            "PlaceId": 74849,
+            "SkyscannerCode": "PGA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PHXA",
+            "CityName": "Phoenix",
+            "CountryName": "United States",
+            "IataCode": "PHX",
+            "Name": "Phoenix Sky Harbor",
+            "PlaceId": 74920,
+            "SkyscannerCode": "PHX",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YVRA",
+            "CityName": "Vancouver",
+            "CountryName": "Canada",
+            "IataCode": "YVR",
+            "Name": "Vancouver International",
+            "PlaceId": 96322,
+            "SkyscannerCode": "YVR",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 427.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-05-06T00:00:00",
+                "DestinationId": 96322,
+                "OriginId": 74849
+            },
+            "QuoteDateTime": "2017-04-12T04:29:57",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 77.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    2043
+                ],
+                "DepartureDate": "2017-05-29T00:00:00",
+                "DestinationId": 74920,
+                "OriginId": 74849
+            },
+            "QuoteDateTime": "2017-04-19T02:38:37",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1192.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2018-01-24T00:00:00",
+                "DestinationId": 70788,
+                "OriginId": 74849
+            },
+            "QuoteDateTime": "2017-04-13T01:51:40",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 74849,
+            "Price": 427.0,
+            "QuoteDateTime": "2017-04-12T04:29:57",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 74849,
+            "Price": 77.0,
+            "QuoteDateTime": "2017-04-19T02:38:37",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 74849
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 74849,
+            "Price": 1192.0,
+            "QuoteDateTime": "2017-04-13T01:51:40",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 946,
+            "OriginId": 74849
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 74849
+        }
+    ]
+}

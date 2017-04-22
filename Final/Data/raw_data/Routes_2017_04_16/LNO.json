@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1545,
+            "Name": "Skippers Aviation"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LNOA",
+            "CityName": "Leonora",
+            "CountryName": "Australia",
+            "IataCode": "LNO",
+            "Name": "Leonora",
+            "PlaceId": 65983,
+            "SkyscannerCode": "LNO",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PERA",
+            "CityName": "Perth",
+            "CountryName": "Australia",
+            "IataCode": "PER",
+            "Name": "Perth",
+            "PlaceId": 74770,
+            "SkyscannerCode": "PER",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 172.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1545
+                ],
+                "DepartureDate": "2017-06-02T00:00:00",
+                "DestinationId": 74770,
+                "OriginId": 65983
+            },
+            "QuoteDateTime": "2017-04-18T12:45:31",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 853,
+            "OriginId": 65983,
+            "Price": 172.0,
+            "QuoteDateTime": "2017-04-18T12:45:31",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

@@ -1,0 +1,157 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 288,
+            "Name": "Etihad Airways"
+        },
+        {
+            "CarrierId": 1825,
+            "Name": "Virgin Australia"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Ireland",
+            "PlaceId": 1221,
+            "SkyscannerCode": "IE",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Zealand",
+            "PlaceId": 1482,
+            "SkyscannerCode": "NZ",
+            "Type": "Country"
+        },
+        {
+            "CityId": "AKLN",
+            "CityName": "Auckland",
+            "CountryName": "New Zealand",
+            "IataCode": "AKL",
+            "Name": "Auckland International",
+            "PlaceId": 40492,
+            "SkyscannerCode": "AKL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "DUBL",
+            "CityName": "Dublin",
+            "CountryName": "Ireland",
+            "IataCode": "DUB",
+            "Name": "Dublin",
+            "PlaceId": 47874,
+            "SkyscannerCode": "DUB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "KGIA",
+            "CityName": "Kalgoorlie",
+            "CountryName": "Australia",
+            "IataCode": "KGI",
+            "Name": "Kalgoorlie",
+            "PlaceId": 63337,
+            "SkyscannerCode": "KGI",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PERA",
+            "CityName": "Perth",
+            "CountryName": "Australia",
+            "IataCode": "PER",
+            "Name": "Perth",
+            "PlaceId": 74770,
+            "SkyscannerCode": "PER",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 151.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1825
+                ],
+                "DepartureDate": "2018-01-21T00:00:00",
+                "DestinationId": 74770,
+                "OriginId": 63337
+            },
+            "QuoteDateTime": "2017-03-24T10:33:35",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 505.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1825
+                ],
+                "DepartureDate": "2017-04-23T00:00:00",
+                "DestinationId": 40492,
+                "OriginId": 63337
+            },
+            "QuoteDateTime": "2017-04-15T21:13:57",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1065.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    288
+                ],
+                "DepartureDate": "2017-07-14T00:00:00",
+                "DestinationId": 47874,
+                "OriginId": 63337
+            },
+            "QuoteDateTime": "2017-03-19T10:01:42",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 853,
+            "OriginId": 63337,
+            "Price": 151.0,
+            "QuoteDateTime": "2017-03-24T10:33:35",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1482,
+            "OriginId": 63337,
+            "Price": 505.0,
+            "QuoteDateTime": "2017-04-15T21:13:57",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1221,
+            "OriginId": 63337,
+            "Price": 1065.0,
+            "QuoteDateTime": "2017-03-19T10:01:42",
+            "QuoteIds": [
+                3
+            ]
+        }
+    ]
+}

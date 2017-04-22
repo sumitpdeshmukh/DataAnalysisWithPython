@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1239,
+            "Name": "Wings Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Indonesia",
+            "PlaceId": 1220,
+            "SkyscannerCode": "ID",
+            "Type": "Country"
+        },
+        {
+            "CityId": "OTII",
+            "CityName": "Morotai Island",
+            "CountryName": "Indonesia",
+            "IataCode": "OTI",
+            "Name": "Morotai Island",
+            "PlaceId": 73177,
+            "SkyscannerCode": "OTI",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TTEI",
+            "CityName": "Ternate",
+            "CountryName": "Indonesia",
+            "IataCode": "TTE",
+            "Name": "Ternate",
+            "PlaceId": 84693,
+            "SkyscannerCode": "TTE",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 30.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1239
+                ],
+                "DepartureDate": "2017-05-02T00:00:00",
+                "DestinationId": 84693,
+                "OriginId": 73177
+            },
+            "QuoteDateTime": "2017-03-26T06:51:13",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1220,
+            "OriginId": 73177,
+            "Price": 30.0,
+            "QuoteDateTime": "2017-03-26T06:51:13",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

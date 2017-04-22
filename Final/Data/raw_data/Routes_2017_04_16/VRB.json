@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 369,
+            "Name": "Ulendo Airlink"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "NYCA",
+            "CityName": "New York",
+            "CountryName": "United States",
+            "IataCode": "EWR",
+            "Name": "New York Newark",
+            "PlaceId": 50290,
+            "SkyscannerCode": "EWR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "VRBA",
+            "CityName": "Vero Beach",
+            "CountryName": "United States",
+            "IataCode": "VRB",
+            "Name": "Vero Beach",
+            "PlaceId": 89202,
+            "SkyscannerCode": "VRB",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 211.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    369
+                ],
+                "DepartureDate": "2017-06-04T00:00:00",
+                "DestinationId": 50290,
+                "OriginId": 89202
+            },
+            "QuoteDateTime": "2017-04-12T19:17:37",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 89202,
+            "Price": 211.0,
+            "QuoteDateTime": "2017-04-12T19:17:37",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

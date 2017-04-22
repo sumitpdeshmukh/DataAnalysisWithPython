@@ -1,0 +1,85 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 76,
+            "Name": "Fly Tiwi"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CNSA",
+            "CityName": "Cairns",
+            "CountryName": "Australia",
+            "IataCode": "CNS",
+            "Name": "Cairns",
+            "PlaceId": 45251,
+            "SkyscannerCode": "CNS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WEIA",
+            "CityName": "Weipa",
+            "CountryName": "Australia",
+            "IataCode": "WEI",
+            "Name": "Weipa",
+            "PlaceId": 90889,
+            "SkyscannerCode": "WEI",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 154.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    76
+                ],
+                "DepartureDate": "2017-09-04T00:00:00",
+                "DestinationId": 45251,
+                "OriginId": 90889
+            },
+            "QuoteDateTime": "2017-04-13T15:15:06",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 853,
+            "OriginId": 90889,
+            "Price": 154.0,
+            "QuoteDateTime": "2017-04-13T15:15:06",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 90889
+        }
+    ]
+}

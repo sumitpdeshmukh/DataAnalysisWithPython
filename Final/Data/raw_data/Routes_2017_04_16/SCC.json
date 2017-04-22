@@ -1,0 +1,112 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 851,
+            "Name": "Alaska Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BRWA",
+            "CityName": "Barrow",
+            "CountryName": "United States",
+            "IataCode": "BRW",
+            "Name": "Barrow Wiley Post / W.Rogers M",
+            "PlaceId": 43143,
+            "SkyscannerCode": "BRW",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SCCA",
+            "CityName": "Deadhorse",
+            "CountryName": "United States",
+            "IataCode": "SCC",
+            "Name": "Deadhorse (Prudhoe Bay)",
+            "PlaceId": 81571,
+            "SkyscannerCode": "SCC",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YTOA",
+            "CityName": "Toronto",
+            "CountryName": "Canada",
+            "IataCode": "YYZ",
+            "Name": "Toronto Pearson International",
+            "PlaceId": 96474,
+            "SkyscannerCode": "YYZ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 161.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    851
+                ],
+                "DepartureDate": "2018-01-10T00:00:00",
+                "DestinationId": 43143,
+                "OriginId": 81571
+            },
+            "QuoteDateTime": "2017-03-27T14:09:56",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 793.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-12T00:00:00",
+                "DestinationId": 96474,
+                "OriginId": 81571
+            },
+            "QuoteDateTime": "2017-04-11T15:54:24",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 81571,
+            "Price": 161.0,
+            "QuoteDateTime": "2017-03-27T14:09:56",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 81571,
+            "Price": 793.0,
+            "QuoteDateTime": "2017-04-11T15:54:24",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

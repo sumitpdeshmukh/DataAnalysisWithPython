@@ -1,0 +1,246 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1712,
+            "Name": "SATA Air Acores"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Ireland",
+            "PlaceId": 1221,
+            "SkyscannerCode": "IE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Netherlands",
+            "PlaceId": 1468,
+            "SkyscannerCode": "NL",
+            "Type": "Country"
+        },
+        {
+            "Name": "Portugal",
+            "PlaceId": 1572,
+            "SkyscannerCode": "PT",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "AMST",
+            "CityName": "Amsterdam",
+            "CountryName": "Netherlands",
+            "IataCode": "AMS",
+            "Name": "Amsterdam",
+            "PlaceId": 40595,
+            "SkyscannerCode": "AMS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "BOSA",
+            "CityName": "Boston",
+            "CountryName": "United States",
+            "IataCode": "BOS",
+            "Name": "Boston Logan International",
+            "PlaceId": 42995,
+            "SkyscannerCode": "BOS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "DUBL",
+            "CityName": "Dublin",
+            "CountryName": "Ireland",
+            "IataCode": "DUB",
+            "Name": "Dublin",
+            "PlaceId": 47874,
+            "SkyscannerCode": "DUB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LOND",
+            "CityName": "London",
+            "CountryName": "United Kingdom",
+            "IataCode": "LGW",
+            "Name": "London Gatwick",
+            "PlaceId": 65655,
+            "SkyscannerCode": "LGW",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PORT",
+            "CityName": "Porto",
+            "CountryName": "Portugal",
+            "IataCode": "OPO",
+            "Name": "Porto",
+            "PlaceId": 72991,
+            "SkyscannerCode": "OPO",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SANJ",
+            "CityName": "San Jorge Island",
+            "CountryName": "Portugal",
+            "IataCode": "SJZ",
+            "Name": "San Jorge Island",
+            "PlaceId": 81930,
+            "SkyscannerCode": "SJZ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TERC",
+            "CityName": "Terceira Lajes",
+            "CountryName": "Portugal",
+            "IataCode": "TER",
+            "Name": "Terceira Lajes",
+            "PlaceId": 83986,
+            "SkyscannerCode": "TER",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 41.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-23T00:00:00",
+                "DestinationId": 72991,
+                "OriginId": 81930
+            },
+            "QuoteDateTime": "2017-04-18T16:28:47",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 58.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1712
+                ],
+                "DepartureDate": "2017-07-09T00:00:00",
+                "DestinationId": 83986,
+                "OriginId": 81930
+            },
+            "QuoteDateTime": "2017-03-19T20:26:07",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 289.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-18T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 81930
+            },
+            "QuoteDateTime": "2017-04-01T03:45:30",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 2585.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-11-29T00:00:00",
+                "DestinationId": 47874,
+                "OriginId": 81930
+            },
+            "QuoteDateTime": "2017-04-05T16:11:57",
+            "QuoteId": 4
+        },
+        {
+            "Direct": false,
+            "MinPrice": 207.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-13T00:00:00",
+                "DestinationId": 40595,
+                "OriginId": 81930
+            },
+            "QuoteDateTime": "2017-04-16T22:50:01",
+            "QuoteId": 5
+        },
+        {
+            "Direct": false,
+            "MinPrice": 219.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-16T00:00:00",
+                "DestinationId": 65655,
+                "OriginId": 81930
+            },
+            "QuoteDateTime": "2017-04-12T00:50:37",
+            "QuoteId": 6
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1572,
+            "OriginId": 81930,
+            "Price": 41.0,
+            "QuoteDateTime": "2017-04-18T16:28:47",
+            "QuoteIds": [
+                1,
+                2
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 81930,
+            "Price": 289.0,
+            "QuoteDateTime": "2017-04-01T03:45:30",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 1221,
+            "OriginId": 81930,
+            "Price": 2585.0,
+            "QuoteDateTime": "2017-04-05T16:11:57",
+            "QuoteIds": [
+                4
+            ]
+        },
+        {
+            "DestinationId": 1468,
+            "OriginId": 81930,
+            "Price": 207.0,
+            "QuoteDateTime": "2017-04-16T22:50:01",
+            "QuoteIds": [
+                5
+            ]
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 81930,
+            "Price": 219.0,
+            "QuoteDateTime": "2017-04-12T00:50:37",
+            "QuoteIds": [
+                6
+            ]
+        }
+    ]
+}

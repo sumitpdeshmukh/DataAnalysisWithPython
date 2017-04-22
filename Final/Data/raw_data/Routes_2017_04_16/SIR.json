@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 124,
+            "Name": "helvetic"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "CityId": "PALM",
+            "CityName": "Palma",
+            "CountryName": "Spain",
+            "IataCode": "PMI",
+            "Name": "Palma - Majorca",
+            "PlaceId": 75145,
+            "SkyscannerCode": "PMI",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SION",
+            "CityName": "Sion",
+            "CountryName": "Switzerland",
+            "IataCode": "SIR",
+            "Name": "Sion",
+            "PlaceId": 81874,
+            "SkyscannerCode": "SIR",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 332.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    124
+                ],
+                "DepartureDate": "2017-08-06T00:00:00",
+                "DestinationId": 75145,
+                "OriginId": 81874
+            },
+            "QuoteDateTime": "2017-03-13T16:03:08",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1043,
+            "OriginId": 81874,
+            "Price": 332.0,
+            "QuoteDateTime": "2017-03-13T16:03:08",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

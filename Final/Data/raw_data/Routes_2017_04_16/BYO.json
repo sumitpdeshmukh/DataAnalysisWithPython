@@ -1,0 +1,95 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 836,
+            "Name": "Azul Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Portugal",
+            "PlaceId": 1572,
+            "SkyscannerCode": "PT",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BYOA",
+            "CityName": "Bonito",
+            "CountryName": "Brazil",
+            "IataCode": "BYO",
+            "Name": "Bonito",
+            "PlaceId": 43471,
+            "SkyscannerCode": "BYO",
+            "Type": "Station"
+        },
+        {
+            "CityId": "CPQA",
+            "CityName": "Campinas",
+            "CountryName": "Brazil",
+            "IataCode": "VCP",
+            "Name": "Sao Paulo Viracopos",
+            "PlaceId": 88496,
+            "SkyscannerCode": "VCP",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 123.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    836
+                ],
+                "DepartureDate": "2017-04-30T00:00:00",
+                "DestinationId": 88496,
+                "OriginId": 43471
+            },
+            "QuoteDateTime": "2017-04-11T15:12:04",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 898,
+            "OriginId": 43471,
+            "Price": 123.0,
+            "QuoteDateTime": "2017-04-11T15:12:04",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 43471
+        },
+        {
+            "DestinationId": 1572,
+            "OriginId": 43471
+        }
+    ]
+}

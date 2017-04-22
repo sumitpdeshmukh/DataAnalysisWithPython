@@ -1,0 +1,105 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Myanmar",
+            "PlaceId": 1421,
+            "SkyscannerCode": "MM",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CKMG",
+            "CityName": "Kunming",
+            "CountryName": "China",
+            "IataCode": "KMG",
+            "Name": "Kunming",
+            "PlaceId": 63623,
+            "SkyscannerCode": "KMG",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LZNA",
+            "CityName": "Nangan",
+            "CountryName": "Taiwan",
+            "IataCode": "LZN",
+            "Name": "Nangan",
+            "PlaceId": 66558,
+            "SkyscannerCode": "LZN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "RGNM",
+            "CityName": "Yangon",
+            "CountryName": "Myanmar",
+            "IataCode": "RGN",
+            "Name": "Yangon",
+            "PlaceId": 79470,
+            "SkyscannerCode": "RGN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 701.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-26T00:00:00",
+                "DestinationId": 79470,
+                "OriginId": 66558
+            },
+            "QuoteDateTime": "2017-04-11T06:43:32",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 254.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-26T00:00:00",
+                "DestinationId": 63623,
+                "OriginId": 66558
+            },
+            "QuoteDateTime": "2017-04-14T06:36:47",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1421,
+            "OriginId": 66558,
+            "Price": 701.0,
+            "QuoteDateTime": "2017-04-11T06:43:32",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 66558,
+            "Price": 254.0,
+            "QuoteDateTime": "2017-04-14T06:36:47",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

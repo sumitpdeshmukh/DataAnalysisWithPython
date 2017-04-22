@@ -1,0 +1,214 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 186,
+            "Name": "Trujet"
+        },
+        {
+            "CarrierId": 471,
+            "Name": "Jet Airways"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Indonesia",
+            "PlaceId": 1220,
+            "SkyscannerCode": "ID",
+            "Type": "Country"
+        },
+        {
+            "Name": "India",
+            "PlaceId": 1230,
+            "SkyscannerCode": "IN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Malaysia",
+            "PlaceId": 1433,
+            "SkyscannerCode": "MY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Saudi Arabia",
+            "PlaceId": 1697,
+            "SkyscannerCode": "SA",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "DMMA",
+            "CityName": "Dammam",
+            "CountryName": "Saudi Arabia",
+            "IataCode": "DMM",
+            "Name": "Dammam",
+            "PlaceId": 47501,
+            "SkyscannerCode": "DMM",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MESI",
+            "CityName": "Medan",
+            "CountryName": "Indonesia",
+            "IataCode": "KNO",
+            "Name": "Medan Kuala Namu",
+            "PlaceId": 63679,
+            "SkyscannerCode": "KNO",
+            "Type": "Station"
+        },
+        {
+            "CityId": "IMAA",
+            "CityName": "Chennai",
+            "CountryName": "India",
+            "IataCode": "MAA",
+            "Name": "Chennai",
+            "PlaceId": 67649,
+            "SkyscannerCode": "MAA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "CHIA",
+            "CityName": "Chicago",
+            "CountryName": "United States",
+            "IataCode": "ORD",
+            "Name": "Chicago O'Hare International",
+            "PlaceId": 73076,
+            "SkyscannerCode": "ORD",
+            "Type": "Station"
+        },
+        {
+            "CityId": "IRJA",
+            "CityName": "Rajahmundry",
+            "CountryName": "India",
+            "IataCode": "RJA",
+            "Name": "Rajahmundry",
+            "PlaceId": 79601,
+            "SkyscannerCode": "RJA",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 361.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    471
+                ],
+                "DepartureDate": "2017-07-08T00:00:00",
+                "DestinationId": 47501,
+                "OriginId": 79601
+            },
+            "QuoteDateTime": "2017-03-13T07:54:35",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 31.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    186
+                ],
+                "DepartureDate": "2017-04-26T00:00:00",
+                "DestinationId": 67649,
+                "OriginId": 79601
+            },
+            "QuoteDateTime": "2017-04-13T17:04:42",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 790.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    471
+                ],
+                "DepartureDate": "2017-06-24T00:00:00",
+                "DestinationId": 73076,
+                "OriginId": 79601
+            },
+            "QuoteDateTime": "2017-04-12T15:49:50",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1041.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-04-27T00:00:00",
+                "DestinationId": 63679,
+                "OriginId": 79601
+            },
+            "QuoteDateTime": "2017-04-16T14:43:28",
+            "QuoteId": 4
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1697,
+            "OriginId": 79601,
+            "Price": 361.0,
+            "QuoteDateTime": "2017-03-13T07:54:35",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1433,
+            "OriginId": 79601
+        },
+        {
+            "DestinationId": 837,
+            "OriginId": 79601
+        },
+        {
+            "DestinationId": 1230,
+            "OriginId": 79601,
+            "Price": 31.0,
+            "QuoteDateTime": "2017-04-13T17:04:42",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 79601,
+            "Price": 790.0,
+            "QuoteDateTime": "2017-04-12T15:49:50",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 1220,
+            "OriginId": 79601,
+            "Price": 1041.0,
+            "QuoteDateTime": "2017-04-16T14:43:28",
+            "QuoteIds": [
+                4
+            ]
+        }
+    ]
+}

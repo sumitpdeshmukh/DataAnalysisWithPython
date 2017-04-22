@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1746,
+            "Name": "Tuifly.be"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Belgium",
+            "PlaceId": 885,
+            "SkyscannerCode": "BE",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BRUS",
+            "CityName": "Brussels",
+            "CountryName": "Belgium",
+            "IataCode": "BRU",
+            "Name": "Brussels International",
+            "PlaceId": 43141,
+            "SkyscannerCode": "BRU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ORLB",
+            "CityName": "Orlando",
+            "CountryName": "United States",
+            "IataCode": "SFB",
+            "Name": "Orlando Sanford",
+            "PlaceId": 81714,
+            "SkyscannerCode": "SFB",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 215.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1746
+                ],
+                "DepartureDate": "2017-07-04T00:00:00",
+                "DestinationId": 43141,
+                "OriginId": 81714
+            },
+            "QuoteDateTime": "2017-04-10T08:19:58",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 885,
+            "OriginId": 81714,
+            "Price": 215.0,
+            "QuoteDateTime": "2017-04-10T08:19:58",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

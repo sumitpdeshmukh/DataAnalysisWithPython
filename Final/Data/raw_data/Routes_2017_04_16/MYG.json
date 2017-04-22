@@ -1,0 +1,95 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 857,
+            "Name": "Finnair"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Bahamas",
+            "PlaceId": 899,
+            "SkyscannerCode": "BS",
+            "Type": "Country"
+        },
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "MYGA",
+            "CityName": "Mayaguana",
+            "CountryName": "Bahamas",
+            "IataCode": "MYG",
+            "Name": "Mayaguana",
+            "PlaceId": 68807,
+            "SkyscannerCode": "MYG",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YVRA",
+            "CityName": "Vancouver",
+            "CountryName": "Canada",
+            "IataCode": "YVR",
+            "Name": "Vancouver International",
+            "PlaceId": 96322,
+            "SkyscannerCode": "YVR",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 5206.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    857
+                ],
+                "DepartureDate": "2017-05-12T00:00:00",
+                "DestinationId": 96322,
+                "OriginId": 68807
+            },
+            "QuoteDateTime": "2017-04-17T19:41:04",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 68807
+        },
+        {
+            "DestinationId": 899,
+            "OriginId": 68807
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 68807,
+            "Price": 5206.0,
+            "QuoteDateTime": "2017-04-17T19:41:04",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

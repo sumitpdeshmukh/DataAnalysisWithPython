@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1155,
+            "Name": "Harbour Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "YHSA",
+            "CityName": "Sechelt",
+            "CountryName": "Canada",
+            "IataCode": "YHS",
+            "Name": "Sechelt",
+            "PlaceId": 95651,
+            "SkyscannerCode": "YHS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YCDA",
+            "CityName": "Nanaimo",
+            "CountryName": "Canada",
+            "IataCode": "ZNA",
+            "Name": "Nanaimo Harbour",
+            "PlaceId": 98225,
+            "SkyscannerCode": "ZNA",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 82.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1155
+                ],
+                "DepartureDate": "2017-04-24T00:00:00",
+                "DestinationId": 98225,
+                "OriginId": 95651
+            },
+            "QuoteDateTime": "2017-04-18T00:23:54",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 95651,
+            "Price": 82.0,
+            "QuoteDateTime": "2017-04-18T00:23:54",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

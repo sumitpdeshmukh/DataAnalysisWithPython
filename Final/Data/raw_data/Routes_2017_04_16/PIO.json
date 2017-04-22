@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 121,
+            "Name": "Star Peru"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Peru",
+            "PlaceId": 1557,
+            "SkyscannerCode": "PE",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LIMA",
+            "CityName": "Lima",
+            "CountryName": "Peru",
+            "IataCode": "LIM",
+            "Name": "Lima",
+            "PlaceId": 65741,
+            "SkyscannerCode": "LIM",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PIOA",
+            "CityName": "Pisco",
+            "CountryName": "Peru",
+            "IataCode": "PIO",
+            "Name": "Pisco",
+            "PlaceId": 74959,
+            "SkyscannerCode": "PIO",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 114.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    121
+                ],
+                "DepartureDate": "2017-10-15T00:00:00",
+                "DestinationId": 65741,
+                "OriginId": 74959
+            },
+            "QuoteDateTime": "2017-04-08T02:03:30",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1557,
+            "OriginId": 74959,
+            "Price": 114.0,
+            "QuoteDateTime": "2017-04-08T02:03:30",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

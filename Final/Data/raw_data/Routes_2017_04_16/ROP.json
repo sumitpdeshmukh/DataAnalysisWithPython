@@ -1,0 +1,213 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1793,
+            "Name": "United"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Micronesia",
+            "PlaceId": 1085,
+            "SkyscannerCode": "FM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Guam",
+            "PlaceId": 1141,
+            "SkyscannerCode": "GU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hong Kong",
+            "PlaceId": 1179,
+            "SkyscannerCode": "HK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "Northern Mariana Islands",
+            "PlaceId": 1424,
+            "SkyscannerCode": "MP",
+            "Type": "Country"
+        },
+        {
+            "Name": "Philippines",
+            "PlaceId": 1560,
+            "SkyscannerCode": "PH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Palau",
+            "PlaceId": 1575,
+            "SkyscannerCode": "PW",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "GUMA",
+            "CityName": "Barrigada / Tamuning",
+            "CountryName": "Guam",
+            "IataCode": "GUM",
+            "Name": "Guam A.B. Won Pat",
+            "PlaceId": 54797,
+            "SkyscannerCode": "GUM",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TYOA",
+            "CityName": "Tokyo",
+            "CountryName": "Japan",
+            "IataCode": "NRT",
+            "Name": "Tokyo Narita",
+            "PlaceId": 70788,
+            "SkyscannerCode": "NRT",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ROPA",
+            "CityName": "Rota",
+            "CountryName": "Northern Mariana Islands",
+            "IataCode": "ROP",
+            "Name": "Rota",
+            "PlaceId": 79856,
+            "SkyscannerCode": "ROP",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SPNA",
+            "CityName": "Saipan",
+            "CountryName": "Northern Mariana Islands",
+            "IataCode": "SPN",
+            "Name": "Saipan",
+            "PlaceId": 82206,
+            "SkyscannerCode": "SPN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 133.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-10-05T00:00:00",
+                "DestinationId": 82206,
+                "OriginId": 79856
+            },
+            "QuoteDateTime": "2017-04-15T05:18:45",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 701.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-05-03T00:00:00",
+                "DestinationId": 70788,
+                "OriginId": 79856
+            },
+            "QuoteDateTime": "2017-04-05T10:39:22",
+            "QuoteId": 2
+        },
+        {
+            "Direct": true,
+            "MinPrice": 96.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-06-30T00:00:00",
+                "DestinationId": 54797,
+                "OriginId": 79856
+            },
+            "QuoteDateTime": "2017-04-18T23:00:17",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1560,
+            "OriginId": 79856
+        },
+        {
+            "DestinationId": 1179,
+            "OriginId": 79856
+        },
+        {
+            "DestinationId": 1575,
+            "OriginId": 79856
+        },
+        {
+            "DestinationId": 1085,
+            "OriginId": 79856
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 79856
+        },
+        {
+            "DestinationId": 1424,
+            "OriginId": 79856,
+            "Price": 133.0,
+            "QuoteDateTime": "2017-04-15T05:18:45",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 79856
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 79856,
+            "Price": 701.0,
+            "QuoteDateTime": "2017-04-05T10:39:22",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1141,
+            "OriginId": 79856,
+            "Price": 96.0,
+            "QuoteDateTime": "2017-04-18T23:00:17",
+            "QuoteIds": [
+                3
+            ]
+        }
+    ]
+}

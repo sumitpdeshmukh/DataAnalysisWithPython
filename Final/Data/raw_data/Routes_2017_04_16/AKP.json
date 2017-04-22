@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 231,
+            "Name": "Warbelows Air Ventures"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "AKPA",
+            "CityName": "Anaktuvuk",
+            "CountryName": "United States",
+            "IataCode": "AKP",
+            "Name": "Anaktuvuk",
+            "PlaceId": 40496,
+            "SkyscannerCode": "AKP",
+            "Type": "Station"
+        },
+        {
+            "CityId": "FAIA",
+            "CityName": "Fairbanks",
+            "CountryName": "United States",
+            "IataCode": "FAI",
+            "Name": "Fairbanks International",
+            "PlaceId": 51529,
+            "SkyscannerCode": "FAI",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 182.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    231
+                ],
+                "DepartureDate": "2017-05-10T00:00:00",
+                "DestinationId": 51529,
+                "OriginId": 40496
+            },
+            "QuoteDateTime": "2017-04-10T20:47:55",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 40496,
+            "Price": 182.0,
+            "QuoteDateTime": "2017-04-10T20:47:55",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

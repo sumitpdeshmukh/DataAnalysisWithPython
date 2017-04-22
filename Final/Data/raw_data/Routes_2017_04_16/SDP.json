@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1331,
+            "Name": "Penair"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ANCA",
+            "CityName": "Anchorage",
+            "CountryName": "United States",
+            "IataCode": "ANC",
+            "Name": "Anchorage International",
+            "PlaceId": 40627,
+            "SkyscannerCode": "ANC",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SDPA",
+            "CityName": "Sand Point",
+            "CountryName": "United States",
+            "IataCode": "SDP",
+            "Name": "Sand Point",
+            "PlaceId": 81632,
+            "SkyscannerCode": "SDP",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 433.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1331
+                ],
+                "DepartureDate": "2017-09-04T00:00:00",
+                "DestinationId": 40627,
+                "OriginId": 81632
+            },
+            "QuoteDateTime": "2017-03-22T16:35:49",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 81632,
+            "Price": 433.0,
+            "QuoteDateTime": "2017-03-22T16:35:49",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

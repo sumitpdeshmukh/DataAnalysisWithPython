@@ -1,0 +1,100 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1155,
+            "Name": "Harbour Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "YAQA",
+            "CityName": "Maple Bay",
+            "CountryName": "Canada",
+            "IataCode": "YAQ",
+            "Name": "Maple Bay",
+            "PlaceId": 95313,
+            "SkyscannerCode": "YAQ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YGGA",
+            "CityName": "Ganges Harbor",
+            "CountryName": "Canada",
+            "IataCode": "YGG",
+            "Name": "Ganges Harbor",
+            "PlaceId": 95591,
+            "SkyscannerCode": "YGG",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YVRA",
+            "CityName": "Vancouver",
+            "CountryName": "Canada",
+            "IataCode": "YVR",
+            "Name": "Vancouver International",
+            "PlaceId": 96322,
+            "SkyscannerCode": "YVR",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 106.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1155
+                ],
+                "DepartureDate": "2017-05-13T00:00:00",
+                "DestinationId": 96322,
+                "OriginId": 95313
+            },
+            "QuoteDateTime": "2017-04-18T00:38:44",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 113.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1155
+                ],
+                "DepartureDate": "2017-04-22T00:00:00",
+                "DestinationId": 95591,
+                "OriginId": 95313
+            },
+            "QuoteDateTime": "2017-04-18T03:11:49",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 95313,
+            "Price": 106.0,
+            "QuoteDateTime": "2017-04-18T00:38:44",
+            "QuoteIds": [
+                1,
+                2
+            ]
+        }
+    ]
+}

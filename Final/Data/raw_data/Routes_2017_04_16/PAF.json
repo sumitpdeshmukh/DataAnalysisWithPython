@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1776,
+            "Name": "AeroLink Uganda"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Uganda",
+            "PlaceId": 1799,
+            "SkyscannerCode": "UG",
+            "Type": "Country"
+        },
+        {
+            "CityId": "EBBA",
+            "CityName": "Entebbe",
+            "CountryName": "Uganda",
+            "IataCode": "EBB",
+            "Name": "Entebbe",
+            "PlaceId": 49266,
+            "SkyscannerCode": "EBB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PAFA",
+            "CityName": "Pakuba",
+            "CountryName": "Uganda",
+            "IataCode": "PAF",
+            "Name": "Pakuba",
+            "PlaceId": 74566,
+            "SkyscannerCode": "PAF",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 222.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1776
+                ],
+                "DepartureDate": "2017-12-03T00:00:00",
+                "DestinationId": 49266,
+                "OriginId": 74566
+            },
+            "QuoteDateTime": "2017-04-18T01:01:44",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1799,
+            "OriginId": 74566,
+            "Price": 222.0,
+            "QuoteDateTime": "2017-04-18T01:01:44",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

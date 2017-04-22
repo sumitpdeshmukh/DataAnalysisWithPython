@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1545,
+            "Name": "Skippers Aviation"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CVQA",
+            "CityName": "Carnarvon",
+            "CountryName": "Australia",
+            "IataCode": "CVQ",
+            "Name": "Carnarvon",
+            "PlaceId": 45633,
+            "SkyscannerCode": "CVQ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PERA",
+            "CityName": "Perth",
+            "CountryName": "Australia",
+            "IataCode": "PER",
+            "Name": "Perth",
+            "PlaceId": 74770,
+            "SkyscannerCode": "PER",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 149.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1545
+                ],
+                "DepartureDate": "2017-06-10T00:00:00",
+                "DestinationId": 74770,
+                "OriginId": 45633
+            },
+            "QuoteDateTime": "2017-03-28T04:54:22",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 853,
+            "OriginId": 45633,
+            "Price": 149.0,
+            "QuoteDateTime": "2017-03-28T04:54:22",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

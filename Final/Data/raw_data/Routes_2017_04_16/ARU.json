@@ -1,0 +1,88 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Portugal",
+            "PlaceId": 1572,
+            "SkyscannerCode": "PT",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ARUA",
+            "CityName": "Aracatuba",
+            "CountryName": "Brazil",
+            "IataCode": "ARU",
+            "Name": "Aracatuba",
+            "PlaceId": 40837,
+            "SkyscannerCode": "ARU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "EYWA",
+            "CityName": "Key West",
+            "CountryName": "United States",
+            "IataCode": "EYW",
+            "Name": "Key West International",
+            "PlaceId": 50391,
+            "SkyscannerCode": "EYW",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 974.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-08-02T00:00:00",
+                "DestinationId": 50391,
+                "OriginId": 40837
+            },
+            "QuoteDateTime": "2017-03-16T14:47:23",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 898,
+            "OriginId": 40837
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 40837,
+            "Price": 974.0,
+            "QuoteDateTime": "2017-03-16T14:47:23",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1572,
+            "OriginId": 40837
+        }
+    ]
+}

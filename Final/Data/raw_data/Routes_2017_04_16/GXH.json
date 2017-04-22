@@ -1,0 +1,175 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 181,
+            "Name": "Sichuan Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Czech Republic",
+            "PlaceId": 954,
+            "SkyscannerCode": "CZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Northern Mariana Islands",
+            "PlaceId": 1424,
+            "SkyscannerCode": "MP",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Zealand",
+            "PlaceId": 1482,
+            "SkyscannerCode": "NZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Thailand",
+            "PlaceId": 1752,
+            "SkyscannerCode": "TH",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "GXHE",
+            "CityName": "Xiahe",
+            "CountryName": "China",
+            "IataCode": "GXH",
+            "Name": "Gannan Xiahe",
+            "PlaceId": 54936,
+            "SkyscannerCode": "GXH",
+            "Type": "Station"
+        },
+        {
+            "CityId": "CLXA",
+            "CityName": "Lhasa",
+            "CountryName": "China",
+            "IataCode": "LXA",
+            "Name": "Lhasa Gonggar",
+            "PlaceId": 66449,
+            "SkyscannerCode": "LXA",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 193.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    181
+                ],
+                "DepartureDate": "2017-05-28T00:00:00",
+                "DestinationId": 66449,
+                "OriginId": 54936
+            },
+            "QuoteDateTime": "2017-04-18T12:17:49",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1752,
+            "OriginId": 54936
+        },
+        {
+            "DestinationId": 1703,
+            "OriginId": 54936
+        },
+        {
+            "DestinationId": 1482,
+            "OriginId": 54936
+        },
+        {
+            "DestinationId": 837,
+            "OriginId": 54936
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 54936
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 54936,
+            "Price": 193.0,
+            "QuoteDateTime": "2017-04-18T12:17:49",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1669,
+            "OriginId": 54936
+        },
+        {
+            "DestinationId": 954,
+            "OriginId": 54936
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 54936
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 54936
+        },
+        {
+            "DestinationId": 1424,
+            "OriginId": 54936
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 210,
+            "Name": "Boutique Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CEZA",
+            "CityName": "Cortez",
+            "CountryName": "United States",
+            "IataCode": "CEZ",
+            "Name": "Cortez",
+            "PlaceId": 44826,
+            "SkyscannerCode": "CEZ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PHXA",
+            "CityName": "Phoenix",
+            "CountryName": "United States",
+            "IataCode": "PHX",
+            "Name": "Phoenix Sky Harbor",
+            "PlaceId": 74920,
+            "SkyscannerCode": "PHX",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 50.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    210
+                ],
+                "DepartureDate": "2017-06-06T00:00:00",
+                "DestinationId": 74920,
+                "OriginId": 44826
+            },
+            "QuoteDateTime": "2017-04-15T03:34:20",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 44826,
+            "Price": 50.0,
+            "QuoteDateTime": "2017-04-15T03:34:20",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

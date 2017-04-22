@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 771,
+            "Name": "Air Loyaute"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "New Caledonia",
+            "PlaceId": 1459,
+            "SkyscannerCode": "NC",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LIFN",
+            "CityName": "Lifou",
+            "CountryName": "New Caledonia",
+            "IataCode": "LIF",
+            "Name": "Lifou",
+            "PlaceId": 65734,
+            "SkyscannerCode": "LIF",
+            "Type": "Station"
+        },
+        {
+            "CityId": "UVEN",
+            "CityName": "Ouvea",
+            "CountryName": "New Caledonia",
+            "IataCode": "UVE",
+            "Name": "Ouvea",
+            "PlaceId": 87093,
+            "SkyscannerCode": "UVE",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 54.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    771
+                ],
+                "DepartureDate": "2017-05-02T00:00:00",
+                "DestinationId": 87093,
+                "OriginId": 65734
+            },
+            "QuoteDateTime": "2017-03-18T09:24:54",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1459,
+            "OriginId": 65734,
+            "Price": 54.0,
+            "QuoteDateTime": "2017-03-18T09:24:54",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

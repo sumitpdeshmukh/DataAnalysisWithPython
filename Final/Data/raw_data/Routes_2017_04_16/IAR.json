@@ -1,0 +1,144 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1687,
+            "Name": "S7 Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Azerbaijan",
+            "PlaceId": 858,
+            "SkyscannerCode": "AZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Belarus",
+            "PlaceId": 905,
+            "SkyscannerCode": "BY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Crimea",
+            "PlaceId": 933,
+            "SkyscannerCode": "CE",
+            "Type": "Country"
+        },
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "YARO",
+            "CityName": "Yaroslavl",
+            "CountryName": "Russia",
+            "IataCode": "IAR",
+            "Name": "Yaroslavl",
+            "PlaceId": 58450,
+            "SkyscannerCode": "IAR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PETE",
+            "CityName": "St Petersburg",
+            "CountryName": "Russia",
+            "IataCode": "LED",
+            "Name": "St Petersburg Pulkovo",
+            "PlaceId": 65540,
+            "SkyscannerCode": "LED",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MSQA",
+            "CityName": "Minsk",
+            "CountryName": "Belarus",
+            "IataCode": "MSQ",
+            "Name": "Minsk International 2",
+            "PlaceId": 68529,
+            "SkyscannerCode": "MSQ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 45.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1687
+                ],
+                "DepartureDate": "2017-05-15T00:00:00",
+                "DestinationId": 65540,
+                "OriginId": 58450
+            },
+            "QuoteDateTime": "2017-04-14T06:54:35",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 146.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1687
+                ],
+                "DepartureDate": "2017-07-07T00:00:00",
+                "DestinationId": 68529,
+                "OriginId": 58450
+            },
+            "QuoteDateTime": "2017-04-05T13:12:11",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 942,
+            "OriginId": 58450
+        },
+        {
+            "DestinationId": 858,
+            "OriginId": 58450
+        },
+        {
+            "DestinationId": 1669,
+            "OriginId": 58450,
+            "Price": 45.0,
+            "QuoteDateTime": "2017-04-14T06:54:35",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 905,
+            "OriginId": 58450,
+            "Price": 146.0,
+            "QuoteDateTime": "2017-04-05T13:12:11",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 933,
+            "OriginId": 58450
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 227,
+            "Name": "Safarilink"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Kenya",
+            "PlaceId": 1317,
+            "SkyscannerCode": "KE",
+            "Type": "Country"
+        },
+        {
+            "CityId": "NRNA",
+            "CityName": "Narok",
+            "CountryName": "Kenya",
+            "IataCode": "ANA",
+            "Name": "Angama Mara",
+            "PlaceId": 40625,
+            "SkyscannerCode": "ANA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NBOA",
+            "CityName": "Nairobi",
+            "CountryName": "Kenya",
+            "IataCode": "WIL",
+            "Name": "Nairobi Wilson",
+            "PlaceId": 91084,
+            "SkyscannerCode": "WIL",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 180.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    227
+                ],
+                "DepartureDate": "2017-11-17T00:00:00",
+                "DestinationId": 91084,
+                "OriginId": 40625
+            },
+            "QuoteDateTime": "2017-03-24T13:42:27",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1317,
+            "OriginId": 40625,
+            "Price": 180.0,
+            "QuoteDateTime": "2017-03-24T13:42:27",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

@@ -1,0 +1,312 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 461,
+            "Name": "Central Mountain Air"
+        },
+        {
+            "CarrierId": 835,
+            "Name": "Air Canada"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hong Kong",
+            "PlaceId": 1179,
+            "SkyscannerCode": "HK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Ireland",
+            "PlaceId": 1221,
+            "SkyscannerCode": "IE",
+            "Type": "Country"
+        },
+        {
+            "Name": "India",
+            "PlaceId": 1230,
+            "SkyscannerCode": "IN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Korea",
+            "PlaceId": 1330,
+            "SkyscannerCode": "KR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "Norway",
+            "PlaceId": 1471,
+            "SkyscannerCode": "NO",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Zealand",
+            "PlaceId": 1482,
+            "SkyscannerCode": "NZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Thailand",
+            "PlaceId": 1752,
+            "SkyscannerCode": "TH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Taiwan",
+            "PlaceId": 1767,
+            "SkyscannerCode": "TW",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BKKT",
+            "CityName": "Bangkok",
+            "CountryName": "Thailand",
+            "IataCode": "BKK",
+            "Name": "Bangkok Suvarnabhumi",
+            "PlaceId": 42795,
+            "SkyscannerCode": "BKK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "OSLO",
+            "CityName": "Oslo",
+            "CountryName": "Norway",
+            "IataCode": "OSL",
+            "Name": "Oslo Gardermoen",
+            "PlaceId": 73132,
+            "SkyscannerCode": "OSL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SJCA",
+            "CityName": "San Jose",
+            "CountryName": "United States",
+            "IataCode": "SJC",
+            "Name": "San Jose International",
+            "PlaceId": 81907,
+            "SkyscannerCode": "SJC",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YXSA",
+            "CityName": "Prince George",
+            "CountryName": "Canada",
+            "IataCode": "YXS",
+            "Name": "Prince George",
+            "PlaceId": 96419,
+            "SkyscannerCode": "YXS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YYDA",
+            "CityName": "Smithers",
+            "CountryName": "Canada",
+            "IataCode": "YYD",
+            "Name": "Smithers",
+            "PlaceId": 96452,
+            "SkyscannerCode": "YYD",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 124.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    461
+                ],
+                "DepartureDate": "2017-04-28T00:00:00",
+                "DestinationId": 96419,
+                "OriginId": 96452
+            },
+            "QuoteDateTime": "2017-03-30T03:14:33",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 313.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    835
+                ],
+                "DepartureDate": "2017-06-05T00:00:00",
+                "DestinationId": 81907,
+                "OriginId": 96452
+            },
+            "QuoteDateTime": "2017-04-03T03:41:36",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 2807.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-16T00:00:00",
+                "DestinationId": 42795,
+                "OriginId": 96452
+            },
+            "QuoteDateTime": "2017-03-16T14:12:30",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 3605.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-03T00:00:00",
+                "DestinationId": 73132,
+                "OriginId": 96452
+            },
+            "QuoteDateTime": "2017-03-29T04:29:58",
+            "QuoteId": 4
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1767,
+            "OriginId": 96452
+        },
+        {
+            "DestinationId": 1179,
+            "OriginId": 96452
+        },
+        {
+            "DestinationId": 1482,
+            "OriginId": 96452
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 96452,
+            "Price": 124.0,
+            "QuoteDateTime": "2017-03-30T03:14:33",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 96452
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 96452,
+            "Price": 313.0,
+            "QuoteDateTime": "2017-04-03T03:41:36",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 96452
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 96452
+        },
+        {
+            "DestinationId": 1230,
+            "OriginId": 96452
+        },
+        {
+            "DestinationId": 1330,
+            "OriginId": 96452
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 96452
+        },
+        {
+            "DestinationId": 1221,
+            "OriginId": 96452
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 96452
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 96452
+        },
+        {
+            "DestinationId": 1752,
+            "OriginId": 96452,
+            "Price": 2807.0,
+            "QuoteDateTime": "2017-03-16T14:12:30",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 1471,
+            "OriginId": 96452,
+            "Price": 3605.0,
+            "QuoteDateTime": "2017-03-29T04:29:58",
+            "QuoteIds": [
+                4
+            ]
+        }
+    ]
+}

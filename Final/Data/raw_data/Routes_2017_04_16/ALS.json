@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 210,
+            "Name": "Boutique Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ABQA",
+            "CityName": "Albuquerque",
+            "CountryName": "United States",
+            "IataCode": "ABQ",
+            "Name": "Albuquerque",
+            "PlaceId": 40065,
+            "SkyscannerCode": "ABQ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ALSA",
+            "CityName": "Alamosa",
+            "CountryName": "United States",
+            "IataCode": "ALS",
+            "Name": "Alamosa",
+            "PlaceId": 40547,
+            "SkyscannerCode": "ALS",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 48.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    210
+                ],
+                "DepartureDate": "2017-05-05T00:00:00",
+                "DestinationId": 40065,
+                "OriginId": 40547
+            },
+            "QuoteDateTime": "2017-04-15T21:46:14",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 40547,
+            "Price": 48.0,
+            "QuoteDateTime": "2017-04-15T21:46:14",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

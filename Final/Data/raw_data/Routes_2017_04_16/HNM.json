@@ -1,0 +1,186 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 282,
+            "Name": "Mokulele Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "FRAN",
+            "CityName": "Frankfurt",
+            "CountryName": "Germany",
+            "IataCode": "FRA",
+            "Name": "Frankfurt am Main",
+            "PlaceId": 52337,
+            "SkyscannerCode": "FRA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "HNMA",
+            "CityName": "Hana",
+            "CountryName": "United States",
+            "IataCode": "HNM",
+            "Name": "Hana",
+            "PlaceId": 56765,
+            "SkyscannerCode": "HNM",
+            "Type": "Station"
+        },
+        {
+            "CityId": "OSAA",
+            "CityName": "Osaka",
+            "CountryName": "Japan",
+            "IataCode": "KIX",
+            "Name": "Osaka Kansai International",
+            "PlaceId": 63448,
+            "SkyscannerCode": "KIX",
+            "Type": "Station"
+        },
+        {
+            "CityId": "OGGA",
+            "CityName": "Kahului",
+            "CountryName": "United States",
+            "IataCode": "OGG",
+            "Name": "Maui Kahului",
+            "PlaceId": 72551,
+            "SkyscannerCode": "OGG",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YTOA",
+            "CityName": "Toronto",
+            "CountryName": "Canada",
+            "IataCode": "YYZ",
+            "Name": "Toronto Pearson International",
+            "PlaceId": 96474,
+            "SkyscannerCode": "YYZ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 51.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    282
+                ],
+                "DepartureDate": "2017-08-27T00:00:00",
+                "DestinationId": 72551,
+                "OriginId": 56765
+            },
+            "QuoteDateTime": "2017-04-11T18:40:55",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 328.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-16T00:00:00",
+                "DestinationId": 96474,
+                "OriginId": 56765
+            },
+            "QuoteDateTime": "2017-04-02T20:30:28",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 990.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-11T00:00:00",
+                "DestinationId": 63448,
+                "OriginId": 56765
+            },
+            "QuoteDateTime": "2017-04-12T15:48:13",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 5488.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-03T00:00:00",
+                "DestinationId": 52337,
+                "OriginId": 56765
+            },
+            "QuoteDateTime": "2017-04-05T07:07:20",
+            "QuoteId": 4
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 56765,
+            "Price": 51.0,
+            "QuoteDateTime": "2017-04-11T18:40:55",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 56765,
+            "Price": 328.0,
+            "QuoteDateTime": "2017-04-02T20:30:28",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 56765,
+            "Price": 990.0,
+            "QuoteDateTime": "2017-04-12T15:48:13",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 56765,
+            "Price": 5488.0,
+            "QuoteDateTime": "2017-04-05T07:07:20",
+            "QuoteIds": [
+                4
+            ]
+        }
+    ]
+}

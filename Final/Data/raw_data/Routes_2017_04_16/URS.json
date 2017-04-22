@@ -1,0 +1,122 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 55,
+            "Name": "RusLine"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Crimea",
+            "PlaceId": 933,
+            "SkyscannerCode": "CE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Kazakhstan",
+            "PlaceId": 1338,
+            "SkyscannerCode": "KZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ALAA",
+            "CityName": "Almaty",
+            "CountryName": "Kazakhstan",
+            "IataCode": "ALA",
+            "Name": "Almaty",
+            "PlaceId": 40529,
+            "SkyscannerCode": "ALA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MOSC",
+            "CityName": "Moscow",
+            "CountryName": "Russia",
+            "IataCode": "DME",
+            "Name": "Moscow Domodedovo",
+            "PlaceId": 47493,
+            "SkyscannerCode": "DME",
+            "Type": "Station"
+        },
+        {
+            "CityId": "KURS",
+            "CityName": "Kursk",
+            "CountryName": "Russia",
+            "IataCode": "URS",
+            "Name": "Kursk",
+            "PlaceId": 86915,
+            "SkyscannerCode": "URS",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 473.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-14T00:00:00",
+                "DestinationId": 40529,
+                "OriginId": 86915
+            },
+            "QuoteDateTime": "2017-04-17T10:25:17",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 99.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    55
+                ],
+                "DepartureDate": "2017-05-02T00:00:00",
+                "DestinationId": 47493,
+                "OriginId": 86915
+            },
+            "QuoteDateTime": "2017-03-29T11:07:49",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 933,
+            "OriginId": 86915
+        },
+        {
+            "DestinationId": 1338,
+            "OriginId": 86915,
+            "Price": 473.0,
+            "QuoteDateTime": "2017-04-17T10:25:17",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1669,
+            "OriginId": 86915,
+            "Price": 99.0,
+            "QuoteDateTime": "2017-03-29T11:07:49",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

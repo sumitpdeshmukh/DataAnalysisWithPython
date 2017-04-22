@@ -1,0 +1,142 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1317,
+            "Name": "Korean Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Korea",
+            "PlaceId": 1330,
+            "SkyscannerCode": "KR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Taiwan",
+            "PlaceId": 1767,
+            "SkyscannerCode": "TW",
+            "Type": "Country"
+        },
+        {
+            "CityId": "PARI",
+            "CityName": "Paris",
+            "CountryName": "France",
+            "IataCode": "CDG",
+            "Name": "Paris Charles de Gaulle",
+            "PlaceId": 44759,
+            "SkyscannerCode": "CDG",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TPET",
+            "CityName": "Taipei",
+            "CountryName": "Taiwan",
+            "IataCode": "TPE",
+            "Name": "Taipei Taiwan Taoyuan",
+            "PlaceId": 84501,
+            "SkyscannerCode": "TPE",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WJUA",
+            "CityName": "WonJu",
+            "CountryName": "South Korea",
+            "IataCode": "WJU",
+            "Name": "WonJu",
+            "PlaceId": 91141,
+            "SkyscannerCode": "WJU",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 365.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1317
+                ],
+                "DepartureDate": "2017-05-24T00:00:00",
+                "DestinationId": 84501,
+                "OriginId": 91141
+            },
+            "QuoteDateTime": "2017-03-25T21:34:33",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 912.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-30T00:00:00",
+                "DestinationId": 44759,
+                "OriginId": 91141
+            },
+            "QuoteDateTime": "2017-04-11T11:22:15",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 942,
+            "OriginId": 91141
+        },
+        {
+            "DestinationId": 1330,
+            "OriginId": 91141
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 91141
+        },
+        {
+            "DestinationId": 1767,
+            "OriginId": 91141,
+            "Price": 365.0,
+            "QuoteDateTime": "2017-03-25T21:34:33",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 91141,
+            "Price": 912.0,
+            "QuoteDateTime": "2017-04-11T11:22:15",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

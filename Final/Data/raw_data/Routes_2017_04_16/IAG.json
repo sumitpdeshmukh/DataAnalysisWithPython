@@ -1,0 +1,245 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1467,
+            "Name": "Spirit Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Aruba",
+            "PlaceId": 855,
+            "SkyscannerCode": "AW",
+            "Type": "Country"
+        },
+        {
+            "Name": "Colombia",
+            "PlaceId": 943,
+            "SkyscannerCode": "CO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Costa Rica",
+            "PlaceId": 946,
+            "SkyscannerCode": "CR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cuba",
+            "PlaceId": 949,
+            "SkyscannerCode": "CU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Dominican Republic",
+            "PlaceId": 991,
+            "SkyscannerCode": "DO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Guatemala",
+            "PlaceId": 1140,
+            "SkyscannerCode": "GT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Honduras",
+            "PlaceId": 1182,
+            "SkyscannerCode": "HN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Haiti",
+            "PlaceId": 1188,
+            "SkyscannerCode": "HT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Jamaica",
+            "PlaceId": 1277,
+            "SkyscannerCode": "JM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "Nicaragua",
+            "PlaceId": 1465,
+            "SkyscannerCode": "NI",
+            "Type": "Country"
+        },
+        {
+            "Name": "Panama",
+            "PlaceId": 1553,
+            "SkyscannerCode": "PA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Peru",
+            "PlaceId": 1557,
+            "SkyscannerCode": "PE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Puerto Rico",
+            "PlaceId": 1570,
+            "SkyscannerCode": "PR",
+            "Type": "Country"
+        },
+        {
+            "Name": "El Salvador",
+            "PlaceId": 1718,
+            "SkyscannerCode": "SV",
+            "Type": "Country"
+        },
+        {
+            "Name": "St Maarten",
+            "PlaceId": 1720,
+            "SkyscannerCode": "SX",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "Name": "US Virgin Islands",
+            "PlaceId": 1849,
+            "SkyscannerCode": "VI",
+            "Type": "Country"
+        },
+        {
+            "CityId": "IAGA",
+            "CityName": "Niagara Falls",
+            "CountryName": "United States",
+            "IataCode": "IAG",
+            "Name": "Niagara Falls",
+            "PlaceId": 58439,
+            "SkyscannerCode": "IAG",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PUJA",
+            "CityName": "Punta Cana",
+            "CountryName": "Dominican Republic",
+            "IataCode": "PUJ",
+            "Name": "Punta Cana",
+            "PlaceId": 75530,
+            "SkyscannerCode": "PUJ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 246.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1467
+                ],
+                "DepartureDate": "2017-08-25T00:00:00",
+                "DestinationId": 75530,
+                "OriginId": 58439
+            },
+            "QuoteDateTime": "2017-03-30T13:49:04",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1557,
+            "OriginId": 58439
+        },
+        {
+            "DestinationId": 943,
+            "OriginId": 58439
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 58439
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 58439
+        },
+        {
+            "DestinationId": 1570,
+            "OriginId": 58439
+        },
+        {
+            "DestinationId": 1182,
+            "OriginId": 58439
+        },
+        {
+            "DestinationId": 1140,
+            "OriginId": 58439
+        },
+        {
+            "DestinationId": 1188,
+            "OriginId": 58439
+        },
+        {
+            "DestinationId": 991,
+            "OriginId": 58439,
+            "Price": 246.0,
+            "QuoteDateTime": "2017-03-30T13:49:04",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1720,
+            "OriginId": 58439
+        },
+        {
+            "DestinationId": 1849,
+            "OriginId": 58439
+        },
+        {
+            "DestinationId": 1465,
+            "OriginId": 58439
+        },
+        {
+            "DestinationId": 855,
+            "OriginId": 58439
+        },
+        {
+            "DestinationId": 949,
+            "OriginId": 58439
+        },
+        {
+            "DestinationId": 946,
+            "OriginId": 58439
+        },
+        {
+            "DestinationId": 1277,
+            "OriginId": 58439
+        },
+        {
+            "DestinationId": 1718,
+            "OriginId": 58439
+        },
+        {
+            "DestinationId": 1553,
+            "OriginId": 58439
+        }
+    ]
+}

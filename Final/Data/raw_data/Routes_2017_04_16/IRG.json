@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 76,
+            "Name": "Fly Tiwi"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CNSA",
+            "CityName": "Cairns",
+            "CountryName": "Australia",
+            "IataCode": "CNS",
+            "Name": "Cairns",
+            "PlaceId": 45251,
+            "SkyscannerCode": "CNS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "IRGA",
+            "CityName": "Lockhart River",
+            "CountryName": "Australia",
+            "IataCode": "IRG",
+            "Name": "Lockhart River",
+            "PlaceId": 59255,
+            "SkyscannerCode": "IRG",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 289.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    76
+                ],
+                "DepartureDate": "2017-09-04T00:00:00",
+                "DestinationId": 45251,
+                "OriginId": 59255
+            },
+            "QuoteDateTime": "2017-04-13T09:23:42",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 853,
+            "OriginId": 59255,
+            "Price": 289.0,
+            "QuoteDateTime": "2017-04-13T09:23:42",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

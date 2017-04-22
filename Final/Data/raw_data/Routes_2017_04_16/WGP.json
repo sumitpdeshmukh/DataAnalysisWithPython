@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 0,
+            "Name": "NAM Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Indonesia",
+            "PlaceId": 1220,
+            "SkyscannerCode": "ID",
+            "Type": "Country"
+        },
+        {
+            "CityId": "KOEA",
+            "CityName": "Kupang",
+            "CountryName": "Indonesia",
+            "IataCode": "KOE",
+            "Name": "Kupang",
+            "PlaceId": 63717,
+            "SkyscannerCode": "KOE",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WGPI",
+            "CityName": "Waingapu",
+            "CountryName": "Indonesia",
+            "IataCode": "WGP",
+            "Name": "Waingapu",
+            "PlaceId": 90992,
+            "SkyscannerCode": "WGP",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 32.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    0
+                ],
+                "DepartureDate": "2017-07-23T00:00:00",
+                "DestinationId": 63717,
+                "OriginId": 90992
+            },
+            "QuoteDateTime": "2017-04-01T05:25:18",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1220,
+            "OriginId": 90992,
+            "Price": 32.0,
+            "QuoteDateTime": "2017-04-01T05:25:18",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

@@ -1,0 +1,165 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 935,
+            "Name": "Airlines  PNG"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Fiji",
+            "PlaceId": 1082,
+            "SkyscannerCode": "FJ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hong Kong",
+            "PlaceId": 1179,
+            "SkyscannerCode": "HK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Indonesia",
+            "PlaceId": 1220,
+            "SkyscannerCode": "ID",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "Papua New Guinea",
+            "PlaceId": 1559,
+            "SkyscannerCode": "PG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Philippines",
+            "PlaceId": 1560,
+            "SkyscannerCode": "PH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Solomon Islands",
+            "PlaceId": 1698,
+            "SkyscannerCode": "SB",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Vanuatu",
+            "PlaceId": 1861,
+            "SkyscannerCode": "VU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "KVGP",
+            "CityName": "Kavieng",
+            "CountryName": "Papua New Guinea",
+            "IataCode": "KVG",
+            "Name": "Kavieng",
+            "PlaceId": 64055,
+            "SkyscannerCode": "KVG",
+            "Type": "Station"
+        },
+        {
+            "CityId": "RABP",
+            "CityName": "Rabaul",
+            "CountryName": "Papua New Guinea",
+            "IataCode": "RAB",
+            "Name": "Rabaul",
+            "PlaceId": 79170,
+            "SkyscannerCode": "RAB",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 96.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    935
+                ],
+                "DepartureDate": "2017-07-10T00:00:00",
+                "DestinationId": 79170,
+                "OriginId": 64055
+            },
+            "QuoteDateTime": "2017-04-16T03:19:37",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1703,
+            "OriginId": 64055
+        },
+        {
+            "DestinationId": 1559,
+            "OriginId": 64055,
+            "Price": 96.0,
+            "QuoteDateTime": "2017-04-16T03:19:37",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 64055
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 64055
+        },
+        {
+            "DestinationId": 1560,
+            "OriginId": 64055
+        },
+        {
+            "DestinationId": 1220,
+            "OriginId": 64055
+        },
+        {
+            "DestinationId": 1179,
+            "OriginId": 64055
+        },
+        {
+            "DestinationId": 1698,
+            "OriginId": 64055
+        },
+        {
+            "DestinationId": 1082,
+            "OriginId": 64055
+        },
+        {
+            "DestinationId": 1861,
+            "OriginId": 64055
+        }
+    ]
+}

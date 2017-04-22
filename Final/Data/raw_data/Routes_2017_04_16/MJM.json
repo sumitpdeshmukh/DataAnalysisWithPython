@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1922,
+            "Name": "Compagnie Africaine d'Aviation"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "DR Congo",
+            "PlaceId": 932,
+            "SkyscannerCode": "CD",
+            "Type": "Country"
+        },
+        {
+            "CityId": "FBMA",
+            "CityName": "Lubumbashi",
+            "CountryName": "DR Congo",
+            "IataCode": "FBM",
+            "Name": "Lubumbashi",
+            "PlaceId": 51581,
+            "SkyscannerCode": "FBM",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MJMA",
+            "CityName": "Mbuji Mayi",
+            "CountryName": "DR Congo",
+            "IataCode": "MJM",
+            "Name": "Mbuji Mayi",
+            "PlaceId": 68093,
+            "SkyscannerCode": "MJM",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 148.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1922
+                ],
+                "DepartureDate": "2017-05-11T00:00:00",
+                "DestinationId": 51581,
+                "OriginId": 68093
+            },
+            "QuoteDateTime": "2017-03-22T10:25:30",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 932,
+            "OriginId": 68093,
+            "Price": 148.0,
+            "QuoteDateTime": "2017-03-22T10:25:30",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

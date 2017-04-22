@@ -1,0 +1,105 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 459,
+            "Name": "Cape Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Barbados",
+            "PlaceId": 882,
+            "SkyscannerCode": "BB",
+            "Type": "Country"
+        },
+        {
+            "Name": "St Maarten",
+            "PlaceId": 1720,
+            "SkyscannerCode": "SX",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "IRKA",
+            "CityName": "Kirksville",
+            "CountryName": "United States",
+            "IataCode": "IRK",
+            "Name": "Kirksville",
+            "PlaceId": 59259,
+            "SkyscannerCode": "IRK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "STLA",
+            "CityName": "St Louis",
+            "CountryName": "United States",
+            "IataCode": "STL",
+            "Name": "St Louis",
+            "PlaceId": 82396,
+            "SkyscannerCode": "STL",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 49.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    459
+                ],
+                "DepartureDate": "2017-07-09T00:00:00",
+                "DestinationId": 82396,
+                "OriginId": 59259
+            },
+            "QuoteDateTime": "2017-04-11T16:52:48",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 59259,
+            "Price": 49.0,
+            "QuoteDateTime": "2017-04-11T16:52:48",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1720,
+            "OriginId": 59259
+        },
+        {
+            "DestinationId": 882,
+            "OriginId": 59259
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 59259
+        }
+    ]
+}

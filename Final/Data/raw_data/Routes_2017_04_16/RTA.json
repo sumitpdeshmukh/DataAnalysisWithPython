@@ -1,0 +1,128 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Fiji",
+            "PlaceId": 1082,
+            "SkyscannerCode": "FJ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hong Kong",
+            "PlaceId": 1179,
+            "SkyscannerCode": "HK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Kiribati",
+            "PlaceId": 1321,
+            "SkyscannerCode": "KI",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Zealand",
+            "PlaceId": 1482,
+            "SkyscannerCode": "NZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "Name": "Samoa",
+            "PlaceId": 1907,
+            "SkyscannerCode": "WS",
+            "Type": "Country"
+        },
+        {
+            "CityId": "RTAF",
+            "CityName": "Rotuma Island",
+            "CountryName": "Fiji",
+            "IataCode": "RTA",
+            "Name": "Rotuma Island",
+            "PlaceId": 80081,
+            "SkyscannerCode": "RTA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SLCA",
+            "CityName": "Salt Lake City",
+            "CountryName": "United States",
+            "IataCode": "SLC",
+            "Name": "Salt Lake City",
+            "PlaceId": 82003,
+            "SkyscannerCode": "SLC",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 1072.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-10-18T00:00:00",
+                "DestinationId": 82003,
+                "OriginId": 80081
+            },
+            "QuoteDateTime": "2017-04-04T04:42:42",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1179,
+            "OriginId": 80081
+        },
+        {
+            "DestinationId": 1482,
+            "OriginId": 80081
+        },
+        {
+            "DestinationId": 1082,
+            "OriginId": 80081
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 80081,
+            "Price": 1072.0,
+            "QuoteDateTime": "2017-04-04T04:42:42",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1907,
+            "OriginId": 80081
+        },
+        {
+            "DestinationId": 1321,
+            "OriginId": 80081
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 80081
+        }
+    ]
+}

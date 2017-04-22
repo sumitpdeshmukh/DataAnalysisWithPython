@@ -1,0 +1,206 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1575,
+            "Name": "Precision Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Botswana",
+            "PlaceId": 903,
+            "SkyscannerCode": "BW",
+            "Type": "Country"
+        },
+        {
+            "Name": "Kenya",
+            "PlaceId": 1317,
+            "SkyscannerCode": "KE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Tanzania",
+            "PlaceId": 1770,
+            "SkyscannerCode": "TZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Zambia",
+            "PlaceId": 2045,
+            "SkyscannerCode": "ZM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Zimbabwe",
+            "PlaceId": 2055,
+            "SkyscannerCode": "ZW",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BBKA",
+            "CityName": "Kasane",
+            "CountryName": "Botswana",
+            "IataCode": "BBK",
+            "Name": "Kasane",
+            "PlaceId": 42363,
+            "SkyscannerCode": "BBK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "DARA",
+            "CityName": "Dar Es Salaam",
+            "CountryName": "Tanzania",
+            "IataCode": "DAR",
+            "Name": "Dar Es Salaam",
+            "PlaceId": 46930,
+            "SkyscannerCode": "DAR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LVIA",
+            "CityName": "Livingstone",
+            "CountryName": "Zambia",
+            "IataCode": "LVI",
+            "Name": "Livingstone",
+            "PlaceId": 66361,
+            "SkyscannerCode": "LVI",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TKQA",
+            "CityName": "Kigoma",
+            "CountryName": "Tanzania",
+            "IataCode": "TKQ",
+            "Name": "Kigoma",
+            "PlaceId": 84273,
+            "SkyscannerCode": "TKQ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "VFAA",
+            "CityName": "Victoria Falls",
+            "CountryName": "Zimbabwe",
+            "IataCode": "VFA",
+            "Name": "Victoria Falls",
+            "PlaceId": 88625,
+            "SkyscannerCode": "VFA",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 149.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1575
+                ],
+                "DepartureDate": "2017-10-09T00:00:00",
+                "DestinationId": 46930,
+                "OriginId": 84273
+            },
+            "QuoteDateTime": "2017-04-15T21:17:50",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 876.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-11-13T00:00:00",
+                "DestinationId": 88625,
+                "OriginId": 84273
+            },
+            "QuoteDateTime": "2017-04-17T04:41:17",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 928.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-11-13T00:00:00",
+                "DestinationId": 42363,
+                "OriginId": 84273
+            },
+            "QuoteDateTime": "2017-04-17T04:35:25",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 876.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-11-13T00:00:00",
+                "DestinationId": 66361,
+                "OriginId": 84273
+            },
+            "QuoteDateTime": "2017-04-17T04:40:57",
+            "QuoteId": 4
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1317,
+            "OriginId": 84273
+        },
+        {
+            "DestinationId": 837,
+            "OriginId": 84273
+        },
+        {
+            "DestinationId": 1770,
+            "OriginId": 84273,
+            "Price": 149.0,
+            "QuoteDateTime": "2017-04-15T21:17:50",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 2055,
+            "OriginId": 84273,
+            "Price": 876.0,
+            "QuoteDateTime": "2017-04-17T04:41:17",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 903,
+            "OriginId": 84273,
+            "Price": 928.0,
+            "QuoteDateTime": "2017-04-17T04:35:25",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 2045,
+            "OriginId": 84273,
+            "Price": 876.0,
+            "QuoteDateTime": "2017-04-17T04:40:57",
+            "QuoteIds": [
+                4
+            ]
+        }
+    ]
+}

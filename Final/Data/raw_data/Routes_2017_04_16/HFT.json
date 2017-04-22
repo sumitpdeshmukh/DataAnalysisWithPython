@@ -1,0 +1,115 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Italy",
+            "PlaceId": 1236,
+            "SkyscannerCode": "IT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Norway",
+            "PlaceId": 1471,
+            "SkyscannerCode": "NO",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "CityId": "HAMM",
+            "CityName": "Hammerfest",
+            "CountryName": "Norway",
+            "IataCode": "HFT",
+            "Name": "Hammerfest",
+            "PlaceId": 56388,
+            "SkyscannerCode": "HFT",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LOND",
+            "CityName": "London",
+            "CountryName": "United Kingdom",
+            "IataCode": "LHR",
+            "Name": "London Heathrow",
+            "PlaceId": 65698,
+            "SkyscannerCode": "LHR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MILA",
+            "CityName": "Milan",
+            "CountryName": "Italy",
+            "IataCode": "LIN",
+            "Name": "Milan Linate",
+            "PlaceId": 65742,
+            "SkyscannerCode": "LIN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 226.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-08-11T00:00:00",
+                "DestinationId": 65742,
+                "OriginId": 56388
+            },
+            "QuoteDateTime": "2017-04-07T09:17:16",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 287.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-05T00:00:00",
+                "DestinationId": 65698,
+                "OriginId": 56388
+            },
+            "QuoteDateTime": "2017-04-06T15:45:02",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1471,
+            "OriginId": 56388
+        },
+        {
+            "DestinationId": 1236,
+            "OriginId": 56388,
+            "Price": 226.0,
+            "QuoteDateTime": "2017-04-07T09:17:16",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 56388,
+            "Price": 287.0,
+            "QuoteDateTime": "2017-04-06T15:45:02",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

@@ -1,0 +1,278 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1132,
+            "Name": "Air Greenland"
+        },
+        {
+            "CarrierId": 1481,
+            "Name": "Air Iceland"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Denmark",
+            "PlaceId": 987,
+            "SkyscannerCode": "DK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Greenland",
+            "PlaceId": 1132,
+            "SkyscannerCode": "GL",
+            "Type": "Country"
+        },
+        {
+            "Name": "Iceland",
+            "PlaceId": 1235,
+            "SkyscannerCode": "IS",
+            "Type": "Country"
+        },
+        {
+            "Name": "Norway",
+            "PlaceId": 1471,
+            "SkyscannerCode": "NO",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "COPE",
+            "CityName": "Copenhagen",
+            "CountryName": "Denmark",
+            "IataCode": "CPH",
+            "Name": "Copenhagen",
+            "PlaceId": 45336,
+            "SkyscannerCode": "CPH",
+            "Type": "Station"
+        },
+        {
+            "CityId": "GLAS",
+            "CityName": "Glasgow",
+            "CountryName": "United Kingdom",
+            "IataCode": "GLA",
+            "Name": "Glasgow International",
+            "PlaceId": 54353,
+            "SkyscannerCode": "GLA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "GOHA",
+            "CityName": "Nuuk",
+            "CountryName": "Greenland",
+            "IataCode": "GOH",
+            "Name": "Nuuk",
+            "PlaceId": 54504,
+            "SkyscannerCode": "GOH",
+            "Type": "Station"
+        },
+        {
+            "CityId": "JAVA",
+            "CityName": "Ilulissat",
+            "CountryName": "Greenland",
+            "IataCode": "JAV",
+            "Name": "Ilulissat",
+            "PlaceId": 60758,
+            "SkyscannerCode": "JAV",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LYRL",
+            "CityName": "Longyearbyen",
+            "CountryName": "Norway",
+            "IataCode": "LYR",
+            "Name": "Longyearbyen",
+            "PlaceId": 66514,
+            "SkyscannerCode": "LYR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "REYK",
+            "CityName": "Reykjavik",
+            "CountryName": "Iceland",
+            "IataCode": "RKV",
+            "Name": "Reykjavik Domestic",
+            "PlaceId": 79670,
+            "SkyscannerCode": "RKV",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TPAA",
+            "CityName": "Tampa",
+            "CountryName": "United States",
+            "IataCode": "TPA",
+            "Name": "Tampa International",
+            "PlaceId": 84497,
+            "SkyscannerCode": "TPA",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 411.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1481
+                ],
+                "DepartureDate": "2017-05-17T00:00:00",
+                "DestinationId": 79670,
+                "OriginId": 54504
+            },
+            "QuoteDateTime": "2017-04-12T18:41:20",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 352.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1132
+                ],
+                "DepartureDate": "2017-07-12T00:00:00",
+                "DestinationId": 60758,
+                "OriginId": 54504
+            },
+            "QuoteDateTime": "2017-03-11T15:12:10",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 503.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1132
+                ],
+                "DepartureDate": "2017-12-08T00:00:00",
+                "DestinationId": 45336,
+                "OriginId": 54504
+            },
+            "QuoteDateTime": "2017-04-09T16:04:56",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 629.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-26T00:00:00",
+                "DestinationId": 54353,
+                "OriginId": 54504
+            },
+            "QuoteDateTime": "2017-04-17T18:06:26",
+            "QuoteId": 4
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1236.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-26T00:00:00",
+                "DestinationId": 66514,
+                "OriginId": 54504
+            },
+            "QuoteDateTime": "2017-04-17T18:07:59",
+            "QuoteId": 5
+        },
+        {
+            "Direct": false,
+            "MinPrice": 871.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-26T00:00:00",
+                "DestinationId": 84497,
+                "OriginId": 54504
+            },
+            "QuoteDateTime": "2017-04-17T18:06:02",
+            "QuoteId": 6
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1235,
+            "OriginId": 54504,
+            "Price": 411.0,
+            "QuoteDateTime": "2017-04-12T18:41:20",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1132,
+            "OriginId": 54504,
+            "Price": 352.0,
+            "QuoteDateTime": "2017-03-11T15:12:10",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 987,
+            "OriginId": 54504,
+            "Price": 503.0,
+            "QuoteDateTime": "2017-04-09T16:04:56",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 54504,
+            "Price": 629.0,
+            "QuoteDateTime": "2017-04-17T18:06:26",
+            "QuoteIds": [
+                4
+            ]
+        },
+        {
+            "DestinationId": 1471,
+            "OriginId": 54504,
+            "Price": 1236.0,
+            "QuoteDateTime": "2017-04-17T18:07:59",
+            "QuoteIds": [
+                5
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 54504,
+            "Price": 871.0,
+            "QuoteDateTime": "2017-04-17T18:06:02",
+            "QuoteIds": [
+                6
+            ]
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 54504
+        }
+    ]
+}

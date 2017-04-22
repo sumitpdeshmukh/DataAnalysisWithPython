@@ -1,0 +1,128 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1765,
+            "Name": "Tunisair"
+        },
+        {
+            "CarrierId": 1799,
+            "Name": "TunisAir Express"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Saudi Arabia",
+            "PlaceId": 1697,
+            "SkyscannerCode": "SA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Tunisia",
+            "PlaceId": 1758,
+            "SkyscannerCode": "TN",
+            "Type": "Country"
+        },
+        {
+            "CityId": "PARI",
+            "CityName": "Paris",
+            "CountryName": "France",
+            "IataCode": "ORY",
+            "Name": "Paris Orly",
+            "PlaceId": 73097,
+            "SkyscannerCode": "ORY",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TOZE",
+            "CityName": "Tozeur",
+            "CountryName": "Tunisia",
+            "IataCode": "TOE",
+            "Name": "Tozeur",
+            "PlaceId": 84453,
+            "SkyscannerCode": "TOE",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TUNI",
+            "CityName": "Tunis Carthage",
+            "CountryName": "Tunisia",
+            "IataCode": "TUN",
+            "Name": "Tunis Carthage",
+            "PlaceId": 84750,
+            "SkyscannerCode": "TUN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 56.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1799
+                ],
+                "DepartureDate": "2017-05-03T00:00:00",
+                "DestinationId": 84750,
+                "OriginId": 84453
+            },
+            "QuoteDateTime": "2017-04-11T13:03:27",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 86.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1765
+                ],
+                "DepartureDate": "2017-05-04T00:00:00",
+                "DestinationId": 73097,
+                "OriginId": 84453
+            },
+            "QuoteDateTime": "2017-03-30T09:42:38",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1758,
+            "OriginId": 84453,
+            "Price": 56.0,
+            "QuoteDateTime": "2017-04-11T13:03:27",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1697,
+            "OriginId": 84453
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 84453,
+            "Price": 86.0,
+            "QuoteDateTime": "2017-03-30T09:42:38",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

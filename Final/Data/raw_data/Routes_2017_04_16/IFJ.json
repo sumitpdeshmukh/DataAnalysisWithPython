@@ -1,0 +1,85 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1481,
+            "Name": "Air Iceland"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Greenland",
+            "PlaceId": 1132,
+            "SkyscannerCode": "GL",
+            "Type": "Country"
+        },
+        {
+            "Name": "Iceland",
+            "PlaceId": 1235,
+            "SkyscannerCode": "IS",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ISAF",
+            "CityName": "Isafjordur",
+            "CountryName": "Iceland",
+            "IataCode": "IFJ",
+            "Name": "Isafjordur",
+            "PlaceId": 58682,
+            "SkyscannerCode": "IFJ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "REYK",
+            "CityName": "Reykjavik",
+            "CountryName": "Iceland",
+            "IataCode": "RKV",
+            "Name": "Reykjavik Domestic",
+            "PlaceId": 79670,
+            "SkyscannerCode": "RKV",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 82.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1481
+                ],
+                "DepartureDate": "2017-05-13T00:00:00",
+                "DestinationId": 79670,
+                "OriginId": 58682
+            },
+            "QuoteDateTime": "2017-04-09T03:06:42",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1235,
+            "OriginId": 58682,
+            "Price": 82.0,
+            "QuoteDateTime": "2017-04-09T03:06:42",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1132,
+            "OriginId": 58682
+        }
+    ]
+}

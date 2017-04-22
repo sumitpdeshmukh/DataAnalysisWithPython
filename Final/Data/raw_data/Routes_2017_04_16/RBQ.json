@@ -1,0 +1,237 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 343,
+            "Name": "Amaszonas"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Bolivia",
+            "PlaceId": 895,
+            "SkyscannerCode": "BO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Chile",
+            "PlaceId": 940,
+            "SkyscannerCode": "CL",
+            "Type": "Country"
+        },
+        {
+            "Name": "Peru",
+            "PlaceId": 1557,
+            "SkyscannerCode": "PE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Paraguay",
+            "PlaceId": 1577,
+            "SkyscannerCode": "PY",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "AGTA",
+            "CityName": "Ciudad del Este",
+            "CountryName": "Paraguay",
+            "IataCode": "AGT",
+            "Name": "Ciudad del Este",
+            "PlaceId": 40308,
+            "SkyscannerCode": "AGT",
+            "Type": "Station"
+        },
+        {
+            "CityId": "CUZA",
+            "CityName": "Cuzco",
+            "CountryName": "Peru",
+            "IataCode": "CUZ",
+            "Name": "Cuzco",
+            "PlaceId": 45594,
+            "SkyscannerCode": "CUZ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LPBA",
+            "CityName": "La Paz",
+            "CountryName": "Bolivia",
+            "IataCode": "LPB",
+            "Name": "La Paz",
+            "PlaceId": 66066,
+            "SkyscannerCode": "LPB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MIAA",
+            "CityName": "Miami",
+            "CountryName": "United States",
+            "IataCode": "MIA",
+            "Name": "Miami International",
+            "PlaceId": 68033,
+            "SkyscannerCode": "MIA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "RBQA",
+            "CityName": "Rurrenabaque",
+            "CountryName": "Bolivia",
+            "IataCode": "RBQ",
+            "Name": "Rurrenabaque",
+            "PlaceId": 79233,
+            "SkyscannerCode": "RBQ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "RIOA",
+            "CityName": "Rio De Janeiro",
+            "CountryName": "Brazil",
+            "IataCode": "SDU",
+            "Name": "Rio De Janeiro Santos Dumont",
+            "PlaceId": 81637,
+            "SkyscannerCode": "SDU",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 283.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    343
+                ],
+                "DepartureDate": "2017-07-04T00:00:00",
+                "DestinationId": 45594,
+                "OriginId": 79233
+            },
+            "QuoteDateTime": "2017-03-27T03:53:35",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 95.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    343
+                ],
+                "DepartureDate": "2017-05-30T00:00:00",
+                "DestinationId": 66066,
+                "OriginId": 79233
+            },
+            "QuoteDateTime": "2017-03-22T16:43:23",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 493.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    343
+                ],
+                "DepartureDate": "2017-07-13T00:00:00",
+                "DestinationId": 40308,
+                "OriginId": 79233
+            },
+            "QuoteDateTime": "2017-03-26T08:13:11",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1969.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-15T00:00:00",
+                "DestinationId": 68033,
+                "OriginId": 79233
+            },
+            "QuoteDateTime": "2017-04-17T18:13:11",
+            "QuoteId": 4
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1497.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-13T00:00:00",
+                "DestinationId": 81637,
+                "OriginId": 79233
+            },
+            "QuoteDateTime": "2017-03-26T08:25:44",
+            "QuoteId": 5
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1557,
+            "OriginId": 79233,
+            "Price": 283.0,
+            "QuoteDateTime": "2017-03-27T03:53:35",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 940,
+            "OriginId": 79233
+        },
+        {
+            "DestinationId": 895,
+            "OriginId": 79233,
+            "Price": 95.0,
+            "QuoteDateTime": "2017-03-22T16:43:23",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1577,
+            "OriginId": 79233,
+            "Price": 493.0,
+            "QuoteDateTime": "2017-03-26T08:13:11",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 79233,
+            "Price": 1969.0,
+            "QuoteDateTime": "2017-04-17T18:13:11",
+            "QuoteIds": [
+                4
+            ]
+        },
+        {
+            "DestinationId": 898,
+            "OriginId": 79233,
+            "Price": 1497.0,
+            "QuoteDateTime": "2017-03-26T08:25:44",
+            "QuoteIds": [
+                5
+            ]
+        }
+    ]
+}

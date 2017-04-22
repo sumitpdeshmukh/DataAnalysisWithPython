@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1812,
+            "Name": "UTair"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "EYKA",
+            "CityName": "Beloyarsky",
+            "CountryName": "Russia",
+            "IataCode": "EYK",
+            "Name": "Beloyarsky",
+            "PlaceId": 50379,
+            "SkyscannerCode": "EYK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "EZVA",
+            "CityName": "Berezovo",
+            "CountryName": "Russia",
+            "IataCode": "EZV",
+            "Name": "Berezovo",
+            "PlaceId": 50438,
+            "SkyscannerCode": "EZV",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 39.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1812
+                ],
+                "DepartureDate": "2017-05-01T00:00:00",
+                "DestinationId": 50379,
+                "OriginId": 50438
+            },
+            "QuoteDateTime": "2017-03-26T05:54:50",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1669,
+            "OriginId": 50438,
+            "Price": 39.0,
+            "QuoteDateTime": "2017-03-26T05:54:50",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

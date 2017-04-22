@@ -1,0 +1,135 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1863,
+            "Name": "Aeromar"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "GDLA",
+            "CityName": "Guadalajara",
+            "CountryName": "Mexico",
+            "IataCode": "GDL",
+            "Name": "Guadalajara",
+            "PlaceId": 53980,
+            "SkyscannerCode": "GDL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LAXA",
+            "CityName": "Los Angeles",
+            "CountryName": "United States",
+            "IataCode": "LAX",
+            "Name": "Los Angeles International",
+            "PlaceId": 65368,
+            "SkyscannerCode": "LAX",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MEXA",
+            "CityName": "Mexico City",
+            "CountryName": "Mexico",
+            "IataCode": "MEX",
+            "Name": "Mexico City Juarez International",
+            "PlaceId": 67864,
+            "SkyscannerCode": "MEX",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PDSA",
+            "CityName": "Piedras Negras",
+            "CountryName": "Mexico",
+            "IataCode": "PDS",
+            "Name": "Piedras Negras",
+            "PlaceId": 74723,
+            "SkyscannerCode": "PDS",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 169.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-12T00:00:00",
+                "DestinationId": 53980,
+                "OriginId": 74723
+            },
+            "QuoteDateTime": "2017-04-16T23:39:09",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 228.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1863
+                ],
+                "DepartureDate": "2017-09-24T00:00:00",
+                "DestinationId": 67864,
+                "OriginId": 74723
+            },
+            "QuoteDateTime": "2017-03-20T04:11:15",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 234.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-27T00:00:00",
+                "DestinationId": 65368,
+                "OriginId": 74723
+            },
+            "QuoteDateTime": "2017-03-30T06:42:39",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1432,
+            "OriginId": 74723,
+            "Price": 169.0,
+            "QuoteDateTime": "2017-04-16T23:39:09",
+            "QuoteIds": [
+                1,
+                2
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 74723,
+            "Price": 234.0,
+            "QuoteDateTime": "2017-03-30T06:42:39",
+            "QuoteIds": [
+                3
+            ]
+        }
+    ]
+}

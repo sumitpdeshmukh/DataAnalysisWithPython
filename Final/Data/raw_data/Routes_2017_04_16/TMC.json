@@ -1,0 +1,219 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1239,
+            "Name": "Wings Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hong Kong",
+            "PlaceId": 1179,
+            "SkyscannerCode": "HK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Indonesia",
+            "PlaceId": 1220,
+            "SkyscannerCode": "ID",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Korea",
+            "PlaceId": 1330,
+            "SkyscannerCode": "KR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Turkmenistan",
+            "PlaceId": 1757,
+            "SkyscannerCode": "TM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Taiwan",
+            "PlaceId": 1767,
+            "SkyscannerCode": "TW",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ASBA",
+            "CityName": "Ashgabat",
+            "CountryName": "Turkmenistan",
+            "IataCode": "ASB",
+            "Name": "Ashgabat",
+            "PlaceId": 40866,
+            "SkyscannerCode": "ASB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "DENA",
+            "CityName": "Denver",
+            "CountryName": "United States",
+            "IataCode": "DEN",
+            "Name": "Denver International",
+            "PlaceId": 47118,
+            "SkyscannerCode": "DEN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "DPSI",
+            "CityName": "Bali (Denpasar)",
+            "CountryName": "Indonesia",
+            "IataCode": "DPS",
+            "Name": "Bali (Denpasar)",
+            "PlaceId": 47651,
+            "SkyscannerCode": "DPS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TMCI",
+            "CityName": "Tambolaka",
+            "CountryName": "Indonesia",
+            "IataCode": "TMC",
+            "Name": "Tambolaka",
+            "PlaceId": 84355,
+            "SkyscannerCode": "TMC",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 35.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1239
+                ],
+                "DepartureDate": "2018-02-16T00:00:00",
+                "DestinationId": 47651,
+                "OriginId": 84355
+            },
+            "QuoteDateTime": "2017-03-29T12:15:46",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 5665.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-16T00:00:00",
+                "DestinationId": 47118,
+                "OriginId": 84355
+            },
+            "QuoteDateTime": "2017-04-07T12:10:28",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 2224.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-08-25T00:00:00",
+                "DestinationId": 40866,
+                "OriginId": 84355
+            },
+            "QuoteDateTime": "2017-04-08T17:20:25",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1703,
+            "OriginId": 84355
+        },
+        {
+            "DestinationId": 1767,
+            "OriginId": 84355
+        },
+        {
+            "DestinationId": 1220,
+            "OriginId": 84355,
+            "Price": 35.0,
+            "QuoteDateTime": "2017-03-29T12:15:46",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1179,
+            "OriginId": 84355
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 84355
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 84355
+        },
+        {
+            "DestinationId": 1330,
+            "OriginId": 84355
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 84355
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 84355,
+            "Price": 5665.0,
+            "QuoteDateTime": "2017-04-07T12:10:28",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1757,
+            "OriginId": 84355,
+            "Price": 2224.0,
+            "QuoteDateTime": "2017-04-08T17:20:25",
+            "QuoteIds": [
+                3
+            ]
+        }
+    ]
+}

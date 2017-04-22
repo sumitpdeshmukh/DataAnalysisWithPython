@@ -1,0 +1,202 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 851,
+            "Name": "Alaska Airlines"
+        },
+        {
+            "CarrierId": 981,
+            "Name": "Condor"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Belgium",
+            "PlaceId": 885,
+            "SkyscannerCode": "BE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Colombia",
+            "PlaceId": 943,
+            "SkyscannerCode": "CO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ADZA",
+            "CityName": "San Andres Island",
+            "CountryName": "Colombia",
+            "IataCode": "ADZ",
+            "Name": "San Andres Island",
+            "PlaceId": 40170,
+            "SkyscannerCode": "ADZ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ANCA",
+            "CityName": "Anchorage",
+            "CountryName": "United States",
+            "IataCode": "ANC",
+            "Name": "Anchorage International",
+            "PlaceId": 40627,
+            "SkyscannerCode": "ANC",
+            "Type": "Station"
+        },
+        {
+            "CityId": "BRUS",
+            "CityName": "Brussels",
+            "CountryName": "Belgium",
+            "IataCode": "BRU",
+            "Name": "Brussels International",
+            "PlaceId": 43141,
+            "SkyscannerCode": "BRU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "CDVA",
+            "CityName": "Cordova",
+            "CountryName": "United States",
+            "IataCode": "CDV",
+            "Name": "Cordova Mudhole Smith",
+            "PlaceId": 44774,
+            "SkyscannerCode": "CDV",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MADR",
+            "CityName": "Madrid",
+            "CountryName": "Spain",
+            "IataCode": "MAD",
+            "Name": "Madrid",
+            "PlaceId": 67652,
+            "SkyscannerCode": "MAD",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 141.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    851
+                ],
+                "DepartureDate": "2017-08-07T00:00:00",
+                "DestinationId": 40627,
+                "OriginId": 44774
+            },
+            "QuoteDateTime": "2017-04-13T06:52:06",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1076.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-24T00:00:00",
+                "DestinationId": 40170,
+                "OriginId": 44774
+            },
+            "QuoteDateTime": "2017-04-13T23:55:41",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 816.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    981
+                ],
+                "DepartureDate": "2017-08-19T00:00:00",
+                "DestinationId": 67652,
+                "OriginId": 44774
+            },
+            "QuoteDateTime": "2017-03-31T07:03:11",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 3785.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-30T00:00:00",
+                "DestinationId": 43141,
+                "OriginId": 44774
+            },
+            "QuoteDateTime": "2017-04-07T20:34:26",
+            "QuoteId": 4
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 44774,
+            "Price": 141.0,
+            "QuoteDateTime": "2017-04-13T06:52:06",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 44774
+        },
+        {
+            "DestinationId": 943,
+            "OriginId": 44774,
+            "Price": 1076.0,
+            "QuoteDateTime": "2017-04-13T23:55:41",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1043,
+            "OriginId": 44774,
+            "Price": 816.0,
+            "QuoteDateTime": "2017-03-31T07:03:11",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 885,
+            "OriginId": 44774,
+            "Price": 3785.0,
+            "QuoteDateTime": "2017-04-07T20:34:26",
+            "QuoteIds": [
+                4
+            ]
+        }
+    ]
+}

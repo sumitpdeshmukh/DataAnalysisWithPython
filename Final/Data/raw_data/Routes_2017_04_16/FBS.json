@@ -1,0 +1,100 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1397,
+            "Name": "Kenmore Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "FBSA",
+            "CityName": "Friday Harbor SPB",
+            "CountryName": "United States",
+            "IataCode": "FBS",
+            "Name": "Friday Harbor SPB",
+            "PlaceId": 51587,
+            "SkyscannerCode": "FBS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "KEHA",
+            "CityName": "Kenmore Air Harbor",
+            "CountryName": "United States",
+            "IataCode": "KEH",
+            "Name": "Kenmore Air Harbor",
+            "PlaceId": 63240,
+            "SkyscannerCode": "KEH",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SEAA",
+            "CityName": "Seattle",
+            "CountryName": "United States",
+            "IataCode": "LKE",
+            "Name": "Seattle Lake Union SPB",
+            "PlaceId": 65829,
+            "SkyscannerCode": "LKE",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 141.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1397
+                ],
+                "DepartureDate": "2018-02-27T00:00:00",
+                "DestinationId": 65829,
+                "OriginId": 51587
+            },
+            "QuoteDateTime": "2017-04-05T08:11:00",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 139.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1397
+                ],
+                "DepartureDate": "2018-01-04T00:00:00",
+                "DestinationId": 63240,
+                "OriginId": 51587
+            },
+            "QuoteDateTime": "2017-03-22T12:28:58",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 51587,
+            "Price": 139.0,
+            "QuoteDateTime": "2017-03-22T12:28:58",
+            "QuoteIds": [
+                1,
+                2
+            ]
+        }
+    ]
+}

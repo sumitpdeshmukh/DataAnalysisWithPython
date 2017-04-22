@@ -1,0 +1,150 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1793,
+            "Name": "United"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Costa Rica",
+            "PlaceId": 946,
+            "SkyscannerCode": "CR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "DENA",
+            "CityName": "Denver",
+            "CountryName": "United States",
+            "IataCode": "DEN",
+            "Name": "Denver International",
+            "PlaceId": 47118,
+            "SkyscannerCode": "DEN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "DIKA",
+            "CityName": "Dickinson",
+            "CountryName": "United States",
+            "IataCode": "DIK",
+            "Name": "Dickinson",
+            "PlaceId": 47307,
+            "SkyscannerCode": "DIK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "HOUA",
+            "CityName": "Houston",
+            "CountryName": "United States",
+            "IataCode": "IAH",
+            "Name": "Houston George Bush Intercntl.",
+            "PlaceId": 58440,
+            "SkyscannerCode": "IAH",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 393.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-05-12T00:00:00",
+                "DestinationId": 58440,
+                "OriginId": 47307
+            },
+            "QuoteDateTime": "2017-04-05T14:33:52",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 601.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-06-11T00:00:00",
+                "DestinationId": 47118,
+                "OriginId": 47307
+            },
+            "QuoteDateTime": "2017-04-15T15:39:29",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 47307
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 47307
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 47307,
+            "Price": 393.0,
+            "QuoteDateTime": "2017-04-05T14:33:52",
+            "QuoteIds": [
+                1,
+                2
+            ]
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 47307
+        },
+        {
+            "DestinationId": 946,
+            "OriginId": 47307
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 47307
+        }
+    ]
+}

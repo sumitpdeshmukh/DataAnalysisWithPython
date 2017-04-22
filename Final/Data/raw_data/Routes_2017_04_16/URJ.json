@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1812,
+            "Name": "UTair"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "TYUM",
+            "CityName": "Tyumen",
+            "CountryName": "Russia",
+            "IataCode": "TJM",
+            "Name": "Tyumen",
+            "PlaceId": 84221,
+            "SkyscannerCode": "TJM",
+            "Type": "Station"
+        },
+        {
+            "CityId": "URAJ",
+            "CityName": "Uraj",
+            "CountryName": "Russia",
+            "IataCode": "URJ",
+            "Name": "Uraj",
+            "PlaceId": 86906,
+            "SkyscannerCode": "URJ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 52.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1812
+                ],
+                "DepartureDate": "2017-06-01T00:00:00",
+                "DestinationId": 84221,
+                "OriginId": 86906
+            },
+            "QuoteDateTime": "2017-03-16T18:12:57",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1669,
+            "OriginId": 86906,
+            "Price": 52.0,
+            "QuoteDateTime": "2017-03-16T18:12:57",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

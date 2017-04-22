@@ -1,0 +1,68 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "PHLA",
+            "CityName": "Philadelphia",
+            "CountryName": "United States",
+            "IataCode": "PHL",
+            "Name": "Philadelphia International",
+            "PlaceId": 74908,
+            "SkyscannerCode": "PHL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SCMA",
+            "CityName": "Scammon Bay",
+            "CountryName": "United States",
+            "IataCode": "SCM",
+            "Name": "Scammon Bay",
+            "PlaceId": 81581,
+            "SkyscannerCode": "SCM",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 678.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-21T00:00:00",
+                "DestinationId": 74908,
+                "OriginId": 81581
+            },
+            "QuoteDateTime": "2017-04-05T14:41:27",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 81581,
+            "Price": 678.0,
+            "QuoteDateTime": "2017-04-05T14:41:27",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

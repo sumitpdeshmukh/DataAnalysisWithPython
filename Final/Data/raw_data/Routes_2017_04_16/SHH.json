@@ -1,0 +1,68 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ATLA",
+            "CityName": "Atlanta",
+            "CountryName": "United States",
+            "IataCode": "ATL",
+            "Name": "Atlanta Hartsfield-Jackson",
+            "PlaceId": 40924,
+            "SkyscannerCode": "ATL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SHHA",
+            "CityName": "Shishmaref",
+            "CountryName": "United States",
+            "IataCode": "SHH",
+            "Name": "Shishmaref",
+            "PlaceId": 81816,
+            "SkyscannerCode": "SHH",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 1683.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-17T00:00:00",
+                "DestinationId": 40924,
+                "OriginId": 81816
+            },
+            "QuoteDateTime": "2017-04-12T15:54:00",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 81816,
+            "Price": 1683.0,
+            "QuoteDateTime": "2017-04-12T15:54:00",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

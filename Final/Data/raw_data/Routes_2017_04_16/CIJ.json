@@ -1,0 +1,159 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1507,
+            "Name": "Boliviana de Aviacion"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Bolivia",
+            "PlaceId": 895,
+            "SkyscannerCode": "BO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CBBA",
+            "CityName": "Cochabamba",
+            "CountryName": "Bolivia",
+            "IataCode": "CBB",
+            "Name": "Cochabamba",
+            "PlaceId": 44658,
+            "SkyscannerCode": "CBB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "CIJA",
+            "CityName": "Cobija",
+            "CountryName": "Bolivia",
+            "IataCode": "CIJ",
+            "Name": "Cobija",
+            "PlaceId": 45002,
+            "SkyscannerCode": "CIJ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LPBA",
+            "CityName": "La Paz",
+            "CountryName": "Bolivia",
+            "IataCode": "LPB",
+            "Name": "La Paz",
+            "PlaceId": 66066,
+            "SkyscannerCode": "LPB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MADR",
+            "CityName": "Madrid",
+            "CountryName": "Spain",
+            "IataCode": "MAD",
+            "Name": "Madrid",
+            "PlaceId": 67652,
+            "SkyscannerCode": "MAD",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 71.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1507
+                ],
+                "DepartureDate": "2017-04-28T00:00:00",
+                "DestinationId": 66066,
+                "OriginId": 45002
+            },
+            "QuoteDateTime": "2017-04-18T01:36:40",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 71.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1507
+                ],
+                "DepartureDate": "2017-04-28T00:00:00",
+                "DestinationId": 44658,
+                "OriginId": 45002
+            },
+            "QuoteDateTime": "2017-04-17T20:24:56",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 986.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1507
+                ],
+                "DepartureDate": "2017-05-02T00:00:00",
+                "DestinationId": 67652,
+                "OriginId": 45002
+            },
+            "QuoteDateTime": "2017-03-24T06:36:29",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 895,
+            "OriginId": 45002,
+            "Price": 71.0,
+            "QuoteDateTime": "2017-04-18T01:36:40",
+            "QuoteIds": [
+                1,
+                2
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 45002
+        },
+        {
+            "DestinationId": 1043,
+            "OriginId": 45002,
+            "Price": 986.0,
+            "QuoteDateTime": "2017-03-24T06:36:29",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 898,
+            "OriginId": 45002
+        }
+    ]
+}

@@ -1,0 +1,145 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1107,
+            "Name": "GOL Linhas A\u00e9reas"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Argentina",
+            "PlaceId": 850,
+            "SkyscannerCode": "AR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Chile",
+            "PlaceId": 940,
+            "SkyscannerCode": "CL",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Netherlands",
+            "PlaceId": 1468,
+            "SkyscannerCode": "NL",
+            "Type": "Country"
+        },
+        {
+            "Name": "Paraguay",
+            "PlaceId": 1577,
+            "SkyscannerCode": "PY",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "Name": "Uruguay",
+            "PlaceId": 1817,
+            "SkyscannerCode": "UY",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CZSA",
+            "CityName": "Cruzeiro Do Sul",
+            "CountryName": "Brazil",
+            "IataCode": "CZS",
+            "Name": "Cruzeiro Do Sul",
+            "PlaceId": 45827,
+            "SkyscannerCode": "CZS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "RBRA",
+            "CityName": "Rio Branco",
+            "CountryName": "Brazil",
+            "IataCode": "RBR",
+            "Name": "Rio Branco",
+            "PlaceId": 79234,
+            "SkyscannerCode": "RBR",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 50.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1107
+                ],
+                "DepartureDate": "2017-05-31T00:00:00",
+                "DestinationId": 79234,
+                "OriginId": 45827
+            },
+            "QuoteDateTime": "2017-03-20T15:35:32",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 898,
+            "OriginId": 45827,
+            "Price": 50.0,
+            "QuoteDateTime": "2017-03-20T15:35:32",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1577,
+            "OriginId": 45827
+        },
+        {
+            "DestinationId": 850,
+            "OriginId": 45827
+        },
+        {
+            "DestinationId": 940,
+            "OriginId": 45827
+        },
+        {
+            "DestinationId": 1817,
+            "OriginId": 45827
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 45827
+        },
+        {
+            "DestinationId": 1468,
+            "OriginId": 45827
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 45827
+        }
+    ]
+}

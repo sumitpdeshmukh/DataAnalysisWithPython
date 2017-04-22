@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1353,
+            "Name": "Air Swift"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Philippines",
+            "PlaceId": 1560,
+            "SkyscannerCode": "PH",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ENIP",
+            "CityName": "El Nido",
+            "CountryName": "Philippines",
+            "IataCode": "ENI",
+            "Name": "El Nido",
+            "PlaceId": 49849,
+            "SkyscannerCode": "ENI",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MPHP",
+            "CityName": "Caticlan",
+            "CountryName": "Philippines",
+            "IataCode": "MPH",
+            "Name": "Caticlan (Boracay)",
+            "PlaceId": 68376,
+            "SkyscannerCode": "MPH",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 61.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1353
+                ],
+                "DepartureDate": "2017-07-05T00:00:00",
+                "DestinationId": 68376,
+                "OriginId": 49849
+            },
+            "QuoteDateTime": "2017-03-17T13:26:12",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1560,
+            "OriginId": 49849,
+            "Price": 61.0,
+            "QuoteDateTime": "2017-03-17T13:26:12",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

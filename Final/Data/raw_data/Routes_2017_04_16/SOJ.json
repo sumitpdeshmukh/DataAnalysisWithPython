@@ -1,0 +1,105 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Norway",
+            "PlaceId": 1471,
+            "SkyscannerCode": "NO",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "NYCA",
+            "CityName": "New York",
+            "CountryName": "United States",
+            "IataCode": "EWR",
+            "Name": "New York Newark",
+            "PlaceId": 50290,
+            "SkyscannerCode": "EWR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "HAUG",
+            "CityName": "Haugesund",
+            "CountryName": "Norway",
+            "IataCode": "HAU",
+            "Name": "Haugesund",
+            "PlaceId": 56149,
+            "SkyscannerCode": "HAU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SORK",
+            "CityName": "Sorkjosen",
+            "CountryName": "Norway",
+            "IataCode": "SOJ",
+            "Name": "Sorkjosen",
+            "PlaceId": 82154,
+            "SkyscannerCode": "SOJ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 165.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-04-27T00:00:00",
+                "DestinationId": 56149,
+                "OriginId": 82154
+            },
+            "QuoteDateTime": "2017-04-04T20:22:06",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 643.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-08-16T00:00:00",
+                "DestinationId": 50290,
+                "OriginId": 82154
+            },
+            "QuoteDateTime": "2017-04-01T15:35:16",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1471,
+            "OriginId": 82154,
+            "Price": 165.0,
+            "QuoteDateTime": "2017-04-04T20:22:06",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 82154,
+            "Price": 643.0,
+            "QuoteDateTime": "2017-04-01T15:35:16",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

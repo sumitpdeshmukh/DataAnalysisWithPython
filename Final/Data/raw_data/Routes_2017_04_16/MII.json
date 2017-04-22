@@ -1,0 +1,132 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 836,
+            "Name": "Azul Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Portugal",
+            "PlaceId": 1572,
+            "SkyscannerCode": "PT",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "NYCA",
+            "CityName": "New York",
+            "CountryName": "United States",
+            "IataCode": "EWR",
+            "Name": "New York Newark",
+            "PlaceId": 50290,
+            "SkyscannerCode": "EWR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MIIA",
+            "CityName": "Marilia",
+            "CountryName": "Brazil",
+            "IataCode": "MII",
+            "Name": "Marilia",
+            "PlaceId": 68041,
+            "SkyscannerCode": "MII",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YTOA",
+            "CityName": "Toronto",
+            "CountryName": "Canada",
+            "IataCode": "YYZ",
+            "Name": "Toronto Pearson International",
+            "PlaceId": 96474,
+            "SkyscannerCode": "YYZ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 922.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    836
+                ],
+                "DepartureDate": "2017-06-07T00:00:00",
+                "DestinationId": 50290,
+                "OriginId": 68041
+            },
+            "QuoteDateTime": "2017-03-21T12:34:51",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1146.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-10-09T00:00:00",
+                "DestinationId": 96474,
+                "OriginId": 68041
+            },
+            "QuoteDateTime": "2017-04-03T13:39:40",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 898,
+            "OriginId": 68041
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 68041,
+            "Price": 922.0,
+            "QuoteDateTime": "2017-03-21T12:34:51",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1572,
+            "OriginId": 68041
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 68041,
+            "Price": 1146.0,
+            "QuoteDateTime": "2017-04-03T13:39:40",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

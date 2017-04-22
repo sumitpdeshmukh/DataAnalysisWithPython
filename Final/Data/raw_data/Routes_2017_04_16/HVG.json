@@ -1,0 +1,112 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1894,
+            "Name": "Wideroe"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Denmark",
+            "PlaceId": 987,
+            "SkyscannerCode": "DK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Norway",
+            "PlaceId": 1471,
+            "SkyscannerCode": "NO",
+            "Type": "Country"
+        },
+        {
+            "CityId": "COPE",
+            "CityName": "Copenhagen",
+            "CountryName": "Denmark",
+            "IataCode": "CPH",
+            "Name": "Copenhagen",
+            "PlaceId": 45336,
+            "SkyscannerCode": "CPH",
+            "Type": "Station"
+        },
+        {
+            "CityId": "HONN",
+            "CityName": "Honningsvag Valan",
+            "CountryName": "Norway",
+            "IataCode": "HVG",
+            "Name": "Honningsvag Valan",
+            "PlaceId": 57143,
+            "SkyscannerCode": "HVG",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TROM",
+            "CityName": "Tromso",
+            "CountryName": "Norway",
+            "IataCode": "TOS",
+            "Name": "Tromso",
+            "PlaceId": 84467,
+            "SkyscannerCode": "TOS",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 80.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1894
+                ],
+                "DepartureDate": "2017-07-17T00:00:00",
+                "DestinationId": 84467,
+                "OriginId": 57143
+            },
+            "QuoteDateTime": "2017-04-03T00:59:33",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 158.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-09-01T00:00:00",
+                "DestinationId": 45336,
+                "OriginId": 57143
+            },
+            "QuoteDateTime": "2017-04-02T04:12:18",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1471,
+            "OriginId": 57143,
+            "Price": 80.0,
+            "QuoteDateTime": "2017-04-03T00:59:33",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 987,
+            "OriginId": 57143,
+            "Price": 158.0,
+            "QuoteDateTime": "2017-04-02T04:12:18",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 912,
+            "Name": "Air Chathams"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "New Zealand",
+            "PlaceId": 1482,
+            "SkyscannerCode": "NZ",
+            "Type": "Country"
+        },
+        {
+            "CityId": "AKLN",
+            "CityName": "Auckland",
+            "CountryName": "New Zealand",
+            "IataCode": "AKL",
+            "Name": "Auckland International",
+            "PlaceId": 40492,
+            "SkyscannerCode": "AKL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WAGN",
+            "CityName": "Wanganui",
+            "CountryName": "New Zealand",
+            "IataCode": "WAG",
+            "Name": "Wanganui",
+            "PlaceId": 90695,
+            "SkyscannerCode": "WAG",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 252.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    912
+                ],
+                "DepartureDate": "2017-05-02T00:00:00",
+                "DestinationId": 40492,
+                "OriginId": 90695
+            },
+            "QuoteDateTime": "2017-03-27T11:40:41",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1482,
+            "OriginId": 90695,
+            "Price": 252.0,
+            "QuoteDateTime": "2017-03-27T11:40:41",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

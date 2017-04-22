@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1545,
+            "Name": "Skippers Aviation"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LVOA",
+            "CityName": "Laverton",
+            "CountryName": "Australia",
+            "IataCode": "LVO",
+            "Name": "Laverton",
+            "PlaceId": 66367,
+            "SkyscannerCode": "LVO",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PERA",
+            "CityName": "Perth",
+            "CountryName": "Australia",
+            "IataCode": "PER",
+            "Name": "Perth",
+            "PlaceId": 74770,
+            "SkyscannerCode": "PER",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 192.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1545
+                ],
+                "DepartureDate": "2017-06-23T00:00:00",
+                "DestinationId": 74770,
+                "OriginId": 66367
+            },
+            "QuoteDateTime": "2017-04-08T13:28:58",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 853,
+            "OriginId": 66367,
+            "Price": 192.0,
+            "QuoteDateTime": "2017-04-08T13:28:58",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

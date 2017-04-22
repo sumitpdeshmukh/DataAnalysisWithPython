@@ -1,0 +1,132 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1755,
+            "Name": "Turkish Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Greece",
+            "PlaceId": 1138,
+            "SkyscannerCode": "GR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Turkey",
+            "PlaceId": 1762,
+            "SkyscannerCode": "TR",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "CityId": "EDIN",
+            "CityName": "Edinburgh",
+            "CountryName": "United Kingdom",
+            "IataCode": "EDI",
+            "Name": "Edinburgh",
+            "PlaceId": 49369,
+            "SkyscannerCode": "EDI",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ISTA",
+            "CityName": "Istanbul",
+            "CountryName": "Turkey",
+            "IataCode": "IST",
+            "Name": "Istanbul Ataturk",
+            "PlaceId": 59316,
+            "SkyscannerCode": "IST",
+            "Type": "Station"
+        },
+        {
+            "CityId": "KCOA",
+            "CityName": "Kocaeli",
+            "CountryName": "Turkey",
+            "IataCode": "KCO",
+            "Name": "Kocaeli",
+            "PlaceId": 63151,
+            "SkyscannerCode": "KCO",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 312.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-03T00:00:00",
+                "DestinationId": 59316,
+                "OriginId": 63151
+            },
+            "QuoteDateTime": "2017-04-17T09:49:53",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 315.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1755
+                ],
+                "DepartureDate": "2017-05-26T00:00:00",
+                "DestinationId": 49369,
+                "OriginId": 63151
+            },
+            "QuoteDateTime": "2017-04-18T01:11:52",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1762,
+            "OriginId": 63151,
+            "Price": 312.0,
+            "QuoteDateTime": "2017-04-17T09:49:53",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 63151
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 63151,
+            "Price": 315.0,
+            "QuoteDateTime": "2017-04-18T01:11:52",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1138,
+            "OriginId": 63151
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 935,
+            "Name": "Airlines  PNG"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Papua New Guinea",
+            "PlaceId": 1559,
+            "SkyscannerCode": "PG",
+            "Type": "Country"
+        },
+        {
+            "CityId": "PNPP",
+            "CityName": "Popondetta",
+            "CountryName": "Papua New Guinea",
+            "IataCode": "PNP",
+            "Name": "Popondetta",
+            "PlaceId": 75200,
+            "SkyscannerCode": "PNP",
+            "Type": "Station"
+        },
+        {
+            "CityId": "POMP",
+            "CityName": "Port Moresby",
+            "CountryName": "Papua New Guinea",
+            "IataCode": "POM",
+            "Name": "Port Moresby",
+            "PlaceId": 75245,
+            "SkyscannerCode": "POM",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 101.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    935
+                ],
+                "DepartureDate": "2017-04-27T00:00:00",
+                "DestinationId": 75245,
+                "OriginId": 75200
+            },
+            "QuoteDateTime": "2017-04-01T22:59:12",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1559,
+            "OriginId": 75200,
+            "Price": 101.0,
+            "QuoteDateTime": "2017-04-01T22:59:12",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

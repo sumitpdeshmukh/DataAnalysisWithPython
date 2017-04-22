@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1575,
+            "Name": "Precision Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Tanzania",
+            "PlaceId": 1770,
+            "SkyscannerCode": "TZ",
+            "Type": "Country"
+        },
+        {
+            "CityId": "DARA",
+            "CityName": "Dar Es Salaam",
+            "CountryName": "Tanzania",
+            "IataCode": "DAR",
+            "Name": "Dar Es Salaam",
+            "PlaceId": 46930,
+            "SkyscannerCode": "DAR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TBOA",
+            "CityName": "Tabora",
+            "CountryName": "Tanzania",
+            "IataCode": "TBO",
+            "Name": "Tabora",
+            "PlaceId": 83839,
+            "SkyscannerCode": "TBO",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 170.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1575
+                ],
+                "DepartureDate": "2017-11-15T00:00:00",
+                "DestinationId": 46930,
+                "OriginId": 83839
+            },
+            "QuoteDateTime": "2017-04-12T22:36:07",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1770,
+            "OriginId": 83839,
+            "Price": 170.0,
+            "QuoteDateTime": "2017-04-12T22:36:07",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

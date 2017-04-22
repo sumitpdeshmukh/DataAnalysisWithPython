@@ -1,0 +1,144 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1825,
+            "Name": "Virgin Australia"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Christmas Island",
+            "PlaceId": 952,
+            "SkyscannerCode": "CX",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Zealand",
+            "PlaceId": 1482,
+            "SkyscannerCode": "NZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Africa",
+            "PlaceId": 2033,
+            "SkyscannerCode": "ZA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CCKA",
+            "CityName": "Cocos Islands",
+            "CountryName": "Cocos (Keeling) Islands",
+            "IataCode": "CCK",
+            "Name": "Cocos Islands",
+            "PlaceId": 44715,
+            "SkyscannerCode": "CCK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PERA",
+            "CityName": "Perth",
+            "CountryName": "Australia",
+            "IataCode": "PER",
+            "Name": "Perth",
+            "PlaceId": 74770,
+            "SkyscannerCode": "PER",
+            "Type": "Station"
+        },
+        {
+            "CityId": "XCHA",
+            "CityName": "Christmas Island",
+            "CountryName": "Christmas Island",
+            "IataCode": "XCH",
+            "Name": "Christmas Island",
+            "PlaceId": 93096,
+            "SkyscannerCode": "XCH",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 434.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1825
+                ],
+                "DepartureDate": "2017-04-29T00:00:00",
+                "DestinationId": 74770,
+                "OriginId": 44715
+            },
+            "QuoteDateTime": "2017-03-25T15:52:52",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 178.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1825
+                ],
+                "DepartureDate": "2017-11-04T00:00:00",
+                "DestinationId": 93096,
+                "OriginId": 44715
+            },
+            "QuoteDateTime": "2017-04-05T12:22:30",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1482,
+            "OriginId": 44715
+        },
+        {
+            "DestinationId": 837,
+            "OriginId": 44715
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 44715,
+            "Price": 434.0,
+            "QuoteDateTime": "2017-03-25T15:52:52",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 2033,
+            "OriginId": 44715
+        },
+        {
+            "DestinationId": 952,
+            "OriginId": 44715,
+            "Price": 178.0,
+            "QuoteDateTime": "2017-04-05T12:22:30",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1239,
+            "Name": "Wings Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Indonesia",
+            "PlaceId": 1220,
+            "SkyscannerCode": "ID",
+            "Type": "Country"
+        },
+        {
+            "Name": "Saudi Arabia",
+            "PlaceId": 1697,
+            "SkyscannerCode": "SA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BUWI",
+            "CityName": "Baubau",
+            "CountryName": "Indonesia",
+            "IataCode": "BUW",
+            "Name": "Baubau",
+            "PlaceId": 43287,
+            "SkyscannerCode": "BUW",
+            "Type": "Station"
+        },
+        {
+            "CityId": "UPGI",
+            "CityName": "Makassar",
+            "CountryName": "Indonesia",
+            "IataCode": "UPG",
+            "Name": "Makassar",
+            "PlaceId": 86807,
+            "SkyscannerCode": "UPG",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 39.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1239
+                ],
+                "DepartureDate": "2017-05-05T00:00:00",
+                "DestinationId": 86807,
+                "OriginId": 43287
+            },
+            "QuoteDateTime": "2017-04-04T05:32:25",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1703,
+            "OriginId": 43287
+        },
+        {
+            "DestinationId": 1697,
+            "OriginId": 43287
+        },
+        {
+            "DestinationId": 1220,
+            "OriginId": 43287,
+            "Price": 39.0,
+            "QuoteDateTime": "2017-04-04T05:32:25",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

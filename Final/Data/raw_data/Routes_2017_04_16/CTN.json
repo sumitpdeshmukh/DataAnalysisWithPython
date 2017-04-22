@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 37,
+            "Name": "Hinterland Aviation"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CNSA",
+            "CityName": "Cairns",
+            "CountryName": "Australia",
+            "IataCode": "CNS",
+            "Name": "Cairns",
+            "PlaceId": 45251,
+            "SkyscannerCode": "CNS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "CTNA",
+            "CityName": "Cooktown",
+            "CountryName": "Australia",
+            "IataCode": "CTN",
+            "Name": "Cooktown",
+            "PlaceId": 45534,
+            "SkyscannerCode": "CTN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 171.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    37
+                ],
+                "DepartureDate": "2017-06-10T00:00:00",
+                "DestinationId": 45251,
+                "OriginId": 45534
+            },
+            "QuoteDateTime": "2017-04-18T06:59:51",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 853,
+            "OriginId": 45534,
+            "Price": 171.0,
+            "QuoteDateTime": "2017-04-18T06:59:51",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

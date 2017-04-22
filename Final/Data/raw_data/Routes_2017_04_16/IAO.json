@@ -1,0 +1,186 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 983,
+            "Name": "Cebgo"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "South Korea",
+            "PlaceId": 1330,
+            "SkyscannerCode": "KR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Philippines",
+            "PlaceId": 1560,
+            "SkyscannerCode": "PH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Taiwan",
+            "PlaceId": 1767,
+            "SkyscannerCode": "TW",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CEBP",
+            "CityName": "Cebu",
+            "CountryName": "Philippines",
+            "IataCode": "CEB",
+            "Name": "Mactan-Cebu International",
+            "PlaceId": 44802,
+            "SkyscannerCode": "CEB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SIAR",
+            "CityName": "Siargao Island",
+            "CountryName": "Philippines",
+            "IataCode": "IAO",
+            "Name": "Siargao Island",
+            "PlaceId": 58447,
+            "SkyscannerCode": "IAO",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SELA",
+            "CityName": "Seoul",
+            "CountryName": "South Korea",
+            "IataCode": "ICN",
+            "Name": "Seoul Incheon Int'l",
+            "PlaceId": 58542,
+            "SkyscannerCode": "ICN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SINS",
+            "CityName": "Singapore",
+            "CountryName": "Singapore",
+            "IataCode": "SIN",
+            "Name": "Singapore Changi",
+            "PlaceId": 81870,
+            "SkyscannerCode": "SIN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TPET",
+            "CityName": "Taipei",
+            "CountryName": "Taiwan",
+            "IataCode": "TPE",
+            "Name": "Taipei Taiwan Taoyuan",
+            "PlaceId": 84501,
+            "SkyscannerCode": "TPE",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 16.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    983
+                ],
+                "DepartureDate": "2017-12-14T00:00:00",
+                "DestinationId": 44802,
+                "OriginId": 58447
+            },
+            "QuoteDateTime": "2017-03-30T09:44:38",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 78.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-21T00:00:00",
+                "DestinationId": 58542,
+                "OriginId": 58447
+            },
+            "QuoteDateTime": "2017-03-23T07:02:34",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 71.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-10-18T00:00:00",
+                "DestinationId": 81870,
+                "OriginId": 58447
+            },
+            "QuoteDateTime": "2017-04-09T05:53:07",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 40.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-09-30T00:00:00",
+                "DestinationId": 84501,
+                "OriginId": 58447
+            },
+            "QuoteDateTime": "2017-04-08T06:46:16",
+            "QuoteId": 4
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1560,
+            "OriginId": 58447,
+            "Price": 16.0,
+            "QuoteDateTime": "2017-03-30T09:44:38",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1330,
+            "OriginId": 58447,
+            "Price": 78.0,
+            "QuoteDateTime": "2017-03-23T07:02:34",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1703,
+            "OriginId": 58447,
+            "Price": 71.0,
+            "QuoteDateTime": "2017-04-09T05:53:07",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 1767,
+            "OriginId": 58447,
+            "Price": 40.0,
+            "QuoteDateTime": "2017-04-08T06:46:16",
+            "QuoteIds": [
+                4
+            ]
+        }
+    ]
+}

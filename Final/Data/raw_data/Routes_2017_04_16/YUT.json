@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1423,
+            "Name": "Calm Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "YUTA",
+            "CityName": "Repulse Bay",
+            "CountryName": "Canada",
+            "IataCode": "YUT",
+            "Name": "Repulse Bay",
+            "PlaceId": 96276,
+            "SkyscannerCode": "YUT",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WINB",
+            "CityName": "Winnipeg",
+            "CountryName": "Canada",
+            "IataCode": "YWG",
+            "Name": "Winnipeg",
+            "PlaceId": 96359,
+            "SkyscannerCode": "YWG",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 959.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1423
+                ],
+                "DepartureDate": "2017-08-25T00:00:00",
+                "DestinationId": 96359,
+                "OriginId": 96276
+            },
+            "QuoteDateTime": "2017-03-29T13:42:38",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 96276,
+            "Price": 959.0,
+            "QuoteDateTime": "2017-03-29T13:42:38",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

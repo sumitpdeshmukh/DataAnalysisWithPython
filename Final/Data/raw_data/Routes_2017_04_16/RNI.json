@@ -1,0 +1,95 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 249,
+            "Name": "Nature Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Costa Rica",
+            "PlaceId": 946,
+            "SkyscannerCode": "CR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Honduras",
+            "PlaceId": 1182,
+            "SkyscannerCode": "HN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Nicaragua",
+            "PlaceId": 1465,
+            "SkyscannerCode": "NI",
+            "Type": "Country"
+        },
+        {
+            "CityId": "RNIA",
+            "CityName": "Corn Island",
+            "CountryName": "Nicaragua",
+            "IataCode": "RNI",
+            "Name": "Corn Island",
+            "PlaceId": 79801,
+            "SkyscannerCode": "RNI",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SJOA",
+            "CityName": "San Jose",
+            "CountryName": "Costa Rica",
+            "IataCode": "SYQ",
+            "Name": "San Jose Tobias Bolanos",
+            "PlaceId": 82641,
+            "SkyscannerCode": "SYQ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 111.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    249
+                ],
+                "DepartureDate": "2017-07-07T00:00:00",
+                "DestinationId": 82641,
+                "OriginId": 79801
+            },
+            "QuoteDateTime": "2017-04-03T17:24:18",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1465,
+            "OriginId": 79801
+        },
+        {
+            "DestinationId": 1182,
+            "OriginId": 79801
+        },
+        {
+            "DestinationId": 946,
+            "OriginId": 79801,
+            "Price": 111.0,
+            "QuoteDateTime": "2017-04-03T17:24:18",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

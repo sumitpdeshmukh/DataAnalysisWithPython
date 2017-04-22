@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1108,
+            "Name": "Allegiant Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "GSPA",
+            "CityName": "Greenville",
+            "CountryName": "United States",
+            "IataCode": "GSP",
+            "Name": "Greenville-Spartanburg",
+            "PlaceId": 54704,
+            "SkyscannerCode": "GSP",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PGDA",
+            "CityName": "Punta Gorda",
+            "CountryName": "United States",
+            "IataCode": "PGD",
+            "Name": "Punta Gorda",
+            "PlaceId": 74852,
+            "SkyscannerCode": "PGD",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 51.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1108
+                ],
+                "DepartureDate": "2017-05-11T00:00:00",
+                "DestinationId": 54704,
+                "OriginId": 74852
+            },
+            "QuoteDateTime": "2017-04-16T05:46:47",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 74852,
+            "Price": 51.0,
+            "QuoteDateTime": "2017-04-16T05:46:47",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

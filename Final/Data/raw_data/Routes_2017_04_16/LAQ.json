@@ -1,0 +1,173 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 421,
+            "Name": "Afriqiyah Airways"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Egypt",
+            "PlaceId": 1031,
+            "SkyscannerCode": "EG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Jordan",
+            "PlaceId": 1279,
+            "SkyscannerCode": "JO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Libya",
+            "PlaceId": 1385,
+            "SkyscannerCode": "LY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Tunisia",
+            "PlaceId": 1758,
+            "SkyscannerCode": "TN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Turkey",
+            "PlaceId": 1762,
+            "SkyscannerCode": "TR",
+            "Type": "Country"
+        },
+        {
+            "CityId": "AMMA",
+            "CityName": "Amman",
+            "CountryName": "Jordan",
+            "IataCode": "AMM",
+            "Name": "Amman Queen Alia",
+            "PlaceId": 40589,
+            "SkyscannerCode": "AMM",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ISTA",
+            "CityName": "Istanbul",
+            "CountryName": "Turkey",
+            "IataCode": "IST",
+            "Name": "Istanbul Ataturk",
+            "PlaceId": 59316,
+            "SkyscannerCode": "IST",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LAQA",
+            "CityName": "Beida",
+            "CountryName": "Libya",
+            "IataCode": "LAQ",
+            "Name": "Beida",
+            "PlaceId": 65361,
+            "SkyscannerCode": "LAQ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TUNI",
+            "CityName": "Tunis Carthage",
+            "CountryName": "Tunisia",
+            "IataCode": "TUN",
+            "Name": "Tunis Carthage",
+            "PlaceId": 84750,
+            "SkyscannerCode": "TUN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 212.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    421
+                ],
+                "DepartureDate": "2017-09-28T00:00:00",
+                "DestinationId": 84750,
+                "OriginId": 65361
+            },
+            "QuoteDateTime": "2017-03-17T16:32:49",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 299.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    421
+                ],
+                "DepartureDate": "2017-09-15T00:00:00",
+                "DestinationId": 59316,
+                "OriginId": 65361
+            },
+            "QuoteDateTime": "2017-03-11T16:27:20",
+            "QuoteId": 2
+        },
+        {
+            "Direct": true,
+            "MinPrice": 247.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    421
+                ],
+                "DepartureDate": "2017-09-17T00:00:00",
+                "DestinationId": 40589,
+                "OriginId": 65361
+            },
+            "QuoteDateTime": "2017-04-13T16:16:51",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1758,
+            "OriginId": 65361,
+            "Price": 212.0,
+            "QuoteDateTime": "2017-03-17T16:32:49",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1385,
+            "OriginId": 65361
+        },
+        {
+            "DestinationId": 1762,
+            "OriginId": 65361,
+            "Price": 299.0,
+            "QuoteDateTime": "2017-03-11T16:27:20",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1279,
+            "OriginId": 65361,
+            "Price": 247.0,
+            "QuoteDateTime": "2017-04-13T16:16:51",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 1031,
+            "OriginId": 65361
+        }
+    ]
+}

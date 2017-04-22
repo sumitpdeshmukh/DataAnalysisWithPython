@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 2049,
+            "Name": "Air Labrador"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "YZVA",
+            "CityName": "Sept-Iles",
+            "CountryName": "Canada",
+            "IataCode": "YZV",
+            "Name": "Sept-Iles",
+            "PlaceId": 96518,
+            "SkyscannerCode": "YZV",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ZLTA",
+            "CityName": "La Tabatiere",
+            "CountryName": "Canada",
+            "IataCode": "ZLT",
+            "Name": "La Tabatiere",
+            "PlaceId": 98148,
+            "SkyscannerCode": "ZLT",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 483.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    2049
+                ],
+                "DepartureDate": "2017-06-02T00:00:00",
+                "DestinationId": 96518,
+                "OriginId": 98148
+            },
+            "QuoteDateTime": "2017-04-16T19:43:01",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 98148,
+            "Price": 483.0,
+            "QuoteDateTime": "2017-04-16T19:43:01",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

@@ -1,0 +1,178 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 467,
+            "Name": "Spring Airlines"
+        },
+        {
+            "CarrierId": 883,
+            "Name": "Skymark Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cambodia",
+            "PlaceId": 1320,
+            "SkyscannerCode": "KH",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Korea",
+            "PlaceId": 1330,
+            "SkyscannerCode": "KR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Macau",
+            "PlaceId": 1423,
+            "SkyscannerCode": "MO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Malaysia",
+            "PlaceId": 1433,
+            "SkyscannerCode": "MY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Thailand",
+            "PlaceId": 1752,
+            "SkyscannerCode": "TH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Vietnam",
+            "PlaceId": 1854,
+            "SkyscannerCode": "VN",
+            "Type": "Country"
+        },
+        {
+            "CityId": "SPKA",
+            "CityName": "Sapporo",
+            "CountryName": "Japan",
+            "IataCode": "CTS",
+            "Name": "Sapporo Chitose",
+            "PlaceId": 45539,
+            "SkyscannerCode": "CTS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "IBRA",
+            "CityName": "Omitama",
+            "CountryName": "Japan",
+            "IataCode": "IBR",
+            "Name": "Omitama",
+            "PlaceId": 58498,
+            "SkyscannerCode": "IBR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "CSHA",
+            "CityName": "Shanghai",
+            "CountryName": "China",
+            "IataCode": "PVG",
+            "Name": "Shanghai Pu Dong",
+            "PlaceId": 75575,
+            "SkyscannerCode": "PVG",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 133.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    467
+                ],
+                "DepartureDate": "2017-05-05T00:00:00",
+                "DestinationId": 75575,
+                "OriginId": 58498
+            },
+            "QuoteDateTime": "2017-03-28T15:14:04",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 65.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    883
+                ],
+                "DepartureDate": "2017-06-27T00:00:00",
+                "DestinationId": 45539,
+                "OriginId": 58498
+            },
+            "QuoteDateTime": "2017-03-31T03:09:24",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1752,
+            "OriginId": 58498
+        },
+        {
+            "DestinationId": 1854,
+            "OriginId": 58498
+        },
+        {
+            "DestinationId": 1423,
+            "OriginId": 58498
+        },
+        {
+            "DestinationId": 1433,
+            "OriginId": 58498
+        },
+        {
+            "DestinationId": 1320,
+            "OriginId": 58498
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 58498,
+            "Price": 133.0,
+            "QuoteDateTime": "2017-03-28T15:14:04",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1330,
+            "OriginId": 58498
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 58498,
+            "Price": 65.0,
+            "QuoteDateTime": "2017-03-31T03:09:24",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

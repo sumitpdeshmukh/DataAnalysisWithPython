@@ -1,0 +1,128 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Botswana",
+            "PlaceId": 903,
+            "SkyscannerCode": "BW",
+            "Type": "Country"
+        },
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Ethiopia",
+            "PlaceId": 1044,
+            "SkyscannerCode": "ET",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Namibia",
+            "PlaceId": 1457,
+            "SkyscannerCode": "NA",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Africa",
+            "PlaceId": 2033,
+            "SkyscannerCode": "ZA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "JNBA",
+            "CityName": "Johannesburg",
+            "CountryName": "South Africa",
+            "IataCode": "HLA",
+            "Name": "Lanseria",
+            "PlaceId": 56657,
+            "SkyscannerCode": "HLA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WDHA",
+            "CityName": "Windhoek",
+            "CountryName": "Namibia",
+            "IataCode": "WDH",
+            "Name": "Windhoek Hosea Kutako",
+            "PlaceId": 90840,
+            "SkyscannerCode": "WDH",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 95.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-22T00:00:00",
+                "DestinationId": 90840,
+                "OriginId": 56657
+            },
+            "QuoteDateTime": "2017-04-13T09:07:01",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1044,
+            "OriginId": 56657
+        },
+        {
+            "DestinationId": 837,
+            "OriginId": 56657
+        },
+        {
+            "DestinationId": 1457,
+            "OriginId": 56657,
+            "Price": 95.0,
+            "QuoteDateTime": "2017-04-13T09:07:01",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 2033,
+            "OriginId": 56657
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 56657
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 56657
+        },
+        {
+            "DestinationId": 903,
+            "OriginId": 56657
+        }
+    ]
+}

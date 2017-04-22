@@ -1,0 +1,85 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1478,
+            "Name": "Med-View Airline"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Nigeria",
+            "PlaceId": 1463,
+            "SkyscannerCode": "NG",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ABVA",
+            "CityName": "Abuja",
+            "CountryName": "Nigeria",
+            "IataCode": "ABV",
+            "Name": "Abuja",
+            "PlaceId": 40070,
+            "SkyscannerCode": "ABV",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YOLA",
+            "CityName": "Yola",
+            "CountryName": "Nigeria",
+            "IataCode": "YOL",
+            "Name": "Yola",
+            "PlaceId": 95980,
+            "SkyscannerCode": "YOL",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 143.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1478
+                ],
+                "DepartureDate": "2017-06-27T00:00:00",
+                "DestinationId": 40070,
+                "OriginId": 95980
+            },
+            "QuoteDateTime": "2017-03-29T08:39:31",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1463,
+            "OriginId": 95980,
+            "Price": 143.0,
+            "QuoteDateTime": "2017-03-29T08:39:31",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 95980
+        }
+    ]
+}

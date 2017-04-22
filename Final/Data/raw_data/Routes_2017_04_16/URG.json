@@ -1,0 +1,122 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 836,
+            "Name": "Azul Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Honduras",
+            "PlaceId": 1182,
+            "SkyscannerCode": "HN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Portugal",
+            "PlaceId": 1572,
+            "SkyscannerCode": "PT",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BHZA",
+            "CityName": "Belo Horizonte",
+            "CountryName": "Brazil",
+            "IataCode": "CNF",
+            "Name": "Belo Horizonte Tancredo Neves Int'l.",
+            "PlaceId": 45238,
+            "SkyscannerCode": "CNF",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SAPA",
+            "CityName": "San Pedro Sula",
+            "CountryName": "Honduras",
+            "IataCode": "SAP",
+            "Name": "San Pedro Sula",
+            "PlaceId": 81488,
+            "SkyscannerCode": "SAP",
+            "Type": "Station"
+        },
+        {
+            "CityId": "URGA",
+            "CityName": "Uruguaiana",
+            "CountryName": "Brazil",
+            "IataCode": "URG",
+            "Name": "Uruguaiana",
+            "PlaceId": 86903,
+            "SkyscannerCode": "URG",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 174.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    836
+                ],
+                "DepartureDate": "2017-09-01T00:00:00",
+                "DestinationId": 45238,
+                "OriginId": 86903
+            },
+            "QuoteDateTime": "2017-03-22T11:32:56",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1017.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-18T00:00:00",
+                "DestinationId": 81488,
+                "OriginId": 86903
+            },
+            "QuoteDateTime": "2017-04-02T17:40:47",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 898,
+            "OriginId": 86903,
+            "Price": 174.0,
+            "QuoteDateTime": "2017-03-22T11:32:56",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1572,
+            "OriginId": 86903
+        },
+        {
+            "DestinationId": 1182,
+            "OriginId": 86903,
+            "Price": 1017.0,
+            "QuoteDateTime": "2017-04-02T17:40:47",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Bangladesh",
+            "PlaceId": 884,
+            "SkyscannerCode": "BD",
+            "Type": "Country"
+        },
+        {
+            "Name": "Kenya",
+            "PlaceId": 1317,
+            "SkyscannerCode": "KE",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Sudan",
+            "PlaceId": 1715,
+            "SkyscannerCode": "SS",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "DACA",
+            "CityName": "Dhaka",
+            "CountryName": "Bangladesh",
+            "IataCode": "DAC",
+            "Name": "Dhaka",
+            "PlaceId": 46915,
+            "SkyscannerCode": "DAC",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NYCA",
+            "CityName": "New York",
+            "CountryName": "United States",
+            "IataCode": "JFK",
+            "Name": "New York John F. Kennedy",
+            "PlaceId": 60987,
+            "SkyscannerCode": "JFK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LAUA",
+            "CityName": "Lamu",
+            "CountryName": "Kenya",
+            "IataCode": "LAU",
+            "Name": "Lamu",
+            "PlaceId": 65365,
+            "SkyscannerCode": "LAU",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 537.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-21T00:00:00",
+                "DestinationId": 60987,
+                "OriginId": 65365
+            },
+            "QuoteDateTime": "2017-04-07T20:16:07",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 747.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-04-25T00:00:00",
+                "DestinationId": 46915,
+                "OriginId": 65365
+            },
+            "QuoteDateTime": "2017-04-16T12:01:19",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1317,
+            "OriginId": 65365
+        },
+        {
+            "DestinationId": 1715,
+            "OriginId": 65365
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 65365,
+            "Price": 537.0,
+            "QuoteDateTime": "2017-04-07T20:16:07",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 884,
+            "OriginId": 65365,
+            "Price": 747.0,
+            "QuoteDateTime": "2017-04-16T12:01:19",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

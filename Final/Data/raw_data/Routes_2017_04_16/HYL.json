@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1299,
+            "Name": "Taquan Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "HYLA",
+            "CityName": "Hollis",
+            "CountryName": "United States",
+            "IataCode": "HYL",
+            "Name": "Hollis",
+            "PlaceId": 57292,
+            "SkyscannerCode": "HYL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "KTNA",
+            "CityName": "Ketchikan",
+            "CountryName": "United States",
+            "IataCode": "WFB",
+            "Name": "Ketchikan Waterfront SPB",
+            "PlaceId": 90930,
+            "SkyscannerCode": "WFB",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 121.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1299
+                ],
+                "DepartureDate": "2017-05-17T00:00:00",
+                "DestinationId": 90930,
+                "OriginId": 57292
+            },
+            "QuoteDateTime": "2017-04-17T23:38:58",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 57292,
+            "Price": 121.0,
+            "QuoteDateTime": "2017-04-17T23:38:58",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1368,
+            "Name": "Lufthansa"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Norway",
+            "PlaceId": 1471,
+            "SkyscannerCode": "NO",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ROER",
+            "CityName": "Roervik Ryumsjoen",
+            "CountryName": "Norway",
+            "IataCode": "RVK",
+            "Name": "Roervik Ryumsjoen",
+            "PlaceId": 80187,
+            "SkyscannerCode": "RVK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SEAA",
+            "CityName": "Seattle",
+            "CountryName": "United States",
+            "IataCode": "SEA",
+            "Name": "Seattle / Tacoma International",
+            "PlaceId": 81665,
+            "SkyscannerCode": "SEA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YTOA",
+            "CityName": "Toronto",
+            "CountryName": "Canada",
+            "IataCode": "YYZ",
+            "Name": "Toronto Pearson International",
+            "PlaceId": 96474,
+            "SkyscannerCode": "YYZ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 925.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-08-21T00:00:00",
+                "DestinationId": 96474,
+                "OriginId": 80187
+            },
+            "QuoteDateTime": "2017-04-17T23:13:03",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 2459.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1368
+                ],
+                "DepartureDate": "2017-06-04T00:00:00",
+                "DestinationId": 81665,
+                "OriginId": 80187
+            },
+            "QuoteDateTime": "2017-04-09T18:21:36",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1471,
+            "OriginId": 80187
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 80187,
+            "Price": 925.0,
+            "QuoteDateTime": "2017-04-17T23:13:03",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 80187,
+            "Price": 2459.0,
+            "QuoteDateTime": "2017-04-09T18:21:36",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 80187
+        }
+    ]
+}

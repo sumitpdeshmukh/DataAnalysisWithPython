@@ -1,0 +1,94 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 168,
+            "Name": "Air Inuit"
+        },
+        {
+            "CarrierId": 358,
+            "Name": "First Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "YMQA",
+            "CityName": "Montreal",
+            "CountryName": "Canada",
+            "IataCode": "YUL",
+            "Name": "Montreal Pierre Elliott Trudeau",
+            "PlaceId": 96268,
+            "SkyscannerCode": "YUL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YVPA",
+            "CityName": "Kuujjuaq",
+            "CountryName": "Canada",
+            "IataCode": "YVP",
+            "Name": "Kuujjuaq",
+            "PlaceId": 96320,
+            "SkyscannerCode": "YVP",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 785.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    168
+                ],
+                "DepartureDate": "2017-07-24T00:00:00",
+                "DestinationId": 96268,
+                "OriginId": 96320
+            },
+            "QuoteDateTime": "2017-04-10T22:52:06",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 927.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    358
+                ],
+                "DepartureDate": "2017-07-24T00:00:00",
+                "DestinationId": 96268,
+                "OriginId": 96320
+            },
+            "QuoteDateTime": "2017-04-10T22:52:07",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 96320,
+            "Price": 785.0,
+            "QuoteDateTime": "2017-04-10T22:52:06",
+            "QuoteIds": [
+                1,
+                2
+            ]
+        }
+    ]
+}

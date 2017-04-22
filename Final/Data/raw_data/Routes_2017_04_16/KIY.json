@@ -1,0 +1,90 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 945,
+            "Name": "Coastal Travel Limited"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Tanzania",
+            "PlaceId": 1770,
+            "SkyscannerCode": "TZ",
+            "Type": "Country"
+        },
+        {
+            "CityId": "KIYA",
+            "CityName": "Kilwa",
+            "CountryName": "Tanzania",
+            "IataCode": "KIY",
+            "Name": "Kilwa",
+            "PlaceId": 63449,
+            "SkyscannerCode": "KIY",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MFAA",
+            "CityName": "Mafia",
+            "CountryName": "Tanzania",
+            "IataCode": "MFA",
+            "Name": "Mafia",
+            "PlaceId": 67889,
+            "SkyscannerCode": "MFA",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 202.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    945
+                ],
+                "DepartureDate": "2017-08-14T00:00:00",
+                "DestinationId": 67889,
+                "OriginId": 63449
+            },
+            "QuoteDateTime": "2017-03-24T13:51:34",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 208.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    945
+                ],
+                "DepartureDate": "2017-11-04T00:00:00",
+                "DestinationId": 67889,
+                "OriginId": 63449
+            },
+            "QuoteDateTime": "2017-04-04T15:19:19",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1770,
+            "OriginId": 63449,
+            "Price": 202.0,
+            "QuoteDateTime": "2017-03-24T13:51:34",
+            "QuoteIds": [
+                1,
+                2
+            ]
+        }
+    ]
+}

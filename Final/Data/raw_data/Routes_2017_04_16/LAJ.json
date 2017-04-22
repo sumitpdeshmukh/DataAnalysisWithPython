@@ -1,0 +1,132 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 836,
+            "Name": "Azul Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "Portugal",
+            "PlaceId": 1572,
+            "SkyscannerCode": "PT",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BARC",
+            "CityName": "Barcelona",
+            "CountryName": "Spain",
+            "IataCode": "BCN",
+            "Name": "Barcelona",
+            "PlaceId": 42414,
+            "SkyscannerCode": "BCN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "FARO",
+            "CityName": "Faro",
+            "CountryName": "Portugal",
+            "IataCode": "FAO",
+            "Name": "Faro",
+            "PlaceId": 51535,
+            "SkyscannerCode": "FAO",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LAJA",
+            "CityName": "Lages",
+            "CountryName": "Brazil",
+            "IataCode": "LAJ",
+            "Name": "Lages",
+            "PlaceId": 65354,
+            "SkyscannerCode": "LAJ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 784.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-10-12T00:00:00",
+                "DestinationId": 51535,
+                "OriginId": 65354
+            },
+            "QuoteDateTime": "2017-04-05T16:48:41",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 851.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    836
+                ],
+                "DepartureDate": "2017-06-07T00:00:00",
+                "DestinationId": 42414,
+                "OriginId": 65354
+            },
+            "QuoteDateTime": "2017-04-10T10:51:52",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 898,
+            "OriginId": 65354
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 65354
+        },
+        {
+            "DestinationId": 1572,
+            "OriginId": 65354,
+            "Price": 784.0,
+            "QuoteDateTime": "2017-04-05T16:48:41",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1043,
+            "OriginId": 65354,
+            "Price": 851.0,
+            "QuoteDateTime": "2017-04-10T10:51:52",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

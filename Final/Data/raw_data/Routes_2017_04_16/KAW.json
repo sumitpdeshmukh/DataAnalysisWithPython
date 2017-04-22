@@ -1,0 +1,105 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1322,
+            "Name": "Golden Myanmar Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "South Korea",
+            "PlaceId": 1330,
+            "SkyscannerCode": "KR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Myanmar",
+            "PlaceId": 1421,
+            "SkyscannerCode": "MM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Thailand",
+            "PlaceId": 1752,
+            "SkyscannerCode": "TH",
+            "Type": "Country"
+        },
+        {
+            "CityId": "KAWM",
+            "CityName": "Kawthaung",
+            "CountryName": "Myanmar",
+            "IataCode": "KAW",
+            "Name": "Kawthaung",
+            "PlaceId": 63063,
+            "SkyscannerCode": "KAW",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MGZM",
+            "CityName": "Myeik",
+            "CountryName": "Myanmar",
+            "IataCode": "MGZ",
+            "Name": "Myeik",
+            "PlaceId": 67962,
+            "SkyscannerCode": "MGZ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 53.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1322
+                ],
+                "DepartureDate": "2017-05-11T00:00:00",
+                "DestinationId": 67962,
+                "OriginId": 63063
+            },
+            "QuoteDateTime": "2017-04-02T13:18:09",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1421,
+            "OriginId": 63063,
+            "Price": 53.0,
+            "QuoteDateTime": "2017-04-02T13:18:09",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1752,
+            "OriginId": 63063
+        },
+        {
+            "DestinationId": 1703,
+            "OriginId": 63063
+        },
+        {
+            "DestinationId": 1330,
+            "OriginId": 63063
+        }
+    ]
+}

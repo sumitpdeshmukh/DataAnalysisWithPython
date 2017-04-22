@@ -1,0 +1,262 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 996,
+            "Name": "TAAG Angola Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Angola",
+            "PlaceId": 847,
+            "SkyscannerCode": "AO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Belgium",
+            "PlaceId": 885,
+            "SkyscannerCode": "BE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "Name": "DR Congo",
+            "PlaceId": 932,
+            "SkyscannerCode": "CD",
+            "Type": "Country"
+        },
+        {
+            "Name": "Congo",
+            "PlaceId": 935,
+            "SkyscannerCode": "CG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Kenya",
+            "PlaceId": 1317,
+            "SkyscannerCode": "KE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Morocco",
+            "PlaceId": 1409,
+            "SkyscannerCode": "MA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mozambique",
+            "PlaceId": 1434,
+            "SkyscannerCode": "MZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Namibia",
+            "PlaceId": 1457,
+            "SkyscannerCode": "NA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Netherlands",
+            "PlaceId": 1468,
+            "SkyscannerCode": "NL",
+            "Type": "Country"
+        },
+        {
+            "Name": "Portugal",
+            "PlaceId": 1572,
+            "SkyscannerCode": "PT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Sao Tome and Principe",
+            "PlaceId": 1716,
+            "SkyscannerCode": "ST",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Africa",
+            "PlaceId": 2033,
+            "SkyscannerCode": "ZA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CABA",
+            "CityName": "Cabinda",
+            "CountryName": "Angola",
+            "IataCode": "CAB",
+            "Name": "Cabinda",
+            "PlaceId": 44610,
+            "SkyscannerCode": "CAB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LADA",
+            "CityName": "Luanda",
+            "CountryName": "Angola",
+            "IataCode": "LAD",
+            "Name": "Luanda",
+            "PlaceId": 65348,
+            "SkyscannerCode": "LAD",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MIAA",
+            "CityName": "Miami",
+            "CountryName": "United States",
+            "IataCode": "MIA",
+            "Name": "Miami International",
+            "PlaceId": 68033,
+            "SkyscannerCode": "MIA",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 118.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    996
+                ],
+                "DepartureDate": "2017-05-02T00:00:00",
+                "DestinationId": 65348,
+                "OriginId": 44610
+            },
+            "QuoteDateTime": "2017-04-08T08:15:01",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1892.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-04-24T00:00:00",
+                "DestinationId": 68033,
+                "OriginId": 44610
+            },
+            "QuoteDateTime": "2017-04-18T00:42:41",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1317,
+            "OriginId": 44610
+        },
+        {
+            "DestinationId": 932,
+            "OriginId": 44610
+        },
+        {
+            "DestinationId": 1716,
+            "OriginId": 44610
+        },
+        {
+            "DestinationId": 847,
+            "OriginId": 44610,
+            "Price": 118.0,
+            "QuoteDateTime": "2017-04-08T08:15:01",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 935,
+            "OriginId": 44610
+        },
+        {
+            "DestinationId": 898,
+            "OriginId": 44610
+        },
+        {
+            "DestinationId": 1434,
+            "OriginId": 44610
+        },
+        {
+            "DestinationId": 1572,
+            "OriginId": 44610
+        },
+        {
+            "DestinationId": 1457,
+            "OriginId": 44610
+        },
+        {
+            "DestinationId": 2033,
+            "OriginId": 44610
+        },
+        {
+            "DestinationId": 1409,
+            "OriginId": 44610
+        },
+        {
+            "DestinationId": 1468,
+            "OriginId": 44610
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 44610
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 44610
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 44610
+        },
+        {
+            "DestinationId": 885,
+            "OriginId": 44610
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 44610,
+            "Price": 1892.0,
+            "QuoteDateTime": "2017-04-18T00:42:41",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

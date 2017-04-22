@@ -1,0 +1,206 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1850,
+            "Name": "Vieques Air Link"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Costa Rica",
+            "PlaceId": 946,
+            "SkyscannerCode": "CR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Dominican Republic",
+            "PlaceId": 991,
+            "SkyscannerCode": "DO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Puerto Rico",
+            "PlaceId": 1570,
+            "SkyscannerCode": "PR",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "Name": "British Virgin Islands",
+            "PlaceId": 1847,
+            "SkyscannerCode": "VG",
+            "Type": "Country"
+        },
+        {
+            "Name": "US Virgin Islands",
+            "PlaceId": 1849,
+            "SkyscannerCode": "VI",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CPXA",
+            "CityName": "Culebra",
+            "CountryName": "Puerto Rico",
+            "IataCode": "CPX",
+            "Name": "Culebra",
+            "PlaceId": 45352,
+            "SkyscannerCode": "CPX",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MIAA",
+            "CityName": "Miami",
+            "CountryName": "United States",
+            "IataCode": "FLL",
+            "Name": "Fort Lauderdale International",
+            "PlaceId": 52060,
+            "SkyscannerCode": "FLL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SJOA",
+            "CityName": "San Jose",
+            "CountryName": "Costa Rica",
+            "IataCode": "SJO",
+            "Name": "San Jose Juan Santamaria",
+            "PlaceId": 81919,
+            "SkyscannerCode": "SJO",
+            "Type": "Station"
+        },
+        {
+            "CityId": "STTA",
+            "CityName": "Saint Thomas",
+            "CountryName": "US Virgin Islands",
+            "IataCode": "STT",
+            "Name": "Saint Thomas Cyril E King",
+            "PlaceId": 82404,
+            "SkyscannerCode": "STT",
+            "Type": "Station"
+        },
+        {
+            "CityId": "CEIB",
+            "CityName": "Ceiba",
+            "CountryName": "Puerto Rico",
+            "IataCode": "TJR",
+            "Name": "Ceiba",
+            "PlaceId": 84226,
+            "SkyscannerCode": "TJR",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 192.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-10T00:00:00",
+                "DestinationId": 52060,
+                "OriginId": 45352
+            },
+            "QuoteDateTime": "2017-04-02T21:25:51",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 46.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1850
+                ],
+                "DepartureDate": "2017-06-02T00:00:00",
+                "DestinationId": 84226,
+                "OriginId": 45352
+            },
+            "QuoteDateTime": "2017-03-19T17:51:11",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 212.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2018-01-17T00:00:00",
+                "DestinationId": 82404,
+                "OriginId": 45352
+            },
+            "QuoteDateTime": "2017-04-16T23:20:18",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 744.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-11T00:00:00",
+                "DestinationId": 81919,
+                "OriginId": 45352
+            },
+            "QuoteDateTime": "2017-03-19T17:07:13",
+            "QuoteId": 4
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 45352,
+            "Price": 192.0,
+            "QuoteDateTime": "2017-04-02T21:25:51",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1570,
+            "OriginId": 45352,
+            "Price": 46.0,
+            "QuoteDateTime": "2017-03-19T17:51:11",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 991,
+            "OriginId": 45352
+        },
+        {
+            "DestinationId": 1849,
+            "OriginId": 45352,
+            "Price": 212.0,
+            "QuoteDateTime": "2017-04-16T23:20:18",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 1847,
+            "OriginId": 45352
+        },
+        {
+            "DestinationId": 946,
+            "OriginId": 45352,
+            "Price": 744.0,
+            "QuoteDateTime": "2017-03-19T17:07:13",
+            "QuoteIds": [
+                4
+            ]
+        }
+    ]
+}

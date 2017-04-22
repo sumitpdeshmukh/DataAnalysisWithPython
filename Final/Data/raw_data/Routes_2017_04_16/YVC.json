@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 392,
+            "Name": "Transwest Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "YVCA",
+            "CityName": "La Ronge",
+            "CountryName": "Canada",
+            "IataCode": "YVC",
+            "Name": "La Ronge",
+            "PlaceId": 96307,
+            "SkyscannerCode": "YVC",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YXEA",
+            "CityName": "Saskatoon",
+            "CountryName": "Canada",
+            "IataCode": "YXE",
+            "Name": "Saskatoon",
+            "PlaceId": 96405,
+            "SkyscannerCode": "YXE",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 272.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    392
+                ],
+                "DepartureDate": "2017-08-04T00:00:00",
+                "DestinationId": 96405,
+                "OriginId": 96307
+            },
+            "QuoteDateTime": "2017-03-29T18:40:33",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 96307,
+            "Price": 272.0,
+            "QuoteDateTime": "2017-03-29T18:40:33",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

@@ -1,0 +1,145 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1576,
+            "Name": "Air Niugini"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Fiji",
+            "PlaceId": 1082,
+            "SkyscannerCode": "FJ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Micronesia",
+            "PlaceId": 1085,
+            "SkyscannerCode": "FM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hong Kong",
+            "PlaceId": 1179,
+            "SkyscannerCode": "HK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Indonesia",
+            "PlaceId": 1220,
+            "SkyscannerCode": "ID",
+            "Type": "Country"
+        },
+        {
+            "Name": "Papua New Guinea",
+            "PlaceId": 1559,
+            "SkyscannerCode": "PG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Philippines",
+            "PlaceId": 1560,
+            "SkyscannerCode": "PH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Vanuatu",
+            "PlaceId": 1861,
+            "SkyscannerCode": "VU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "NANF",
+            "CityName": "Nadi",
+            "CountryName": "Fiji",
+            "IataCode": "NAN",
+            "Name": "Nadi",
+            "PlaceId": 69966,
+            "SkyscannerCode": "NAN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "UNGP",
+            "CityName": "Kiunga",
+            "CountryName": "Papua New Guinea",
+            "IataCode": "UNG",
+            "Name": "Kiunga",
+            "PlaceId": 86711,
+            "SkyscannerCode": "UNG",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 575.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1576
+                ],
+                "DepartureDate": "2017-06-10T00:00:00",
+                "DestinationId": 69966,
+                "OriginId": 86711
+            },
+            "QuoteDateTime": "2017-04-16T05:13:29",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1560,
+            "OriginId": 86711
+        },
+        {
+            "DestinationId": 1220,
+            "OriginId": 86711
+        },
+        {
+            "DestinationId": 1179,
+            "OriginId": 86711
+        },
+        {
+            "DestinationId": 1085,
+            "OriginId": 86711
+        },
+        {
+            "DestinationId": 1559,
+            "OriginId": 86711
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 86711
+        },
+        {
+            "DestinationId": 1082,
+            "OriginId": 86711,
+            "Price": 575.0,
+            "QuoteDateTime": "2017-04-16T05:13:29",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1861,
+            "OriginId": 86711
+        }
+    ]
+}

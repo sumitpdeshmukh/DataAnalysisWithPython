@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 41,
+            "Name": "Yeti Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Nepal",
+            "PlaceId": 1472,
+            "SkyscannerCode": "NP",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BWAA",
+            "CityName": "Bhairawa",
+            "CountryName": "Nepal",
+            "IataCode": "BWA",
+            "Name": "Bhairawa",
+            "PlaceId": 43361,
+            "SkyscannerCode": "BWA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "KTMA",
+            "CityName": "Kathmandu",
+            "CountryName": "Nepal",
+            "IataCode": "KTM",
+            "Name": "Kathmandu",
+            "PlaceId": 63965,
+            "SkyscannerCode": "KTM",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 85.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    41
+                ],
+                "DepartureDate": "2017-06-13T00:00:00",
+                "DestinationId": 63965,
+                "OriginId": 43361
+            },
+            "QuoteDateTime": "2017-03-26T03:39:22",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1472,
+            "OriginId": 43361,
+            "Price": 85.0,
+            "QuoteDateTime": "2017-03-26T03:39:22",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

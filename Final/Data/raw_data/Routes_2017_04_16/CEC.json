@@ -1,0 +1,95 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1331,
+            "Name": "Penair"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Costa Rica",
+            "PlaceId": 946,
+            "SkyscannerCode": "CR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CECA",
+            "CityName": "Crescent City",
+            "CountryName": "United States",
+            "IataCode": "CEC",
+            "Name": "Crescent City",
+            "PlaceId": 44803,
+            "SkyscannerCode": "CEC",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PDXA",
+            "CityName": "Portland",
+            "CountryName": "United States",
+            "IataCode": "PDX",
+            "Name": "Portland",
+            "PlaceId": 74728,
+            "SkyscannerCode": "PDX",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 99.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1331
+                ],
+                "DepartureDate": "2017-06-26T00:00:00",
+                "DestinationId": 74728,
+                "OriginId": 44803
+            },
+            "QuoteDateTime": "2017-04-01T03:07:54",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1432,
+            "OriginId": 44803
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 44803,
+            "Price": 99.0,
+            "QuoteDateTime": "2017-04-01T03:07:54",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 946,
+            "OriginId": 44803
+        }
+    ]
+}

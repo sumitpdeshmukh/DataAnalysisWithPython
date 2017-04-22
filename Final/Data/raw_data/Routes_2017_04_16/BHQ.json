@@ -1,0 +1,90 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 2044,
+            "Name": "Regional Express"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BHQA",
+            "CityName": "Broken Hill",
+            "CountryName": "Australia",
+            "IataCode": "BHQ",
+            "Name": "Broken Hill",
+            "PlaceId": 42657,
+            "SkyscannerCode": "BHQ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SYDA",
+            "CityName": "Sydney",
+            "CountryName": "Australia",
+            "IataCode": "SYD",
+            "Name": "Sydney Kingsford Smith",
+            "PlaceId": 82628,
+            "SkyscannerCode": "SYD",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 245.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    2044
+                ],
+                "DepartureDate": "2017-06-20T00:00:00",
+                "DestinationId": 82628,
+                "OriginId": 42657
+            },
+            "QuoteDateTime": "2017-04-02T11:02:05",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 401.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    2044
+                ],
+                "DepartureDate": "2017-06-20T00:00:00",
+                "DestinationId": 82628,
+                "OriginId": 42657
+            },
+            "QuoteDateTime": "2017-04-02T11:02:05",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 853,
+            "OriginId": 42657,
+            "Price": 245.0,
+            "QuoteDateTime": "2017-04-02T11:02:05",
+            "QuoteIds": [
+                1,
+                2
+            ]
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 249,
+            "Name": "Nature Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Colombia",
+            "PlaceId": 943,
+            "SkyscannerCode": "CO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Costa Rica",
+            "PlaceId": 946,
+            "SkyscannerCode": "CR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Panama",
+            "PlaceId": 1553,
+            "SkyscannerCode": "PA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BOCA",
+            "CityName": "Bocas Del Toro",
+            "CountryName": "Panama",
+            "IataCode": "BOC",
+            "Name": "Bocas Del Toro",
+            "PlaceId": 42979,
+            "SkyscannerCode": "BOC",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SJOA",
+            "CityName": "San Jose",
+            "CountryName": "Costa Rica",
+            "IataCode": "SJO",
+            "Name": "San Jose Juan Santamaria",
+            "PlaceId": 81919,
+            "SkyscannerCode": "SJO",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 175.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    249
+                ],
+                "DepartureDate": "2017-06-29T00:00:00",
+                "DestinationId": 81919,
+                "OriginId": 42979
+            },
+            "QuoteDateTime": "2017-03-29T08:12:20",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 943,
+            "OriginId": 42979
+        },
+        {
+            "DestinationId": 1553,
+            "OriginId": 42979
+        },
+        {
+            "DestinationId": 946,
+            "OriginId": 42979,
+            "Price": 175.0,
+            "QuoteDateTime": "2017-03-29T08:12:20",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

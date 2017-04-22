@@ -1,0 +1,122 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1138,
+            "Name": "Aurigny"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Guernsey",
+            "PlaceId": 1127,
+            "SkyscannerCode": "GG",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "CityId": "DINA",
+            "CityName": "Dinard",
+            "CountryName": "France",
+            "IataCode": "DNR",
+            "Name": "Dinard",
+            "PlaceId": 47554,
+            "SkyscannerCode": "DNR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "GUER",
+            "CityName": "Guernsey",
+            "CountryName": "Guernsey",
+            "IataCode": "GCI",
+            "Name": "Guernsey",
+            "PlaceId": 53929,
+            "SkyscannerCode": "GCI",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TOUS",
+            "CityName": "Toulouse",
+            "CountryName": "France",
+            "IataCode": "TLS",
+            "Name": "Toulouse",
+            "PlaceId": 84323,
+            "SkyscannerCode": "TLS",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 89.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1138
+                ],
+                "DepartureDate": "2017-09-24T00:00:00",
+                "DestinationId": 53929,
+                "OriginId": 47554
+            },
+            "QuoteDateTime": "2017-03-20T16:29:50",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 526.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-28T00:00:00",
+                "DestinationId": 84323,
+                "OriginId": 47554
+            },
+            "QuoteDateTime": "2017-04-04T09:12:07",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1803,
+            "OriginId": 47554
+        },
+        {
+            "DestinationId": 1127,
+            "OriginId": 47554,
+            "Price": 89.0,
+            "QuoteDateTime": "2017-03-20T16:29:50",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 47554,
+            "Price": 526.0,
+            "QuoteDateTime": "2017-04-04T09:12:07",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

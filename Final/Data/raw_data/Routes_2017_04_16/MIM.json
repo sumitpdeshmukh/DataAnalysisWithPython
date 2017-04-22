@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 2044,
+            "Name": "Regional Express"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "MIMA",
+            "CityName": "Merimbula",
+            "CountryName": "Australia",
+            "IataCode": "MIM",
+            "Name": "Merimbula",
+            "PlaceId": 68045,
+            "SkyscannerCode": "MIM",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SYDA",
+            "CityName": "Sydney",
+            "CountryName": "Australia",
+            "IataCode": "SYD",
+            "Name": "Sydney Kingsford Smith",
+            "PlaceId": 82628,
+            "SkyscannerCode": "SYD",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 134.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    2044
+                ],
+                "DepartureDate": "2017-07-16T00:00:00",
+                "DestinationId": 82628,
+                "OriginId": 68045
+            },
+            "QuoteDateTime": "2017-04-08T17:21:25",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 853,
+            "OriginId": 68045,
+            "Price": 134.0,
+            "QuoteDateTime": "2017-04-08T17:21:25",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

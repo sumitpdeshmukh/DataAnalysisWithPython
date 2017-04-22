@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 210,
+            "Name": "Boutique Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "PDTA",
+            "CityName": "Pendleton",
+            "CountryName": "United States",
+            "IataCode": "PDT",
+            "Name": "Pendleton",
+            "PlaceId": 74724,
+            "SkyscannerCode": "PDT",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PDXA",
+            "CityName": "Portland",
+            "CountryName": "United States",
+            "IataCode": "PDX",
+            "Name": "Portland",
+            "PlaceId": 74728,
+            "SkyscannerCode": "PDX",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 50.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    210
+                ],
+                "DepartureDate": "2017-04-24T00:00:00",
+                "DestinationId": 74728,
+                "OriginId": 74724
+            },
+            "QuoteDateTime": "2017-04-18T06:58:40",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 74724,
+            "Price": 50.0,
+            "QuoteDateTime": "2017-04-18T06:58:40",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

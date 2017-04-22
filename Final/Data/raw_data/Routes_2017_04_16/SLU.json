@@ -1,0 +1,304 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1369,
+            "Name": "LIAT"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Antigua and Barbuda",
+            "PlaceId": 839,
+            "SkyscannerCode": "AG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Barbados",
+            "PlaceId": 882,
+            "SkyscannerCode": "BB",
+            "Type": "Country"
+        },
+        {
+            "Name": "Bahamas",
+            "PlaceId": 899,
+            "SkyscannerCode": "BS",
+            "Type": "Country"
+        },
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Dominica",
+            "PlaceId": 989,
+            "SkyscannerCode": "DM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Dominican Republic",
+            "PlaceId": 991,
+            "SkyscannerCode": "DO",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Grenada",
+            "PlaceId": 1124,
+            "SkyscannerCode": "GD",
+            "Type": "Country"
+        },
+        {
+            "Name": "French Guiana",
+            "PlaceId": 1126,
+            "SkyscannerCode": "GF",
+            "Type": "Country"
+        },
+        {
+            "Name": "Guadeloupe",
+            "PlaceId": 1136,
+            "SkyscannerCode": "GP",
+            "Type": "Country"
+        },
+        {
+            "Name": "Guyana",
+            "PlaceId": 1145,
+            "SkyscannerCode": "GY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Saint Kitts and Nevis",
+            "PlaceId": 1326,
+            "SkyscannerCode": "KN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Martinique",
+            "PlaceId": 1425,
+            "SkyscannerCode": "MQ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Puerto Rico",
+            "PlaceId": 1570,
+            "SkyscannerCode": "PR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Suriname",
+            "PlaceId": 1714,
+            "SkyscannerCode": "SR",
+            "Type": "Country"
+        },
+        {
+            "Name": "St Maarten",
+            "PlaceId": 1720,
+            "SkyscannerCode": "SX",
+            "Type": "Country"
+        },
+        {
+            "Name": "Trinidad and Tobago",
+            "PlaceId": 1764,
+            "SkyscannerCode": "TT",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "Name": "Saint Vincent and the Grenadines",
+            "PlaceId": 1843,
+            "SkyscannerCode": "VC",
+            "Type": "Country"
+        },
+        {
+            "Name": "British Virgin Islands",
+            "PlaceId": 1847,
+            "SkyscannerCode": "VG",
+            "Type": "Country"
+        },
+        {
+            "Name": "US Virgin Islands",
+            "PlaceId": 1849,
+            "SkyscannerCode": "VI",
+            "Type": "Country"
+        },
+        {
+            "CityId": "DOMA",
+            "CityName": "Dominica",
+            "CountryName": "Dominica",
+            "IataCode": "DOM",
+            "Name": "Dominica Melville Hall",
+            "PlaceId": 47597,
+            "SkyscannerCode": "DOM",
+            "Type": "Station"
+        },
+        {
+            "CityId": "POSA",
+            "CityName": "Port Of Spain",
+            "CountryName": "Trinidad and Tobago",
+            "IataCode": "POS",
+            "Name": "Port Of Spain",
+            "PlaceId": 75251,
+            "SkyscannerCode": "POS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SLUA",
+            "CityName": "Castries",
+            "CountryName": "Saint Lucia",
+            "IataCode": "SLU",
+            "Name": "St Lucia Vigie",
+            "PlaceId": 82021,
+            "SkyscannerCode": "SLU",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 104.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1369
+                ],
+                "DepartureDate": "2017-05-12T00:00:00",
+                "DestinationId": 47597,
+                "OriginId": 82021
+            },
+            "QuoteDateTime": "2017-03-27T11:59:35",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 117.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1369
+                ],
+                "DepartureDate": "2017-05-16T00:00:00",
+                "DestinationId": 75251,
+                "OriginId": 82021
+            },
+            "QuoteDateTime": "2017-04-13T13:50:11",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1145,
+            "OriginId": 82021
+        },
+        {
+            "DestinationId": 1714,
+            "OriginId": 82021
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 82021
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 82021
+        },
+        {
+            "DestinationId": 839,
+            "OriginId": 82021
+        },
+        {
+            "DestinationId": 1124,
+            "OriginId": 82021
+        },
+        {
+            "DestinationId": 1570,
+            "OriginId": 82021
+        },
+        {
+            "DestinationId": 989,
+            "OriginId": 82021,
+            "Price": 104.0,
+            "QuoteDateTime": "2017-03-27T11:59:35",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1720,
+            "OriginId": 82021
+        },
+        {
+            "DestinationId": 1847,
+            "OriginId": 82021
+        },
+        {
+            "DestinationId": 1326,
+            "OriginId": 82021
+        },
+        {
+            "DestinationId": 899,
+            "OriginId": 82021
+        },
+        {
+            "DestinationId": 1764,
+            "OriginId": 82021,
+            "Price": 117.0,
+            "QuoteDateTime": "2017-04-13T13:50:11",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 882,
+            "OriginId": 82021
+        },
+        {
+            "DestinationId": 1136,
+            "OriginId": 82021
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 82021
+        },
+        {
+            "DestinationId": 1126,
+            "OriginId": 82021
+        },
+        {
+            "DestinationId": 991,
+            "OriginId": 82021
+        },
+        {
+            "DestinationId": 1849,
+            "OriginId": 82021
+        },
+        {
+            "DestinationId": 1843,
+            "OriginId": 82021
+        },
+        {
+            "DestinationId": 1425,
+            "OriginId": 82021
+        }
+    ]
+}

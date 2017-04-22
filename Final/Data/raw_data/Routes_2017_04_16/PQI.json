@@ -1,0 +1,128 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1276,
+            "Name": "Japan Airlines"
+        },
+        {
+            "CarrierId": 1331,
+            "Name": "Penair"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Korea",
+            "PlaceId": 1330,
+            "SkyscannerCode": "KR",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BOSA",
+            "CityName": "Boston",
+            "CountryName": "United States",
+            "IataCode": "BOS",
+            "Name": "Boston Logan International",
+            "PlaceId": 42995,
+            "SkyscannerCode": "BOS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SELA",
+            "CityName": "Seoul",
+            "CountryName": "South Korea",
+            "IataCode": "ICN",
+            "Name": "Seoul Incheon Int'l",
+            "PlaceId": 58542,
+            "SkyscannerCode": "ICN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PQIA",
+            "CityName": "Presque Isle",
+            "CountryName": "United States",
+            "IataCode": "PQI",
+            "Name": "Presque Isle",
+            "PlaceId": 75337,
+            "SkyscannerCode": "PQI",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 94.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1331
+                ],
+                "DepartureDate": "2017-04-28T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 75337
+            },
+            "QuoteDateTime": "2017-03-27T16:36:52",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 5841.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1276
+                ],
+                "DepartureDate": "2017-07-07T00:00:00",
+                "DestinationId": 58542,
+                "OriginId": 75337
+            },
+            "QuoteDateTime": "2017-04-05T14:28:32",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 75337,
+            "Price": 94.0,
+            "QuoteDateTime": "2017-03-27T16:36:52",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1330,
+            "OriginId": 75337,
+            "Price": 5841.0,
+            "QuoteDateTime": "2017-04-05T14:28:32",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 75337
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1750,
+            "Name": "BRA"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "Finland",
+            "PlaceId": 1081,
+            "SkyscannerCode": "FI",
+            "Type": "Country"
+        },
+        {
+            "Name": "Norway",
+            "PlaceId": 1471,
+            "SkyscannerCode": "NO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Sweden",
+            "PlaceId": 1701,
+            "SkyscannerCode": "SE",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "CityId": "STOC",
+            "CityName": "Stockholm",
+            "CountryName": "Sweden",
+            "IataCode": "BMA",
+            "Name": "Stockholm Bromma",
+            "PlaceId": 42881,
+            "SkyscannerCode": "BMA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "HALM",
+            "CityName": "Halmstad",
+            "CountryName": "Sweden",
+            "IataCode": "HAD",
+            "Name": "Halmstad",
+            "PlaceId": 56132,
+            "SkyscannerCode": "HAD",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 54.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1750
+                ],
+                "DepartureDate": "2017-07-26T00:00:00",
+                "DestinationId": 42881,
+                "OriginId": 56132
+            },
+            "QuoteDateTime": "2017-04-18T06:17:27",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1081,
+            "OriginId": 56132
+        },
+        {
+            "DestinationId": 1043,
+            "OriginId": 56132
+        },
+        {
+            "DestinationId": 1701,
+            "OriginId": 56132,
+            "Price": 54.0,
+            "QuoteDateTime": "2017-04-18T06:17:27",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1471,
+            "OriginId": 56132
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 56132
+        }
+    ]
+}

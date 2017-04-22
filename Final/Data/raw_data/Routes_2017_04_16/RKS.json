@@ -1,0 +1,125 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1793,
+            "Name": "United"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Costa Rica",
+            "PlaceId": 946,
+            "SkyscannerCode": "CR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "DENA",
+            "CityName": "Denver",
+            "CountryName": "United States",
+            "IataCode": "DEN",
+            "Name": "Denver International",
+            "PlaceId": 47118,
+            "SkyscannerCode": "DEN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "RKSA",
+            "CityName": "Rock Springs",
+            "CountryName": "United States",
+            "IataCode": "RKS",
+            "Name": "Rock Springs",
+            "PlaceId": 79667,
+            "SkyscannerCode": "RKS",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 127.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-06-13T00:00:00",
+                "DestinationId": 47118,
+                "OriginId": 79667
+            },
+            "QuoteDateTime": "2017-03-23T06:40:16",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 79667
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 79667
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 79667,
+            "Price": 127.0,
+            "QuoteDateTime": "2017-03-23T06:40:16",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 79667
+        },
+        {
+            "DestinationId": 946,
+            "OriginId": 79667
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 79667
+        }
+    ]
+}

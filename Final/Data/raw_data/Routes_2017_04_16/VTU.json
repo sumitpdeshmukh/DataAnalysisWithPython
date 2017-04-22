@@ -1,0 +1,148 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Argentina",
+            "PlaceId": 850,
+            "SkyscannerCode": "AR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Colombia",
+            "PlaceId": 943,
+            "SkyscannerCode": "CO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cuba",
+            "PlaceId": 949,
+            "SkyscannerCode": "CU",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Italy",
+            "PlaceId": 1236,
+            "SkyscannerCode": "IT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Jamaica",
+            "PlaceId": 1277,
+            "SkyscannerCode": "JM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Peru",
+            "PlaceId": 1557,
+            "SkyscannerCode": "PE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "Name": "El Salvador",
+            "PlaceId": 1718,
+            "SkyscannerCode": "SV",
+            "Type": "Country"
+        },
+        {
+            "CityId": "KINA",
+            "CityName": "Kingston",
+            "CountryName": "Jamaica",
+            "IataCode": "KIN",
+            "Name": "Kingston Norman Manley",
+            "PlaceId": 63438,
+            "SkyscannerCode": "KIN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "VTUA",
+            "CityName": "Las Tunas",
+            "CountryName": "Cuba",
+            "IataCode": "VTU",
+            "Name": "Las Tunas",
+            "PlaceId": 89317,
+            "SkyscannerCode": "VTU",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 451.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-08-23T00:00:00",
+                "DestinationId": 63438,
+                "OriginId": 89317
+            },
+            "QuoteDateTime": "2017-04-15T17:03:14",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1557,
+            "OriginId": 89317
+        },
+        {
+            "DestinationId": 943,
+            "OriginId": 89317
+        },
+        {
+            "DestinationId": 850,
+            "OriginId": 89317
+        },
+        {
+            "DestinationId": 949,
+            "OriginId": 89317
+        },
+        {
+            "DestinationId": 1718,
+            "OriginId": 89317
+        },
+        {
+            "DestinationId": 1669,
+            "OriginId": 89317
+        },
+        {
+            "DestinationId": 1236,
+            "OriginId": 89317
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 89317
+        },
+        {
+            "DestinationId": 1277,
+            "OriginId": 89317,
+            "Price": 451.0,
+            "QuoteDateTime": "2017-04-15T17:03:14",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

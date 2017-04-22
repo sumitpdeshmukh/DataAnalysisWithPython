@@ -1,0 +1,175 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1877,
+            "Name": "Mahan Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Austria",
+            "PlaceId": 852,
+            "SkyscannerCode": "AT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Iraq",
+            "PlaceId": 1233,
+            "SkyscannerCode": "IQ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Iran",
+            "PlaceId": 1234,
+            "SkyscannerCode": "IR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Kuwait",
+            "PlaceId": 1335,
+            "SkyscannerCode": "KW",
+            "Type": "Country"
+        },
+        {
+            "Name": "Kazakhstan",
+            "PlaceId": 1338,
+            "SkyscannerCode": "KZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Oman",
+            "PlaceId": 1517,
+            "SkyscannerCode": "OM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Qatar",
+            "PlaceId": 1601,
+            "SkyscannerCode": "QA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Tajikistan",
+            "PlaceId": 1754,
+            "SkyscannerCode": "TJ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Turkey",
+            "PlaceId": 1762,
+            "SkyscannerCode": "TR",
+            "Type": "Country"
+        },
+        {
+            "CityId": "AWZA",
+            "CityName": "Ahwaz",
+            "CountryName": "Iran",
+            "IataCode": "AWZ",
+            "Name": "Ahwaz",
+            "PlaceId": 41082,
+            "SkyscannerCode": "AWZ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "THRA",
+            "CityName": "Tehran",
+            "CountryName": "Iran",
+            "IataCode": "THR",
+            "Name": "Mehrabad International Airport",
+            "PlaceId": 84130,
+            "SkyscannerCode": "THR",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 31.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1877
+                ],
+                "DepartureDate": "2017-06-01T00:00:00",
+                "DestinationId": 41082,
+                "OriginId": 84130
+            },
+            "QuoteDateTime": "2017-03-31T03:40:50",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1762,
+            "OriginId": 84130
+        },
+        {
+            "DestinationId": 1601,
+            "OriginId": 84130
+        },
+        {
+            "DestinationId": 1335,
+            "OriginId": 84130
+        },
+        {
+            "DestinationId": 1517,
+            "OriginId": 84130
+        },
+        {
+            "DestinationId": 1234,
+            "OriginId": 84130,
+            "Price": 31.0,
+            "QuoteDateTime": "2017-03-31T03:40:50",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 837,
+            "OriginId": 84130
+        },
+        {
+            "DestinationId": 1233,
+            "OriginId": 84130
+        },
+        {
+            "DestinationId": 1754,
+            "OriginId": 84130
+        },
+        {
+            "DestinationId": 1338,
+            "OriginId": 84130
+        },
+        {
+            "DestinationId": 1669,
+            "OriginId": 84130
+        },
+        {
+            "DestinationId": 852,
+            "OriginId": 84130
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Norway",
+            "PlaceId": 1471,
+            "SkyscannerCode": "NO",
+            "Type": "Country"
+        },
+        {
+            "CityId": "AALE",
+            "CityName": "Aalesund Vigra",
+            "CountryName": "Norway",
+            "IataCode": "AES",
+            "Name": "Aalesund Vigra",
+            "PlaceId": 40211,
+            "SkyscannerCode": "AES",
+            "Type": "Station"
+        },
+        {
+            "CityId": "BATS",
+            "CityName": "Batsfjord",
+            "CountryName": "Norway",
+            "IataCode": "BJF",
+            "Name": "Batsfjord",
+            "PlaceId": 42742,
+            "SkyscannerCode": "BJF",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 295.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-12-22T00:00:00",
+                "DestinationId": 40211,
+                "OriginId": 42742
+            },
+            "QuoteDateTime": "2017-03-29T08:59:01",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1471,
+            "OriginId": 42742,
+            "Price": 295.0,
+            "QuoteDateTime": "2017-03-29T08:59:01",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

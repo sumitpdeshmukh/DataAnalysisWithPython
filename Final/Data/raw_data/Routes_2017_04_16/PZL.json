@@ -1,0 +1,134 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 241,
+            "Name": "South African Airways"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Mozambique",
+            "PlaceId": 1434,
+            "SkyscannerCode": "MZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Africa",
+            "PlaceId": 2033,
+            "SkyscannerCode": "ZA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Zambia",
+            "PlaceId": 2045,
+            "SkyscannerCode": "ZM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Zimbabwe",
+            "PlaceId": 2055,
+            "SkyscannerCode": "ZW",
+            "Type": "Country"
+        },
+        {
+            "CityId": "JNBA",
+            "CityName": "Johannesburg",
+            "CountryName": "South Africa",
+            "IataCode": "JNB",
+            "Name": "Johannesburg O.R. Tambo",
+            "PlaceId": 61362,
+            "SkyscannerCode": "JNB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PZLA",
+            "CityName": "Phinda",
+            "CountryName": "South Africa",
+            "IataCode": "PZL",
+            "Name": "Phinda",
+            "PlaceId": 75772,
+            "SkyscannerCode": "PZL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "VFAA",
+            "CityName": "Victoria Falls",
+            "CountryName": "Zimbabwe",
+            "IataCode": "VFA",
+            "Name": "Victoria Falls",
+            "PlaceId": 88625,
+            "SkyscannerCode": "VFA",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 377.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    241
+                ],
+                "DepartureDate": "2017-09-19T00:00:00",
+                "DestinationId": 61362,
+                "OriginId": 75772
+            },
+            "QuoteDateTime": "2017-04-06T03:27:37",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 498.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    241
+                ],
+                "DepartureDate": "2017-05-07T00:00:00",
+                "DestinationId": 88625,
+                "OriginId": 75772
+            },
+            "QuoteDateTime": "2017-03-21T21:04:34",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 2045,
+            "OriginId": 75772
+        },
+        {
+            "DestinationId": 1434,
+            "OriginId": 75772
+        },
+        {
+            "DestinationId": 2033,
+            "OriginId": 75772,
+            "Price": 377.0,
+            "QuoteDateTime": "2017-04-06T03:27:37",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 2055,
+            "OriginId": 75772,
+            "Price": 498.0,
+            "QuoteDateTime": "2017-03-21T21:04:34",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

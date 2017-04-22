@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 76,
+            "Name": "Fly Tiwi"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BDDA",
+            "CityName": "Badu Island",
+            "CountryName": "Australia",
+            "IataCode": "BDD",
+            "Name": "Badu Island",
+            "PlaceId": 42452,
+            "SkyscannerCode": "BDD",
+            "Type": "Station"
+        },
+        {
+            "CityId": "HIDA",
+            "CityName": "Horn Island",
+            "CountryName": "Australia",
+            "IataCode": "HID",
+            "Name": "Horn Island",
+            "PlaceId": 56516,
+            "SkyscannerCode": "HID",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 158.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    76
+                ],
+                "DepartureDate": "2017-06-08T00:00:00",
+                "DestinationId": 56516,
+                "OriginId": 42452
+            },
+            "QuoteDateTime": "2017-04-13T04:03:59",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 853,
+            "OriginId": 42452,
+            "Price": 158.0,
+            "QuoteDateTime": "2017-04-13T04:03:59",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

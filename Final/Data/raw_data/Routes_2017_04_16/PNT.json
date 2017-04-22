@@ -1,0 +1,300 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 338,
+            "Name": "Hahn Air Systems"
+        },
+        {
+            "CarrierId": 1361,
+            "Name": "LATAM Airlines Group"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Argentina",
+            "PlaceId": 850,
+            "SkyscannerCode": "AR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Bolivia",
+            "PlaceId": 895,
+            "SkyscannerCode": "BO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Chile",
+            "PlaceId": 940,
+            "SkyscannerCode": "CL",
+            "Type": "Country"
+        },
+        {
+            "Name": "Colombia",
+            "PlaceId": 943,
+            "SkyscannerCode": "CO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Dominican Republic",
+            "PlaceId": 991,
+            "SkyscannerCode": "DO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Ecuador",
+            "PlaceId": 1027,
+            "SkyscannerCode": "EC",
+            "Type": "Country"
+        },
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Zealand",
+            "PlaceId": 1482,
+            "SkyscannerCode": "NZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Peru",
+            "PlaceId": 1557,
+            "SkyscannerCode": "PE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Paraguay",
+            "PlaceId": 1577,
+            "SkyscannerCode": "PY",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "AUSA",
+            "CityName": "Austin",
+            "CountryName": "United States",
+            "IataCode": "AUS",
+            "Name": "Austin-Bergstrom",
+            "PlaceId": 40979,
+            "SkyscannerCode": "AUS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "BUEA",
+            "CityName": "Buenos Aires",
+            "CountryName": "Argentina",
+            "IataCode": "EZE",
+            "Name": "Buenos Aires Ministro Pistarini",
+            "PlaceId": 50421,
+            "SkyscannerCode": "EZE",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PNTA",
+            "CityName": "Puerto Natales",
+            "CountryName": "Chile",
+            "IataCode": "PNT",
+            "Name": "Puerto Natales",
+            "PlaceId": 75204,
+            "SkyscannerCode": "PNT",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SCLA",
+            "CityName": "Santiago",
+            "CountryName": "Chile",
+            "IataCode": "SCL",
+            "Name": "Santiago Arturo Merino Benitez",
+            "PlaceId": 81580,
+            "SkyscannerCode": "SCL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WPUA",
+            "CityName": "Puerto Williams",
+            "CountryName": "Chile",
+            "IataCode": "WPU",
+            "Name": "Puerto Williams",
+            "PlaceId": 91429,
+            "SkyscannerCode": "WPU",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 817.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1361
+                ],
+                "DepartureDate": "2018-01-18T00:00:00",
+                "DestinationId": 81580,
+                "OriginId": 75204
+            },
+            "QuoteDateTime": "2017-04-10T21:10:36",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 442.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    338
+                ],
+                "DepartureDate": "2018-01-18T00:00:00",
+                "DestinationId": 91429,
+                "OriginId": 75204
+            },
+            "QuoteDateTime": "2017-04-14T21:08:50",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 613.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1361
+                ],
+                "DepartureDate": "2018-01-04T00:00:00",
+                "DestinationId": 50421,
+                "OriginId": 75204
+            },
+            "QuoteDateTime": "2017-04-12T23:57:15",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 3043.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2018-01-04T00:00:00",
+                "DestinationId": 40979,
+                "OriginId": 75204
+            },
+            "QuoteDateTime": "2017-04-05T12:15:03",
+            "QuoteId": 4
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 940,
+            "OriginId": 75204,
+            "Price": 442.0,
+            "QuoteDateTime": "2017-04-14T21:08:50",
+            "QuoteIds": [
+                1,
+                2
+            ]
+        },
+        {
+            "DestinationId": 1577,
+            "OriginId": 75204
+        },
+        {
+            "DestinationId": 1557,
+            "OriginId": 75204
+        },
+        {
+            "DestinationId": 943,
+            "OriginId": 75204
+        },
+        {
+            "DestinationId": 850,
+            "OriginId": 75204,
+            "Price": 613.0,
+            "QuoteDateTime": "2017-04-12T23:57:15",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 1482,
+            "OriginId": 75204
+        },
+        {
+            "DestinationId": 1027,
+            "OriginId": 75204
+        },
+        {
+            "DestinationId": 895,
+            "OriginId": 75204
+        },
+        {
+            "DestinationId": 898,
+            "OriginId": 75204
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 75204
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 75204,
+            "Price": 3043.0,
+            "QuoteDateTime": "2017-04-05T12:15:03",
+            "QuoteIds": [
+                4
+            ]
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 75204
+        },
+        {
+            "DestinationId": 991,
+            "OriginId": 75204
+        },
+        {
+            "DestinationId": 1043,
+            "OriginId": 75204
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 75204
+        }
+    ]
+}

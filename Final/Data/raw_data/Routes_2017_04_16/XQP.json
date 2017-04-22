@@ -1,0 +1,188 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Chile",
+            "PlaceId": 940,
+            "SkyscannerCode": "CL",
+            "Type": "Country"
+        },
+        {
+            "Name": "Colombia",
+            "PlaceId": 943,
+            "SkyscannerCode": "CO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Costa Rica",
+            "PlaceId": 946,
+            "SkyscannerCode": "CR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cuba",
+            "PlaceId": 949,
+            "SkyscannerCode": "CU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Guatemala",
+            "PlaceId": 1140,
+            "SkyscannerCode": "GT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Israel",
+            "PlaceId": 1228,
+            "SkyscannerCode": "IL",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "Nicaragua",
+            "PlaceId": 1465,
+            "SkyscannerCode": "NI",
+            "Type": "Country"
+        },
+        {
+            "Name": "Panama",
+            "PlaceId": 1553,
+            "SkyscannerCode": "PA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Peru",
+            "PlaceId": 1557,
+            "SkyscannerCode": "PE",
+            "Type": "Country"
+        },
+        {
+            "Name": "El Salvador",
+            "PlaceId": 1718,
+            "SkyscannerCode": "SV",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "GUAA",
+            "CityName": "Guatemala City",
+            "CountryName": "Guatemala",
+            "IataCode": "GUA",
+            "Name": "Guatemala City",
+            "PlaceId": 54785,
+            "SkyscannerCode": "GUA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "XQPA",
+            "CityName": "Quepos",
+            "CountryName": "Costa Rica",
+            "IataCode": "XQP",
+            "Name": "Quepos",
+            "PlaceId": 93776,
+            "SkyscannerCode": "XQP",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 282.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-04-27T00:00:00",
+                "DestinationId": 54785,
+                "OriginId": 93776
+            },
+            "QuoteDateTime": "2017-04-06T16:08:47",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1557,
+            "OriginId": 93776
+        },
+        {
+            "DestinationId": 943,
+            "OriginId": 93776
+        },
+        {
+            "DestinationId": 1140,
+            "OriginId": 93776,
+            "Price": 282.0,
+            "QuoteDateTime": "2017-04-06T16:08:47",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1465,
+            "OriginId": 93776
+        },
+        {
+            "DestinationId": 946,
+            "OriginId": 93776
+        },
+        {
+            "DestinationId": 1718,
+            "OriginId": 93776
+        },
+        {
+            "DestinationId": 1553,
+            "OriginId": 93776
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 93776
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 93776
+        },
+        {
+            "DestinationId": 940,
+            "OriginId": 93776
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 93776
+        },
+        {
+            "DestinationId": 949,
+            "OriginId": 93776
+        },
+        {
+            "DestinationId": 1228,
+            "OriginId": 93776
+        }
+    ]
+}

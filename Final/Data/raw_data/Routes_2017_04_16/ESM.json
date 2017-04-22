@@ -1,0 +1,162 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1041,
+            "Name": "TAME"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Bolivia",
+            "PlaceId": 895,
+            "SkyscannerCode": "BO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Colombia",
+            "PlaceId": 943,
+            "SkyscannerCode": "CO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Costa Rica",
+            "PlaceId": 946,
+            "SkyscannerCode": "CR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Ecuador",
+            "PlaceId": 1027,
+            "SkyscannerCode": "EC",
+            "Type": "Country"
+        },
+        {
+            "Name": "Panama",
+            "PlaceId": 1553,
+            "SkyscannerCode": "PA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Peru",
+            "PlaceId": 1557,
+            "SkyscannerCode": "PE",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CLOA",
+            "CityName": "Cali",
+            "CountryName": "Colombia",
+            "IataCode": "CLO",
+            "Name": "Cali",
+            "PlaceId": 45151,
+            "SkyscannerCode": "CLO",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ESMA",
+            "CityName": "Esmeraldas",
+            "CountryName": "Ecuador",
+            "IataCode": "ESM",
+            "Name": "Esmeraldas",
+            "PlaceId": 50093,
+            "SkyscannerCode": "ESM",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SJOA",
+            "CityName": "San Jose",
+            "CountryName": "Costa Rica",
+            "IataCode": "SJO",
+            "Name": "San Jose Juan Santamaria",
+            "PlaceId": 81919,
+            "SkyscannerCode": "SJO",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 171.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1041
+                ],
+                "DepartureDate": "2017-09-29T00:00:00",
+                "DestinationId": 45151,
+                "OriginId": 50093
+            },
+            "QuoteDateTime": "2017-04-05T03:09:22",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 631.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-02T00:00:00",
+                "DestinationId": 81919,
+                "OriginId": 50093
+            },
+            "QuoteDateTime": "2017-04-10T20:13:32",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1557,
+            "OriginId": 50093
+        },
+        {
+            "DestinationId": 943,
+            "OriginId": 50093,
+            "Price": 171.0,
+            "QuoteDateTime": "2017-04-05T03:09:22",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1027,
+            "OriginId": 50093
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 50093
+        },
+        {
+            "DestinationId": 895,
+            "OriginId": 50093
+        },
+        {
+            "DestinationId": 1553,
+            "OriginId": 50093
+        },
+        {
+            "DestinationId": 946,
+            "OriginId": 50093,
+            "Price": 631.0,
+            "QuoteDateTime": "2017-04-10T20:13:32",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1536,
+            "Name": "Proflight Zambia"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Malawi",
+            "PlaceId": 1431,
+            "SkyscannerCode": "MW",
+            "Type": "Country"
+        },
+        {
+            "Name": "Zambia",
+            "PlaceId": 2045,
+            "SkyscannerCode": "ZM",
+            "Type": "Country"
+        },
+        {
+            "CityId": "MFUA",
+            "CityName": "Mfuwe",
+            "CountryName": "Zambia",
+            "IataCode": "MFU",
+            "Name": "Mfuwe",
+            "PlaceId": 67909,
+            "SkyscannerCode": "MFU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ZAMB",
+            "CityName": "Lower Zambezi National Park",
+            "CountryName": "Zambia",
+            "IataCode": "RYL",
+            "Name": "Royal",
+            "PlaceId": 80332,
+            "SkyscannerCode": "RYL",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 429.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1536
+                ],
+                "DepartureDate": "2017-08-11T00:00:00",
+                "DestinationId": 67909,
+                "OriginId": 80332
+            },
+            "QuoteDateTime": "2017-03-30T09:34:30",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 2045,
+            "OriginId": 80332,
+            "Price": 429.0,
+            "QuoteDateTime": "2017-03-30T09:34:30",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1431,
+            "OriginId": 80332
+        }
+    ]
+}

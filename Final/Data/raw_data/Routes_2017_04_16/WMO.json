@@ -1,0 +1,68 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "SLCA",
+            "CityName": "Salt Lake City",
+            "CountryName": "United States",
+            "IataCode": "SLC",
+            "Name": "Salt Lake City",
+            "PlaceId": 82003,
+            "SkyscannerCode": "SLC",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WMOA",
+            "CityName": "White Mountain",
+            "CountryName": "United States",
+            "IataCode": "WMO",
+            "Name": "White Mountain",
+            "PlaceId": 91279,
+            "SkyscannerCode": "WMO",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 591.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-08-14T00:00:00",
+                "DestinationId": 82003,
+                "OriginId": 91279
+            },
+            "QuoteDateTime": "2017-03-29T14:49:56",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 91279,
+            "Price": 591.0,
+            "QuoteDateTime": "2017-03-29T14:49:56",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

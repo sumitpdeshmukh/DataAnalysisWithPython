@@ -1,0 +1,186 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 871,
+            "Name": "Uni Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Hong Kong",
+            "PlaceId": 1179,
+            "SkyscannerCode": "HK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Korea",
+            "PlaceId": 1330,
+            "SkyscannerCode": "KR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Taiwan",
+            "PlaceId": 1767,
+            "SkyscannerCode": "TW",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CYIT",
+            "CityName": "Chiayi",
+            "CountryName": "Taiwan",
+            "IataCode": "CYI",
+            "Name": "Chiayi",
+            "PlaceId": 45769,
+            "SkyscannerCode": "CYI",
+            "Type": "Station"
+        },
+        {
+            "CityId": "HKGA",
+            "CityName": "Hong Kong",
+            "CountryName": "Hong Kong",
+            "IataCode": "HKG",
+            "Name": "Hong Kong International",
+            "PlaceId": 56615,
+            "SkyscannerCode": "HKG",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SELA",
+            "CityName": "Seoul",
+            "CountryName": "South Korea",
+            "IataCode": "ICN",
+            "Name": "Seoul Incheon Int'l",
+            "PlaceId": 58542,
+            "SkyscannerCode": "ICN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "OSAA",
+            "CityName": "Osaka",
+            "CountryName": "Japan",
+            "IataCode": "KIX",
+            "Name": "Osaka Kansai International",
+            "PlaceId": 63448,
+            "SkyscannerCode": "KIX",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MZGT",
+            "CityName": "Makung",
+            "CountryName": "Taiwan",
+            "IataCode": "MZG",
+            "Name": "Makung",
+            "PlaceId": 68855,
+            "SkyscannerCode": "MZG",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 54.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    871
+                ],
+                "DepartureDate": "2017-05-23T00:00:00",
+                "DestinationId": 68855,
+                "OriginId": 45769
+            },
+            "QuoteDateTime": "2017-04-08T03:30:40",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 229.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-15T00:00:00",
+                "DestinationId": 56615,
+                "OriginId": 45769
+            },
+            "QuoteDateTime": "2017-04-09T21:41:47",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 534.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-05T00:00:00",
+                "DestinationId": 58542,
+                "OriginId": 45769
+            },
+            "QuoteDateTime": "2017-03-17T04:46:55",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 863.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-10-16T00:00:00",
+                "DestinationId": 63448,
+                "OriginId": 45769
+            },
+            "QuoteDateTime": "2017-04-16T01:30:44",
+            "QuoteId": 4
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1767,
+            "OriginId": 45769,
+            "Price": 54.0,
+            "QuoteDateTime": "2017-04-08T03:30:40",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1179,
+            "OriginId": 45769,
+            "Price": 229.0,
+            "QuoteDateTime": "2017-04-09T21:41:47",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1330,
+            "OriginId": 45769,
+            "Price": 534.0,
+            "QuoteDateTime": "2017-03-17T04:46:55",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 45769,
+            "Price": 863.0,
+            "QuoteDateTime": "2017-04-16T01:30:44",
+            "QuoteIds": [
+                4
+            ]
+        }
+    ]
+}

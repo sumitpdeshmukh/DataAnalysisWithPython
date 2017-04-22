@@ -1,0 +1,172 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 841,
+            "Name": "Air India"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "India",
+            "PlaceId": 1230,
+            "SkyscannerCode": "IN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Myanmar",
+            "PlaceId": 1421,
+            "SkyscannerCode": "MM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Nepal",
+            "PlaceId": 1472,
+            "SkyscannerCode": "NP",
+            "Type": "Country"
+        },
+        {
+            "Name": "Qatar",
+            "PlaceId": 1601,
+            "SkyscannerCode": "QA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Thailand",
+            "PlaceId": 1752,
+            "SkyscannerCode": "TH",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ICCU",
+            "CityName": "Kolkata",
+            "CountryName": "India",
+            "IataCode": "CCU",
+            "Name": "Kolkata",
+            "PlaceId": 44725,
+            "SkyscannerCode": "CCU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "IDIB",
+            "CityName": "Dibrugarh",
+            "CountryName": "India",
+            "IataCode": "DIB",
+            "Name": "Dibrugarh",
+            "PlaceId": 47298,
+            "SkyscannerCode": "DIB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "CHIA",
+            "CityName": "Chicago",
+            "CountryName": "United States",
+            "IataCode": "ORD",
+            "Name": "Chicago O'Hare International",
+            "PlaceId": 73076,
+            "SkyscannerCode": "ORD",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 40.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    841
+                ],
+                "DepartureDate": "2017-09-10T00:00:00",
+                "DestinationId": 44725,
+                "OriginId": 47298
+            },
+            "QuoteDateTime": "2017-04-13T08:06:30",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 781.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-08-16T00:00:00",
+                "DestinationId": 73076,
+                "OriginId": 47298
+            },
+            "QuoteDateTime": "2017-04-02T21:58:03",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1752,
+            "OriginId": 47298
+        },
+        {
+            "DestinationId": 1703,
+            "OriginId": 47298
+        },
+        {
+            "DestinationId": 1421,
+            "OriginId": 47298
+        },
+        {
+            "DestinationId": 1230,
+            "OriginId": 47298,
+            "Price": 40.0,
+            "QuoteDateTime": "2017-04-13T08:06:30",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1472,
+            "OriginId": 47298
+        },
+        {
+            "DestinationId": 1601,
+            "OriginId": 47298
+        },
+        {
+            "DestinationId": 837,
+            "OriginId": 47298
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 47298,
+            "Price": 781.0,
+            "QuoteDateTime": "2017-04-02T21:58:03",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

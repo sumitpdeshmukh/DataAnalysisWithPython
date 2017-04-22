@@ -1,0 +1,248 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 388,
+            "Name": "Passaredo"
+        },
+        {
+            "CarrierId": 1274,
+            "Name": "LATAM Airlines Brasil"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Argentina",
+            "PlaceId": 850,
+            "SkyscannerCode": "AR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Chile",
+            "PlaceId": 940,
+            "SkyscannerCode": "CL",
+            "Type": "Country"
+        },
+        {
+            "Name": "Colombia",
+            "PlaceId": 943,
+            "SkyscannerCode": "CO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Italy",
+            "PlaceId": 1236,
+            "SkyscannerCode": "IT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "Peru",
+            "PlaceId": 1557,
+            "SkyscannerCode": "PE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Portugal",
+            "PlaceId": 1572,
+            "SkyscannerCode": "PT",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "Name": "Uruguay",
+            "PlaceId": 1817,
+            "SkyscannerCode": "UY",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Africa",
+            "PlaceId": 2033,
+            "SkyscannerCode": "ZA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "SCLA",
+            "CityName": "Santiago",
+            "CountryName": "Chile",
+            "IataCode": "SCL",
+            "Name": "Santiago Arturo Merino Benitez",
+            "PlaceId": 81580,
+            "SkyscannerCode": "SCL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SSAA",
+            "CityName": "Salvador",
+            "CountryName": "Brazil",
+            "IataCode": "SSA",
+            "Name": "Salvador",
+            "PlaceId": 82337,
+            "SkyscannerCode": "SSA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "VDCA",
+            "CityName": "Vitoria Da Conquista",
+            "CountryName": "Brazil",
+            "IataCode": "VDC",
+            "Name": "Vitoria Da Conquista",
+            "PlaceId": 88531,
+            "SkyscannerCode": "VDC",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 1255.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1274
+                ],
+                "DepartureDate": "2017-05-01T00:00:00",
+                "DestinationId": 81580,
+                "OriginId": 88531
+            },
+            "QuoteDateTime": "2017-03-28T14:15:09",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 54.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    388
+                ],
+                "DepartureDate": "2017-06-20T00:00:00",
+                "DestinationId": 82337,
+                "OriginId": 88531
+            },
+            "QuoteDateTime": "2017-04-14T23:27:55",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1557,
+            "OriginId": 88531
+        },
+        {
+            "DestinationId": 943,
+            "OriginId": 88531
+        },
+        {
+            "DestinationId": 850,
+            "OriginId": 88531
+        },
+        {
+            "DestinationId": 940,
+            "OriginId": 88531,
+            "Price": 1255.0,
+            "QuoteDateTime": "2017-03-28T14:15:09",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1817,
+            "OriginId": 88531
+        },
+        {
+            "DestinationId": 898,
+            "OriginId": 88531,
+            "Price": 54.0,
+            "QuoteDateTime": "2017-04-14T23:27:55",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 88531
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 88531
+        },
+        {
+            "DestinationId": 1043,
+            "OriginId": 88531
+        },
+        {
+            "DestinationId": 1572,
+            "OriginId": 88531
+        },
+        {
+            "DestinationId": 2033,
+            "OriginId": 88531
+        },
+        {
+            "DestinationId": 1236,
+            "OriginId": 88531
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 88531
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 88531
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 88531
+        }
+    ]
+}

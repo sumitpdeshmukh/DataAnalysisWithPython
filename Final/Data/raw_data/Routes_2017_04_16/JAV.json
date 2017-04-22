@@ -1,0 +1,190 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1132,
+            "Name": "Air Greenland"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Denmark",
+            "PlaceId": 987,
+            "SkyscannerCode": "DK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Greenland",
+            "PlaceId": 1132,
+            "SkyscannerCode": "GL",
+            "Type": "Country"
+        },
+        {
+            "Name": "Iceland",
+            "PlaceId": 1235,
+            "SkyscannerCode": "IS",
+            "Type": "Country"
+        },
+        {
+            "Name": "Norway",
+            "PlaceId": 1471,
+            "SkyscannerCode": "NO",
+            "Type": "Country"
+        },
+        {
+            "CityId": "COPE",
+            "CityName": "Copenhagen",
+            "CountryName": "Denmark",
+            "IataCode": "CPH",
+            "Name": "Copenhagen",
+            "PlaceId": 45336,
+            "SkyscannerCode": "CPH",
+            "Type": "Station"
+        },
+        {
+            "CityId": "JAVA",
+            "CityName": "Ilulissat",
+            "CountryName": "Greenland",
+            "IataCode": "JAV",
+            "Name": "Ilulissat",
+            "PlaceId": 60758,
+            "SkyscannerCode": "JAV",
+            "Type": "Station"
+        },
+        {
+            "CityId": "REYK",
+            "CityName": "Reykjavik",
+            "CountryName": "Iceland",
+            "IataCode": "KEF",
+            "Name": "Reykjavik Keflavik",
+            "PlaceId": 63238,
+            "SkyscannerCode": "KEF",
+            "Type": "Station"
+        },
+        {
+            "CityId": "OSLO",
+            "CityName": "Oslo",
+            "CountryName": "Norway",
+            "IataCode": "OSL",
+            "Name": "Oslo Gardermoen",
+            "PlaceId": 73132,
+            "SkyscannerCode": "OSL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SFJA",
+            "CityName": "Kangerlussuaq",
+            "CountryName": "Greenland",
+            "IataCode": "SFJ",
+            "Name": "Kangerlussuaq",
+            "PlaceId": 81722,
+            "SkyscannerCode": "SFJ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 224.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1132
+                ],
+                "DepartureDate": "2017-07-30T00:00:00",
+                "DestinationId": 81722,
+                "OriginId": 60758
+            },
+            "QuoteDateTime": "2017-03-25T15:28:25",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 527.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1132
+                ],
+                "DepartureDate": "2017-07-26T00:00:00",
+                "DestinationId": 63238,
+                "OriginId": 60758
+            },
+            "QuoteDateTime": "2017-03-30T10:18:23",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 586.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1132
+                ],
+                "DepartureDate": "2017-07-21T00:00:00",
+                "DestinationId": 45336,
+                "OriginId": 60758
+            },
+            "QuoteDateTime": "2017-03-23T04:29:12",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 646.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-02T00:00:00",
+                "DestinationId": 73132,
+                "OriginId": 60758
+            },
+            "QuoteDateTime": "2017-04-02T22:11:49",
+            "QuoteId": 4
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1132,
+            "OriginId": 60758,
+            "Price": 224.0,
+            "QuoteDateTime": "2017-03-25T15:28:25",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1235,
+            "OriginId": 60758,
+            "Price": 527.0,
+            "QuoteDateTime": "2017-03-30T10:18:23",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 987,
+            "OriginId": 60758,
+            "Price": 586.0,
+            "QuoteDateTime": "2017-03-23T04:29:12",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 1471,
+            "OriginId": 60758,
+            "Price": 646.0,
+            "QuoteDateTime": "2017-04-02T22:11:49",
+            "QuoteIds": [
+                4
+            ]
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 2044,
+            "Name": "Regional Express"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LSYA",
+            "CityName": "Lismore",
+            "CountryName": "Australia",
+            "IataCode": "LSY",
+            "Name": "Lismore",
+            "PlaceId": 66233,
+            "SkyscannerCode": "LSY",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SYDA",
+            "CityName": "Sydney",
+            "CountryName": "Australia",
+            "IataCode": "SYD",
+            "Name": "Sydney Kingsford Smith",
+            "PlaceId": 82628,
+            "SkyscannerCode": "SYD",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 144.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    2044
+                ],
+                "DepartureDate": "2017-05-22T00:00:00",
+                "DestinationId": 82628,
+                "OriginId": 66233
+            },
+            "QuoteDateTime": "2017-04-15T21:42:18",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 119.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    2044
+                ],
+                "DepartureDate": "2017-04-22T00:00:00",
+                "DestinationId": 82628,
+                "OriginId": 66233
+            },
+            "QuoteDateTime": "2017-04-14T03:21:10",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 853,
+            "OriginId": 66233,
+            "Price": 119.0,
+            "QuoteDateTime": "2017-04-14T03:21:10",
+            "QuoteIds": [
+                1,
+                2
+            ]
+        }
+    ]
+}

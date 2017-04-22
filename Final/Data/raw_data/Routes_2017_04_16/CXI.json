@@ -1,0 +1,184 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1082,
+            "Name": "Fiji Airways"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Fiji",
+            "PlaceId": 1082,
+            "SkyscannerCode": "FJ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hong Kong",
+            "PlaceId": 1179,
+            "SkyscannerCode": "HK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Kiribati",
+            "PlaceId": 1321,
+            "SkyscannerCode": "KI",
+            "Type": "Country"
+        },
+        {
+            "Name": "New Zealand",
+            "PlaceId": 1482,
+            "SkyscannerCode": "NZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Tonga",
+            "PlaceId": 1759,
+            "SkyscannerCode": "TO",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "Name": "Vanuatu",
+            "PlaceId": 1861,
+            "SkyscannerCode": "VU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CXIA",
+            "CityName": "Christmas Island",
+            "CountryName": "Kiribati",
+            "IataCode": "CXI",
+            "Name": "Christmas Island",
+            "PlaceId": 45721,
+            "SkyscannerCode": "CXI",
+            "Type": "Station"
+        },
+        {
+            "CityId": "HNLA",
+            "CityName": "Honolulu",
+            "CountryName": "United States",
+            "IataCode": "HNL",
+            "Name": "Honolulu International",
+            "PlaceId": 56764,
+            "SkyscannerCode": "HNL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NANF",
+            "CityName": "Nadi",
+            "CountryName": "Fiji",
+            "IataCode": "NAN",
+            "Name": "Nadi",
+            "PlaceId": 69966,
+            "SkyscannerCode": "NAN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 584.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1082
+                ],
+                "DepartureDate": "2018-01-03T00:00:00",
+                "DestinationId": 69966,
+                "OriginId": 45721
+            },
+            "QuoteDateTime": "2017-04-12T04:22:46",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 1244.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1082
+                ],
+                "DepartureDate": "2017-06-28T00:00:00",
+                "DestinationId": 56764,
+                "OriginId": 45721
+            },
+            "QuoteDateTime": "2017-04-10T02:17:25",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1179,
+            "OriginId": 45721
+        },
+        {
+            "DestinationId": 1482,
+            "OriginId": 45721
+        },
+        {
+            "DestinationId": 1082,
+            "OriginId": 45721,
+            "Price": 584.0,
+            "QuoteDateTime": "2017-04-12T04:22:46",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 45721,
+            "Price": 1244.0,
+            "QuoteDateTime": "2017-04-10T02:17:25",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1321,
+            "OriginId": 45721
+        },
+        {
+            "DestinationId": 1759,
+            "OriginId": 45721
+        },
+        {
+            "DestinationId": 1861,
+            "OriginId": 45721
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 45721
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 45721
+        }
+    ]
+}

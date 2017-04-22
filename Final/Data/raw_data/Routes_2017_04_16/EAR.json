@@ -1,0 +1,188 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 851,
+            "Name": "Alaska Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Denmark",
+            "PlaceId": 987,
+            "SkyscannerCode": "DK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "COPE",
+            "CityName": "Copenhagen",
+            "CountryName": "Denmark",
+            "IataCode": "CPH",
+            "Name": "Copenhagen",
+            "PlaceId": 45336,
+            "SkyscannerCode": "CPH",
+            "Type": "Station"
+        },
+        {
+            "CityId": "DENA",
+            "CityName": "Denver",
+            "CountryName": "United States",
+            "IataCode": "DEN",
+            "Name": "Denver International",
+            "PlaceId": 47118,
+            "SkyscannerCode": "DEN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "EARA",
+            "CityName": "Kearney",
+            "CountryName": "United States",
+            "IataCode": "EAR",
+            "Name": "Kearney",
+            "PlaceId": 49234,
+            "SkyscannerCode": "EAR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "GDLA",
+            "CityName": "Guadalajara",
+            "CountryName": "Mexico",
+            "IataCode": "GDL",
+            "Name": "Guadalajara",
+            "PlaceId": 53980,
+            "SkyscannerCode": "GDL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TYOA",
+            "CityName": "Tokyo",
+            "CountryName": "Japan",
+            "IataCode": "NRT",
+            "Name": "Tokyo Narita",
+            "PlaceId": 70788,
+            "SkyscannerCode": "NRT",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 78.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    851
+                ],
+                "DepartureDate": "2017-06-11T00:00:00",
+                "DestinationId": 47118,
+                "OriginId": 49234
+            },
+            "QuoteDateTime": "2017-04-07T06:31:25",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1039.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    851
+                ],
+                "DepartureDate": "2017-09-14T00:00:00",
+                "DestinationId": 53980,
+                "OriginId": 49234
+            },
+            "QuoteDateTime": "2017-04-07T22:32:43",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 3431.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-11-16T00:00:00",
+                "DestinationId": 70788,
+                "OriginId": 49234
+            },
+            "QuoteDateTime": "2017-04-07T22:30:49",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 4895.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-15T00:00:00",
+                "DestinationId": 45336,
+                "OriginId": 49234
+            },
+            "QuoteDateTime": "2017-04-03T04:55:21",
+            "QuoteId": 4
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 49234,
+            "Price": 78.0,
+            "QuoteDateTime": "2017-04-07T06:31:25",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 49234,
+            "Price": 1039.0,
+            "QuoteDateTime": "2017-04-07T22:32:43",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 49234,
+            "Price": 3431.0,
+            "QuoteDateTime": "2017-04-07T22:30:49",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 987,
+            "OriginId": 49234,
+            "Price": 4895.0,
+            "QuoteDateTime": "2017-04-03T04:55:21",
+            "QuoteIds": [
+                4
+            ]
+        }
+    ]
+}

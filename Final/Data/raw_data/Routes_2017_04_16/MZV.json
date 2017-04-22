@@ -1,0 +1,240 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1416,
+            "Name": "Malaysia Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Brunei",
+            "PlaceId": 894,
+            "SkyscannerCode": "BN",
+            "Type": "Country"
+        },
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hong Kong",
+            "PlaceId": 1179,
+            "SkyscannerCode": "HK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "Malaysia",
+            "PlaceId": 1433,
+            "SkyscannerCode": "MY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Thailand",
+            "PlaceId": 1752,
+            "SkyscannerCode": "TH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Taiwan",
+            "PlaceId": 1767,
+            "SkyscannerCode": "TW",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BWNA",
+            "CityName": "Bandar Seri Begawan",
+            "CountryName": "Brunei",
+            "IataCode": "BWN",
+            "Name": "Bandar Seri Begawan",
+            "PlaceId": 43374,
+            "SkyscannerCode": "BWN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MYYM",
+            "CityName": "Miri",
+            "CountryName": "Malaysia",
+            "IataCode": "MYY",
+            "Name": "Miri",
+            "PlaceId": 68825,
+            "SkyscannerCode": "MYY",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MZVM",
+            "CityName": "Mulu",
+            "CountryName": "Malaysia",
+            "IataCode": "MZV",
+            "Name": "Mulu",
+            "PlaceId": 68870,
+            "SkyscannerCode": "MZV",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SINS",
+            "CityName": "Singapore",
+            "CountryName": "Singapore",
+            "IataCode": "SIN",
+            "Name": "Singapore Changi",
+            "PlaceId": 81870,
+            "SkyscannerCode": "SIN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "USMT",
+            "CityName": "Koh Samui / Samui Island",
+            "CountryName": "Thailand",
+            "IataCode": "USM",
+            "Name": "Koh Samui / Samui Island",
+            "PlaceId": 86957,
+            "SkyscannerCode": "USM",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 251.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1416
+                ],
+                "DepartureDate": "2017-09-19T00:00:00",
+                "DestinationId": 81870,
+                "OriginId": 68870
+            },
+            "QuoteDateTime": "2017-04-15T10:53:37",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 23.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1416
+                ],
+                "DepartureDate": "2017-05-17T00:00:00",
+                "DestinationId": 68825,
+                "OriginId": 68870
+            },
+            "QuoteDateTime": "2017-04-09T12:56:37",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 136.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1416
+                ],
+                "DepartureDate": "2017-09-20T00:00:00",
+                "DestinationId": 43374,
+                "OriginId": 68870
+            },
+            "QuoteDateTime": "2017-04-16T09:26:20",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 417.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-09-20T00:00:00",
+                "DestinationId": 86957,
+                "OriginId": 68870
+            },
+            "QuoteDateTime": "2017-04-16T09:20:01",
+            "QuoteId": 4
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1703,
+            "OriginId": 68870,
+            "Price": 251.0,
+            "QuoteDateTime": "2017-04-15T10:53:37",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1767,
+            "OriginId": 68870
+        },
+        {
+            "DestinationId": 1433,
+            "OriginId": 68870,
+            "Price": 23.0,
+            "QuoteDateTime": "2017-04-09T12:56:37",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 68870
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 68870
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 68870
+        },
+        {
+            "DestinationId": 1179,
+            "OriginId": 68870
+        },
+        {
+            "DestinationId": 894,
+            "OriginId": 68870,
+            "Price": 136.0,
+            "QuoteDateTime": "2017-04-16T09:26:20",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 1752,
+            "OriginId": 68870,
+            "Price": 417.0,
+            "QuoteDateTime": "2017-04-16T09:20:01",
+            "QuoteIds": [
+                4
+            ]
+        }
+    ]
+}

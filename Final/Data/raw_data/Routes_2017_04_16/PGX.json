@@ -1,0 +1,186 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1735,
+            "Name": "TWIN JET"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Afghanistan",
+            "PlaceId": 838,
+            "SkyscannerCode": "AF",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Portugal",
+            "PlaceId": 1572,
+            "SkyscannerCode": "PT",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "KBLA",
+            "CityName": "Kabul",
+            "CountryName": "Afghanistan",
+            "IataCode": "KBL",
+            "Name": "Kabul",
+            "PlaceId": 63100,
+            "SkyscannerCode": "KBL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PORT",
+            "CityName": "Porto",
+            "CountryName": "Portugal",
+            "IataCode": "OPO",
+            "Name": "Porto",
+            "PlaceId": 72991,
+            "SkyscannerCode": "OPO",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PARI",
+            "CityName": "Paris",
+            "CountryName": "France",
+            "IataCode": "ORY",
+            "Name": "Paris Orly",
+            "PlaceId": 73097,
+            "SkyscannerCode": "ORY",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PERI",
+            "CityName": "Perigueux",
+            "CountryName": "France",
+            "IataCode": "PGX",
+            "Name": "Perigueux",
+            "PlaceId": 74872,
+            "SkyscannerCode": "PGX",
+            "Type": "Station"
+        },
+        {
+            "CityId": "STLA",
+            "CityName": "St Louis",
+            "CountryName": "United States",
+            "IataCode": "STL",
+            "Name": "St Louis",
+            "PlaceId": 82396,
+            "SkyscannerCode": "STL",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 197.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1735
+                ],
+                "DepartureDate": "2017-06-07T00:00:00",
+                "DestinationId": 73097,
+                "OriginId": 74872
+            },
+            "QuoteDateTime": "2017-03-30T07:06:36",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1232.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-24T00:00:00",
+                "DestinationId": 72991,
+                "OriginId": 74872
+            },
+            "QuoteDateTime": "2017-04-08T14:01:59",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 3181.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-05T00:00:00",
+                "DestinationId": 82396,
+                "OriginId": 74872
+            },
+            "QuoteDateTime": "2017-04-14T03:54:23",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 4015.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-07T00:00:00",
+                "DestinationId": 63100,
+                "OriginId": 74872
+            },
+            "QuoteDateTime": "2017-03-30T07:05:58",
+            "QuoteId": 4
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1090,
+            "OriginId": 74872,
+            "Price": 197.0,
+            "QuoteDateTime": "2017-03-30T07:06:36",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1572,
+            "OriginId": 74872,
+            "Price": 1232.0,
+            "QuoteDateTime": "2017-04-08T14:01:59",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 74872,
+            "Price": 3181.0,
+            "QuoteDateTime": "2017-04-14T03:54:23",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 838,
+            "OriginId": 74872,
+            "Price": 4015.0,
+            "QuoteDateTime": "2017-03-30T07:05:58",
+            "QuoteIds": [
+                4
+            ]
+        }
+    ]
+}

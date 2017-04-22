@@ -1,0 +1,228 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 954,
+            "Name": "China Southern"
+        },
+        {
+            "CarrierId": 1106,
+            "Name": "Tianjin Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Arab Emirates",
+            "PlaceId": 837,
+            "SkyscannerCode": "AE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Azerbaijan",
+            "PlaceId": 858,
+            "SkyscannerCode": "AZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hong Kong",
+            "PlaceId": 1179,
+            "SkyscannerCode": "HK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Iran",
+            "PlaceId": 1234,
+            "SkyscannerCode": "IR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Italy",
+            "PlaceId": 1236,
+            "SkyscannerCode": "IT",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Korea",
+            "PlaceId": 1330,
+            "SkyscannerCode": "KR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Kazakhstan",
+            "PlaceId": 1338,
+            "SkyscannerCode": "KZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Thailand",
+            "PlaceId": 1752,
+            "SkyscannerCode": "TH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Taiwan",
+            "PlaceId": 1767,
+            "SkyscannerCode": "TW",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ALAA",
+            "CityName": "Almaty",
+            "CountryName": "Kazakhstan",
+            "IataCode": "ALA",
+            "Name": "Almaty",
+            "PlaceId": 40529,
+            "SkyscannerCode": "ALA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "BOLE",
+            "CityName": "Bole",
+            "CountryName": "China",
+            "IataCode": "BPL",
+            "Name": "Bole Alashankou",
+            "PlaceId": 43036,
+            "SkyscannerCode": "BPL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LOND",
+            "CityName": "London",
+            "CountryName": "United Kingdom",
+            "IataCode": "LGW",
+            "Name": "London Gatwick",
+            "PlaceId": 65655,
+            "SkyscannerCode": "LGW",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 285.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    954
+                ],
+                "DepartureDate": "2017-05-03T00:00:00",
+                "DestinationId": 40529,
+                "OriginId": 43036
+            },
+            "QuoteDateTime": "2017-03-29T09:35:08",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 2020.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1106
+                ],
+                "DepartureDate": "2017-06-02T00:00:00",
+                "DestinationId": 65655,
+                "OriginId": 43036
+            },
+            "QuoteDateTime": "2017-03-14T11:29:07",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1234,
+            "OriginId": 43036
+        },
+        {
+            "DestinationId": 837,
+            "OriginId": 43036
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 43036
+        },
+        {
+            "DestinationId": 1338,
+            "OriginId": 43036,
+            "Price": 285.0,
+            "QuoteDateTime": "2017-03-29T09:35:08",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 858,
+            "OriginId": 43036
+        },
+        {
+            "DestinationId": 1669,
+            "OriginId": 43036
+        },
+        {
+            "DestinationId": 1752,
+            "OriginId": 43036
+        },
+        {
+            "DestinationId": 1767,
+            "OriginId": 43036
+        },
+        {
+            "DestinationId": 1179,
+            "OriginId": 43036
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 43036
+        },
+        {
+            "DestinationId": 1330,
+            "OriginId": 43036
+        },
+        {
+            "DestinationId": 1236,
+            "OriginId": 43036
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 43036,
+            "Price": 2020.0,
+            "QuoteDateTime": "2017-03-14T11:29:07",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

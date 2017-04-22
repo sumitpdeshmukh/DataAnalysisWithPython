@@ -1,0 +1,168 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Fiji",
+            "PlaceId": 1082,
+            "SkyscannerCode": "FJ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Micronesia",
+            "PlaceId": 1085,
+            "SkyscannerCode": "FM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hong Kong",
+            "PlaceId": 1179,
+            "SkyscannerCode": "HK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Indonesia",
+            "PlaceId": 1220,
+            "SkyscannerCode": "ID",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "Papua New Guinea",
+            "PlaceId": 1559,
+            "SkyscannerCode": "PG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Philippines",
+            "PlaceId": 1560,
+            "SkyscannerCode": "PH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Solomon Islands",
+            "PlaceId": 1698,
+            "SkyscannerCode": "SB",
+            "Type": "Country"
+        },
+        {
+            "Name": "Singapore",
+            "PlaceId": 1703,
+            "SkyscannerCode": "SG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Vanuatu",
+            "PlaceId": 1861,
+            "SkyscannerCode": "VU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "HIRA",
+            "CityName": "Honiara",
+            "CountryName": "Solomon Islands",
+            "IataCode": "HIR",
+            "Name": "Honiara",
+            "PlaceId": 56530,
+            "SkyscannerCode": "HIR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WWKP",
+            "CityName": "Wewak",
+            "CountryName": "Papua New Guinea",
+            "IataCode": "WWK",
+            "Name": "Wewak",
+            "PlaceId": 91755,
+            "SkyscannerCode": "WWK",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 272.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-19T00:00:00",
+                "DestinationId": 56530,
+                "OriginId": 91755
+            },
+            "QuoteDateTime": "2017-04-07T04:17:19",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1703,
+            "OriginId": 91755
+        },
+        {
+            "DestinationId": 1560,
+            "OriginId": 91755
+        },
+        {
+            "DestinationId": 1179,
+            "OriginId": 91755
+        },
+        {
+            "DestinationId": 1559,
+            "OriginId": 91755
+        },
+        {
+            "DestinationId": 853,
+            "OriginId": 91755
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 91755
+        },
+        {
+            "DestinationId": 1220,
+            "OriginId": 91755
+        },
+        {
+            "DestinationId": 1698,
+            "OriginId": 91755,
+            "Price": 272.0,
+            "QuoteDateTime": "2017-04-07T04:17:19",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1082,
+            "OriginId": 91755
+        },
+        {
+            "DestinationId": 1085,
+            "OriginId": 91755
+        },
+        {
+            "DestinationId": 1861,
+            "OriginId": 91755
+        }
+    ]
+}

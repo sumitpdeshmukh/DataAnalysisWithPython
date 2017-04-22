@@ -1,0 +1,144 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1757,
+            "Name": "LAM"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Angola",
+            "PlaceId": 847,
+            "SkyscannerCode": "AO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Kenya",
+            "PlaceId": 1317,
+            "SkyscannerCode": "KE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mozambique",
+            "PlaceId": 1434,
+            "SkyscannerCode": "MZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Portugal",
+            "PlaceId": 1572,
+            "SkyscannerCode": "PT",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Africa",
+            "PlaceId": 2033,
+            "SkyscannerCode": "ZA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "APLA",
+            "CityName": "Nampula",
+            "CountryName": "Mozambique",
+            "IataCode": "APL",
+            "Name": "Nampula",
+            "PlaceId": 40732,
+            "SkyscannerCode": "APL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "JNBA",
+            "CityName": "Johannesburg",
+            "CountryName": "South Africa",
+            "IataCode": "JNB",
+            "Name": "Johannesburg O.R. Tambo",
+            "PlaceId": 61362,
+            "SkyscannerCode": "JNB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "VXCA",
+            "CityName": "Lichinga",
+            "CountryName": "Mozambique",
+            "IataCode": "VXC",
+            "Name": "Lichinga",
+            "PlaceId": 89491,
+            "SkyscannerCode": "VXC",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 95.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1757
+                ],
+                "DepartureDate": "2017-09-16T00:00:00",
+                "DestinationId": 40732,
+                "OriginId": 89491
+            },
+            "QuoteDateTime": "2017-03-27T15:49:53",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 327.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1757
+                ],
+                "DepartureDate": "2017-08-31T00:00:00",
+                "DestinationId": 61362,
+                "OriginId": 89491
+            },
+            "QuoteDateTime": "2017-03-16T09:09:08",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1434,
+            "OriginId": 89491,
+            "Price": 95.0,
+            "QuoteDateTime": "2017-03-27T15:49:53",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1317,
+            "OriginId": 89491
+        },
+        {
+            "DestinationId": 847,
+            "OriginId": 89491
+        },
+        {
+            "DestinationId": 1572,
+            "OriginId": 89491
+        },
+        {
+            "DestinationId": 2033,
+            "OriginId": 89491,
+            "Price": 327.0,
+            "QuoteDateTime": "2017-03-16T09:09:08",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

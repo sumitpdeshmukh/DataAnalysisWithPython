@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1652,
+            "Name": "Aero Vip"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Portugal",
+            "PlaceId": 1572,
+            "SkyscannerCode": "PT",
+            "Type": "Country"
+        },
+        {
+            "CityId": "PORW",
+            "CityName": "Portimao",
+            "CountryName": "Portugal",
+            "IataCode": "PRM",
+            "Name": "Portimao",
+            "PlaceId": 75389,
+            "SkyscannerCode": "PRM",
+            "Type": "Station"
+        },
+        {
+            "CityId": "VISE",
+            "CityName": "Viseu G. Lobato",
+            "CountryName": "Portugal",
+            "IataCode": "VSE",
+            "Name": "Viseu G. Lobato",
+            "PlaceId": 89253,
+            "SkyscannerCode": "VSE",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 80.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1652
+                ],
+                "DepartureDate": "2017-08-01T00:00:00",
+                "DestinationId": 75389,
+                "OriginId": 89253
+            },
+            "QuoteDateTime": "2017-03-26T17:47:51",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1572,
+            "OriginId": 89253,
+            "Price": 80.0,
+            "QuoteDateTime": "2017-03-26T17:47:51",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

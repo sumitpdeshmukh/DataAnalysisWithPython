@@ -1,0 +1,124 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1507,
+            "Name": "Boliviana de Aviacion"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Bolivia",
+            "PlaceId": 895,
+            "SkyscannerCode": "BO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CBBA",
+            "CityName": "Cochabamba",
+            "CountryName": "Bolivia",
+            "IataCode": "CBB",
+            "Name": "Cochabamba",
+            "PlaceId": 44658,
+            "SkyscannerCode": "CBB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MIAA",
+            "CityName": "Miami",
+            "CountryName": "United States",
+            "IataCode": "MIA",
+            "Name": "Miami International",
+            "PlaceId": 68033,
+            "SkyscannerCode": "MIA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TDDA",
+            "CityName": "Trinidad",
+            "CountryName": "Bolivia",
+            "IataCode": "TDD",
+            "Name": "Trinidad",
+            "PlaceId": 83924,
+            "SkyscannerCode": "TDD",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 39.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1507
+                ],
+                "DepartureDate": "2017-05-02T00:00:00",
+                "DestinationId": 44658,
+                "OriginId": 83924
+            },
+            "QuoteDateTime": "2017-04-10T23:31:54",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 498.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1507
+                ],
+                "DepartureDate": "2017-06-17T00:00:00",
+                "DestinationId": 68033,
+                "OriginId": 83924
+            },
+            "QuoteDateTime": "2017-03-29T03:59:39",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 895,
+            "OriginId": 83924,
+            "Price": 39.0,
+            "QuoteDateTime": "2017-04-10T23:31:54",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 83924,
+            "Price": 498.0,
+            "QuoteDateTime": "2017-03-29T03:59:39",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1043,
+            "OriginId": 83924
+        }
+    ]
+}

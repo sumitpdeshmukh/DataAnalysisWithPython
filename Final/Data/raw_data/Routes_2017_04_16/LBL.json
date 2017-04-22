@@ -1,0 +1,223 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 851,
+            "Name": "Alaska Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Chile",
+            "PlaceId": 940,
+            "SkyscannerCode": "CL",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "Norway",
+            "PlaceId": 1471,
+            "SkyscannerCode": "NO",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "DENA",
+            "CityName": "Denver",
+            "CountryName": "United States",
+            "IataCode": "DEN",
+            "Name": "Denver International",
+            "PlaceId": 47118,
+            "SkyscannerCode": "DEN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LBLA",
+            "CityName": "Liberal",
+            "CountryName": "United States",
+            "IataCode": "LBL",
+            "Name": "Liberal",
+            "PlaceId": 65404,
+            "SkyscannerCode": "LBL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MEXA",
+            "CityName": "Mexico City",
+            "CountryName": "Mexico",
+            "IataCode": "MEX",
+            "Name": "Mexico City Juarez International",
+            "PlaceId": 67864,
+            "SkyscannerCode": "MEX",
+            "Type": "Station"
+        },
+        {
+            "CityId": "OSLO",
+            "CityName": "Oslo",
+            "CountryName": "Norway",
+            "IataCode": "OSL",
+            "Name": "Oslo Gardermoen",
+            "PlaceId": 73132,
+            "SkyscannerCode": "OSL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SCLA",
+            "CityName": "Santiago",
+            "CountryName": "Chile",
+            "IataCode": "SCL",
+            "Name": "Santiago Arturo Merino Benitez",
+            "PlaceId": 81580,
+            "SkyscannerCode": "SCL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YVRA",
+            "CityName": "Vancouver",
+            "CountryName": "Canada",
+            "IataCode": "YVR",
+            "Name": "Vancouver International",
+            "PlaceId": 96322,
+            "SkyscannerCode": "YVR",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 89.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    851
+                ],
+                "DepartureDate": "2017-07-05T00:00:00",
+                "DestinationId": 47118,
+                "OriginId": 65404
+            },
+            "QuoteDateTime": "2017-03-20T15:56:37",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 5166.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-10-02T00:00:00",
+                "DestinationId": 81580,
+                "OriginId": 65404
+            },
+            "QuoteDateTime": "2017-04-15T01:23:43",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 401.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-27T00:00:00",
+                "DestinationId": 96322,
+                "OriginId": 65404
+            },
+            "QuoteDateTime": "2017-04-17T01:48:37",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1389.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-14T00:00:00",
+                "DestinationId": 67864,
+                "OriginId": 65404
+            },
+            "QuoteDateTime": "2017-04-16T15:52:35",
+            "QuoteId": 4
+        },
+        {
+            "Direct": false,
+            "MinPrice": 4510.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-03T00:00:00",
+                "DestinationId": 73132,
+                "OriginId": 65404
+            },
+            "QuoteDateTime": "2017-03-26T13:18:42",
+            "QuoteId": 5
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 65404,
+            "Price": 89.0,
+            "QuoteDateTime": "2017-03-20T15:56:37",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 940,
+            "OriginId": 65404,
+            "Price": 5166.0,
+            "QuoteDateTime": "2017-04-15T01:23:43",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 65404,
+            "Price": 401.0,
+            "QuoteDateTime": "2017-04-17T01:48:37",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 65404,
+            "Price": 1389.0,
+            "QuoteDateTime": "2017-04-16T15:52:35",
+            "QuoteIds": [
+                4
+            ]
+        },
+        {
+            "DestinationId": 1471,
+            "OriginId": 65404,
+            "Price": 4510.0,
+            "QuoteDateTime": "2017-03-26T13:18:42",
+            "QuoteIds": [
+                5
+            ]
+        }
+    ]
+}

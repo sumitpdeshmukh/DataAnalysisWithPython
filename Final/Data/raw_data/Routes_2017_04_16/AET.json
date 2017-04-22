@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 422,
+            "Name": "Wright Air Service"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "AETA",
+            "CityName": "Allakaket",
+            "CountryName": "United States",
+            "IataCode": "AET",
+            "Name": "Allakaket",
+            "PlaceId": 40212,
+            "SkyscannerCode": "AET",
+            "Type": "Station"
+        },
+        {
+            "CityId": "FAIA",
+            "CityName": "Fairbanks",
+            "CountryName": "United States",
+            "IataCode": "FAI",
+            "Name": "Fairbanks International",
+            "PlaceId": 51529,
+            "SkyscannerCode": "FAI",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 172.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    422
+                ],
+                "DepartureDate": "2017-10-17T00:00:00",
+                "DestinationId": 51529,
+                "OriginId": 40212
+            },
+            "QuoteDateTime": "2017-04-10T18:11:48",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 40212,
+            "Price": 172.0,
+            "QuoteDateTime": "2017-04-10T18:11:48",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

@@ -1,0 +1,161 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 241,
+            "Name": "South African Airways"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Mauritius",
+            "PlaceId": 1429,
+            "SkyscannerCode": "MU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mozambique",
+            "PlaceId": 1434,
+            "SkyscannerCode": "MZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Africa",
+            "PlaceId": 2033,
+            "SkyscannerCode": "ZA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Zambia",
+            "PlaceId": 2045,
+            "SkyscannerCode": "ZM",
+            "Type": "Country"
+        },
+        {
+            "CityId": "JNBA",
+            "CityName": "Johannesburg",
+            "CountryName": "South Africa",
+            "IataCode": "JNB",
+            "Name": "Johannesburg O.R. Tambo",
+            "PlaceId": 61362,
+            "SkyscannerCode": "JNB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MRUA",
+            "CityName": "Mauritius",
+            "CountryName": "Mauritius",
+            "IataCode": "MRU",
+            "Name": "Mauritius",
+            "PlaceId": 68485,
+            "SkyscannerCode": "MRU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "POLA",
+            "CityName": "Pemba",
+            "CountryName": "Mozambique",
+            "IataCode": "POL",
+            "Name": "Pemba",
+            "PlaceId": 75244,
+            "SkyscannerCode": "POL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ULXA",
+            "CityName": "Ulusaba",
+            "CountryName": "South Africa",
+            "IataCode": "ULX",
+            "Name": "Ulusaba",
+            "PlaceId": 86632,
+            "SkyscannerCode": "ULX",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 302.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    241
+                ],
+                "DepartureDate": "2017-05-16T00:00:00",
+                "DestinationId": 61362,
+                "OriginId": 86632
+            },
+            "QuoteDateTime": "2017-04-03T10:38:48",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 513.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-09-04T00:00:00",
+                "DestinationId": 75244,
+                "OriginId": 86632
+            },
+            "QuoteDateTime": "2017-04-06T03:44:56",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 437.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    241
+                ],
+                "DepartureDate": "2017-09-04T00:00:00",
+                "DestinationId": 68485,
+                "OriginId": 86632
+            },
+            "QuoteDateTime": "2017-04-14T16:21:46",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 2033,
+            "OriginId": 86632,
+            "Price": 302.0,
+            "QuoteDateTime": "2017-04-03T10:38:48",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 2045,
+            "OriginId": 86632
+        },
+        {
+            "DestinationId": 1434,
+            "OriginId": 86632,
+            "Price": 513.0,
+            "QuoteDateTime": "2017-04-06T03:44:56",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1429,
+            "OriginId": 86632,
+            "Price": 437.0,
+            "QuoteDateTime": "2017-04-14T16:21:46",
+            "QuoteIds": [
+                3
+            ]
+        }
+    ]
+}

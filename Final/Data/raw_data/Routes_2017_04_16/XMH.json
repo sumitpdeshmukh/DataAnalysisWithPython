@@ -1,0 +1,78 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "French Polynesia",
+            "PlaceId": 1558,
+            "SkyscannerCode": "PF",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LOND",
+            "CityName": "London",
+            "CountryName": "United Kingdom",
+            "IataCode": "LHR",
+            "Name": "London Heathrow",
+            "PlaceId": 65698,
+            "SkyscannerCode": "LHR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "XMHA",
+            "CityName": "Manihi",
+            "CountryName": "French Polynesia",
+            "IataCode": "XMH",
+            "Name": "Manihi",
+            "PlaceId": 93576,
+            "SkyscannerCode": "XMH",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 1546.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-06T00:00:00",
+                "DestinationId": 65698,
+                "OriginId": 93576
+            },
+            "QuoteDateTime": "2017-04-13T13:23:41",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1558,
+            "OriginId": 93576
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 93576,
+            "Price": 1546.0,
+            "QuoteDateTime": "2017-04-13T13:23:41",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

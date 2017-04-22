@@ -1,0 +1,132 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1041,
+            "Name": "TAME"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Cuba",
+            "PlaceId": 949,
+            "SkyscannerCode": "CU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Ecuador",
+            "PlaceId": 1027,
+            "SkyscannerCode": "EC",
+            "Type": "Country"
+        },
+        {
+            "Name": "Peru",
+            "PlaceId": 1557,
+            "SkyscannerCode": "PE",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ETRA",
+            "CityName": "Santa Rosa",
+            "CountryName": "Ecuador",
+            "IataCode": "ETR",
+            "Name": "Santa Rosa",
+            "PlaceId": 50146,
+            "SkyscannerCode": "ETR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SFOA",
+            "CityName": "San Francisco",
+            "CountryName": "United States",
+            "IataCode": "SFO",
+            "Name": "San Francisco International",
+            "PlaceId": 81727,
+            "SkyscannerCode": "SFO",
+            "Type": "Station"
+        },
+        {
+            "CityId": "UIOA",
+            "CityName": "Quito",
+            "CountryName": "Ecuador",
+            "IataCode": "UIO",
+            "Name": "Quito",
+            "PlaceId": 86479,
+            "SkyscannerCode": "UIO",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 66.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1041
+                ],
+                "DepartureDate": "2017-04-25T00:00:00",
+                "DestinationId": 86479,
+                "OriginId": 50146
+            },
+            "QuoteDateTime": "2017-04-19T02:49:15",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 532.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-09-05T00:00:00",
+                "DestinationId": 81727,
+                "OriginId": 50146
+            },
+            "QuoteDateTime": "2017-04-02T18:52:24",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1557,
+            "OriginId": 50146
+        },
+        {
+            "DestinationId": 1027,
+            "OriginId": 50146,
+            "Price": 66.0,
+            "QuoteDateTime": "2017-04-19T02:49:15",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 50146,
+            "Price": 532.0,
+            "QuoteDateTime": "2017-04-02T18:52:24",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 949,
+            "OriginId": 50146
+        }
+    ]
+}

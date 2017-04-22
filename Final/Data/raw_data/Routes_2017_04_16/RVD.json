@@ -1,0 +1,88 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Portugal",
+            "PlaceId": 1572,
+            "SkyscannerCode": "PT",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "NYCA",
+            "CityName": "New York",
+            "CountryName": "United States",
+            "IataCode": "LGA",
+            "Name": "New York LaGuardia",
+            "PlaceId": 65633,
+            "SkyscannerCode": "LGA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "RVDA",
+            "CityName": "Rio Verde",
+            "CountryName": "Brazil",
+            "IataCode": "RVD",
+            "Name": "Rio Verde",
+            "PlaceId": 80180,
+            "SkyscannerCode": "RVD",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 1010.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-05T00:00:00",
+                "DestinationId": 65633,
+                "OriginId": 80180
+            },
+            "QuoteDateTime": "2017-04-13T01:41:19",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 898,
+            "OriginId": 80180
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 80180,
+            "Price": 1010.0,
+            "QuoteDateTime": "2017-04-13T01:41:19",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1572,
+            "OriginId": 80180
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1188,
+            "Name": "Afrijet Business Service"
+        },
+        {
+            "CarrierId": 1842,
+            "Name": "Equaflight"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Congo",
+            "PlaceId": 935,
+            "SkyscannerCode": "CG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Gabon",
+            "PlaceId": 1121,
+            "SkyscannerCode": "GA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Sao Tome and Principe",
+            "PlaceId": 1716,
+            "SkyscannerCode": "ST",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LBVA",
+            "CityName": "Libreville",
+            "CountryName": "Gabon",
+            "IataCode": "LBV",
+            "Name": "Libreville",
+            "PlaceId": 65414,
+            "SkyscannerCode": "LBV",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PNRA",
+            "CityName": "Pointe Noire",
+            "CountryName": "Congo",
+            "IataCode": "PNR",
+            "Name": "Pointe Noire",
+            "PlaceId": 75202,
+            "SkyscannerCode": "PNR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "POGA",
+            "CityName": "Port Gentil",
+            "CountryName": "Gabon",
+            "IataCode": "POG",
+            "Name": "Port Gentil",
+            "PlaceId": 75239,
+            "SkyscannerCode": "POG",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 129.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1188
+                ],
+                "DepartureDate": "2017-05-16T00:00:00",
+                "DestinationId": 65414,
+                "OriginId": 75239
+            },
+            "QuoteDateTime": "2017-04-15T21:29:31",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 245.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1842
+                ],
+                "DepartureDate": "2017-08-22T00:00:00",
+                "DestinationId": 75202,
+                "OriginId": 75239
+            },
+            "QuoteDateTime": "2017-04-16T15:09:21",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1716,
+            "OriginId": 75239
+        },
+        {
+            "DestinationId": 1121,
+            "OriginId": 75239,
+            "Price": 129.0,
+            "QuoteDateTime": "2017-04-15T21:29:31",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 935,
+            "OriginId": 75239,
+            "Price": 245.0,
+            "QuoteDateTime": "2017-04-16T15:09:21",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

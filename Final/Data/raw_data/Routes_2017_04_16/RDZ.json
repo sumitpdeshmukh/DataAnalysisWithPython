@@ -1,0 +1,189 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1731,
+            "Name": "Eastern Airways"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Belgium",
+            "PlaceId": 885,
+            "SkyscannerCode": "BE",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Ireland",
+            "PlaceId": 1221,
+            "SkyscannerCode": "IE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Italy",
+            "PlaceId": 1236,
+            "SkyscannerCode": "IT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Norway",
+            "PlaceId": 1471,
+            "SkyscannerCode": "NO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Pakistan",
+            "PlaceId": 1563,
+            "SkyscannerCode": "PK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "CityId": "DUBL",
+            "CityName": "Dublin",
+            "CountryName": "Ireland",
+            "IataCode": "DUB",
+            "Name": "Dublin",
+            "PlaceId": 47874,
+            "SkyscannerCode": "DUB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "KHIA",
+            "CityName": "Karachi",
+            "CountryName": "Pakistan",
+            "IataCode": "KHI",
+            "Name": "Karachi",
+            "PlaceId": 63385,
+            "SkyscannerCode": "KHI",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PARI",
+            "CityName": "Paris",
+            "CountryName": "France",
+            "IataCode": "ORY",
+            "Name": "Paris Orly",
+            "PlaceId": 73097,
+            "SkyscannerCode": "ORY",
+            "Type": "Station"
+        },
+        {
+            "CityId": "RODE",
+            "CityName": "Rodez",
+            "CountryName": "France",
+            "IataCode": "RDZ",
+            "Name": "Rodez",
+            "PlaceId": 79338,
+            "SkyscannerCode": "RDZ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 1029.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-08-10T00:00:00",
+                "DestinationId": 47874,
+                "OriginId": 79338
+            },
+            "QuoteDateTime": "2017-04-18T18:00:48",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 62.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1731
+                ],
+                "DepartureDate": "2017-08-11T00:00:00",
+                "DestinationId": 73097,
+                "OriginId": 79338
+            },
+            "QuoteDateTime": "2017-04-16T17:17:00",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 2218.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-10-27T00:00:00",
+                "DestinationId": 63385,
+                "OriginId": 79338
+            },
+            "QuoteDateTime": "2017-04-01T00:39:33",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1803,
+            "OriginId": 79338
+        },
+        {
+            "DestinationId": 1471,
+            "OriginId": 79338
+        },
+        {
+            "DestinationId": 1236,
+            "OriginId": 79338
+        },
+        {
+            "DestinationId": 1221,
+            "OriginId": 79338,
+            "Price": 1029.0,
+            "QuoteDateTime": "2017-04-18T18:00:48",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 885,
+            "OriginId": 79338
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 79338,
+            "Price": 62.0,
+            "QuoteDateTime": "2017-04-16T17:17:00",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1563,
+            "OriginId": 79338,
+            "Price": 2218.0,
+            "QuoteDateTime": "2017-04-01T00:39:33",
+            "QuoteIds": [
+                3
+            ]
+        }
+    ]
+}

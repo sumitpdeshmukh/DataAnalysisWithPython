@@ -1,0 +1,129 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1397,
+            "Name": "Kenmore Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ESDA",
+            "CityName": "Eastsound",
+            "CountryName": "United States",
+            "IataCode": "DHB",
+            "Name": "Deer Harbor Seaplane",
+            "PlaceId": 47250,
+            "SkyscannerCode": "DHB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "KEHA",
+            "CityName": "Kenmore Air Harbor",
+            "CountryName": "United States",
+            "IataCode": "KEH",
+            "Name": "Kenmore Air Harbor",
+            "PlaceId": 63240,
+            "SkyscannerCode": "KEH",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YYJA",
+            "CityName": "Victoria",
+            "CountryName": "Canada",
+            "IataCode": "YWH",
+            "Name": "Victoria Inner Harbor",
+            "PlaceId": 96360,
+            "SkyscannerCode": "YWH",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 142.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1397
+                ],
+                "DepartureDate": "2018-02-04T00:00:00",
+                "DestinationId": 96360,
+                "OriginId": 63240
+            },
+            "QuoteDateTime": "2017-04-13T09:33:33",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 157.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1397
+                ],
+                "DepartureDate": "2017-08-06T00:00:00",
+                "DestinationId": 96360,
+                "OriginId": 63240
+            },
+            "QuoteDateTime": "2017-04-17T15:23:47",
+            "QuoteId": 2
+        },
+        {
+            "Direct": true,
+            "MinPrice": 157.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1397
+                ],
+                "DepartureDate": "2017-08-06T00:00:00",
+                "DestinationId": 47250,
+                "OriginId": 63240
+            },
+            "QuoteDateTime": "2017-04-17T15:24:04",
+            "QuoteId": 3
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 63240,
+            "Price": 142.0,
+            "QuoteDateTime": "2017-04-13T09:33:33",
+            "QuoteIds": [
+                1,
+                2
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 63240,
+            "Price": 157.0,
+            "QuoteDateTime": "2017-04-17T15:24:04",
+            "QuoteIds": [
+                3
+            ]
+        }
+    ]
+}

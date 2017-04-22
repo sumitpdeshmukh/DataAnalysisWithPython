@@ -1,0 +1,115 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1914,
+            "Name": "Wizz Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Italy",
+            "PlaceId": 1236,
+            "SkyscannerCode": "IT",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CRAI",
+            "CityName": "Craiova",
+            "CountryName": "Romania",
+            "IataCode": "CRA",
+            "Name": "Craiova",
+            "PlaceId": 45425,
+            "SkyscannerCode": "CRA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LIVE",
+            "CityName": "Liverpool",
+            "CountryName": "United Kingdom",
+            "IataCode": "LPL",
+            "Name": "Liverpool",
+            "PlaceId": 66076,
+            "SkyscannerCode": "LPL",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 18.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1914
+                ],
+                "DepartureDate": "2017-05-22T00:00:00",
+                "DestinationId": 66076,
+                "OriginId": 45425
+            },
+            "QuoteDateTime": "2017-04-18T13:31:51",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1043,
+            "OriginId": 45425
+        },
+        {
+            "DestinationId": 1236,
+            "OriginId": 45425
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 45425
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 45425,
+            "Price": 18.0,
+            "QuoteDateTime": "2017-04-18T13:31:51",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 45425
+        }
+    ]
+}

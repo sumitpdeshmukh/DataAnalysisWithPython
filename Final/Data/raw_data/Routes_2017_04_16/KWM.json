@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 37,
+            "Name": "Hinterland Aviation"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "EDRA",
+            "CityName": "Edward River",
+            "CountryName": "Australia",
+            "IataCode": "EDR",
+            "Name": "Edward River",
+            "PlaceId": 49378,
+            "SkyscannerCode": "EDR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "KWMA",
+            "CityName": "Kowanyama",
+            "CountryName": "Australia",
+            "IataCode": "KWM",
+            "Name": "Kowanyama",
+            "PlaceId": 64109,
+            "SkyscannerCode": "KWM",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 225.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    37
+                ],
+                "DepartureDate": "2017-04-26T00:00:00",
+                "DestinationId": 49378,
+                "OriginId": 64109
+            },
+            "QuoteDateTime": "2017-04-18T05:09:59",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 853,
+            "OriginId": 64109,
+            "Price": 225.0,
+            "QuoteDateTime": "2017-04-18T05:09:59",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

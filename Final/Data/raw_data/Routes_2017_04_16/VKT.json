@@ -1,0 +1,68 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "PETE",
+            "CityName": "St Petersburg",
+            "CountryName": "Russia",
+            "IataCode": "LED",
+            "Name": "St Petersburg Pulkovo",
+            "PlaceId": 65540,
+            "SkyscannerCode": "LED",
+            "Type": "Station"
+        },
+        {
+            "CityId": "VORK",
+            "CityName": "Vorkuta",
+            "CountryName": "Russia",
+            "IataCode": "VKT",
+            "Name": "Vorkuta",
+            "PlaceId": 88884,
+            "SkyscannerCode": "VKT",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 418.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-28T00:00:00",
+                "DestinationId": 65540,
+                "OriginId": 88884
+            },
+            "QuoteDateTime": "2017-03-14T20:03:59",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1669,
+            "OriginId": 88884,
+            "Price": 418.0,
+            "QuoteDateTime": "2017-03-14T20:03:59",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

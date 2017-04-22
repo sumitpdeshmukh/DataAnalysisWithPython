@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 210,
+            "Name": "Boutique Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ALBA",
+            "CityName": "Albany",
+            "CountryName": "United States",
+            "IataCode": "ALB",
+            "Name": "Albany",
+            "PlaceId": 40530,
+            "SkyscannerCode": "ALB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MSSA",
+            "CityName": "Massena",
+            "CountryName": "United States",
+            "IataCode": "MSS",
+            "Name": "Massena",
+            "PlaceId": 68531,
+            "SkyscannerCode": "MSS",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 38.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    210
+                ],
+                "DepartureDate": "2017-05-21T00:00:00",
+                "DestinationId": 40530,
+                "OriginId": 68531
+            },
+            "QuoteDateTime": "2017-03-22T06:42:13",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 68531,
+            "Price": 38.0,
+            "QuoteDateTime": "2017-03-22T06:42:13",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

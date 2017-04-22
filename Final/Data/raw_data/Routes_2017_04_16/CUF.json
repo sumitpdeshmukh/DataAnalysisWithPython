@@ -1,0 +1,95 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 174,
+            "Name": "Air Arabia Maroc"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Italy",
+            "PlaceId": 1236,
+            "SkyscannerCode": "IT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Morocco",
+            "PlaceId": 1409,
+            "SkyscannerCode": "MA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Turkey",
+            "PlaceId": 1762,
+            "SkyscannerCode": "TR",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CASA",
+            "CityName": "Casablanca",
+            "CountryName": "Morocco",
+            "IataCode": "CMN",
+            "Name": "Casablanca Mohamed V.",
+            "PlaceId": 45198,
+            "SkyscannerCode": "CMN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "CUNE",
+            "CityName": "Cuneo",
+            "CountryName": "Italy",
+            "IataCode": "CUF",
+            "Name": "Cuneo Levaldigi",
+            "PlaceId": 45574,
+            "SkyscannerCode": "CUF",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 112.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    174
+                ],
+                "DepartureDate": "2017-08-23T00:00:00",
+                "DestinationId": 45198,
+                "OriginId": 45574
+            },
+            "QuoteDateTime": "2017-04-18T08:55:22",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1762,
+            "OriginId": 45574
+        },
+        {
+            "DestinationId": 1409,
+            "OriginId": 45574,
+            "Price": 112.0,
+            "QuoteDateTime": "2017-04-18T08:55:22",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1236,
+            "OriginId": 45574
+        }
+    ]
+}

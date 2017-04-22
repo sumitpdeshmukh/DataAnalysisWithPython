@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1860,
+            "Name": "Air Tahiti"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "French Polynesia",
+            "PlaceId": 1558,
+            "SkyscannerCode": "PF",
+            "Type": "Country"
+        },
+        {
+            "CityId": "RGIP",
+            "CityName": "Rangiroa",
+            "CountryName": "French Polynesia",
+            "IataCode": "RGI",
+            "Name": "Rangiroa",
+            "PlaceId": 79465,
+            "SkyscannerCode": "RGI",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TIHP",
+            "CityName": "Tikehau Atoll",
+            "CountryName": "French Polynesia",
+            "IataCode": "TIH",
+            "Name": "Tikehau Atoll",
+            "PlaceId": 84168,
+            "SkyscannerCode": "TIH",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 86.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1860
+                ],
+                "DepartureDate": "2017-05-23T00:00:00",
+                "DestinationId": 79465,
+                "OriginId": 84168
+            },
+            "QuoteDateTime": "2017-04-16T22:58:01",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1558,
+            "OriginId": 84168,
+            "Price": 86.0,
+            "QuoteDateTime": "2017-04-16T22:58:01",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

@@ -1,0 +1,195 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1190,
+            "Name": "transavia"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Belgium",
+            "PlaceId": 885,
+            "SkyscannerCode": "BE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Switzerland",
+            "PlaceId": 936,
+            "SkyscannerCode": "CH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Czech Republic",
+            "PlaceId": 954,
+            "SkyscannerCode": "CZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Hungary",
+            "PlaceId": 1189,
+            "SkyscannerCode": "HU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Italy",
+            "PlaceId": 1236,
+            "SkyscannerCode": "IT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Libya",
+            "PlaceId": 1385,
+            "SkyscannerCode": "LY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Poland",
+            "PlaceId": 1564,
+            "SkyscannerCode": "PL",
+            "Type": "Country"
+        },
+        {
+            "Name": "Serbia",
+            "PlaceId": 1667,
+            "SkyscannerCode": "RS",
+            "Type": "Country"
+        },
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Saudi Arabia",
+            "PlaceId": 1697,
+            "SkyscannerCode": "SA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Slovenia",
+            "PlaceId": 1705,
+            "SkyscannerCode": "SI",
+            "Type": "Country"
+        },
+        {
+            "Name": "Slovakia",
+            "PlaceId": 1707,
+            "SkyscannerCode": "SK",
+            "Type": "Country"
+        },
+        {
+            "CityId": "MONA",
+            "CityName": "Monastir",
+            "CountryName": "Tunisia",
+            "IataCode": "MIR",
+            "Name": "Monastir",
+            "PlaceId": 68050,
+            "SkyscannerCode": "MIR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PARI",
+            "CityName": "Paris",
+            "CountryName": "France",
+            "IataCode": "ORY",
+            "Name": "Paris Orly",
+            "PlaceId": 73097,
+            "SkyscannerCode": "ORY",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 74.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1190
+                ],
+                "DepartureDate": "2017-08-01T00:00:00",
+                "DestinationId": 73097,
+                "OriginId": 68050
+            },
+            "QuoteDateTime": "2017-04-18T14:56:17",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1697,
+            "OriginId": 68050
+        },
+        {
+            "DestinationId": 1669,
+            "OriginId": 68050
+        },
+        {
+            "DestinationId": 1564,
+            "OriginId": 68050
+        },
+        {
+            "DestinationId": 1385,
+            "OriginId": 68050
+        },
+        {
+            "DestinationId": 1667,
+            "OriginId": 68050
+        },
+        {
+            "DestinationId": 1236,
+            "OriginId": 68050
+        },
+        {
+            "DestinationId": 1189,
+            "OriginId": 68050
+        },
+        {
+            "DestinationId": 885,
+            "OriginId": 68050
+        },
+        {
+            "DestinationId": 936,
+            "OriginId": 68050
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 68050,
+            "Price": 74.0,
+            "QuoteDateTime": "2017-04-18T14:56:17",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1705,
+            "OriginId": 68050
+        },
+        {
+            "DestinationId": 954,
+            "OriginId": 68050
+        },
+        {
+            "DestinationId": 1707,
+            "OriginId": 68050
+        }
+    ]
+}

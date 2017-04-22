@@ -1,0 +1,85 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1536,
+            "Name": "Proflight Zambia"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Malawi",
+            "PlaceId": 1431,
+            "SkyscannerCode": "MW",
+            "Type": "Country"
+        },
+        {
+            "Name": "Zambia",
+            "PlaceId": 2045,
+            "SkyscannerCode": "ZM",
+            "Type": "Country"
+        },
+        {
+            "CityId": "KAAA",
+            "CityName": "Kasama",
+            "CountryName": "Zambia",
+            "IataCode": "KAA",
+            "Name": "Kasama",
+            "PlaceId": 63041,
+            "SkyscannerCode": "KAA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LUNA",
+            "CityName": "Lusaka",
+            "CountryName": "Zambia",
+            "IataCode": "LUN",
+            "Name": "Lusaka",
+            "PlaceId": 66318,
+            "SkyscannerCode": "LUN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 292.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1536
+                ],
+                "DepartureDate": "2017-05-05T00:00:00",
+                "DestinationId": 66318,
+                "OriginId": 63041
+            },
+            "QuoteDateTime": "2017-03-24T08:46:21",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 2045,
+            "OriginId": 63041,
+            "Price": 292.0,
+            "QuoteDateTime": "2017-03-24T08:46:21",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1431,
+            "OriginId": 63041
+        }
+    ]
+}

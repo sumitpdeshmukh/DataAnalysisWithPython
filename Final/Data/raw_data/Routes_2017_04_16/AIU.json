@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1146,
+            "Name": "Air Rarotonga"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Cook Islands",
+            "PlaceId": 939,
+            "SkyscannerCode": "CK",
+            "Type": "Country"
+        },
+        {
+            "CityId": "AIUC",
+            "CityName": "Atiu Island",
+            "CountryName": "Cook Islands",
+            "IataCode": "AIU",
+            "Name": "Atiu Island",
+            "PlaceId": 40405,
+            "SkyscannerCode": "AIU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "RARC",
+            "CityName": "Rarotonga",
+            "CountryName": "Cook Islands",
+            "IataCode": "RAR",
+            "Name": "Rarotonga",
+            "PlaceId": 79186,
+            "SkyscannerCode": "RAR",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 148.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1146
+                ],
+                "DepartureDate": "2017-10-04T00:00:00",
+                "DestinationId": 79186,
+                "OriginId": 40405
+            },
+            "QuoteDateTime": "2017-03-29T09:31:35",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 939,
+            "OriginId": 40405,
+            "Price": 148.0,
+            "QuoteDateTime": "2017-03-29T09:31:35",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

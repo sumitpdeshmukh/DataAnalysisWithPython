@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 358,
+            "Name": "First Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "YFBA",
+            "CityName": "Iqaluit",
+            "CountryName": "Canada",
+            "IataCode": "YFB",
+            "Name": "Iqaluit",
+            "PlaceId": 95538,
+            "SkyscannerCode": "YFB",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YGTA",
+            "CityName": "Igloolik",
+            "CountryName": "Canada",
+            "IataCode": "YGT",
+            "Name": "Igloolik",
+            "PlaceId": 95604,
+            "SkyscannerCode": "YGT",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 708.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    358
+                ],
+                "DepartureDate": "2017-05-23T00:00:00",
+                "DestinationId": 95538,
+                "OriginId": 95604
+            },
+            "QuoteDateTime": "2017-04-06T13:49:59",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 95604,
+            "Price": 708.0,
+            "QuoteDateTime": "2017-04-06T13:49:59",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1874,
+            "Name": "Flexflight"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Sweden",
+            "PlaceId": 1701,
+            "SkyscannerCode": "SE",
+            "Type": "Country"
+        },
+        {
+            "CityId": "STOC",
+            "CityName": "Stockholm",
+            "CountryName": "Sweden",
+            "IataCode": "ARN",
+            "Name": "Stockholm Arlanda",
+            "PlaceId": 40830,
+            "SkyscannerCode": "ARN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "HAGF",
+            "CityName": "Hagfors",
+            "CountryName": "Sweden",
+            "IataCode": "HFS",
+            "Name": "Hagfors",
+            "PlaceId": 56387,
+            "SkyscannerCode": "HFS",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 67.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1874
+                ],
+                "DepartureDate": "2017-05-30T00:00:00",
+                "DestinationId": 40830,
+                "OriginId": 56387
+            },
+            "QuoteDateTime": "2017-04-08T13:58:49",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1701,
+            "OriginId": 56387,
+            "Price": 67.0,
+            "QuoteDateTime": "2017-04-08T13:58:49",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

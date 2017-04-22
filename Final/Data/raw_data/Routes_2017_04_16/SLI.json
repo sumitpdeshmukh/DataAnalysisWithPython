@@ -1,0 +1,95 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1536,
+            "Name": "Proflight Zambia"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Malawi",
+            "PlaceId": 1431,
+            "SkyscannerCode": "MW",
+            "Type": "Country"
+        },
+        {
+            "Name": "South Africa",
+            "PlaceId": 2033,
+            "SkyscannerCode": "ZA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Zambia",
+            "PlaceId": 2045,
+            "SkyscannerCode": "ZM",
+            "Type": "Country"
+        },
+        {
+            "CityId": "NLAA",
+            "CityName": "Ndola",
+            "CountryName": "Zambia",
+            "IataCode": "NLA",
+            "Name": "Ndola",
+            "PlaceId": 70481,
+            "SkyscannerCode": "NLA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SLIB",
+            "CityName": "Solwezi",
+            "CountryName": "Zambia",
+            "IataCode": "SLI",
+            "Name": "Solwezi",
+            "PlaceId": 82009,
+            "SkyscannerCode": "SLI",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 131.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1536
+                ],
+                "DepartureDate": "2017-05-09T00:00:00",
+                "DestinationId": 70481,
+                "OriginId": 82009
+            },
+            "QuoteDateTime": "2017-04-03T00:02:05",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 2045,
+            "OriginId": 82009,
+            "Price": 131.0,
+            "QuoteDateTime": "2017-04-03T00:02:05",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1431,
+            "OriginId": 82009
+        },
+        {
+            "DestinationId": 2033,
+            "OriginId": 82009
+        }
+    ]
+}

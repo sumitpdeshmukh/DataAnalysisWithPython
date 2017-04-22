@@ -1,0 +1,68 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "GDVA",
+            "CityName": "Glendive",
+            "CountryName": "United States",
+            "IataCode": "GDV",
+            "Name": "Glendive",
+            "PlaceId": 53990,
+            "SkyscannerCode": "GDV",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SYRA",
+            "CityName": "Syracuse",
+            "CountryName": "United States",
+            "IataCode": "SYR",
+            "Name": "Syracuse",
+            "PlaceId": 82642,
+            "SkyscannerCode": "SYR",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 1312.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-15T00:00:00",
+                "DestinationId": 82642,
+                "OriginId": 53990
+            },
+            "QuoteDateTime": "2017-03-30T06:51:18",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 53990,
+            "Price": 1312.0,
+            "QuoteDateTime": "2017-03-30T06:51:18",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

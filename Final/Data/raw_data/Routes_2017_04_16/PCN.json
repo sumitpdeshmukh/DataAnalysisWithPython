@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1688,
+            "Name": "Salsa D'Haiti"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "New Zealand",
+            "PlaceId": 1482,
+            "SkyscannerCode": "NZ",
+            "Type": "Country"
+        },
+        {
+            "CityId": "PCNN",
+            "CityName": "Picton",
+            "CountryName": "New Zealand",
+            "IataCode": "PCN",
+            "Name": "Picton",
+            "PlaceId": 74670,
+            "SkyscannerCode": "PCN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "WLGN",
+            "CityName": "Wellington",
+            "CountryName": "New Zealand",
+            "IataCode": "WLG",
+            "Name": "Wellington",
+            "PlaceId": 91223,
+            "SkyscannerCode": "WLG",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 70.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1688
+                ],
+                "DepartureDate": "2018-02-25T00:00:00",
+                "DestinationId": 91223,
+                "OriginId": 74670
+            },
+            "QuoteDateTime": "2017-04-13T14:46:32",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1482,
+            "OriginId": 74670,
+            "Price": 70.0,
+            "QuoteDateTime": "2017-04-13T14:46:32",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

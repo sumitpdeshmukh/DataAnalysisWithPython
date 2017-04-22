@@ -1,0 +1,95 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1106,
+            "Name": "Tianjin Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cambodia",
+            "PlaceId": 1320,
+            "SkyscannerCode": "KH",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "CityId": "JICA",
+            "CityName": "Jinchang",
+            "CountryName": "China",
+            "IataCode": "JIC",
+            "Name": "Jinchuan",
+            "PlaceId": 61123,
+            "SkyscannerCode": "JIC",
+            "Type": "Station"
+        },
+        {
+            "CityId": "XIAN",
+            "CityName": "Xi An",
+            "CountryName": "China",
+            "IataCode": "XIY",
+            "Name": "Xi An Xianyang",
+            "PlaceId": 93401,
+            "SkyscannerCode": "XIY",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 67.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1106
+                ],
+                "DepartureDate": "2017-05-11T00:00:00",
+                "DestinationId": 93401,
+                "OriginId": 61123
+            },
+            "QuoteDateTime": "2017-03-17T12:23:09",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 942,
+            "OriginId": 61123,
+            "Price": 67.0,
+            "QuoteDateTime": "2017-03-17T12:23:09",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1320,
+            "OriginId": 61123
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 61123
+        }
+    ]
+}

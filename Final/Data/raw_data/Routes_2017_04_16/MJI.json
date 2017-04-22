@@ -1,0 +1,115 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 338,
+            "Name": "Hahn Air Systems"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Egypt",
+            "PlaceId": 1031,
+            "SkyscannerCode": "EG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Jordan",
+            "PlaceId": 1279,
+            "SkyscannerCode": "JO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Libya",
+            "PlaceId": 1385,
+            "SkyscannerCode": "LY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Tunisia",
+            "PlaceId": 1758,
+            "SkyscannerCode": "TN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Turkey",
+            "PlaceId": 1762,
+            "SkyscannerCode": "TR",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ISTA",
+            "CityName": "Istanbul",
+            "CountryName": "Turkey",
+            "IataCode": "IST",
+            "Name": "Istanbul Ataturk",
+            "PlaceId": 59316,
+            "SkyscannerCode": "IST",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MJIA",
+            "CityName": "Mitiga",
+            "CountryName": "Libya",
+            "IataCode": "MJI",
+            "Name": "Mitiga",
+            "PlaceId": 68089,
+            "SkyscannerCode": "MJI",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 412.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    338
+                ],
+                "DepartureDate": "2017-09-12T00:00:00",
+                "DestinationId": 59316,
+                "OriginId": 68089
+            },
+            "QuoteDateTime": "2017-03-24T16:24:32",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1385,
+            "OriginId": 68089
+        },
+        {
+            "DestinationId": 1762,
+            "OriginId": 68089,
+            "Price": 412.0,
+            "QuoteDateTime": "2017-03-24T16:24:32",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1279,
+            "OriginId": 68089
+        },
+        {
+            "DestinationId": 1031,
+            "OriginId": 68089
+        },
+        {
+            "DestinationId": 1758,
+            "OriginId": 68089
+        }
+    ]
+}

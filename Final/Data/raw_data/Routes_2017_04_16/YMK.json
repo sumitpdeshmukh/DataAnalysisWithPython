@@ -1,0 +1,124 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1812,
+            "Name": "UTair"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Azerbaijan",
+            "PlaceId": 858,
+            "SkyscannerCode": "AZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Tajikistan",
+            "PlaceId": 1754,
+            "SkyscannerCode": "TJ",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LBDA",
+            "CityName": "Khudzhand",
+            "CountryName": "Tajikistan",
+            "IataCode": "LBD",
+            "Name": "Khudzhand",
+            "PlaceId": 65396,
+            "SkyscannerCode": "LBD",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SURG",
+            "CityName": "Surgut",
+            "CountryName": "Russia",
+            "IataCode": "SGC",
+            "Name": "Surgut",
+            "PlaceId": 81763,
+            "SkyscannerCode": "SGC",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MYSK",
+            "CityName": "Mys Kamennyy",
+            "CountryName": "Russia",
+            "IataCode": "YMK",
+            "Name": "Mys Kamennyy",
+            "PlaceId": 95883,
+            "SkyscannerCode": "YMK",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 604.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1812
+                ],
+                "DepartureDate": "2017-08-26T00:00:00",
+                "DestinationId": 65396,
+                "OriginId": 95883
+            },
+            "QuoteDateTime": "2017-03-30T06:11:10",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 282.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1812
+                ],
+                "DepartureDate": "2017-09-16T00:00:00",
+                "DestinationId": 81763,
+                "OriginId": 95883
+            },
+            "QuoteDateTime": "2017-04-04T04:02:06",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1754,
+            "OriginId": 95883,
+            "Price": 604.0,
+            "QuoteDateTime": "2017-03-30T06:11:10",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 858,
+            "OriginId": 95883
+        },
+        {
+            "DestinationId": 1669,
+            "OriginId": 95883,
+            "Price": 282.0,
+            "QuoteDateTime": "2017-04-04T04:02:06",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

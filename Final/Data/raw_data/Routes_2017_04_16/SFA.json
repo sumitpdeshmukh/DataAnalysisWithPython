@@ -1,0 +1,224 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 421,
+            "Name": "Afriqiyah Airways"
+        },
+        {
+            "CarrierId": 1799,
+            "Name": "TunisAir Express"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Czech Republic",
+            "PlaceId": 954,
+            "SkyscannerCode": "CZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Ghana",
+            "PlaceId": 1128,
+            "SkyscannerCode": "GH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Libya",
+            "PlaceId": 1385,
+            "SkyscannerCode": "LY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Saudi Arabia",
+            "PlaceId": 1697,
+            "SkyscannerCode": "SA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Tunisia",
+            "PlaceId": 1758,
+            "SkyscannerCode": "TN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Turkey",
+            "PlaceId": 1762,
+            "SkyscannerCode": "TR",
+            "Type": "Country"
+        },
+        {
+            "CityId": "PARI",
+            "CityName": "Paris",
+            "CountryName": "France",
+            "IataCode": "CDG",
+            "Name": "Paris Charles de Gaulle",
+            "PlaceId": 44759,
+            "SkyscannerCode": "CDG",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MRAA",
+            "CityName": "Misurata",
+            "CountryName": "Libya",
+            "IataCode": "MRA",
+            "Name": "Misurata",
+            "PlaceId": 68465,
+            "SkyscannerCode": "MRA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PRAG",
+            "CityName": "Prague",
+            "CountryName": "Czech Republic",
+            "IataCode": "PRG",
+            "Name": "Prague",
+            "PlaceId": 75383,
+            "SkyscannerCode": "PRG",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SFAX",
+            "CityName": "Sfax El Maou",
+            "CountryName": "Tunisia",
+            "IataCode": "SFA",
+            "Name": "Sfax El Maou",
+            "PlaceId": 81713,
+            "SkyscannerCode": "SFA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TUNI",
+            "CityName": "Tunis Carthage",
+            "CountryName": "Tunisia",
+            "IataCode": "TUN",
+            "Name": "Tunis Carthage",
+            "PlaceId": 84750,
+            "SkyscannerCode": "TUN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 46.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1799
+                ],
+                "DepartureDate": "2017-04-23T00:00:00",
+                "DestinationId": 84750,
+                "OriginId": 81713
+            },
+            "QuoteDateTime": "2017-04-18T09:29:12",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 103.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    421
+                ],
+                "DepartureDate": "2017-07-13T00:00:00",
+                "DestinationId": 68465,
+                "OriginId": 81713
+            },
+            "QuoteDateTime": "2017-04-06T15:22:41",
+            "QuoteId": 2
+        },
+        {
+            "Direct": true,
+            "MinPrice": 82.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1799
+                ],
+                "DepartureDate": "2017-08-08T00:00:00",
+                "DestinationId": 44759,
+                "OriginId": 81713
+            },
+            "QuoteDateTime": "2017-04-14T19:40:33",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1509.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-10T00:00:00",
+                "DestinationId": 75383,
+                "OriginId": 81713
+            },
+            "QuoteDateTime": "2017-03-30T08:11:28",
+            "QuoteId": 4
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1762,
+            "OriginId": 81713
+        },
+        {
+            "DestinationId": 1128,
+            "OriginId": 81713
+        },
+        {
+            "DestinationId": 1758,
+            "OriginId": 81713,
+            "Price": 46.0,
+            "QuoteDateTime": "2017-04-18T09:29:12",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1697,
+            "OriginId": 81713
+        },
+        {
+            "DestinationId": 1385,
+            "OriginId": 81713,
+            "Price": 103.0,
+            "QuoteDateTime": "2017-04-06T15:22:41",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 81713,
+            "Price": 82.0,
+            "QuoteDateTime": "2017-04-14T19:40:33",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 954,
+            "OriginId": 81713,
+            "Price": 1509.0,
+            "QuoteDateTime": "2017-03-30T08:11:28",
+            "QuoteIds": [
+                4
+            ]
+        }
+    ]
+}

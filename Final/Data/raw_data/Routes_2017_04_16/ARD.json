@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 0,
+            "Name": "NAM Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Indonesia",
+            "PlaceId": 1220,
+            "SkyscannerCode": "ID",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ARDI",
+            "CityName": "Alor Island",
+            "CountryName": "Indonesia",
+            "IataCode": "ARD",
+            "Name": "Alor Island",
+            "PlaceId": 40820,
+            "SkyscannerCode": "ARD",
+            "Type": "Station"
+        },
+        {
+            "CityId": "KOEA",
+            "CityName": "Kupang",
+            "CountryName": "Indonesia",
+            "IataCode": "KOE",
+            "Name": "Kupang",
+            "PlaceId": 63717,
+            "SkyscannerCode": "KOE",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 21.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    0
+                ],
+                "DepartureDate": "2017-08-02T00:00:00",
+                "DestinationId": 63717,
+                "OriginId": 40820
+            },
+            "QuoteDateTime": "2017-04-04T10:40:50",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1220,
+            "OriginId": 40820,
+            "Price": 21.0,
+            "QuoteDateTime": "2017-04-04T10:40:50",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

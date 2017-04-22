@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1939,
+            "Name": "KD Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "YAZA",
+            "CityName": "Tofino",
+            "CountryName": "Canada",
+            "IataCode": "YAZ",
+            "Name": "Tofino",
+            "PlaceId": 95322,
+            "SkyscannerCode": "YAZ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YVRA",
+            "CityName": "Vancouver",
+            "CountryName": "Canada",
+            "IataCode": "YVR",
+            "Name": "Vancouver International",
+            "PlaceId": 96322,
+            "SkyscannerCode": "YVR",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 130.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1939
+                ],
+                "DepartureDate": "2017-06-10T00:00:00",
+                "DestinationId": 96322,
+                "OriginId": 95322
+            },
+            "QuoteDateTime": "2017-03-25T18:54:37",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 95322,
+            "Price": 130.0,
+            "QuoteDateTime": "2017-03-25T18:54:37",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

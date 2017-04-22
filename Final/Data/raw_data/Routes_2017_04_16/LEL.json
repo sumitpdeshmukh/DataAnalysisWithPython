@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 76,
+            "Name": "Fly Tiwi"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LELA",
+            "CityName": "Lake Evella",
+            "CountryName": "Australia",
+            "IataCode": "LEL",
+            "Name": "Lake Evella",
+            "PlaceId": 65548,
+            "SkyscannerCode": "LEL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "RAMA",
+            "CityName": "Ramingining",
+            "CountryName": "Australia",
+            "IataCode": "RAM",
+            "Name": "Ramingining",
+            "PlaceId": 79181,
+            "SkyscannerCode": "RAM",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 193.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    76
+                ],
+                "DepartureDate": "2017-04-27T00:00:00",
+                "DestinationId": 79181,
+                "OriginId": 65548
+            },
+            "QuoteDateTime": "2017-04-19T01:33:05",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 853,
+            "OriginId": 65548,
+            "Price": 193.0,
+            "QuoteDateTime": "2017-04-19T01:33:05",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

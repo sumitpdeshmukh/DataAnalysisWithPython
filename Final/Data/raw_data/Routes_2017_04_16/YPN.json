@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1410,
+            "Name": "Air Liaison"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "YGVA",
+            "CityName": "Havre St Pierre",
+            "CountryName": "Canada",
+            "IataCode": "YGV",
+            "Name": "Havre St Pierre",
+            "PlaceId": 95606,
+            "SkyscannerCode": "YGV",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YPNA",
+            "CityName": "Port Menier",
+            "CountryName": "Canada",
+            "IataCode": "YPN",
+            "Name": "Port Menier",
+            "PlaceId": 96030,
+            "SkyscannerCode": "YPN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 124.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1410
+                ],
+                "DepartureDate": "2017-12-22T00:00:00",
+                "DestinationId": 95606,
+                "OriginId": 96030
+            },
+            "QuoteDateTime": "2017-04-18T02:35:12",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 96030,
+            "Price": 124.0,
+            "QuoteDateTime": "2017-04-18T02:35:12",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 457,
+            "Name": "Sparrow  Aviation"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Sweden",
+            "PlaceId": 1701,
+            "SkyscannerCode": "SE",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "STOC",
+            "CityName": "Stockholm",
+            "CountryName": "Sweden",
+            "IataCode": "ARN",
+            "Name": "Stockholm Arlanda",
+            "PlaceId": 40830,
+            "SkyscannerCode": "ARN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NYCA",
+            "CityName": "New York",
+            "CountryName": "United States",
+            "IataCode": "JFK",
+            "Name": "New York John F. Kennedy",
+            "PlaceId": 60987,
+            "SkyscannerCode": "JFK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "KRIS",
+            "CityName": "Kristianstad",
+            "CountryName": "Sweden",
+            "IataCode": "KID",
+            "Name": "Kristianstad",
+            "PlaceId": 63428,
+            "SkyscannerCode": "KID",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 45.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    457
+                ],
+                "DepartureDate": "2017-10-25T00:00:00",
+                "DestinationId": 40830,
+                "OriginId": 63428
+            },
+            "QuoteDateTime": "2017-04-10T19:04:35",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 2491.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-17T00:00:00",
+                "DestinationId": 60987,
+                "OriginId": 63428
+            },
+            "QuoteDateTime": "2017-03-18T17:35:41",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1701,
+            "OriginId": 63428,
+            "Price": 45.0,
+            "QuoteDateTime": "2017-04-10T19:04:35",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 63428
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 63428,
+            "Price": 2491.0,
+            "QuoteDateTime": "2017-03-18T17:35:41",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

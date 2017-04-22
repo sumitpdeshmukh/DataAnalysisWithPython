@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 864,
+            "Name": "Hebridean Air Service"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "CityId": "COLA",
+            "CityName": "Coll Island",
+            "CountryName": "United Kingdom",
+            "IataCode": "COL",
+            "Name": "Coll Island",
+            "PlaceId": 45292,
+            "SkyscannerCode": "COL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "OBNA",
+            "CityName": "Oban",
+            "CountryName": "United Kingdom",
+            "IataCode": "OBN",
+            "Name": "Oban Connel",
+            "PlaceId": 72318,
+            "SkyscannerCode": "OBN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 42.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    864
+                ],
+                "DepartureDate": "2017-09-06T00:00:00",
+                "DestinationId": 45292,
+                "OriginId": 72318
+            },
+            "QuoteDateTime": "2017-04-04T10:06:24",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1803,
+            "OriginId": 72318,
+            "Price": 42.0,
+            "QuoteDateTime": "2017-04-04T10:06:24",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

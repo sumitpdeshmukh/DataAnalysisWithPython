@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 184,
+            "Name": "Japan Air Commuter"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "CityId": "JKOJ",
+            "CityName": "Kagoshima",
+            "CountryName": "Japan",
+            "IataCode": "KOJ",
+            "Name": "Kagoshima",
+            "PlaceId": 63722,
+            "SkyscannerCode": "KOJ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "JTNE",
+            "CityName": "Tanegashima",
+            "CountryName": "Japan",
+            "IataCode": "TNE",
+            "Name": "Tanegashima",
+            "PlaceId": 84405,
+            "SkyscannerCode": "TNE",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 79.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    184
+                ],
+                "DepartureDate": "2017-04-30T00:00:00",
+                "DestinationId": 63722,
+                "OriginId": 84405
+            },
+            "QuoteDateTime": "2017-03-30T03:36:54",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1280,
+            "OriginId": 84405,
+            "Price": 79.0,
+            "QuoteDateTime": "2017-03-30T03:36:54",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

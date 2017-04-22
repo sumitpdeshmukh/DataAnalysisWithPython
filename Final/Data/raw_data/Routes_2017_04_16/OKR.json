@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 76,
+            "Name": "Fly Tiwi"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "NLFA",
+            "CityName": "Darnley Island",
+            "CountryName": "Australia",
+            "IataCode": "NLF",
+            "Name": "Darnley Island",
+            "PlaceId": 70486,
+            "SkyscannerCode": "NLF",
+            "Type": "Station"
+        },
+        {
+            "CityId": "OKRA",
+            "CityName": "Yorke Island",
+            "CountryName": "Australia",
+            "IataCode": "OKR",
+            "Name": "Yorke Island",
+            "PlaceId": 72754,
+            "SkyscannerCode": "OKR",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 210.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    76
+                ],
+                "DepartureDate": "2017-06-08T00:00:00",
+                "DestinationId": 70486,
+                "OriginId": 72754
+            },
+            "QuoteDateTime": "2017-04-12T18:48:31",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 853,
+            "OriginId": 72754,
+            "Price": 210.0,
+            "QuoteDateTime": "2017-04-12T18:48:31",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

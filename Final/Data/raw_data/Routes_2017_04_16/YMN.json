@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1554,
+            "Name": "Provincial Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "YHOA",
+            "CityName": "Hopedale",
+            "CountryName": "Canada",
+            "IataCode": "YHO",
+            "Name": "Hopedale",
+            "PlaceId": 95647,
+            "SkyscannerCode": "YHO",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YMNA",
+            "CityName": "Makkovik",
+            "CountryName": "Canada",
+            "IataCode": "YMN",
+            "Name": "Makkovik",
+            "PlaceId": 95886,
+            "SkyscannerCode": "YMN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 141.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1554
+                ],
+                "DepartureDate": "2018-03-02T00:00:00",
+                "DestinationId": 95647,
+                "OriginId": 95886
+            },
+            "QuoteDateTime": "2017-04-19T00:07:40",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 95886,
+            "Price": 141.0,
+            "QuoteDateTime": "2017-04-19T00:07:40",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

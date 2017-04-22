@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1239,
+            "Name": "Wings Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Indonesia",
+            "PlaceId": 1220,
+            "SkyscannerCode": "ID",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ABUI",
+            "CityName": "Atambua",
+            "CountryName": "Indonesia",
+            "IataCode": "ABU",
+            "Name": "Atambua",
+            "PlaceId": 40069,
+            "SkyscannerCode": "ABU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "KOEA",
+            "CityName": "Kupang",
+            "CountryName": "Indonesia",
+            "IataCode": "KOE",
+            "Name": "Kupang",
+            "PlaceId": 63717,
+            "SkyscannerCode": "KOE",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 27.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1239
+                ],
+                "DepartureDate": "2017-05-15T00:00:00",
+                "DestinationId": 63717,
+                "OriginId": 40069
+            },
+            "QuoteDateTime": "2017-04-18T07:46:13",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1220,
+            "OriginId": 40069,
+            "Price": 27.0,
+            "QuoteDateTime": "2017-04-18T07:46:13",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

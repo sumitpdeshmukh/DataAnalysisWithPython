@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 175,
+            "Name": "Southern Airways Express"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "WASA",
+            "CityName": "Washington",
+            "CountryName": "United States",
+            "IataCode": "BWI",
+            "Name": "Baltimore Washington International",
+            "PlaceId": 43369,
+            "SkyscannerCode": "BWI",
+            "Type": "Station"
+        },
+        {
+            "CityId": "JHWA",
+            "CityName": "Jamestown",
+            "CountryName": "United States",
+            "IataCode": "JHW",
+            "Name": "Jamestown",
+            "PlaceId": 61095,
+            "SkyscannerCode": "JHW",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 71.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    175
+                ],
+                "DepartureDate": "2017-05-26T00:00:00",
+                "DestinationId": 43369,
+                "OriginId": 61095
+            },
+            "QuoteDateTime": "2017-04-02T01:08:32",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 61095,
+            "Price": 71.0,
+            "QuoteDateTime": "2017-04-02T01:08:32",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

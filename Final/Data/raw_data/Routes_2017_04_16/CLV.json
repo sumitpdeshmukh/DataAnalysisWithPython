@@ -1,0 +1,100 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1107,
+            "Name": "GOL Linhas A\u00e9reas"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "CityId": "SAOA",
+            "CityName": "Sao Paulo",
+            "CountryName": "Brazil",
+            "IataCode": "CGH",
+            "Name": "Sao Paulo Congonhas",
+            "PlaceId": 44904,
+            "SkyscannerCode": "CGH",
+            "Type": "Station"
+        },
+        {
+            "CityId": "CLVA",
+            "CityName": "Caldas Novas",
+            "CountryName": "Brazil",
+            "IataCode": "CLV",
+            "Name": "Caldas Novas",
+            "PlaceId": 45158,
+            "SkyscannerCode": "CLV",
+            "Type": "Station"
+        },
+        {
+            "CityId": "FLNA",
+            "CityName": "Florianopolis",
+            "CountryName": "Brazil",
+            "IataCode": "FLN",
+            "Name": "Florianopolis",
+            "PlaceId": 52062,
+            "SkyscannerCode": "FLN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 110.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1107
+                ],
+                "DepartureDate": "2017-05-04T00:00:00",
+                "DestinationId": 52062,
+                "OriginId": 45158
+            },
+            "QuoteDateTime": "2017-03-25T12:02:24",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 111.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1107
+                ],
+                "DepartureDate": "2017-09-28T00:00:00",
+                "DestinationId": 44904,
+                "OriginId": 45158
+            },
+            "QuoteDateTime": "2017-04-14T17:34:44",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 898,
+            "OriginId": 45158,
+            "Price": 110.0,
+            "QuoteDateTime": "2017-03-25T12:02:24",
+            "QuoteIds": [
+                1,
+                2
+            ]
+        }
+    ]
+}

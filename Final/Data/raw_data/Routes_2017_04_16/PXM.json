@@ -1,0 +1,412 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 244,
+            "Name": "Interjet"
+        },
+        {
+            "CarrierId": 1218,
+            "Name": "Iberia"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Chile",
+            "PlaceId": 940,
+            "SkyscannerCode": "CL",
+            "Type": "Country"
+        },
+        {
+            "Name": "Colombia",
+            "PlaceId": 943,
+            "SkyscannerCode": "CO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Costa Rica",
+            "PlaceId": 946,
+            "SkyscannerCode": "CR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cuba",
+            "PlaceId": 949,
+            "SkyscannerCode": "CU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "Guatemala",
+            "PlaceId": 1140,
+            "SkyscannerCode": "GT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "Nicaragua",
+            "PlaceId": 1465,
+            "SkyscannerCode": "NI",
+            "Type": "Country"
+        },
+        {
+            "Name": "Netherlands",
+            "PlaceId": 1468,
+            "SkyscannerCode": "NL",
+            "Type": "Country"
+        },
+        {
+            "Name": "Peru",
+            "PlaceId": 1557,
+            "SkyscannerCode": "PE",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "AMST",
+            "CityName": "Amsterdam",
+            "CountryName": "Netherlands",
+            "IataCode": "AMS",
+            "Name": "Amsterdam",
+            "PlaceId": 40595,
+            "SkyscannerCode": "AMS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "GUAA",
+            "CityName": "Guatemala City",
+            "CountryName": "Guatemala",
+            "IataCode": "GUA",
+            "Name": "Guatemala City",
+            "PlaceId": 54785,
+            "SkyscannerCode": "GUA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "HOUA",
+            "CityName": "Houston",
+            "CountryName": "United States",
+            "IataCode": "IAH",
+            "Name": "Houston George Bush Intercntl.",
+            "PlaceId": 58440,
+            "SkyscannerCode": "IAH",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LIMA",
+            "CityName": "Lima",
+            "CountryName": "Peru",
+            "IataCode": "LIM",
+            "Name": "Lima",
+            "PlaceId": 65741,
+            "SkyscannerCode": "LIM",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MADR",
+            "CityName": "Madrid",
+            "CountryName": "Spain",
+            "IataCode": "MAD",
+            "Name": "Madrid",
+            "PlaceId": 67652,
+            "SkyscannerCode": "MAD",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MGAA",
+            "CityName": "Managua",
+            "CountryName": "Nicaragua",
+            "IataCode": "MGA",
+            "Name": "Managua",
+            "PlaceId": 67937,
+            "SkyscannerCode": "MGA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PXMB",
+            "CityName": "Puerto Escondido",
+            "CountryName": "Mexico",
+            "IataCode": "PXM",
+            "Name": "Puerto Escondido",
+            "PlaceId": 75677,
+            "SkyscannerCode": "PXM",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SCLA",
+            "CityName": "Santiago",
+            "CountryName": "Chile",
+            "IataCode": "SCL",
+            "Name": "Santiago Arturo Merino Benitez",
+            "PlaceId": 81580,
+            "SkyscannerCode": "SCL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "BERL",
+            "CityName": "Berlin",
+            "CountryName": "Germany",
+            "IataCode": "TXL",
+            "Name": "Berlin Tegel",
+            "PlaceId": 84892,
+            "SkyscannerCode": "TXL",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 290.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    244
+                ],
+                "DepartureDate": "2017-12-18T00:00:00",
+                "DestinationId": 65741,
+                "OriginId": 75677
+            },
+            "QuoteDateTime": "2017-04-12T20:42:09",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 592.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-12-18T00:00:00",
+                "DestinationId": 81580,
+                "OriginId": 75677
+            },
+            "QuoteDateTime": "2017-04-12T20:41:04",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 139.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-04T00:00:00",
+                "DestinationId": 58440,
+                "OriginId": 75677
+            },
+            "QuoteDateTime": "2017-03-26T13:06:59",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 148.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    244
+                ],
+                "DepartureDate": "2017-05-05T00:00:00",
+                "DestinationId": 54785,
+                "OriginId": 75677
+            },
+            "QuoteDateTime": "2017-04-04T20:11:43",
+            "QuoteId": 4
+        },
+        {
+            "Direct": false,
+            "MinPrice": 3188.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1218
+                ],
+                "DepartureDate": "2017-06-12T00:00:00",
+                "DestinationId": 67652,
+                "OriginId": 75677
+            },
+            "QuoteDateTime": "2017-03-20T16:35:00",
+            "QuoteId": 5
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1711.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-11-03T00:00:00",
+                "DestinationId": 40595,
+                "OriginId": 75677
+            },
+            "QuoteDateTime": "2017-04-01T19:19:23",
+            "QuoteId": 6
+        },
+        {
+            "Direct": false,
+            "MinPrice": 486.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-04T00:00:00",
+                "DestinationId": 67937,
+                "OriginId": 75677
+            },
+            "QuoteDateTime": "2017-04-02T05:44:35",
+            "QuoteId": 7
+        },
+        {
+            "Direct": false,
+            "MinPrice": 1707.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-22T00:00:00",
+                "DestinationId": 84892,
+                "OriginId": 75677
+            },
+            "QuoteDateTime": "2017-03-23T05:20:08",
+            "QuoteId": 8
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1557,
+            "OriginId": 75677,
+            "Price": 290.0,
+            "QuoteDateTime": "2017-04-12T20:42:09",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 943,
+            "OriginId": 75677
+        },
+        {
+            "DestinationId": 940,
+            "OriginId": 75677,
+            "Price": 592.0,
+            "QuoteDateTime": "2017-04-12T20:41:04",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 898,
+            "OriginId": 75677
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 75677
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 75677,
+            "Price": 139.0,
+            "QuoteDateTime": "2017-03-26T13:06:59",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 1140,
+            "OriginId": 75677,
+            "Price": 148.0,
+            "QuoteDateTime": "2017-04-04T20:11:43",
+            "QuoteIds": [
+                4
+            ]
+        },
+        {
+            "DestinationId": 949,
+            "OriginId": 75677
+        },
+        {
+            "DestinationId": 946,
+            "OriginId": 75677
+        },
+        {
+            "DestinationId": 1043,
+            "OriginId": 75677,
+            "Price": 3188.0,
+            "QuoteDateTime": "2017-03-20T16:35:00",
+            "QuoteIds": [
+                5
+            ]
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 75677
+        },
+        {
+            "DestinationId": 1468,
+            "OriginId": 75677,
+            "Price": 1711.0,
+            "QuoteDateTime": "2017-04-01T19:19:23",
+            "QuoteIds": [
+                6
+            ]
+        },
+        {
+            "DestinationId": 1465,
+            "OriginId": 75677,
+            "Price": 486.0,
+            "QuoteDateTime": "2017-04-02T05:44:35",
+            "QuoteIds": [
+                7
+            ]
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 75677
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 75677,
+            "Price": 1707.0,
+            "QuoteDateTime": "2017-03-23T05:20:08",
+            "QuoteIds": [
+                8
+            ]
+        }
+    ]
+}

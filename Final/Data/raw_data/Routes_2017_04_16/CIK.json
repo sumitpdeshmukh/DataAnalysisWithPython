@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 231,
+            "Name": "Warbelows Air Ventures"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CIKA",
+            "CityName": "Chalkyitsik",
+            "CountryName": "United States",
+            "IataCode": "CIK",
+            "Name": "Chalkyitsik",
+            "PlaceId": 45003,
+            "SkyscannerCode": "CIK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "FAIA",
+            "CityName": "Fairbanks",
+            "CountryName": "United States",
+            "IataCode": "FAI",
+            "Name": "Fairbanks International",
+            "PlaceId": 51529,
+            "SkyscannerCode": "FAI",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 164.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    231
+                ],
+                "DepartureDate": "2017-05-03T00:00:00",
+                "DestinationId": 51529,
+                "OriginId": 45003
+            },
+            "QuoteDateTime": "2017-04-03T17:45:02",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1811,
+            "OriginId": 45003,
+            "Price": 164.0,
+            "QuoteDateTime": "2017-04-03T17:45:02",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

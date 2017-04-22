@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 838,
+            "Name": "Air France"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "CityId": "ANGE",
+            "CityName": "Angers",
+            "CountryName": "France",
+            "IataCode": "ANE",
+            "Name": "Angers",
+            "PlaceId": 40629,
+            "SkyscannerCode": "ANE",
+            "Type": "Station"
+        },
+        {
+            "CityId": "BAST",
+            "CityName": "Bastia - Corsica",
+            "CountryName": "France",
+            "IataCode": "BIA",
+            "Name": "Bastia - Corsica",
+            "PlaceId": 42689,
+            "SkyscannerCode": "BIA",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 81.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    838
+                ],
+                "DepartureDate": "2017-09-09T00:00:00",
+                "DestinationId": 42689,
+                "OriginId": 40629
+            },
+            "QuoteDateTime": "2017-04-17T22:57:49",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1090,
+            "OriginId": 40629,
+            "Price": 81.0,
+            "QuoteDateTime": "2017-04-17T22:57:49",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

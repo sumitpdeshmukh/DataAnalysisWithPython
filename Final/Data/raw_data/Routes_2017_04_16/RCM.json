@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 2044,
+            "Name": "Regional Express"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Australia",
+            "PlaceId": 853,
+            "SkyscannerCode": "AU",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CNSA",
+            "CityName": "Cairns",
+            "CountryName": "Australia",
+            "IataCode": "CNS",
+            "Name": "Cairns",
+            "PlaceId": 45251,
+            "SkyscannerCode": "CNS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "RCMA",
+            "CityName": "Richmond",
+            "CountryName": "Australia",
+            "IataCode": "RCM",
+            "Name": "Richmond",
+            "PlaceId": 79277,
+            "SkyscannerCode": "RCM",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 255.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    2044
+                ],
+                "DepartureDate": "2017-07-24T00:00:00",
+                "DestinationId": 45251,
+                "OriginId": 79277
+            },
+            "QuoteDateTime": "2017-04-10T12:10:50",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 853,
+            "OriginId": 79277,
+            "Price": 255.0,
+            "QuoteDateTime": "2017-04-10T12:10:50",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

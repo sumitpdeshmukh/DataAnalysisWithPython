@@ -1,0 +1,138 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1108,
+            "Name": "Allegiant Air"
+        },
+        {
+            "CarrierId": 1895,
+            "Name": "Sunwing Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Dominican Republic",
+            "PlaceId": 991,
+            "SkyscannerCode": "DO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CLWA",
+            "CityName": "Clearwater",
+            "CountryName": "United States",
+            "IataCode": "PIE",
+            "Name": "St. Pete\u2013Clearwater International",
+            "PlaceId": 74949,
+            "SkyscannerCode": "PIE",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PHLA",
+            "CityName": "Philadelphia",
+            "CountryName": "United States",
+            "IataCode": "TTN",
+            "Name": "Philadelphia Trenton-Mercer",
+            "PlaceId": 84702,
+            "SkyscannerCode": "TTN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YTOA",
+            "CityName": "Toronto",
+            "CountryName": "Canada",
+            "IataCode": "YYZ",
+            "Name": "Toronto Pearson International",
+            "PlaceId": 96474,
+            "SkyscannerCode": "YYZ",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 182.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1895
+                ],
+                "DepartureDate": "2017-04-21T00:00:00",
+                "DestinationId": 96474,
+                "OriginId": 74949
+            },
+            "QuoteDateTime": "2017-04-14T17:50:45",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 49.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1108
+                ],
+                "DepartureDate": "2017-05-19T00:00:00",
+                "DestinationId": 84702,
+                "OriginId": 74949
+            },
+            "QuoteDateTime": "2017-03-29T15:22:23",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1432,
+            "OriginId": 74949
+        },
+        {
+            "DestinationId": 991,
+            "OriginId": 74949
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 74949,
+            "Price": 182.0,
+            "QuoteDateTime": "2017-04-14T17:50:45",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 74949,
+            "Price": 49.0,
+            "QuoteDateTime": "2017-03-29T15:22:23",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

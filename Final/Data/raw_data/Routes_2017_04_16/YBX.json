@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1554,
+            "Name": "Provincial Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "YAYA",
+            "CityName": "St Anthony",
+            "CountryName": "Canada",
+            "IataCode": "YAY",
+            "Name": "St Anthony",
+            "PlaceId": 95321,
+            "SkyscannerCode": "YAY",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YBXA",
+            "CityName": "Blanc Sablon",
+            "CountryName": "Canada",
+            "IataCode": "YBX",
+            "Name": "Blanc Sablon",
+            "PlaceId": 95368,
+            "SkyscannerCode": "YBX",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 147.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1554
+                ],
+                "DepartureDate": "2017-06-26T00:00:00",
+                "DestinationId": 95321,
+                "OriginId": 95368
+            },
+            "QuoteDateTime": "2017-04-18T19:03:40",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 95368,
+            "Price": 147.0,
+            "QuoteDateTime": "2017-04-18T19:03:40",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

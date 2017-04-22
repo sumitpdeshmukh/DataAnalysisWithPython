@@ -1,0 +1,85 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 369,
+            "Name": "Ulendo Airlink"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Malawi",
+            "PlaceId": 1431,
+            "SkyscannerCode": "MW",
+            "Type": "Country"
+        },
+        {
+            "Name": "Zambia",
+            "PlaceId": 2045,
+            "SkyscannerCode": "ZM",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LIXA",
+            "CityName": "Likoma Island",
+            "CountryName": "Malawi",
+            "IataCode": "LIX",
+            "Name": "Likoma Island",
+            "PlaceId": 65752,
+            "SkyscannerCode": "LIX",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LLWA",
+            "CityName": "Lilongwe",
+            "CountryName": "Malawi",
+            "IataCode": "LLW",
+            "Name": "Lilongwe",
+            "PlaceId": 65895,
+            "SkyscannerCode": "LLW",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 301.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    369
+                ],
+                "DepartureDate": "2017-10-08T00:00:00",
+                "DestinationId": 65895,
+                "OriginId": 65752
+            },
+            "QuoteDateTime": "2017-04-19T01:12:13",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 2045,
+            "OriginId": 65752
+        },
+        {
+            "DestinationId": 1431,
+            "OriginId": 65752,
+            "Price": 301.0,
+            "QuoteDateTime": "2017-04-19T01:12:13",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

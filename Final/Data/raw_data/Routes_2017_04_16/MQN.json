@@ -1,0 +1,189 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Cyprus",
+            "PlaceId": 953,
+            "SkyscannerCode": "CY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Croatia",
+            "PlaceId": 1186,
+            "SkyscannerCode": "HR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Norway",
+            "PlaceId": 1471,
+            "SkyscannerCode": "NO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Sweden",
+            "PlaceId": 1701,
+            "SkyscannerCode": "SE",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BERI",
+            "CityName": "Bergen",
+            "CountryName": "Norway",
+            "IataCode": "BGO",
+            "Name": "Bergen",
+            "PlaceId": 42607,
+            "SkyscannerCode": "BGO",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LARN",
+            "CityName": "Larnaca",
+            "CountryName": "Cyprus",
+            "IataCode": "LCA",
+            "Name": "Larnaca",
+            "PlaceId": 65441,
+            "SkyscannerCode": "LCA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LOND",
+            "CityName": "London",
+            "CountryName": "United Kingdom",
+            "IataCode": "LHR",
+            "Name": "London Heathrow",
+            "PlaceId": 65698,
+            "SkyscannerCode": "LHR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MOIR",
+            "CityName": "Mo I Rana Rossvoll",
+            "CountryName": "Norway",
+            "IataCode": "MQN",
+            "Name": "Mo I Rana Rossvoll",
+            "PlaceId": 68430,
+            "SkyscannerCode": "MQN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SPLI",
+            "CityName": "Split",
+            "CountryName": "Croatia",
+            "IataCode": "SPU",
+            "Name": "Split",
+            "PlaceId": 82213,
+            "SkyscannerCode": "SPU",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 155.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-09-26T00:00:00",
+                "DestinationId": 42607,
+                "OriginId": 68430
+            },
+            "QuoteDateTime": "2017-04-03T03:59:07",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 193.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-02T00:00:00",
+                "DestinationId": 65698,
+                "OriginId": 68430
+            },
+            "QuoteDateTime": "2017-04-10T10:31:52",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 273.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-05-01T00:00:00",
+                "DestinationId": 82213,
+                "OriginId": 68430
+            },
+            "QuoteDateTime": "2017-04-17T22:42:34",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 461.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-06-29T00:00:00",
+                "DestinationId": 65441,
+                "OriginId": 68430
+            },
+            "QuoteDateTime": "2017-04-13T08:12:25",
+            "QuoteId": 4
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1701,
+            "OriginId": 68430
+        },
+        {
+            "DestinationId": 1471,
+            "OriginId": 68430,
+            "Price": 155.0,
+            "QuoteDateTime": "2017-04-03T03:59:07",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 68430,
+            "Price": 193.0,
+            "QuoteDateTime": "2017-04-10T10:31:52",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1186,
+            "OriginId": 68430,
+            "Price": 273.0,
+            "QuoteDateTime": "2017-04-17T22:42:34",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 953,
+            "OriginId": 68430,
+            "Price": 461.0,
+            "QuoteDateTime": "2017-04-13T08:12:25",
+            "QuoteIds": [
+                4
+            ]
+        }
+    ]
+}

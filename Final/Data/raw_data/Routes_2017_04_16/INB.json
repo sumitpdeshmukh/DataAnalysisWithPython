@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1431,
+            "Name": "Maya Island Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Belize",
+            "PlaceId": 906,
+            "SkyscannerCode": "BZ",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BZEA",
+            "CityName": "Belize City",
+            "CountryName": "Belize",
+            "IataCode": "BZE",
+            "Name": "Belize City Philip S.W.Goldson Int",
+            "PlaceId": 43509,
+            "SkyscannerCode": "BZE",
+            "Type": "Station"
+        },
+        {
+            "CityId": "INBA",
+            "CityName": "Independence",
+            "CountryName": "Belize",
+            "IataCode": "INB",
+            "Name": "Independence",
+            "PlaceId": 59058,
+            "SkyscannerCode": "INB",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 136.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1431
+                ],
+                "DepartureDate": "2017-04-27T00:00:00",
+                "DestinationId": 43509,
+                "OriginId": 59058
+            },
+            "QuoteDateTime": "2017-03-19T14:21:28",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 906,
+            "OriginId": 59058,
+            "Price": 136.0,
+            "QuoteDateTime": "2017-03-19T14:21:28",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

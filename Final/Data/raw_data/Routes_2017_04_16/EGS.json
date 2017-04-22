@@ -1,0 +1,206 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1481,
+            "Name": "Air Iceland"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Greenland",
+            "PlaceId": 1132,
+            "SkyscannerCode": "GL",
+            "Type": "Country"
+        },
+        {
+            "Name": "Iceland",
+            "PlaceId": 1235,
+            "SkyscannerCode": "IS",
+            "Type": "Country"
+        },
+        {
+            "Name": "Italy",
+            "PlaceId": 1236,
+            "SkyscannerCode": "IT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Romania",
+            "PlaceId": 1663,
+            "SkyscannerCode": "RO",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "EGIL",
+            "CityName": "Egilsstadir",
+            "CountryName": "Iceland",
+            "IataCode": "EGS",
+            "Name": "Egilsstadir",
+            "PlaceId": 49523,
+            "SkyscannerCode": "EGS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "NYCA",
+            "CityName": "New York",
+            "CountryName": "United States",
+            "IataCode": "JFK",
+            "Name": "New York John F. Kennedy",
+            "PlaceId": 60987,
+            "SkyscannerCode": "JFK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LOND",
+            "CityName": "London",
+            "CountryName": "United Kingdom",
+            "IataCode": "LHR",
+            "Name": "London Heathrow",
+            "PlaceId": 65698,
+            "SkyscannerCode": "LHR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "BUCH",
+            "CityName": "Bucharest",
+            "CountryName": "Romania",
+            "IataCode": "OTP",
+            "Name": "Bucharest Otopeni",
+            "PlaceId": 73184,
+            "SkyscannerCode": "OTP",
+            "Type": "Station"
+        },
+        {
+            "CityId": "REYK",
+            "CityName": "Reykjavik",
+            "CountryName": "Iceland",
+            "IataCode": "RKV",
+            "Name": "Reykjavik Domestic",
+            "PlaceId": 79670,
+            "SkyscannerCode": "RKV",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 81.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1481
+                ],
+                "DepartureDate": "2017-09-14T00:00:00",
+                "DestinationId": 79670,
+                "OriginId": 49523
+            },
+            "QuoteDateTime": "2017-04-01T00:00:51",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 204.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-11-03T00:00:00",
+                "DestinationId": 65698,
+                "OriginId": 49523
+            },
+            "QuoteDateTime": "2017-03-30T13:18:02",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "MinPrice": 473.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-07-28T00:00:00",
+                "DestinationId": 73184,
+                "OriginId": 49523
+            },
+            "QuoteDateTime": "2017-04-08T11:59:10",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 361.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-08-30T00:00:00",
+                "DestinationId": 60987,
+                "OriginId": 49523
+            },
+            "QuoteDateTime": "2017-03-23T15:37:55",
+            "QuoteId": 4
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1235,
+            "OriginId": 49523,
+            "Price": 81.0,
+            "QuoteDateTime": "2017-04-01T00:00:51",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1132,
+            "OriginId": 49523
+        },
+        {
+            "DestinationId": 1236,
+            "OriginId": 49523
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 49523,
+            "Price": 204.0,
+            "QuoteDateTime": "2017-03-30T13:18:02",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1663,
+            "OriginId": 49523,
+            "Price": 473.0,
+            "QuoteDateTime": "2017-04-08T11:59:10",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 49523,
+            "Price": 361.0,
+            "QuoteDateTime": "2017-03-23T15:37:55",
+            "QuoteIds": [
+                4
+            ]
+        }
+    ]
+}

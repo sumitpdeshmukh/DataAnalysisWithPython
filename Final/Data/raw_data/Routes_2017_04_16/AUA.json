@@ -1,0 +1,204 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 6,
+            "Name": "Thomson Airways"
+        },
+        {
+            "CarrierId": 470,
+            "Name": "Avior Airlines"
+        },
+        {
+            "CarrierId": 1324,
+            "Name": "KLM"
+        },
+        {
+            "CarrierId": 1522,
+            "Name": "TUI.nl"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Austria",
+            "PlaceId": 852,
+            "SkyscannerCode": "AT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Colombia",
+            "PlaceId": 943,
+            "SkyscannerCode": "CO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Netherlands",
+            "PlaceId": 1468,
+            "SkyscannerCode": "NL",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "CityId": "AMST",
+            "CityName": "Amsterdam",
+            "CountryName": "Netherlands",
+            "IataCode": "AMS",
+            "Name": "Amsterdam",
+            "PlaceId": 40595,
+            "SkyscannerCode": "AMS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "AUAA",
+            "CityName": "Oranjestad",
+            "CountryName": "Aruba",
+            "IataCode": "AUA",
+            "Name": "Oranjestad",
+            "PlaceId": 40961,
+            "SkyscannerCode": "AUA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MANC",
+            "CityName": "Manchester",
+            "CountryName": "United Kingdom",
+            "IataCode": "MAN",
+            "Name": "Manchester",
+            "PlaceId": 67662,
+            "SkyscannerCode": "MAN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MDEA",
+            "CityName": "Medellin",
+            "CountryName": "Colombia",
+            "IataCode": "MDE",
+            "Name": "Medellin Jose Maria Cordova",
+            "PlaceId": 67797,
+            "SkyscannerCode": "MDE",
+            "Type": "Station"
+        },
+        {
+            "CityId": "VIEN",
+            "CityName": "Vienna",
+            "CountryName": "Austria",
+            "IataCode": "VIE",
+            "Name": "Vienna",
+            "PlaceId": 88773,
+            "SkyscannerCode": "VIE",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 167.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    470
+                ],
+                "DepartureDate": "2017-04-30T00:00:00",
+                "DestinationId": 67797,
+                "OriginId": 40961
+            },
+            "QuoteDateTime": "2017-04-03T03:30:31",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 545.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    6
+                ],
+                "DepartureDate": "2017-05-08T00:00:00",
+                "DestinationId": 67662,
+                "OriginId": 40961
+            },
+            "QuoteDateTime": "2017-04-01T14:06:37",
+            "QuoteId": 2
+        },
+        {
+            "Direct": true,
+            "MinPrice": 211.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1522
+                ],
+                "DepartureDate": "2017-06-17T00:00:00",
+                "DestinationId": 40595,
+                "OriginId": 40961
+            },
+            "QuoteDateTime": "2017-04-17T22:06:10",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "MinPrice": 897.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1324
+                ],
+                "DepartureDate": "2017-09-03T00:00:00",
+                "DestinationId": 88773,
+                "OriginId": 40961
+            },
+            "QuoteDateTime": "2017-04-18T08:54:08",
+            "QuoteId": 4
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 943,
+            "OriginId": 40961,
+            "Price": 167.0,
+            "QuoteDateTime": "2017-04-03T03:30:31",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 40961,
+            "Price": 545.0,
+            "QuoteDateTime": "2017-04-01T14:06:37",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1468,
+            "OriginId": 40961,
+            "Price": 211.0,
+            "QuoteDateTime": "2017-04-17T22:06:10",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 852,
+            "OriginId": 40961,
+            "Price": 897.0,
+            "QuoteDateTime": "2017-04-18T08:54:08",
+            "QuoteIds": [
+                4
+            ]
+        }
+    ]
+}

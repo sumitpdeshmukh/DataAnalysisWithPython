@@ -1,0 +1,114 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1416,
+            "Name": "Malaysia Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Malaysia",
+            "PlaceId": 1433,
+            "SkyscannerCode": "MY",
+            "Type": "Country"
+        },
+        {
+            "CityId": "BBNM",
+            "CityName": "Bario",
+            "CountryName": "Malaysia",
+            "IataCode": "BBN",
+            "Name": "Bario",
+            "PlaceId": 42366,
+            "SkyscannerCode": "BBN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MYYM",
+            "CityName": "Miri",
+            "CountryName": "Malaysia",
+            "IataCode": "MYY",
+            "Name": "Miri",
+            "PlaceId": 68825,
+            "SkyscannerCode": "MYY",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YYCA",
+            "CityName": "Calgary",
+            "CountryName": "Canada",
+            "IataCode": "YYC",
+            "Name": "Calgary",
+            "PlaceId": 96451,
+            "SkyscannerCode": "YYC",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 25.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1416
+                ],
+                "DepartureDate": "2017-09-23T00:00:00",
+                "DestinationId": 68825,
+                "OriginId": 42366
+            },
+            "QuoteDateTime": "2017-04-17T15:24:25",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 6124.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1416
+                ],
+                "DepartureDate": "2017-05-11T00:00:00",
+                "DestinationId": 96451,
+                "OriginId": 42366
+            },
+            "QuoteDateTime": "2017-04-14T11:11:31",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1433,
+            "OriginId": 42366,
+            "Price": 25.0,
+            "QuoteDateTime": "2017-04-17T15:24:25",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 42366,
+            "Price": 6124.0,
+            "QuoteDateTime": "2017-04-14T11:11:31",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}

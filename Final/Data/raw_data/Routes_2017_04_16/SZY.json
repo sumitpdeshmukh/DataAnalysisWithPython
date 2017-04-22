@@ -1,0 +1,124 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1914,
+            "Name": "Wizz Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Germany",
+            "PlaceId": 981,
+            "SkyscannerCode": "DE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Norway",
+            "PlaceId": 1471,
+            "SkyscannerCode": "NO",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "CityId": "LOND",
+            "CityName": "London",
+            "CountryName": "United Kingdom",
+            "IataCode": "LTN",
+            "Name": "London Luton",
+            "PlaceId": 66270,
+            "SkyscannerCode": "LTN",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SZYA",
+            "CityName": "Szymany",
+            "CountryName": "Poland",
+            "IataCode": "SZY",
+            "Name": "Olsztyn-Mazury",
+            "PlaceId": 82697,
+            "SkyscannerCode": "SZY",
+            "Type": "Station"
+        },
+        {
+            "CityId": "OSLO",
+            "CityName": "Oslo",
+            "CountryName": "Norway",
+            "IataCode": "TRF",
+            "Name": "Oslo Torp",
+            "PlaceId": 84598,
+            "SkyscannerCode": "TRF",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 5.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1914
+                ],
+                "DepartureDate": "2017-05-20T00:00:00",
+                "DestinationId": 84598,
+                "OriginId": 82697
+            },
+            "QuoteDateTime": "2017-04-18T05:04:10",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 15.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1914
+                ],
+                "DepartureDate": "2018-02-05T00:00:00",
+                "DestinationId": 66270,
+                "OriginId": 82697
+            },
+            "QuoteDateTime": "2017-04-17T20:06:29",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1471,
+            "OriginId": 82697,
+            "Price": 5.0,
+            "QuoteDateTime": "2017-04-18T05:04:10",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 82697,
+            "Price": 15.0,
+            "QuoteDateTime": "2017-04-17T20:06:29",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 981,
+            "OriginId": 82697
+        }
+    ]
+}

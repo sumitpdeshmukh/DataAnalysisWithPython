@@ -1,0 +1,78 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Italy",
+            "PlaceId": 1236,
+            "SkyscannerCode": "IT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Norway",
+            "PlaceId": 1471,
+            "SkyscannerCode": "NO",
+            "Type": "Country"
+        },
+        {
+            "CityId": "HASV",
+            "CityName": "Hasvik",
+            "CountryName": "Norway",
+            "IataCode": "HAA",
+            "Name": "Hasvik",
+            "PlaceId": 56129,
+            "SkyscannerCode": "HAA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MILA",
+            "CityName": "Milan",
+            "CountryName": "Italy",
+            "IataCode": "LIN",
+            "Name": "Milan Linate",
+            "PlaceId": 65742,
+            "SkyscannerCode": "LIN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 227.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-08-11T00:00:00",
+                "DestinationId": 65742,
+                "OriginId": 56129
+            },
+            "QuoteDateTime": "2017-04-07T09:17:14",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1471,
+            "OriginId": 56129
+        },
+        {
+            "DestinationId": 1236,
+            "OriginId": 56129,
+            "Price": 227.0,
+            "QuoteDateTime": "2017-04-07T09:17:14",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

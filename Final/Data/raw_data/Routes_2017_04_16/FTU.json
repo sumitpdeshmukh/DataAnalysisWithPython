@@ -1,0 +1,174 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1412,
+            "Name": "Air Madagascar"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Comoros",
+            "PlaceId": 1325,
+            "SkyscannerCode": "KM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Madagascar",
+            "PlaceId": 1415,
+            "SkyscannerCode": "MG",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mauritius",
+            "PlaceId": 1429,
+            "SkyscannerCode": "MU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Reunion",
+            "PlaceId": 1653,
+            "SkyscannerCode": "RE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Seychelles",
+            "PlaceId": 1699,
+            "SkyscannerCode": "SC",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mayotte",
+            "PlaceId": 2004,
+            "SkyscannerCode": "YT",
+            "Type": "Country"
+        },
+        {
+            "CityId": "FTUA",
+            "CityName": "Fort Dauphin",
+            "CountryName": "Madagascar",
+            "IataCode": "FTU",
+            "Name": "Fort Dauphin",
+            "PlaceId": 52453,
+            "SkyscannerCode": "FTU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MRUA",
+            "CityName": "Mauritius",
+            "CountryName": "Mauritius",
+            "IataCode": "MRU",
+            "Name": "Mauritius",
+            "PlaceId": 68485,
+            "SkyscannerCode": "MRU",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TLEA",
+            "CityName": "Tulear",
+            "CountryName": "Madagascar",
+            "IataCode": "TLE",
+            "Name": "Tulear",
+            "PlaceId": 84309,
+            "SkyscannerCode": "TLE",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 621.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1412
+                ],
+                "DepartureDate": "2017-07-24T00:00:00",
+                "DestinationId": 68485,
+                "OriginId": 52453
+            },
+            "QuoteDateTime": "2017-03-31T18:11:58",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 219.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1412
+                ],
+                "DepartureDate": "2017-05-05T00:00:00",
+                "DestinationId": 84309,
+                "OriginId": 52453
+            },
+            "QuoteDateTime": "2017-03-30T08:29:14",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1325,
+            "OriginId": 52453
+        },
+        {
+            "DestinationId": 1429,
+            "OriginId": 52453,
+            "Price": 621.0,
+            "QuoteDateTime": "2017-03-31T18:11:58",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1415,
+            "OriginId": 52453,
+            "Price": 219.0,
+            "QuoteDateTime": "2017-03-30T08:29:14",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 2004,
+            "OriginId": 52453
+        },
+        {
+            "DestinationId": 1699,
+            "OriginId": 52453
+        },
+        {
+            "DestinationId": 1653,
+            "OriginId": 52453
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 52453
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 52453
+        }
+    ]
+}

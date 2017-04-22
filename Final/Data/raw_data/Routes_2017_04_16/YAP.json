@@ -1,0 +1,232 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1793,
+            "Name": "United"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Micronesia",
+            "PlaceId": 1085,
+            "SkyscannerCode": "FM",
+            "Type": "Country"
+        },
+        {
+            "Name": "Guam",
+            "PlaceId": 1141,
+            "SkyscannerCode": "GU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "Marshall Islands",
+            "PlaceId": 1416,
+            "SkyscannerCode": "MH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Northern Mariana Islands",
+            "PlaceId": 1424,
+            "SkyscannerCode": "MP",
+            "Type": "Country"
+        },
+        {
+            "Name": "Philippines",
+            "PlaceId": 1560,
+            "SkyscannerCode": "PH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Palau",
+            "PlaceId": 1575,
+            "SkyscannerCode": "PW",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "GUMA",
+            "CityName": "Barrigada / Tamuning",
+            "CountryName": "Guam",
+            "IataCode": "GUM",
+            "Name": "Guam A.B. Won Pat",
+            "PlaceId": 54797,
+            "SkyscannerCode": "GUM",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MNLP",
+            "CityName": "Manila",
+            "CountryName": "Philippines",
+            "IataCode": "MNL",
+            "Name": "Manila Ninoy Aquino",
+            "PlaceId": 68284,
+            "SkyscannerCode": "MNL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "RORA",
+            "CityName": "Koror",
+            "CountryName": "Palau",
+            "IataCode": "ROR",
+            "Name": "Koror",
+            "PlaceId": 79858,
+            "SkyscannerCode": "ROR",
+            "Type": "Station"
+        },
+        {
+            "CityId": "TKKA",
+            "CityName": "Truk",
+            "CountryName": "Micronesia",
+            "IataCode": "TKK",
+            "Name": "Truk",
+            "PlaceId": 84267,
+            "SkyscannerCode": "TKK",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YAPA",
+            "CityName": "Yap",
+            "CountryName": "Micronesia",
+            "IataCode": "YAP",
+            "Name": "Yap",
+            "PlaceId": 95312,
+            "SkyscannerCode": "YAP",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 593.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-06-25T00:00:00",
+                "DestinationId": 68284,
+                "OriginId": 95312
+            },
+            "QuoteDateTime": "2017-04-14T19:55:45",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 598.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2018-01-03T00:00:00",
+                "DestinationId": 84267,
+                "OriginId": 95312
+            },
+            "QuoteDateTime": "2017-03-26T13:12:04",
+            "QuoteId": 2
+        },
+        {
+            "Direct": true,
+            "MinPrice": 354.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-05-10T00:00:00",
+                "DestinationId": 54797,
+                "OriginId": 95312
+            },
+            "QuoteDateTime": "2017-03-26T03:15:09",
+            "QuoteId": 3
+        },
+        {
+            "Direct": true,
+            "MinPrice": 251.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-05-27T00:00:00",
+                "DestinationId": 79858,
+                "OriginId": 95312
+            },
+            "QuoteDateTime": "2017-03-27T08:11:52",
+            "QuoteId": 4
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1560,
+            "OriginId": 95312,
+            "Price": 593.0,
+            "QuoteDateTime": "2017-04-14T19:55:45",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1085,
+            "OriginId": 95312,
+            "Price": 598.0,
+            "QuoteDateTime": "2017-03-26T13:12:04",
+            "QuoteIds": [
+                2
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 95312
+        },
+        {
+            "DestinationId": 1424,
+            "OriginId": 95312
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 95312
+        },
+        {
+            "DestinationId": 1416,
+            "OriginId": 95312
+        },
+        {
+            "DestinationId": 1141,
+            "OriginId": 95312,
+            "Price": 354.0,
+            "QuoteDateTime": "2017-03-26T03:15:09",
+            "QuoteIds": [
+                3
+            ]
+        },
+        {
+            "DestinationId": 1575,
+            "OriginId": 95312,
+            "Price": 251.0,
+            "QuoteDateTime": "2017-03-27T08:11:52",
+            "QuoteIds": [
+                4
+            ]
+        }
+    ]
+}

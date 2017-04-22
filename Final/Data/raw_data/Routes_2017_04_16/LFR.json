@@ -1,0 +1,105 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 426,
+            "Name": "LASER Airlines"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Aruba",
+            "PlaceId": 855,
+            "SkyscannerCode": "AW",
+            "Type": "Country"
+        },
+        {
+            "Name": "Dominican Republic",
+            "PlaceId": 991,
+            "SkyscannerCode": "DO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Panama",
+            "PlaceId": 1553,
+            "SkyscannerCode": "PA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Venezuela",
+            "PlaceId": 1845,
+            "SkyscannerCode": "VE",
+            "Type": "Country"
+        },
+        {
+            "CityId": "CCSA",
+            "CityName": "Caracas",
+            "CountryName": "Venezuela",
+            "IataCode": "CCS",
+            "Name": "Caracas",
+            "PlaceId": 44723,
+            "SkyscannerCode": "CCS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "LFRA",
+            "CityName": "La Fria",
+            "CountryName": "Venezuela",
+            "IataCode": "LFR",
+            "Name": "La Fria",
+            "PlaceId": 65602,
+            "SkyscannerCode": "LFR",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 2592.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    426
+                ],
+                "DepartureDate": "2017-04-22T00:00:00",
+                "DestinationId": 44723,
+                "OriginId": 65602
+            },
+            "QuoteDateTime": "2017-04-13T18:09:01",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1845,
+            "OriginId": 65602,
+            "Price": 2592.0,
+            "QuoteDateTime": "2017-04-13T18:09:01",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 991,
+            "OriginId": 65602
+        },
+        {
+            "DestinationId": 855,
+            "OriginId": 65602
+        },
+        {
+            "DestinationId": 1553,
+            "OriginId": 65602
+        }
+    ]
+}

@@ -1,0 +1,198 @@
+{
+    "Carriers": [],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Brazil",
+            "PlaceId": 898,
+            "SkyscannerCode": "BR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Bahamas",
+            "PlaceId": 899,
+            "SkyscannerCode": "BS",
+            "Type": "Country"
+        },
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Colombia",
+            "PlaceId": 943,
+            "SkyscannerCode": "CO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Cuba",
+            "PlaceId": 949,
+            "SkyscannerCode": "CU",
+            "Type": "Country"
+        },
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Italy",
+            "PlaceId": 1236,
+            "SkyscannerCode": "IT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "Nicaragua",
+            "PlaceId": 1465,
+            "SkyscannerCode": "NI",
+            "Type": "Country"
+        },
+        {
+            "Name": "Panama",
+            "PlaceId": 1553,
+            "SkyscannerCode": "PA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Peru",
+            "PlaceId": 1557,
+            "SkyscannerCode": "PE",
+            "Type": "Country"
+        },
+        {
+            "Name": "Russia",
+            "PlaceId": 1669,
+            "SkyscannerCode": "RU",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "GAOA",
+            "CityName": "Guantanamo",
+            "CountryName": "Cuba",
+            "IataCode": "GAO",
+            "Name": "Guantanamo Los Canos",
+            "PlaceId": 53839,
+            "SkyscannerCode": "GAO",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MIAA",
+            "CityName": "Miami",
+            "CountryName": "United States",
+            "IataCode": "MIA",
+            "Name": "Miami International",
+            "PlaceId": 68033,
+            "SkyscannerCode": "MIA",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 562.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-04-27T00:00:00",
+                "DestinationId": 68033,
+                "OriginId": 53839
+            },
+            "QuoteDateTime": "2017-04-09T00:28:43",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1557,
+            "OriginId": 53839
+        },
+        {
+            "DestinationId": 943,
+            "OriginId": 53839
+        },
+        {
+            "DestinationId": 898,
+            "OriginId": 53839
+        },
+        {
+            "DestinationId": 1432,
+            "OriginId": 53839
+        },
+        {
+            "DestinationId": 1465,
+            "OriginId": 53839
+        },
+        {
+            "DestinationId": 899,
+            "OriginId": 53839
+        },
+        {
+            "DestinationId": 949,
+            "OriginId": 53839
+        },
+        {
+            "DestinationId": 1553,
+            "OriginId": 53839
+        },
+        {
+            "DestinationId": 1669,
+            "OriginId": 53839
+        },
+        {
+            "DestinationId": 1043,
+            "OriginId": 53839
+        },
+        {
+            "DestinationId": 1236,
+            "OriginId": 53839
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 53839
+        },
+        {
+            "DestinationId": 929,
+            "OriginId": 53839
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 53839,
+            "Price": 562.0,
+            "QuoteDateTime": "2017-04-09T00:28:43",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

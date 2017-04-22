@@ -1,0 +1,104 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 358,
+            "Name": "First Air"
+        },
+        {
+            "CarrierId": 1251,
+            "Name": "Northwestern Air Lease"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "YEAA",
+            "CityName": "Edmonton",
+            "CountryName": "Canada",
+            "IataCode": "YEG",
+            "Name": "Edmonton International",
+            "PlaceId": 95495,
+            "SkyscannerCode": "YEG",
+            "Type": "Station"
+        },
+        {
+            "CityId": "CYHY",
+            "CityName": "Hay River",
+            "CountryName": "Canada",
+            "IataCode": "YHY",
+            "Name": "Hay River",
+            "PlaceId": 95657,
+            "SkyscannerCode": "YHY",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YXYA",
+            "CityName": "Whitehorse",
+            "CountryName": "Canada",
+            "IataCode": "YXY",
+            "Name": "Whitehorse",
+            "PlaceId": 96425,
+            "SkyscannerCode": "YXY",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": false,
+            "MinPrice": 294.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    358
+                ],
+                "DepartureDate": "2017-07-14T00:00:00",
+                "DestinationId": 96425,
+                "OriginId": 95657
+            },
+            "QuoteDateTime": "2017-04-07T19:04:21",
+            "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "MinPrice": 365.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1251
+                ],
+                "DepartureDate": "2017-06-19T00:00:00",
+                "DestinationId": 95495,
+                "OriginId": 95657
+            },
+            "QuoteDateTime": "2017-04-13T15:36:57",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 95657,
+            "Price": 294.0,
+            "QuoteDateTime": "2017-04-07T19:04:21",
+            "QuoteIds": [
+                1,
+                2
+            ]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 392,
+            "Name": "Transwest Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Canada",
+            "PlaceId": 929,
+            "SkyscannerCode": "CA",
+            "Type": "Country"
+        },
+        {
+            "CityId": "YSFA",
+            "CityName": "Stony Rapids",
+            "CountryName": "Canada",
+            "IataCode": "YSF",
+            "Name": "Stony Rapids",
+            "PlaceId": 96166,
+            "SkyscannerCode": "YSF",
+            "Type": "Station"
+        },
+        {
+            "CityId": "YXEA",
+            "CityName": "Saskatoon",
+            "CountryName": "Canada",
+            "IataCode": "YXE",
+            "Name": "Saskatoon",
+            "PlaceId": 96405,
+            "SkyscannerCode": "YXE",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 374.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    392
+                ],
+                "DepartureDate": "2017-08-09T00:00:00",
+                "DestinationId": 96405,
+                "OriginId": 96166
+            },
+            "QuoteDateTime": "2017-04-15T19:49:13",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 929,
+            "OriginId": 96166,
+            "Price": 374.0,
+            "QuoteDateTime": "2017-04-15T19:49:13",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

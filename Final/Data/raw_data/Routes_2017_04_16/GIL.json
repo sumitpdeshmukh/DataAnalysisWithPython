@@ -1,0 +1,185 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1563,
+            "Name": "PIA"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "China",
+            "PlaceId": 942,
+            "SkyscannerCode": "CN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Denmark",
+            "PlaceId": 987,
+            "SkyscannerCode": "DK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Spain",
+            "PlaceId": 1043,
+            "SkyscannerCode": "ES",
+            "Type": "Country"
+        },
+        {
+            "Name": "France",
+            "PlaceId": 1090,
+            "SkyscannerCode": "FR",
+            "Type": "Country"
+        },
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "Name": "Malaysia",
+            "PlaceId": 1433,
+            "SkyscannerCode": "MY",
+            "Type": "Country"
+        },
+        {
+            "Name": "Norway",
+            "PlaceId": 1471,
+            "SkyscannerCode": "NO",
+            "Type": "Country"
+        },
+        {
+            "Name": "Pakistan",
+            "PlaceId": 1563,
+            "SkyscannerCode": "PK",
+            "Type": "Country"
+        },
+        {
+            "Name": "Saudi Arabia",
+            "PlaceId": 1697,
+            "SkyscannerCode": "SA",
+            "Type": "Country"
+        },
+        {
+            "Name": "Thailand",
+            "PlaceId": 1752,
+            "SkyscannerCode": "TH",
+            "Type": "Country"
+        },
+        {
+            "Name": "Turkey",
+            "PlaceId": 1762,
+            "SkyscannerCode": "TR",
+            "Type": "Country"
+        },
+        {
+            "Name": "United Kingdom",
+            "PlaceId": 1803,
+            "SkyscannerCode": "UK",
+            "Type": "Country"
+        },
+        {
+            "CityId": "GILA",
+            "CityName": "Gilgit",
+            "CountryName": "Pakistan",
+            "IataCode": "GIL",
+            "Name": "Gilgit",
+            "PlaceId": 54220,
+            "SkyscannerCode": "GIL",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ISBA",
+            "CityName": "Islamabad",
+            "CountryName": "Pakistan",
+            "IataCode": "ISB",
+            "Name": "Islamabad",
+            "PlaceId": 59298,
+            "SkyscannerCode": "ISB",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 97.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1563
+                ],
+                "DepartureDate": "2017-09-01T00:00:00",
+                "DestinationId": 59298,
+                "OriginId": 54220
+            },
+            "QuoteDateTime": "2017-04-06T10:22:44",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1752,
+            "OriginId": 54220
+        },
+        {
+            "DestinationId": 1762,
+            "OriginId": 54220
+        },
+        {
+            "DestinationId": 1697,
+            "OriginId": 54220
+        },
+        {
+            "DestinationId": 1433,
+            "OriginId": 54220
+        },
+        {
+            "DestinationId": 942,
+            "OriginId": 54220
+        },
+        {
+            "DestinationId": 1563,
+            "OriginId": 54220,
+            "Price": 97.0,
+            "QuoteDateTime": "2017-04-06T10:22:44",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 987,
+            "OriginId": 54220
+        },
+        {
+            "DestinationId": 1090,
+            "OriginId": 54220
+        },
+        {
+            "DestinationId": 1803,
+            "OriginId": 54220
+        },
+        {
+            "DestinationId": 1280,
+            "OriginId": 54220
+        },
+        {
+            "DestinationId": 1043,
+            "OriginId": 54220
+        },
+        {
+            "DestinationId": 1471,
+            "OriginId": 54220
+        }
+    ]
+}

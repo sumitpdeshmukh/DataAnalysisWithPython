@@ -1,0 +1,75 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 184,
+            "Name": "Japan Air Commuter"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Japan",
+            "PlaceId": 1280,
+            "SkyscannerCode": "JP",
+            "Type": "Country"
+        },
+        {
+            "CityId": "JASJ",
+            "CityName": "Amami O Shima",
+            "CountryName": "Japan",
+            "IataCode": "ASJ",
+            "Name": "Amami O Shima",
+            "PlaceId": 40874,
+            "SkyscannerCode": "ASJ",
+            "Type": "Station"
+        },
+        {
+            "CityId": "JTKN",
+            "CityName": "Tokunoshima",
+            "CountryName": "Japan",
+            "IataCode": "TKN",
+            "Name": "Tokunoshima",
+            "PlaceId": 84270,
+            "SkyscannerCode": "TKN",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 85.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    184
+                ],
+                "DepartureDate": "2017-05-15T00:00:00",
+                "DestinationId": 40874,
+                "OriginId": 84270
+            },
+            "QuoteDateTime": "2017-04-09T08:37:12",
+            "QuoteId": 1
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1280,
+            "OriginId": 84270,
+            "Price": 85.0,
+            "QuoteDateTime": "2017-04-09T08:37:12",
+            "QuoteIds": [
+                1
+            ]
+        }
+    ]
+}

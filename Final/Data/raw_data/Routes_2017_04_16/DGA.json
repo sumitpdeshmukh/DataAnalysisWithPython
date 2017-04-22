@@ -1,0 +1,142 @@
+{
+    "Carriers": [
+        {
+            "CarrierId": 1431,
+            "Name": "Maya Island Air"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "USD",
+            "DecimalDigits": 2,
+            "DecimalSeparator": ".",
+            "RoundingCoefficient": 0,
+            "SpaceBetweenAmountAndSymbol": false,
+            "Symbol": "$",
+            "SymbolOnLeft": true,
+            "ThousandsSeparator": ","
+        }
+    ],
+    "Places": [
+        {
+            "Name": "Belize",
+            "PlaceId": 906,
+            "SkyscannerCode": "BZ",
+            "Type": "Country"
+        },
+        {
+            "Name": "Guatemala",
+            "PlaceId": 1140,
+            "SkyscannerCode": "GT",
+            "Type": "Country"
+        },
+        {
+            "Name": "Honduras",
+            "PlaceId": 1182,
+            "SkyscannerCode": "HN",
+            "Type": "Country"
+        },
+        {
+            "Name": "Mexico",
+            "PlaceId": 1432,
+            "SkyscannerCode": "MX",
+            "Type": "Country"
+        },
+        {
+            "Name": "United States",
+            "PlaceId": 1811,
+            "SkyscannerCode": "US",
+            "Type": "Country"
+        },
+        {
+            "CityId": "DGAA",
+            "CityName": "Dangriga",
+            "CountryName": "Belize",
+            "IataCode": "DGA",
+            "Name": "Dangriga",
+            "PlaceId": 47201,
+            "SkyscannerCode": "DGA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "MIAA",
+            "CityName": "Miami",
+            "CountryName": "United States",
+            "IataCode": "MIA",
+            "Name": "Miami International",
+            "PlaceId": 68033,
+            "SkyscannerCode": "MIA",
+            "Type": "Station"
+        },
+        {
+            "CityId": "BZEA",
+            "CityName": "Belize City",
+            "CountryName": "Belize",
+            "IataCode": "TZA",
+            "Name": "Belize City Municipal",
+            "PlaceId": 84977,
+            "SkyscannerCode": "TZA",
+            "Type": "Station"
+        }
+    ],
+    "Quotes": [
+        {
+            "Direct": true,
+            "MinPrice": 59.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1431
+                ],
+                "DepartureDate": "2017-06-22T00:00:00",
+                "DestinationId": 84977,
+                "OriginId": 47201
+            },
+            "QuoteDateTime": "2017-04-04T04:06:51",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "MinPrice": 910.0,
+            "OutboundLeg": {
+                "CarrierIds": [],
+                "DepartureDate": "2017-08-10T00:00:00",
+                "DestinationId": 68033,
+                "OriginId": 47201
+            },
+            "QuoteDateTime": "2017-03-25T07:55:20",
+            "QuoteId": 2
+        }
+    ],
+    "Routes": [
+        {
+            "DestinationId": 1432,
+            "OriginId": 47201
+        },
+        {
+            "DestinationId": 1182,
+            "OriginId": 47201
+        },
+        {
+            "DestinationId": 1140,
+            "OriginId": 47201
+        },
+        {
+            "DestinationId": 906,
+            "OriginId": 47201,
+            "Price": 59.0,
+            "QuoteDateTime": "2017-04-04T04:06:51",
+            "QuoteIds": [
+                1
+            ]
+        },
+        {
+            "DestinationId": 1811,
+            "OriginId": 47201,
+            "Price": 910.0,
+            "QuoteDateTime": "2017-03-25T07:55:20",
+            "QuoteIds": [
+                2
+            ]
+        }
+    ]
+}
