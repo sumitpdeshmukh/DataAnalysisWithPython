@@ -6,8 +6,9 @@ https://mindtrove.info/exploration-of-airline-on-time-performance/
 https://www.mongodb.com/blog/post/aggregation-options-on-big-data-sets-part-1-basic
 
 
+pip install plotly
+pip install geopandas
+pip install geopy
+upgrade matplotlib to install basemap
+conda install basemap
 
-geopandas
-shapely
-geopy
-plotly
