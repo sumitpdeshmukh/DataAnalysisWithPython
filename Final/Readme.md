@@ -17,7 +17,7 @@
 
 ---
 
-## Section 1: Collect Data
+## Section 1: Collect Data   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Data Collection and Store.py](Extras/PyFiles/Data%2BCollection%2Band%2BStore.py)&emsp;[Data Collection and Store.ipynb](Analysis/Data%20Collection%20and%20Store.ipynb)
 - **Step 1**
   - I need to have a list of Airports first to meet my end goals of this exercise.
   - Skyscanner Geo API gives data for all the airports when we query
