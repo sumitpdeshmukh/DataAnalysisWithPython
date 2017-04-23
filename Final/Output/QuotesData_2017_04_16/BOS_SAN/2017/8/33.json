@@ -13,6 +13,10 @@
             "Name": "Spirit Airlines"
         },
         {
+            "CarrierId": 1721,
+            "Name": "Sun Country Airlines"
+        },
+        {
             "CarrierId": 1793,
             "Name": "United"
         },
@@ -58,7 +62,7 @@
     "Quotes": [
         {
             "Direct": false,
-            "MinPrice": 312.0,
+            "MinPrice": 310.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     1864
@@ -67,22 +71,8 @@
                 "DestinationId": 81486,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-17T01:01:00",
+            "QuoteDateTime": "2017-04-21T18:06:00",
             "QuoteId": 1
-        },
-        {
-            "Direct": false,
-            "MinPrice": 275.0,
-            "OutboundLeg": {
-                "CarrierIds": [
-                    1864
-                ],
-                "DepartureDate": "2017-08-18T00:00:00",
-                "DestinationId": 81486,
-                "OriginId": 42995
-            },
-            "QuoteDateTime": "2017-04-14T13:48:00",
-            "QuoteId": 2
         },
         {
             "Direct": true,
@@ -94,7 +84,7 @@
                 "DestinationId": 42995,
                 "OriginId": 81486
             },
-            "MinPrice": 450.0,
+            "MinPrice": 453.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     851
@@ -104,7 +94,7 @@
                 "OriginId": 42995
             },
             "QuoteDateTime": "2017-04-10T18:00:00",
-            "QuoteId": 3
+            "QuoteId": 2
         },
         {
             "Direct": false,
@@ -116,9 +106,9 @@
                 "DestinationId": 42995,
                 "OriginId": 81486
             },
-            "MinPrice": 385.0,
-            "QuoteDateTime": "2017-04-15T23:32:00",
-            "QuoteId": 4
+            "MinPrice": 383.0,
+            "QuoteDateTime": "2017-04-21T17:39:00",
+            "QuoteId": 3
         }
     ]
 }

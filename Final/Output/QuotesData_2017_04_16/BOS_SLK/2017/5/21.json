@@ -1,5 +1,10 @@
 {
-    "Carriers": [],
+    "Carriers": [
+        {
+            "CarrierId": 459,
+            "Name": "Cape Air"
+        }
+    ],
     "Currencies": [
         {
             "Code": "USD",
@@ -12,6 +17,27 @@
             "ThousandsSeparator": ","
         }
     ],
-    "Places": [],
+    "Places": [
+        {
+            "CityId": "BOSA",
+            "CityName": "Boston",
+            "CountryName": "United States",
+            "IataCode": "BOS",
+            "Name": "Boston Logan International",
+            "PlaceId": 42995,
+            "SkyscannerCode": "BOS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "SLKA",
+            "CityName": "Saranac Lake",
+            "CountryName": "United States",
+            "IataCode": "SLK",
+            "Name": "Saranac Lake",
+            "PlaceId": 82011,
+            "SkyscannerCode": "SLK",
+            "Type": "Station"
+        }
+    ],
     "Quotes": []
 }

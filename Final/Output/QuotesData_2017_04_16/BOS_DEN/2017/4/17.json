@@ -19,10 +19,6 @@
         {
             "CarrierId": 1864,
             "Name": "Virgin America"
-        },
-        {
-            "CarrierId": 1902,
-            "Name": "Southwest Airlines"
         }
     ],
     "Currencies": [
@@ -71,7 +67,7 @@
                 "DestinationId": 47118,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-17T13:14:00",
+            "QuoteDateTime": "2017-04-22T00:56:00",
             "QuoteId": 1
         },
         {
@@ -84,7 +80,7 @@
                 "DestinationId": 42995,
                 "OriginId": 47118
             },
-            "MinPrice": 410.0,
+            "MinPrice": 474.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     870
@@ -93,58 +89,30 @@
                 "DestinationId": 47118,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-14T23:26:00",
+            "QuoteDateTime": "2017-04-21T20:24:00",
             "QuoteId": 2
         },
         {
             "Direct": false,
             "InboundLeg": {
                 "CarrierIds": [
-                    870
+                    1467
                 ],
                 "DepartureDate": "2017-04-30T00:00:00",
                 "DestinationId": 42995,
                 "OriginId": 47118
             },
-            "MinPrice": 377.0,
+            "MinPrice": 395.0,
             "OutboundLeg": {
                 "CarrierIds": [
-                    870
+                    1467
                 ],
                 "DepartureDate": "2017-04-28T00:00:00",
                 "DestinationId": 47118,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-14T23:26:00",
+            "QuoteDateTime": "2017-04-21T19:40:00",
             "QuoteId": 3
-        },
-        {
-            "Direct": false,
-            "InboundLeg": {
-                "CarrierIds": [
-                    1864
-                ],
-                "DepartureDate": "2017-04-30T00:00:00",
-                "DestinationId": 42995,
-                "OriginId": 47118
-            },
-            "MinPrice": 414.0,
-            "QuoteDateTime": "2017-04-16T05:08:00",
-            "QuoteId": 4
-        },
-        {
-            "Direct": false,
-            "InboundLeg": {
-                "CarrierIds": [
-                    1864
-                ],
-                "DepartureDate": "2017-04-30T00:00:00",
-                "DestinationId": 42995,
-                "OriginId": 47118
-            },
-            "MinPrice": 470.0,
-            "QuoteDateTime": "2017-04-17T13:14:00",
-            "QuoteId": 5
         }
     ]
 }

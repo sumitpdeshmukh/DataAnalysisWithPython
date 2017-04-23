@@ -7,10 +7,6 @@
         {
             "CarrierId": 1467,
             "Name": "Spirit Airlines"
-        },
-        {
-            "CarrierId": 1793,
-            "Name": "United"
         }
     ],
     "Currencies": [
@@ -58,7 +54,7 @@
                 "DestinationId": 42995,
                 "OriginId": 74617
             },
-            "MinPrice": 468.0,
+            "MinPrice": 454.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     870
@@ -67,30 +63,8 @@
                 "DestinationId": 74617,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-17T10:58:00",
+            "QuoteDateTime": "2017-04-20T18:04:00",
             "QuoteId": 1
-        },
-        {
-            "Direct": false,
-            "InboundLeg": {
-                "CarrierIds": [
-                    870
-                ],
-                "DepartureDate": "2017-04-30T00:00:00",
-                "DestinationId": 42995,
-                "OriginId": 74617
-            },
-            "MinPrice": 409.0,
-            "OutboundLeg": {
-                "CarrierIds": [
-                    870
-                ],
-                "DepartureDate": "2017-04-28T00:00:00",
-                "DestinationId": 74617,
-                "OriginId": 42995
-            },
-            "QuoteDateTime": "2017-04-15T13:14:00",
-            "QuoteId": 2
         }
     ]
 }

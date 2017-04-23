@@ -3,7 +3,7 @@
 
 # # Cost analysis on weekend trips to major US cities from Boston
 
-# In[ ]:
+# In[1]:
 
 import requests
 import json
@@ -26,14 +26,14 @@ api_key = "apiKey=" + os.getenv("sky_api_key")
 
 # - Read BostonFlightsData to get all the flights that start from Boston to any location in United States.
 
-# In[ ]:
+# In[2]:
 
 flights = pd.read_csv('../Output/BostonFlightsData.csv', low_memory=False)
 
 
 # - SkyScanner API to get the Quote on Prices in USD for a particular route
 
-# In[ ]:
+# In[3]:
 
 sky_domain = 'http://partners.api.skyscanner.net/apiservices/browsequotes/v1.0/US/USD/en-US/'
 sky_api_key = api_key
@@ -47,7 +47,7 @@ flights['URL'] = flights.apply(lambda x: geturl(x.Source_Airport, x.Destination_
 # - It will calulate date after 6 months from start date
 # - Start day needs to be a Friday, because we are planning weekend trips where we start on Friday and Return on Sunday
 
-# In[ ]:
+# In[4]:
 
 # Add given months to source date
 def add_months(sourcedate,months):
@@ -68,7 +68,7 @@ end_date = add_months(start_date, 6)
 
 # - Get all weekend dates for Departure and Return dates
 
-# In[ ]:
+# In[5]:
 
 depart_dates = []
 return_dates = []
@@ -85,7 +85,7 @@ while d <= end_date:
     d += delta
 
 
-# In[ ]:
+# In[6]:
 
 def createdir(path): # Function to create directory if it does not exist already
     try:
@@ -109,7 +109,7 @@ def checkofflinedata():
 # - This will check if the Quotes data is already present for that week or not
 # - In the Free version signup with Sky scanner API we are anyway hitting cached prices which will be a week old. So there is no point in getting new data daily. I am querying for new data weekly.
 
-# In[ ]:
+# In[7]:
 
 def DownloadData():
     if (checkofflinedata() == False):
@@ -135,7 +135,7 @@ DownloadData()
 
 # - This part will read all the download data and create a new Quotes Dataframe having prices for each route
 
-# In[ ]:
+# In[8]:
 
 quotes_df = pd.DataFrame()
 for _, rows in flights.iterrows():
@@ -191,7 +191,7 @@ for _, rows in flights.iterrows():
     quotes_df = quotes_df.append(df)
 
 
-# In[ ]:
+# In[9]:
 
 quotes_df.to_csv("../Output/QuotesOnUSDestinations.csv", index=False)
 quotes_df.head()
@@ -200,7 +200,7 @@ quotes_df.head()
 # - Now we can plot this Data from Boston to Top US cities
 # - Get data from Boston to Denver and plot
 
-# In[ ]:
+# In[10]:
 
 bos_den = quotes_df[quotes_df['Destination'] == 'DEN']
 bos_den['Weekend_Date'] = bos_den.apply(lambda x: datetime.datetime.strptime(x.Weekend_Date + '-0', "%Y-%W-%w"), axis=1)
@@ -210,7 +210,7 @@ bos_den['Average_Price'] = bos_den.apply(lambda x: bos_den['Average_Price'].mean
 
 # - Get data from Boston to Las Vegas and plot
 
-# In[ ]:
+# In[11]:
 
 bos_lax = quotes_df[quotes_df['Destination'] == 'LAX']
 bos_lax['Weekend_Date'] = bos_lax.apply(lambda x: datetime.datetime.strptime(x.Weekend_Date + '-0', "%Y-%W-%w"), axis=1)
@@ -220,7 +220,7 @@ bos_lax['Average_Price'] = bos_lax.apply(lambda x: bos_lax['Average_Price'].mean
 
 # - Get data from Boston to San Francisco and plot
 
-# In[ ]:
+# In[12]:
 
 bos_sfo = quotes_df[quotes_df['Destination'] == 'SFO']
 bos_sfo['Weekend_Date'] = bos_sfo.apply(lambda x: datetime.datetime.strptime(x.Weekend_Date + '-0', "%Y-%W-%w"), axis=1)
@@ -230,7 +230,7 @@ bos_sfo['Average_Price'] = bos_sfo.apply(lambda x: bos_sfo['Average_Price'].mean
 
 # Get data from Boston to Houston and plot
 
-# In[ ]:
+# In[13]:
 
 bos_iah = quotes_df[quotes_df['Destination'] == 'IAH']
 bos_iah['Weekend_Date'] = bos_iah.apply(lambda x: datetime.datetime.strptime(x.Weekend_Date + '-0', "%Y-%W-%w"), axis=1)
@@ -240,7 +240,7 @@ bos_iah['Average_Price'] = bos_iah.apply(lambda x: bos_iah['Average_Price'].mean
 
 # - Get data from Boston to Phoenix and plot
 
-# In[ ]:
+# In[14]:
 
 bos_phx = quotes_df[quotes_df['Destination'] == 'PHX']
 bos_phx['Weekend_Date'] = bos_phx.apply(lambda x: datetime.datetime.strptime(x.Weekend_Date + '-0', "%Y-%W-%w"), axis=1)
@@ -250,7 +250,7 @@ bos_phx['Average_Price'] = bos_phx.apply(lambda x: bos_phx['Average_Price'].mean
 
 # - Plotting all trip prices from Boston to Major US cities and observe the prices
 
-# In[ ]:
+# In[15]:
 
 data = [
         go.Scatter(

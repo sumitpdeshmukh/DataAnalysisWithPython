@@ -1,10 +1,6 @@
 {
     "Carriers": [
         {
-            "CarrierId": 851,
-            "Name": "Alaska Airlines"
-        },
-        {
             "CarrierId": 1467,
             "Name": "Spirit Airlines"
         },
@@ -47,5 +43,50 @@
             "Type": "Station"
         }
     ],
-    "Quotes": []
+    "Quotes": [
+        {
+            "Direct": true,
+            "InboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-07-23T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 58440
+            },
+            "MinPrice": 531.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-07-21T00:00:00",
+                "DestinationId": 58440,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-13T11:48:00",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "InboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-07-23T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 58440
+            },
+            "MinPrice": 293.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-07-21T00:00:00",
+                "DestinationId": 58440,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-13T11:48:00",
+            "QuoteId": 2
+        }
+    ]
 }

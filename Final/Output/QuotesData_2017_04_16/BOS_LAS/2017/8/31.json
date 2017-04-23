@@ -1,10 +1,6 @@
 {
     "Carriers": [
         {
-            "CarrierId": 851,
-            "Name": "Alaska Airlines"
-        },
-        {
             "CarrierId": 870,
             "Name": "jetBlue"
         },
@@ -62,7 +58,7 @@
     "Quotes": [
         {
             "Direct": false,
-            "MinPrice": 298.0,
+            "MinPrice": 327.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     1864
@@ -71,12 +67,12 @@
                 "DestinationId": 65363,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-15T15:35:00",
+            "QuoteDateTime": "2017-04-22T16:54:00",
             "QuoteId": 1
         },
         {
             "Direct": false,
-            "MinPrice": 298.0,
+            "MinPrice": 296.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     1864
@@ -85,7 +81,7 @@
                 "DestinationId": 65363,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-16T18:36:00",
+            "QuoteDateTime": "2017-04-21T04:20:00",
             "QuoteId": 2
         },
         {
@@ -98,7 +94,7 @@
                 "DestinationId": 42995,
                 "OriginId": 65363
             },
-            "MinPrice": 477.0,
+            "MinPrice": 419.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     1467
@@ -107,8 +103,30 @@
                 "DestinationId": 65363,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-15T15:35:00",
+            "QuoteDateTime": "2017-04-21T04:20:00",
             "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "InboundLeg": {
+                "CarrierIds": [
+                    1467
+                ],
+                "DepartureDate": "2017-08-06T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 65363
+            },
+            "MinPrice": 417.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1467
+                ],
+                "DepartureDate": "2017-08-04T00:00:00",
+                "DestinationId": 65363,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-21T04:20:00",
+            "QuoteId": 4
         },
         {
             "Direct": false,
@@ -120,9 +138,9 @@
                 "DestinationId": 42995,
                 "OriginId": 65363
             },
-            "MinPrice": 343.0,
-            "QuoteDateTime": "2017-04-15T15:35:00",
-            "QuoteId": 4
+            "MinPrice": 336.0,
+            "QuoteDateTime": "2017-04-20T18:52:00",
+            "QuoteId": 5
         }
     ]
 }

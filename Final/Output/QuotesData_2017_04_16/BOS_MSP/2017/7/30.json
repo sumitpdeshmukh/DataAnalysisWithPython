@@ -1,10 +1,6 @@
 {
     "Carriers": [
         {
-            "CarrierId": 851,
-            "Name": "Alaska Airlines"
-        },
-        {
             "CarrierId": 1467,
             "Name": "Spirit Airlines"
         },
@@ -15,6 +11,10 @@
         {
             "CarrierId": 1793,
             "Name": "United"
+        },
+        {
+            "CarrierId": 1902,
+            "Name": "Southwest Airlines"
         }
     ],
     "Currencies": [
@@ -62,7 +62,7 @@
                 "DestinationId": 42995,
                 "OriginId": 68528
             },
-            "MinPrice": 315.0,
+            "MinPrice": 319.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     1467
@@ -71,7 +71,7 @@
                 "DestinationId": 68528,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-05T14:10:00",
+            "QuoteDateTime": "2017-04-09T15:52:00",
             "QuoteId": 1
         }
     ]

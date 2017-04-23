@@ -14,7 +14,7 @@
 # - As of January 2012, the OpenFlights Airlines Database contains 5888 airlines.
 # - As of January 2012, the OpenFlights/Airline Route Mapper Route Database contains 59036 routes between 3209 airports on 531 airlines spanning the globe
 
-# In[2]:
+# In[1]:
 
 import requests
 import json
@@ -31,12 +31,11 @@ plotly.offline.init_notebook_mode()
 
 import plotly.offline as offline
 import plotly.graph_objs as go
-from IPython.display import Image
 
 
 # - Data will be downloaded for Places and Routes for once a week. So if you dont want to spend time to download the data use a hack like renaming these folders to "YYYY-MM-Weeknumber" to save time
 
-# In[3]:
+# In[2]:
 
 sky_domain = 'http://partners.api.skyscanner.net/apiservices/'
 sky_api_key = 'apiKey=' + os.getenv("sky_api_key")
@@ -70,11 +69,11 @@ def checkOfflineData(path):
  
 
 
-# ## Airports
+# ## <span style="color:#f45f42">Airports</span>
 # 
 # - This script will download data only if data for that week is not already present
 
-# In[4]:
+# In[3]:
 
 #Only download if not already present
 def DownloadAirportsData():
@@ -126,7 +125,7 @@ DownloadAirportsData()
 #   ]
 # }
 
-# In[5]:
+# In[4]:
 
 alldata = []
 # Read all data from the downloaded file and store it in a Dataframe/CSV
@@ -155,7 +154,7 @@ AirportsSky.head()
 # - Skyscanner API has 4127 Unique Airports. Let us enrich this data even further by using More Airports Data from Openflights
 # - This Airport Data is downloaded from [OpenFlights Airports](https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat) and stored at ../Data/raw_data/Airports.csv
 
-# In[6]:
+# In[5]:
 
 columns = ["Airport_ID", "Airport", "City", "Country", "IATA/FAA", "ICAO","Latitude", "Longitude", "Altitude", 
            "Timezone", "DST", "Continent"]
@@ -174,7 +173,7 @@ Airports = Airports.dropna(subset=['IATA/FAA'])
 Airports.head()
 
 
-# ## Routes
+# ## <span style="color:#f45f42">Routes</span>
 # - This script will download Routes data only if data for that week is not already present
 # - If download starts this routine will take close to 45 minutes to download all the data
 # - Total hits to the SkyScanner API will be equal to number of airports (6253) in Airports Dataframe
@@ -327,7 +326,7 @@ Routes.head()
 Routes.info()
 
 
-# ## Pure Routes
+# ## <span style="color:#f45f42">Pure Routes</span>
 # - There are routes on which multiple airlines fly. Following script will get strict number of unique routes 
 
 # In[10]:
@@ -358,7 +357,7 @@ pure_routes.info()
 
 # -  If we see count of pure_routes and Routes we can clearly understand the dropping duplicate routes logic in action
 # 
-# ## Airlines
+# ## <span style="color:#f45f42">Airlines</span>
 # 
 # - This Airport Data is downloaded from [OpenFlights Airlines](https://raw.githubusercontent.com/jpatokal/openflights/master/data/airlines.dat) and stored at ../Data/raw_data/Airlines.csv
 
@@ -370,7 +369,7 @@ airlines.drop(['Alias', 'ICAO', 'Callsign'], axis=1, inplace=True)
 airlines.head()
 
 
-# ## Joining the above 3 Dataframes together
+# ## <span style="color:#f45f42">Joining the above 3 Dataframes together</span>
 # 
 # I have chosen to merge the routes table with the airports twice via an inner join in order to obtain the Source
 # Airport and Destination Airport coordinate pairs as well as linking the respective airline information for each route
@@ -384,7 +383,7 @@ multi_ports_routes = Routes.merge(Airports, right_on = "IATA/FAA", left_on = 'So
 multi_ports_routes.drop(['IATA/FAA_start', 'IATA/FAA_end'], axis=1, inplace=True)
 
 
-# ## Defining distance calculation function
+# ## <span style="color:#f45f42">Defining distance calculation function</span>
 # I have coordinate pairs of the source and destination airports for each of the journeys, Lets calculate the distance.
 # 
 # I have chosen to use the vincenty function from the geopy package to calculate the distance, there is also another 
@@ -532,14 +531,3 @@ offline.iplot(fig, filename='Longest and shortest distances', image_width=1024,
 
 # - Shortest distance plot is not visible at this zoom level, but different marker sizes of Source and Destinations clearly suggest that two locations are in vicinity.
 # - This plot clearly suggests that these routes are indeed one of the farthest and shortest routes taken by commercial passenger airlines
-
-# In[13]:
-
-# Displaying image just in case plotly fails to render it in Jupyter notebook
-Image('../Output/images/Longest and shortest distances.png')
-
-
-# In[ ]:
-
-
-

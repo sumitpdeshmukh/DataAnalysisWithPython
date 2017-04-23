@@ -23,6 +23,10 @@
         {
             "CarrierId": 1864,
             "Name": "Virgin America"
+        },
+        {
+            "CarrierId": 1902,
+            "Name": "Southwest Airlines"
         }
     ],
     "Currencies": [
@@ -62,7 +66,7 @@
     "Quotes": [
         {
             "Direct": false,
-            "MinPrice": 297.0,
+            "MinPrice": 300.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     1864
@@ -71,22 +75,8 @@
                 "DestinationId": 81665,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-16T23:49:00",
+            "QuoteDateTime": "2017-04-21T20:56:00",
             "QuoteId": 1
-        },
-        {
-            "Direct": false,
-            "MinPrice": 330.0,
-            "OutboundLeg": {
-                "CarrierIds": [
-                    1864
-                ],
-                "DepartureDate": "2017-05-05T00:00:00",
-                "DestinationId": 81665,
-                "OriginId": 42995
-            },
-            "QuoteDateTime": "2017-04-17T14:23:00",
-            "QuoteId": 2
         },
         {
             "Direct": false,
@@ -98,7 +88,7 @@
                 "DestinationId": 42995,
                 "OriginId": 81665
             },
-            "MinPrice": 275.0,
+            "MinPrice": 359.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     1721
@@ -107,8 +97,8 @@
                 "DestinationId": 81665,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-13T21:53:00",
-            "QuoteId": 3
+            "QuoteDateTime": "2017-04-21T17:02:00",
+            "QuoteId": 2
         },
         {
             "Direct": true,
@@ -120,7 +110,7 @@
                 "DestinationId": 42995,
                 "OriginId": 81665
             },
-            "MinPrice": 364.0,
+            "MinPrice": 415.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     870
@@ -129,8 +119,8 @@
                 "DestinationId": 81665,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-12T09:05:00",
-            "QuoteId": 4
+            "QuoteDateTime": "2017-04-21T17:02:00",
+            "QuoteId": 3
         },
         {
             "Direct": false,
@@ -142,9 +132,9 @@
                 "DestinationId": 42995,
                 "OriginId": 81665
             },
-            "MinPrice": 362.0,
-            "QuoteDateTime": "2017-04-16T19:16:00",
-            "QuoteId": 5
+            "MinPrice": 366.0,
+            "QuoteDateTime": "2017-04-21T18:40:00",
+            "QuoteId": 4
         }
     ]
 }

@@ -62,7 +62,7 @@
     "Quotes": [
         {
             "Direct": false,
-            "MinPrice": 275.0,
+            "MinPrice": 311.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     1864
@@ -71,11 +71,11 @@
                 "DestinationId": 81486,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-16T18:39:00",
+            "QuoteDateTime": "2017-04-19T20:15:00",
             "QuoteId": 1
         },
         {
-            "Direct": true,
+            "Direct": false,
             "InboundLeg": {
                 "CarrierIds": [
                     851
@@ -84,20 +84,20 @@
                 "DestinationId": 42995,
                 "OriginId": 81486
             },
-            "MinPrice": 502.0,
+            "MinPrice": 393.0,
             "OutboundLeg": {
                 "CarrierIds": [
-                    870
+                    851
                 ],
                 "DepartureDate": "2017-06-23T00:00:00",
                 "DestinationId": 81486,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-16T18:39:00",
+            "QuoteDateTime": "2017-04-18T21:22:00",
             "QuoteId": 2
         },
         {
-            "Direct": false,
+            "Direct": true,
             "InboundLeg": {
                 "CarrierIds": [
                     870
@@ -106,7 +106,7 @@
                 "DestinationId": 42995,
                 "OriginId": 81486
             },
-            "MinPrice": 478.0,
+            "MinPrice": 530.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     870
@@ -115,7 +115,7 @@
                 "DestinationId": 81486,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-16T18:40:00",
+            "QuoteDateTime": "2017-04-18T21:22:00",
             "QuoteId": 3
         },
         {
@@ -128,8 +128,8 @@
                 "DestinationId": 42995,
                 "OriginId": 81486
             },
-            "MinPrice": 326.0,
-            "QuoteDateTime": "2017-04-16T18:39:00",
+            "MinPrice": 433.0,
+            "QuoteDateTime": "2017-04-20T04:32:00",
             "QuoteId": 4
         }
     ]

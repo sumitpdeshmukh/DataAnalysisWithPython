@@ -1,10 +1,6 @@
 {
     "Carriers": [
         {
-            "CarrierId": 851,
-            "Name": "Alaska Airlines"
-        },
-        {
             "CarrierId": 870,
             "Name": "jetBlue"
         },
@@ -49,28 +45,6 @@
     ],
     "Quotes": [
         {
-            "Direct": true,
-            "InboundLeg": {
-                "CarrierIds": [
-                    870
-                ],
-                "DepartureDate": "2017-04-30T00:00:00",
-                "DestinationId": 42995,
-                "OriginId": 44963
-            },
-            "MinPrice": 981.0,
-            "OutboundLeg": {
-                "CarrierIds": [
-                    870
-                ],
-                "DepartureDate": "2017-04-28T00:00:00",
-                "DestinationId": 44963,
-                "OriginId": 42995
-            },
-            "QuoteDateTime": "2017-04-15T01:41:00",
-            "QuoteId": 1
-        },
-        {
             "Direct": false,
             "InboundLeg": {
                 "CarrierIds": [
@@ -80,7 +54,7 @@
                 "DestinationId": 42995,
                 "OriginId": 44963
             },
-            "MinPrice": 499.0,
+            "MinPrice": 599.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     1793
@@ -89,8 +63,8 @@
                 "DestinationId": 44963,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-14T17:41:00",
-            "QuoteId": 2
+            "QuoteDateTime": "2017-04-22T19:20:00",
+            "QuoteId": 1
         }
     ]
 }

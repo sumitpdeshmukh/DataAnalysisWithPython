@@ -58,7 +58,7 @@
     "Quotes": [
         {
             "Direct": false,
-            "MinPrice": 332.0,
+            "MinPrice": 295.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     1864
@@ -67,44 +67,8 @@
                 "DestinationId": 65363,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-15T03:13:00",
+            "QuoteDateTime": "2017-04-21T23:00:00",
             "QuoteId": 1
-        },
-        {
-            "Direct": false,
-            "MinPrice": 332.0,
-            "OutboundLeg": {
-                "CarrierIds": [
-                    1864
-                ],
-                "DepartureDate": "2017-07-14T00:00:00",
-                "DestinationId": 65363,
-                "OriginId": 42995
-            },
-            "QuoteDateTime": "2017-04-16T21:23:00",
-            "QuoteId": 2
-        },
-        {
-            "Direct": false,
-            "InboundLeg": {
-                "CarrierIds": [
-                    1721
-                ],
-                "DepartureDate": "2017-07-16T00:00:00",
-                "DestinationId": 42995,
-                "OriginId": 65363
-            },
-            "MinPrice": 447.0,
-            "OutboundLeg": {
-                "CarrierIds": [
-                    1467
-                ],
-                "DepartureDate": "2017-07-14T00:00:00",
-                "DestinationId": 65363,
-                "OriginId": 42995
-            },
-            "QuoteDateTime": "2017-04-17T06:35:00",
-            "QuoteId": 3
         },
         {
             "Direct": true,
@@ -116,7 +80,7 @@
                 "DestinationId": 42995,
                 "OriginId": 65363
             },
-            "MinPrice": 477.0,
+            "MinPrice": 427.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     1467
@@ -125,36 +89,44 @@
                 "DestinationId": 65363,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-17T06:35:00",
+            "QuoteDateTime": "2017-04-21T23:00:00",
+            "QuoteId": 2
+        },
+        {
+            "Direct": false,
+            "InboundLeg": {
+                "CarrierIds": [
+                    1467
+                ],
+                "DepartureDate": "2017-07-16T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 65363
+            },
+            "MinPrice": 425.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1467
+                ],
+                "DepartureDate": "2017-07-14T00:00:00",
+                "DestinationId": 65363,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-21T23:00:00",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "InboundLeg": {
+                "CarrierIds": [
+                    1864
+                ],
+                "DepartureDate": "2017-07-16T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 65363
+            },
+            "MinPrice": 349.0,
+            "QuoteDateTime": "2017-04-21T18:11:00",
             "QuoteId": 4
-        },
-        {
-            "Direct": false,
-            "InboundLeg": {
-                "CarrierIds": [
-                    1864
-                ],
-                "DepartureDate": "2017-07-16T00:00:00",
-                "DestinationId": 42995,
-                "OriginId": 65363
-            },
-            "MinPrice": 369.0,
-            "QuoteDateTime": "2017-04-15T09:38:00",
-            "QuoteId": 5
-        },
-        {
-            "Direct": false,
-            "InboundLeg": {
-                "CarrierIds": [
-                    1864
-                ],
-                "DepartureDate": "2017-07-16T00:00:00",
-                "DestinationId": 42995,
-                "OriginId": 65363
-            },
-            "MinPrice": 369.0,
-            "QuoteDateTime": "2017-04-16T21:23:00",
-            "QuoteId": 6
         }
     ]
 }

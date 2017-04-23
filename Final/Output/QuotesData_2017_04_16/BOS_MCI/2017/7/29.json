@@ -1,6 +1,10 @@
 {
     "Carriers": [
         {
+            "CarrierId": 851,
+            "Name": "Alaska Airlines"
+        },
+        {
             "CarrierId": 1793,
             "Name": "United"
         }
@@ -39,5 +43,28 @@
             "Type": "Station"
         }
     ],
-    "Quotes": []
+    "Quotes": [
+        {
+            "Direct": false,
+            "InboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-07-23T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 67753
+            },
+            "MinPrice": 571.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-07-21T00:00:00",
+                "DestinationId": 67753,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-20T13:14:00",
+            "QuoteId": 1
+        }
+    ]
 }

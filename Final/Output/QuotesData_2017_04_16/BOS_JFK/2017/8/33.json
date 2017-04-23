@@ -1,10 +1,6 @@
 {
     "Carriers": [
         {
-            "CarrierId": 851,
-            "Name": "Alaska Airlines"
-        },
-        {
             "CarrierId": 870,
             "Name": "jetBlue"
         }
@@ -43,5 +39,28 @@
             "Type": "Station"
         }
     ],
-    "Quotes": []
+    "Quotes": [
+        {
+            "Direct": true,
+            "InboundLeg": {
+                "CarrierIds": [
+                    870
+                ],
+                "DepartureDate": "2017-08-20T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 60987
+            },
+            "MinPrice": 117.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    870
+                ],
+                "DepartureDate": "2017-08-18T00:00:00",
+                "DestinationId": 60987,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-22T17:27:00",
+            "QuoteId": 1
+        }
+    ]
 }

@@ -1,5 +1,10 @@
 {
-    "Carriers": [],
+    "Carriers": [
+        {
+            "CarrierId": 459,
+            "Name": "Cape Air"
+        }
+    ],
     "Currencies": [
         {
             "Code": "USD",
@@ -12,6 +17,27 @@
             "ThousandsSeparator": ","
         }
     ],
-    "Places": [],
+    "Places": [
+        {
+            "CityId": "BOSA",
+            "CityName": "Boston",
+            "CountryName": "United States",
+            "IataCode": "BOS",
+            "Name": "Boston Logan International",
+            "PlaceId": 42995,
+            "SkyscannerCode": "BOS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "RKDA",
+            "CityName": "Rockland",
+            "CountryName": "United States",
+            "IataCode": "RKD",
+            "Name": "Rockland",
+            "PlaceId": 79652,
+            "SkyscannerCode": "RKD",
+            "Type": "Station"
+        }
+    ],
     "Quotes": []
 }

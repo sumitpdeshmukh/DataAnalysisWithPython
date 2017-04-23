@@ -11,6 +11,10 @@
         {
             "CarrierId": 1793,
             "Name": "United"
+        },
+        {
+            "CarrierId": 1864,
+            "Name": "Virgin America"
         }
     ],
     "Currencies": [
@@ -52,13 +56,13 @@
             "Direct": true,
             "InboundLeg": {
                 "CarrierIds": [
-                    870
+                    1467
                 ],
                 "DepartureDate": "2017-08-06T00:00:00",
                 "DestinationId": 42995,
                 "OriginId": 73076
             },
-            "MinPrice": 277.0,
+            "MinPrice": 263.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     1467
@@ -67,7 +71,7 @@
                 "DestinationId": 73076,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-17T04:16:00",
+            "QuoteDateTime": "2017-04-22T18:05:00",
             "QuoteId": 1
         }
     ]

@@ -58,7 +58,7 @@
     "Quotes": [
         {
             "Direct": true,
-            "MinPrice": 157.0,
+            "MinPrice": 156.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     1864
@@ -67,7 +67,7 @@
                 "DestinationId": 65368,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-17T09:52:00",
+            "QuoteDateTime": "2017-04-21T03:17:00",
             "QuoteId": 1
         },
         {
@@ -80,7 +80,7 @@
                 "DestinationId": 42995,
                 "OriginId": 65368
             },
-            "MinPrice": 312.0,
+            "MinPrice": 314.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     851
@@ -102,9 +102,23 @@
                 "DestinationId": 42995,
                 "OriginId": 65368
             },
-            "MinPrice": 157.0,
-            "QuoteDateTime": "2017-04-16T16:21:00",
+            "MinPrice": 156.0,
+            "QuoteDateTime": "2017-04-21T17:02:00",
             "QuoteId": 3
+        },
+        {
+            "Direct": true,
+            "InboundLeg": {
+                "CarrierIds": [
+                    1864
+                ],
+                "DepartureDate": "2017-09-17T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 65368
+            },
+            "MinPrice": 157.0,
+            "QuoteDateTime": "2017-04-22T09:59:00",
+            "QuoteId": 4
         }
     ]
 }

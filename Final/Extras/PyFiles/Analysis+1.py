@@ -26,8 +26,6 @@ plotly.offline.init_notebook_mode()
 
 import plotly.offline as offline
 import plotly.graph_objs as go
-from IPython.display import Image
-
 
 
 # - To plot all unique routes I have used UniqueRoutesData File
@@ -41,7 +39,7 @@ uniqueroutes = pd.read_csv(raw_data +'UniqueRoutesData.csv' , low_memory=False)
 # In[4]:
 
 international_routes = uniqueroutes[uniqueroutes['Country_start'] != uniqueroutes['Country_end']].reset_index(drop=True)
-#international_routes = international_routes.dropna(subset=['Tz_DB_start'])
+
 europe_routes = international_routes[international_routes.Continent_start.str.startswith('Europe')].reset_index(drop=True)
 europe_routes = europe_routes[europe_routes.Continent_end.str.startswith('Europe')].reset_index(drop=True)
 
@@ -59,11 +57,10 @@ bos_flights.to_csv("../Output/BostonFlightsData.csv", index=False)
 # - There are around 50000 International Routes in the world. Plotting even 10k of these routes on map takes a while. 
 # - Lets randomly select 10000 routes among all and plot them on World map.
 
-# In[12]:
+# In[5]:
 
 # Limiting plot to 10000 random records as in total there are 49815 internatinal routes
 # This takes a minute or two to execute
-
 plot_int_routes = international_routes.sample(n=10000).reset_index(drop=True)
 
 # create new figure, axes instances.
@@ -89,10 +86,6 @@ for i, route in plot_int_routes.iterrows():
     
 m.drawcoastlines()
 m.fillcontinents()
-# draw parallels
-#m.drawparallels(np.arange(10,90,20),labels=[1,1,0,1])
-# draw meridians
-#m.drawmeridians(np.arange(-180,180,30),labels=[1,1,0,1])
 ax.set_title('All International routes', fontsize=20)
 plt.savefig('../Output/images/All International routes.png', format='png', bbox_inches='tight')
 plt.show()
@@ -112,7 +105,7 @@ plt.close()
 # - This is partly because of small wealthy nations close to each other
 # - Focusing on just the Europian routes and plotting them here
 
-# In[ ]:
+# In[6]:
 
 # create new figure, axes instances.
 fig=plt.figure(figsize=(27, 20))
@@ -156,7 +149,7 @@ plt.close()
 # - Let us have one more visual represntation of these routes on Plotly to get sense of Airports that fly here
 # - Plotly restricts the data points it can safely plot so taking atmost 2000 random samples among all the Europian Routes
 
-# In[13]:
+# In[7]:
 
 euro_routes = europe_routes.sample(n=2000).reset_index(drop=True)
 
@@ -244,7 +237,7 @@ offline.iplot( fig, filename='Europe flight routes' )
 # ## Domestic Routes
 # - It would be fairly Interesting to see domestic route activity among all the nations of the world
 
-# In[ ]:
+# In[8]:
 
 # create new figure, axes instances.
 fig=plt.figure(figsize=(27, 20))
@@ -282,7 +275,7 @@ plt.close()
 # - This shows the nations dependence on Flying airlines. Even history of planes started at United states and it really is a super power when it comes to flying in the sky.
 # - Let us see one more representation on plotly to clearly distinguish between Airports where Layover activity is included too
 
-# In[8]:
+# In[9]:
 
 #domestic_US = domestic_US.sample(n=2000).reset_index(drop=True)
 
@@ -368,7 +361,7 @@ offline.iplot( fig, filename='USA Flight Routes' )
 # - This analysis leads to one more intersting question. How is the distribution of airlines to served routes with all available international routes
 # - This will give glimpse at many airlines with maximum served routes
 
-# In[9]:
+# In[10]:
 
 grouped = uniqueroutes.groupby(['Airline_Name_x'])
 major_airlines = pd.DataFrame({'# Routes Served' : grouped['Airline_Name_x'].size()}).reset_index()
@@ -415,7 +408,6 @@ layout = go.Layout(
 )
 
 fig = go.Figure(data=data, layout=layout)
-Image('../Output/images/Airlines and Number of Routes they serve.png')
 offline.iplot(fig, filename='Airlines and Number of Routes they serve', image_width=1024,
               image_height=768)
 

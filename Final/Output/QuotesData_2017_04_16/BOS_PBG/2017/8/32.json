@@ -1,5 +1,10 @@
 {
-    "Carriers": [],
+    "Carriers": [
+        {
+            "CarrierId": 851,
+            "Name": "Alaska Airlines"
+        }
+    ],
     "Currencies": [
         {
             "Code": "USD",
@@ -12,6 +17,27 @@
             "ThousandsSeparator": ","
         }
     ],
-    "Places": [],
+    "Places": [
+        {
+            "CityId": "BOSA",
+            "CityName": "Boston",
+            "CountryName": "United States",
+            "IataCode": "BOS",
+            "Name": "Boston Logan International",
+            "PlaceId": 42995,
+            "SkyscannerCode": "BOS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "PLBA",
+            "CityName": "Plattsburgh",
+            "CountryName": "United States",
+            "IataCode": "PBG",
+            "Name": "Plattsburgh AFB",
+            "PlaceId": 74615,
+            "SkyscannerCode": "PBG",
+            "Type": "Station"
+        }
+    ],
     "Quotes": []
 }

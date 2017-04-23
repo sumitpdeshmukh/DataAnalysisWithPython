@@ -62,7 +62,7 @@
     "Quotes": [
         {
             "Direct": true,
-            "MinPrice": 292.0,
+            "MinPrice": 178.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     1864
@@ -71,12 +71,12 @@
                 "DestinationId": 65368,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-17T04:10:00",
+            "QuoteDateTime": "2017-04-21T19:14:00",
             "QuoteId": 1
         },
         {
-            "Direct": false,
-            "MinPrice": 270.0,
+            "Direct": true,
+            "MinPrice": 179.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     1864
@@ -85,7 +85,7 @@
                 "DestinationId": 65368,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-17T04:10:00",
+            "QuoteDateTime": "2017-04-22T19:07:00",
             "QuoteId": 2
         },
         {
@@ -98,7 +98,7 @@
                 "DestinationId": 42995,
                 "OriginId": 65368
             },
-            "MinPrice": 400.0,
+            "MinPrice": 408.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     1864
@@ -107,8 +107,30 @@
                 "DestinationId": 65368,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-07T22:48:00",
+            "QuoteDateTime": "2017-04-10T18:13:00",
             "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "InboundLeg": {
+                "CarrierIds": [
+                    851
+                ],
+                "DepartureDate": "2017-08-20T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 65368
+            },
+            "MinPrice": 404.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    851
+                ],
+                "DepartureDate": "2017-08-18T00:00:00",
+                "DestinationId": 65368,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-17T21:27:00",
+            "QuoteId": 4
         },
         {
             "Direct": true,
@@ -120,9 +142,9 @@
                 "DestinationId": 42995,
                 "OriginId": 65368
             },
-            "MinPrice": 227.0,
-            "QuoteDateTime": "2017-04-17T04:09:00",
-            "QuoteId": 4
+            "MinPrice": 221.0,
+            "QuoteDateTime": "2017-04-22T10:28:00",
+            "QuoteId": 5
         }
     ]
 }

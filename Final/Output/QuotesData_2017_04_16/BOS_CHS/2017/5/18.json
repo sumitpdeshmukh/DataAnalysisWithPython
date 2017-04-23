@@ -58,7 +58,7 @@
                 "DestinationId": 42995,
                 "OriginId": 44963
             },
-            "MinPrice": 587.0,
+            "MinPrice": 834.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     870
@@ -67,8 +67,30 @@
                 "DestinationId": 44963,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-11T17:26:00",
+            "QuoteDateTime": "2017-04-22T20:40:00",
             "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "InboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-05-07T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 44963
+            },
+            "MinPrice": 720.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-05-05T00:00:00",
+                "DestinationId": 44963,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-22T20:40:00",
+            "QuoteId": 2
         }
     ]
 }

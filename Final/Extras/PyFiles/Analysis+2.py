@@ -28,7 +28,6 @@ plotly.offline.init_notebook_mode()
 
 import plotly.offline as offline
 import plotly.graph_objs as go
-from IPython.display import Image
 
 
 # - To plot Major airport hubs that serve largest number of routes I have used MultiRoutesData.csv file.
@@ -83,7 +82,7 @@ major_hub.to_file('../Extras/MyGeometries.shp', driver='ESRI Shapefile', encodin
 
 # - Read a shape file and produce proportionate circles according to Routes Served by each airport
 
-# In[13]:
+# In[7]:
 
 fig1 = plt.figure(figsize=(27,20))
 
@@ -129,7 +128,7 @@ plt.close()
 # - Let us see at one more representation of the Major Airports in plotly
 # - Click on each legend to toggle between Show/Hide of that category
 
-# In[25]:
+# In[8]:
 
 major_hub['text'] = major_hub['Airport_start'] + '<br>City ' + major_hub['City_start']+ '<br>Country '                    + major_hub['Country_start']
 limits = [(0,10),(11,40),(41,100),(101,500),(251,1160)]

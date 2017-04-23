@@ -1,6 +1,10 @@
 {
     "Carriers": [
         {
+            "CarrierId": 851,
+            "Name": "Alaska Airlines"
+        },
+        {
             "CarrierId": 870,
             "Name": "jetBlue"
         },
@@ -62,7 +66,7 @@
     "Quotes": [
         {
             "Direct": false,
-            "MinPrice": 334.0,
+            "MinPrice": 470.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     1864
@@ -71,7 +75,7 @@
                 "DestinationId": 47118,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-15T21:50:00",
+            "QuoteDateTime": "2017-04-22T01:00:00",
             "QuoteId": 1
         },
         {
@@ -84,7 +88,7 @@
                 "DestinationId": 42995,
                 "OriginId": 47118
             },
-            "MinPrice": 406.0,
+            "MinPrice": 429.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     870
@@ -93,7 +97,7 @@
                 "DestinationId": 47118,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-09T23:37:00",
+            "QuoteDateTime": "2017-04-18T17:16:00",
             "QuoteId": 2
         },
         {
@@ -106,7 +110,7 @@
                 "DestinationId": 42995,
                 "OriginId": 47118
             },
-            "MinPrice": 358.0,
+            "MinPrice": 359.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     870
@@ -115,7 +119,7 @@
                 "DestinationId": 47118,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-15T15:48:00",
+            "QuoteDateTime": "2017-04-18T17:16:00",
             "QuoteId": 3
         },
         {
@@ -128,8 +132,8 @@
                 "DestinationId": 42995,
                 "OriginId": 47118
             },
-            "MinPrice": 537.0,
-            "QuoteDateTime": "2017-04-15T14:24:00",
+            "MinPrice": 534.0,
+            "QuoteDateTime": "2017-04-20T21:04:00",
             "QuoteId": 4
         }
     ]

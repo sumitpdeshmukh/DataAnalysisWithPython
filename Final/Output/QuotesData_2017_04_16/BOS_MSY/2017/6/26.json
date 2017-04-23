@@ -1,16 +1,16 @@
 {
     "Carriers": [
         {
-            "CarrierId": 851,
-            "Name": "Alaska Airlines"
-        },
-        {
             "CarrierId": 870,
             "Name": "jetBlue"
         },
         {
             "CarrierId": 1793,
             "Name": "United"
+        },
+        {
+            "CarrierId": 1902,
+            "Name": "Southwest Airlines"
         }
     ],
     "Currencies": [
@@ -58,7 +58,7 @@
                 "DestinationId": 42995,
                 "OriginId": 68537
             },
-            "MinPrice": 554.0,
+            "MinPrice": 555.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     870
@@ -67,7 +67,7 @@
                 "DestinationId": 68537,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-07T14:44:00",
+            "QuoteDateTime": "2017-04-21T19:19:00",
             "QuoteId": 1
         },
         {
@@ -80,7 +80,7 @@
                 "DestinationId": 42995,
                 "OriginId": 68537
             },
-            "MinPrice": 397.0,
+            "MinPrice": 363.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     1793
@@ -89,7 +89,7 @@
                 "DestinationId": 68537,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-04T03:01:00",
+            "QuoteDateTime": "2017-04-21T19:19:00",
             "QuoteId": 2
         }
     ]

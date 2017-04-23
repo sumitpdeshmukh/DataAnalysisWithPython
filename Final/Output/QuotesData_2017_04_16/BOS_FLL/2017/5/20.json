@@ -49,38 +49,16 @@
     ],
     "Quotes": [
         {
-            "Direct": false,
-            "InboundLeg": {
-                "CarrierIds": [
-                    870
-                ],
-                "DepartureDate": "2017-05-21T00:00:00",
-                "DestinationId": 42995,
-                "OriginId": 52060
-            },
-            "MinPrice": 292.0,
-            "OutboundLeg": {
-                "CarrierIds": [
-                    1467
-                ],
-                "DepartureDate": "2017-05-19T00:00:00",
-                "DestinationId": 52060,
-                "OriginId": 42995
-            },
-            "QuoteDateTime": "2017-04-17T01:41:00",
-            "QuoteId": 1
-        },
-        {
             "Direct": true,
             "InboundLeg": {
                 "CarrierIds": [
-                    870
+                    1467
                 ],
                 "DepartureDate": "2017-05-21T00:00:00",
                 "DestinationId": 42995,
                 "OriginId": 52060
             },
-            "MinPrice": 315.0,
+            "MinPrice": 266.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     1467
@@ -89,7 +67,29 @@
                 "DestinationId": 52060,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-17T01:41:00",
+            "QuoteDateTime": "2017-04-20T23:31:00",
+            "QuoteId": 1
+        },
+        {
+            "Direct": false,
+            "InboundLeg": {
+                "CarrierIds": [
+                    1467
+                ],
+                "DepartureDate": "2017-05-21T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 52060
+            },
+            "MinPrice": 245.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    1467
+                ],
+                "DepartureDate": "2017-05-19T00:00:00",
+                "DestinationId": 52060,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-20T23:31:00",
             "QuoteId": 2
         }
     ]

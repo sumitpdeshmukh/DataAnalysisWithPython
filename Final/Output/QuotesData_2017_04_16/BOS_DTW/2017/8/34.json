@@ -1,6 +1,10 @@
 {
     "Carriers": [
         {
+            "CarrierId": 870,
+            "Name": "jetBlue"
+        },
+        {
             "CarrierId": 1467,
             "Name": "Spirit Airlines"
         },
@@ -43,28 +47,5 @@
             "Type": "Station"
         }
     ],
-    "Quotes": [
-        {
-            "Direct": true,
-            "InboundLeg": {
-                "CarrierIds": [
-                    1467
-                ],
-                "DepartureDate": "2017-08-27T00:00:00",
-                "DestinationId": 42995,
-                "OriginId": 47847
-            },
-            "MinPrice": 130.0,
-            "OutboundLeg": {
-                "CarrierIds": [
-                    1467
-                ],
-                "DepartureDate": "2017-08-25T00:00:00",
-                "DestinationId": 47847,
-                "OriginId": 42995
-            },
-            "QuoteDateTime": "2017-04-03T20:33:00",
-            "QuoteId": 1
-        }
-    ]
+    "Quotes": []
 }

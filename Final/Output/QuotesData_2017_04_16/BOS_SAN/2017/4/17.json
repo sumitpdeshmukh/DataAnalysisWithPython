@@ -13,20 +13,12 @@
             "Name": "Spirit Airlines"
         },
         {
-            "CarrierId": 1721,
-            "Name": "Sun Country Airlines"
-        },
-        {
             "CarrierId": 1793,
             "Name": "United"
         },
         {
             "CarrierId": 1864,
             "Name": "Virgin America"
-        },
-        {
-            "CarrierId": 1902,
-            "Name": "Southwest Airlines"
         }
     ],
     "Currencies": [
@@ -66,7 +58,7 @@
     "Quotes": [
         {
             "Direct": false,
-            "MinPrice": 385.0,
+            "MinPrice": 538.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     1864
@@ -75,7 +67,7 @@
                 "DestinationId": 81486,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-16T18:20:00",
+            "QuoteDateTime": "2017-04-22T10:44:00",
             "QuoteId": 1
         },
         {
@@ -88,7 +80,7 @@
                 "DestinationId": 42995,
                 "OriginId": 81486
             },
-            "MinPrice": 748.0,
+            "MinPrice": 726.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     870
@@ -97,29 +89,29 @@
                 "DestinationId": 81486,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-08T19:18:00",
+            "QuoteDateTime": "2017-04-18T19:42:00",
             "QuoteId": 2
         },
         {
             "Direct": false,
             "InboundLeg": {
                 "CarrierIds": [
-                    851
+                    1793
                 ],
                 "DepartureDate": "2017-04-30T00:00:00",
                 "DestinationId": 42995,
                 "OriginId": 81486
             },
-            "MinPrice": 422.0,
+            "MinPrice": 620.0,
             "OutboundLeg": {
                 "CarrierIds": [
-                    851
+                    1793
                 ],
                 "DepartureDate": "2017-04-28T00:00:00",
                 "DestinationId": 81486,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-17T15:11:00",
+            "QuoteDateTime": "2017-04-22T16:13:00",
             "QuoteId": 3
         },
         {
@@ -132,23 +124,9 @@
                 "DestinationId": 42995,
                 "OriginId": 81486
             },
-            "MinPrice": 591.0,
-            "QuoteDateTime": "2017-04-17T08:31:00",
+            "MinPrice": 927.0,
+            "QuoteDateTime": "2017-04-21T20:32:00",
             "QuoteId": 4
-        },
-        {
-            "Direct": false,
-            "InboundLeg": {
-                "CarrierIds": [
-                    1864
-                ],
-                "DepartureDate": "2017-04-30T00:00:00",
-                "DestinationId": 42995,
-                "OriginId": 81486
-            },
-            "MinPrice": 591.0,
-            "QuoteDateTime": "2017-04-16T18:12:00",
-            "QuoteId": 5
         }
     ]
 }

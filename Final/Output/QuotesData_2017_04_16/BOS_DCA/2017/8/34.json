@@ -1,20 +1,12 @@
 {
     "Carriers": [
         {
-            "CarrierId": 851,
-            "Name": "Alaska Airlines"
-        },
-        {
             "CarrierId": 870,
             "Name": "jetBlue"
         },
         {
             "CarrierId": 1793,
             "Name": "United"
-        },
-        {
-            "CarrierId": 1864,
-            "Name": "Virgin America"
         }
     ],
     "Currencies": [
@@ -53,25 +45,25 @@
     ],
     "Quotes": [
         {
-            "Direct": true,
+            "Direct": false,
             "InboundLeg": {
                 "CarrierIds": [
-                    870
+                    1793
                 ],
                 "DepartureDate": "2017-08-27T00:00:00",
                 "DestinationId": 42995,
                 "OriginId": 47009
             },
-            "MinPrice": 163.0,
+            "MinPrice": 240.0,
             "OutboundLeg": {
                 "CarrierIds": [
-                    870
+                    1793
                 ],
                 "DepartureDate": "2017-08-25T00:00:00",
                 "DestinationId": 47009,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-05T12:32:00",
+            "QuoteDateTime": "2017-04-22T17:02:00",
             "QuoteId": 1
         }
     ]

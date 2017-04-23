@@ -7,10 +7,6 @@
         {
             "CarrierId": 1793,
             "Name": "United"
-        },
-        {
-            "CarrierId": 1902,
-            "Name": "Southwest Airlines"
         }
     ],
     "Currencies": [
@@ -52,22 +48,22 @@
             "Direct": false,
             "InboundLeg": {
                 "CarrierIds": [
-                    870
+                    1793
                 ],
                 "DepartureDate": "2017-05-21T00:00:00",
                 "DestinationId": 42995,
                 "OriginId": 79843
             },
-            "MinPrice": 511.0,
+            "MinPrice": 500.0,
             "OutboundLeg": {
                 "CarrierIds": [
-                    870
+                    1793
                 ],
                 "DepartureDate": "2017-05-19T00:00:00",
                 "DestinationId": 79843,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-07T22:21:00",
+            "QuoteDateTime": "2017-04-22T04:26:00",
             "QuoteId": 1
         }
     ]

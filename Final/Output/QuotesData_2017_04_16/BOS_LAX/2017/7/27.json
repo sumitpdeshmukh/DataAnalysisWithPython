@@ -66,7 +66,7 @@
     "Quotes": [
         {
             "Direct": false,
-            "MinPrice": 270.0,
+            "MinPrice": 357.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     1864
@@ -75,12 +75,12 @@
                 "DestinationId": 65368,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-15T18:52:00",
+            "QuoteDateTime": "2017-04-21T16:52:00",
             "QuoteId": 1
         },
         {
-            "Direct": false,
-            "MinPrice": 270.0,
+            "Direct": true,
+            "MinPrice": 412.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     1864
@@ -89,94 +89,44 @@
                 "DestinationId": 65368,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-17T00:29:00",
+            "QuoteDateTime": "2017-04-21T16:52:00",
             "QuoteId": 2
         },
         {
             "Direct": true,
-            "MinPrice": 551.0,
+            "InboundLeg": {
+                "CarrierIds": [
+                    1793
+                ],
+                "DepartureDate": "2017-07-09T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 65368
+            },
+            "MinPrice": 434.0,
             "OutboundLeg": {
                 "CarrierIds": [
-                    1864
+                    1793
                 ],
                 "DepartureDate": "2017-07-07T00:00:00",
                 "DestinationId": 65368,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-15T18:52:00",
+            "QuoteDateTime": "2017-04-15T15:54:00",
             "QuoteId": 3
         },
         {
             "Direct": true,
-            "MinPrice": 551.0,
-            "OutboundLeg": {
+            "InboundLeg": {
                 "CarrierIds": [
                     1864
                 ],
-                "DepartureDate": "2017-07-07T00:00:00",
-                "DestinationId": 65368,
-                "OriginId": 42995
+                "DepartureDate": "2017-07-09T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 65368
             },
-            "QuoteDateTime": "2017-04-17T00:29:00",
+            "MinPrice": 221.0,
+            "QuoteDateTime": "2017-04-22T12:20:00",
             "QuoteId": 4
-        },
-        {
-            "Direct": false,
-            "InboundLeg": {
-                "CarrierIds": [
-                    851
-                ],
-                "DepartureDate": "2017-07-09T00:00:00",
-                "DestinationId": 42995,
-                "OriginId": 65368
-            },
-            "MinPrice": 412.0,
-            "OutboundLeg": {
-                "CarrierIds": [
-                    851
-                ],
-                "DepartureDate": "2017-07-07T00:00:00",
-                "DestinationId": 65368,
-                "OriginId": 42995
-            },
-            "QuoteDateTime": "2017-04-15T15:54:00",
-            "QuoteId": 5
-        },
-        {
-            "Direct": true,
-            "InboundLeg": {
-                "CarrierIds": [
-                    1793
-                ],
-                "DepartureDate": "2017-07-09T00:00:00",
-                "DestinationId": 42995,
-                "OriginId": 65368
-            },
-            "MinPrice": 432.0,
-            "OutboundLeg": {
-                "CarrierIds": [
-                    1793
-                ],
-                "DepartureDate": "2017-07-07T00:00:00",
-                "DestinationId": 65368,
-                "OriginId": 42995
-            },
-            "QuoteDateTime": "2017-04-15T15:54:00",
-            "QuoteId": 6
-        },
-        {
-            "Direct": true,
-            "InboundLeg": {
-                "CarrierIds": [
-                    1864
-                ],
-                "DepartureDate": "2017-07-09T00:00:00",
-                "DestinationId": 42995,
-                "OriginId": 65368
-            },
-            "MinPrice": 292.0,
-            "QuoteDateTime": "2017-04-15T13:01:00",
-            "QuoteId": 7
         }
     ]
 }

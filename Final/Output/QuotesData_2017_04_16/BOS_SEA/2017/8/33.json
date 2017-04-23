@@ -17,6 +17,10 @@
             "Name": "Sun Country Airlines"
         },
         {
+            "CarrierId": 1793,
+            "Name": "United"
+        },
+        {
             "CarrierId": 1864,
             "Name": "Virgin America"
         }
@@ -58,7 +62,7 @@
     "Quotes": [
         {
             "Direct": false,
-            "MinPrice": 297.0,
+            "MinPrice": 299.0,
             "OutboundLeg": {
                 "CarrierIds": [
                     1864
@@ -67,8 +71,30 @@
                 "DestinationId": 81665,
                 "OriginId": 42995
             },
-            "QuoteDateTime": "2017-04-15T19:27:00",
+            "QuoteDateTime": "2017-04-21T17:24:00",
             "QuoteId": 1
+        },
+        {
+            "Direct": true,
+            "InboundLeg": {
+                "CarrierIds": [
+                    870
+                ],
+                "DepartureDate": "2017-08-20T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 81665
+            },
+            "MinPrice": 460.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    870
+                ],
+                "DepartureDate": "2017-08-18T00:00:00",
+                "DestinationId": 81665,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-19T15:13:00",
+            "QuoteId": 2
         },
         {
             "Direct": false,
@@ -80,9 +106,23 @@
                 "DestinationId": 42995,
                 "OriginId": 81665
             },
-            "MinPrice": 368.0,
-            "QuoteDateTime": "2017-04-16T02:14:00",
-            "QuoteId": 2
+            "MinPrice": 367.0,
+            "QuoteDateTime": "2017-04-22T07:34:00",
+            "QuoteId": 3
+        },
+        {
+            "Direct": false,
+            "InboundLeg": {
+                "CarrierIds": [
+                    1864
+                ],
+                "DepartureDate": "2017-08-20T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 81665
+            },
+            "MinPrice": 367.0,
+            "QuoteDateTime": "2017-04-20T19:15:00",
+            "QuoteId": 4
         }
     ]
 }

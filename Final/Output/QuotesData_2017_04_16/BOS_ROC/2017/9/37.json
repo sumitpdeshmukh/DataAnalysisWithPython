@@ -1,5 +1,10 @@
 {
-    "Carriers": [],
+    "Carriers": [
+        {
+            "CarrierId": 870,
+            "Name": "jetBlue"
+        }
+    ],
     "Currencies": [
         {
             "Code": "USD",
@@ -12,6 +17,27 @@
             "ThousandsSeparator": ","
         }
     ],
-    "Places": [],
+    "Places": [
+        {
+            "CityId": "BOSA",
+            "CityName": "Boston",
+            "CountryName": "United States",
+            "IataCode": "BOS",
+            "Name": "Boston Logan International",
+            "PlaceId": 42995,
+            "SkyscannerCode": "BOS",
+            "Type": "Station"
+        },
+        {
+            "CityId": "ROCA",
+            "CityName": "Rochester",
+            "CountryName": "United States",
+            "IataCode": "ROC",
+            "Name": "Rochester",
+            "PlaceId": 79843,
+            "SkyscannerCode": "ROC",
+            "Type": "Station"
+        }
+    ],
     "Quotes": []
 }

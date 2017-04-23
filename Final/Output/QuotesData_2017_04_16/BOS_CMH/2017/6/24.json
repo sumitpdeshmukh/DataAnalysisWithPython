@@ -47,5 +47,28 @@
             "Type": "Station"
         }
     ],
-    "Quotes": []
+    "Quotes": [
+        {
+            "Direct": false,
+            "InboundLeg": {
+                "CarrierIds": [
+                    851
+                ],
+                "DepartureDate": "2017-06-18T00:00:00",
+                "DestinationId": 42995,
+                "OriginId": 45192
+            },
+            "MinPrice": 3185.0,
+            "OutboundLeg": {
+                "CarrierIds": [
+                    851
+                ],
+                "DepartureDate": "2017-06-16T00:00:00",
+                "DestinationId": 45192,
+                "OriginId": 42995
+            },
+            "QuoteDateTime": "2017-04-10T02:28:00",
+            "QuoteId": 1
+        }
+    ]
 }
