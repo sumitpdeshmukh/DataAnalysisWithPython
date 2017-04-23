@@ -167,7 +167,11 @@
 ---
 
 ## Section 3: Analysis 3
-- Perfrom a cost analysis on return trips over every weekend planned from Boston to major US cities for next 6 months. 
+- Perfrom a cost analysis on return trips over every weekend planned from Boston to major US cities for next 6 months.
+  - This is a plot of weekend return trip prices from Boston to Major cities of United states
+  - Prices used in this plot has close resemblance with actual prices of that trip, since the cached data is just weeks old.
+  - Using the observations from this line plot we can safely establish that it matters when we plan plan weekend trips to which cities.
+  - We can see that flying to Denver, United States from Boston should be planned on either `May 14 2017` or `June 04 2017` to utilise the cheapest fare opportunity.
   - ![Weekend Trips to major cities of United States](Output/images/Weekend%20Return%20Trip%20Prices.png)
   
 ---
@@ -183,3 +187,8 @@
   - pip install geopandas
   - pip install geopy
   - upgrade matplotlib
+- Airports Data downloading process does not take more than few seconds to download
+- Routes data downloading from SkyScanner API takes considerable amount of time(30 to 45 minutes).
+- Quotes data downloading in Analysis 3 from SkyScanner API takes about (10 to 15 minutes) to download all the data for routes originating at Boston.
+  - `One hack that you can do to save time in downloading is to rename the existing folder in <YYYY-MM-WW> where WW is week number of the year.`
+  - The cached data from SkyScanner rarely changes within one week, so you will not lose much with this hack.
