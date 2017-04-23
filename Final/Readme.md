@@ -203,6 +203,15 @@
   ...
   ],
   ```
+  - This JSON data is read and added into existing dataframe to get prices for every route.
+    Average_Price | Destination | Source | Weekend_Date
+  --- | --- | --- | ---
+  434.5 | DEN | BOS | 2017-04-30 00:00:00
+  354.0 | DEN | BOS | 2017-05-07 00:00:00
+  350.0 | DEN | BOS | 2017-05-14 00:00:00
+  430.0 | DEN | BOS | 2017-05-21 00:00:00
+  437.5 | DEN | BOS | 2017-05-28 00:00:00
+
   - This is a plot of weekend return trip prices from Boston to Major cities of United states
   - Prices used in this plot has close resemblance with actual prices of that trip, since the cached data is just weeks old.
   - Using the observations from this line plot we can safely establish that it matters when we plan plan weekend trips to which cities.
