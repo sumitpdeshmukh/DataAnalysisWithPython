@@ -17,7 +17,8 @@
 
 ---
 
-## Section 1: Collect Data   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Data Collection and Store.py](Extras/PyFiles/Data%2BCollection%2Band%2BStore.py)&emsp;[Data Collection and Store.ipynb](Analysis/Data%20Collection%20and%20Store.ipynb)
+## Section 1: Collect Data
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Data Collection and Store.py](Extras/PyFiles/Data%2BCollection%2Band%2BStore.py)&emsp;[Data Collection and Store.ipynb](Analysis/Data%20Collection%20and%20Store.ipynb)
 - **Step 1**
   - I need to have a list of Airports first to meet my end goals of this exercise.
   - Skyscanner Geo API gives data for all the airports when we query
@@ -135,6 +136,7 @@
 
 ---
 ## Section 2: Storing Data
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Data Collection and Store.py](Extras/PyFiles/Data%2BCollection%2Band%2BStore.py)&emsp;[Data Collection and Store.ipynb](Analysis/Data%20Collection%20and%20Store.ipynb)
 - Airports Data
   - The Airports data from SkyScanner API is a static data which will rarely change.
   - I have stored this data in a folder named `Places_<YYYY-mm-WW>`. For current week once the data is downloaded no new data will be fetched.
@@ -149,6 +151,7 @@
 ---
 
 ## Section 3: Analysis 1
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Analysis 1.py](Extras/PyFiles/Analysis%2B1.py)&emsp;[Analysis 1.ipynb](Analysis/Analysis%201.ipynb)
 - Explore all the unique air routes of the world and which airline served most of these routes.
   - I have plotted all the unique international routes using Matplotlib
   - This gives clear understanding of how Europe is at the heart of International aviation.![All International routes](Output/images/All%20International%20routes.png)
@@ -160,6 +163,7 @@
 ---
 
 ## Section 4: Analysis 2
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Analysis 2.py](Extras/PyFiles/Analysis%2B2.py)&emsp;[Analysis 2.ipynb](Analysis/Analysis%202.ipynb)
 - Explore which Airports are the busiest in terms of number of routes they serve
   - This plot has circular markers proportional to the number of routes those airports serve. ![Airports serving major routes](Output/images/Major%20Airports%20According%20to%20Serving%20Routes.png)
   - This is an interactive plot of marker sizes arranged according to the the number of routes they serve. ![Interactive Representation of number of routes served by an airport](Output/images/Major%20hub%20airports%20of%20the%20world.png)
@@ -168,6 +172,7 @@
 ---
 
 ## Section 5: Analysis 3
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Analysis 3.py](Extras/PyFiles/Analysis%2B3.py)&emsp;[Analysis 3.ipynb](Analysis/Analysis%203.ipynb)
 - Perfrom a cost analysis on return trips over every weekend planned from Boston to major US cities for next 6 months.
   - We need to fetch Quote prices in order to perform this analysis.
   - `API ENDPOINT`
