@@ -152,6 +152,9 @@
 - Explore all the unique air routes of the world and which airline served most of these routes.
   - I have plotted all the unique international routes using Matplotlib
   - This gives clear understanding of how Europe is at the heart of International aviation.![All International routes](Output/images/All%20International%20routes.png)
+  - Plotting all Europian Routes ![Europe Flights](Output/images/Europe%20flight%20routes.png)
+  - Layover airports and Independent destination airports are shown distinctly 
+  - Plotting all Domestic routes of United States ![United States domestic flights](Output/images/United%20States%20Domestic%20Flight%20Routes.png)
 
 
 
