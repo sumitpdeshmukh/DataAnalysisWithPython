@@ -151,8 +151,7 @@
 ## Section 3: Analysis 1
 - Explore all the unique air routes of the world and which airline served most of these routes.
   - I have plotted all the unique international routes using Matplotlib
-  - This gives clear understanding of how Europe is at the heart of International aviation.
-  ![All International routes](Output/images/All International routes.png)
+  - This gives clear understanding of how Europe is at the heart of International aviation.![All International routes](Output/images/All%20International%20routes.png)
 
 
 
