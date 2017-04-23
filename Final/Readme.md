@@ -161,8 +161,11 @@
 
 ## Section 3: Analysis 2
 - Explore which Airports are the busiest in terms of number of routes they serve
+  - This plot has circular markers proportional to the number of routes those airports serve 
   - ![Airports serving major routes](Output/images/Major%20Airports%20According%20to%20Serving%20Routes.png)
+  - This is an interactive plot of marker sizes arranged according to the the number of routes they serve 
   - ![Interactive Representation of number of routes served by an airport](Output/images/Major%20hub%20airports%20of%20the%20world.png)
+  - Interaction can be observed on the Jupyter notebook
   
 ---
 
@@ -173,13 +176,13 @@
   - Using the observations from this line plot we can safely establish that it matters when we plan plan weekend trips to which cities.
   - We can see that flying to Denver, United States from Boston should be planned on either `May 14 2017` or `June 04 2017` to utilise the cheapest fare opportunity.
   - ![Weekend Trips to major cities of United States](Output/images/Weekend%20Return%20Trip%20Prices.png)
-  
+  - Similary on `June 11 2017` we can plan a trip to San Francisco than any other destination. The rates for San Francisco are cheapest on this weekend and though we are flying farther we will pay the least to have a trip there. 
 ---
 
 
 
 
-#### Addtional Instructions to Run the code
+#### Addtional Instructions to Run the code in this repository
 - This code has dependecy on following libraries
   - mpl_toolkits.basemap, matplotlib, plotly, geopandas, geopy, shapelyhjfdfjdhf
   - conda install basemap
@@ -187,8 +190,10 @@
   - pip install geopandas
   - pip install geopy
   - upgrade matplotlib
-- Airports Data downloading process does not take more than few seconds to download
+
+- All the scripts in this repository by default check for `<YYYY-MM-{Current Weeknumber of the given year}>` folder. If that is found no new downloading starts but if it is not there it will automatically start downloading the required data.
+- Airports Data downloading process does not take more than few seconds to download.
 - Routes data downloading from SkyScanner API takes considerable amount of time(30 to 45 minutes).
 - Quotes data downloading in Analysis 3 from SkyScanner API takes about (10 to 15 minutes) to download all the data for routes originating at Boston.
-  - `One hack that you can do to save time in downloading is to rename the existing folder in <YYYY-MM-WW> where WW is week number of the year.`
+  - One hack that you can do to save time in downloading is to rename the existing folder `<YYYY-MM-WW>` (where WW is week number of the year.) to `<YYYY-MM-{Current Weeknumber of the given year}>`
   - The cached data from SkyScanner rarely changes within one week, so you will not lose much with this hack.
