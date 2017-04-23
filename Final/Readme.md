@@ -159,7 +159,7 @@
   
 ---
 
-## Section 3: Analysis 2
+## Section 4: Analysis 2
 - Explore which Airports are the busiest in terms of number of routes they serve
   - This plot has circular markers proportional to the number of routes those airports serve. ![Airports serving major routes](Output/images/Major%20Airports%20According%20to%20Serving%20Routes.png)
   - This is an interactive plot of marker sizes arranged according to the the number of routes they serve. ![Interactive Representation of number of routes served by an airport](Output/images/Major%20hub%20airports%20of%20the%20world.png)
@@ -167,7 +167,7 @@
   
 ---
 
-## Section 3: Analysis 3
+## Section 5: Analysis 3
 - Perfrom a cost analysis on return trips over every weekend planned from Boston to major US cities for next 6 months.
   - We need to fetch Quote prices in order to perform this analysis.
   - `API ENDPOINT`
