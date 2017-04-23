@@ -155,6 +155,22 @@
   - Plotting all Europian Routes ![Europe Flights](Output/images/Europe%20flight%20routes.png)
   - Layover airports and Independent destination airports are shown distinctly 
   - Plotting all Domestic routes of United States ![United States domestic flights](Output/images/United%20States%20Domestic%20Flight%20Routes.png)
+  - Bar plot of airlines that serve highest routes among all the routes ![Airlines and Routes they serve](Output/images/Airlines%20and%20Number%20of%20Routes%20they%20serve.png)
+  
+---
+
+## Section 3: Analysis 2
+- Explore which Airports are the busiest in terms of number of routes they serve
+  - ![Airports serving major routes](Output/images/Major%20Airports%20According%20to%20Serving%20Routes.png)
+  - ![Interactive Representation of number of routes served by an airport](Output/images/Major%20hub%20airports%20of%20the%20world.png)
+  
+---
+
+## Section 3: Analysis 3
+- Perfrom a cost analysis on return trips over every weekend planned from Boston to major US cities for next 6 months. 
+  - ![Weekend Trips to major cities of United States](Output/images/Weekend%20Return%20Trip%20Prices.png)
+  
+---
 
 
 
