@@ -161,21 +161,52 @@
 
 ## Section 3: Analysis 2
 - Explore which Airports are the busiest in terms of number of routes they serve
-  - This plot has circular markers proportional to the number of routes those airports serve 
-  - ![Airports serving major routes](Output/images/Major%20Airports%20According%20to%20Serving%20Routes.png)
-  - This is an interactive plot of marker sizes arranged according to the the number of routes they serve 
-  - ![Interactive Representation of number of routes served by an airport](Output/images/Major%20hub%20airports%20of%20the%20world.png)
+  - This plot has circular markers proportional to the number of routes those airports serve. ![Airports serving major routes](Output/images/Major%20Airports%20According%20to%20Serving%20Routes.png)
+  - This is an interactive plot of marker sizes arranged according to the the number of routes they serve. ![Interactive Representation of number of routes served by an airport](Output/images/Major%20hub%20airports%20of%20the%20world.png)
   - Interaction can be observed on the Jupyter notebook
   
 ---
 
 ## Section 3: Analysis 3
 - Perfrom a cost analysis on return trips over every weekend planned from Boston to major US cities for next 6 months.
+  - We need to fetch Quote prices in order to perform this analysis.
+  - `API ENDPOINT`
+  ```sh
+  GET /browsequotes/v1.0/{country}/{currency}/{locale}/{originPlace}/{destinationPlace}/{outboundPartialDate}/{inboundPartialDate}
+  ```
+  - Response expected is like
+  ```JSON
+  {
+  "Quotes": [
+    {
+      "QuoteId": 1,
+      "MinPrice": 381,
+      "Direct": true,
+      "OutboundLeg": {
+        "CarrierIds": [
+          470
+        ],
+        "OriginId": 68033,
+        "DestinationId": 42833,
+        "DepartureDate": "2017-02-03T00:00:00"
+      },
+      "InboundLeg": {
+        "CarrierIds": [
+          470
+        ],
+        "OriginId": 42833,
+        "DestinationId": 68033,
+        "DepartureDate": "2017-02-06T00:00:00"
+      },
+      "QuoteDateTime": "2016-11-09T21:20:00"
+    },
+  ...
+  ],
+  ```
   - This is a plot of weekend return trip prices from Boston to Major cities of United states
   - Prices used in this plot has close resemblance with actual prices of that trip, since the cached data is just weeks old.
   - Using the observations from this line plot we can safely establish that it matters when we plan plan weekend trips to which cities.
-  - We can see that flying to Denver, United States from Boston should be planned on either `May 14 2017` or `June 04 2017` to utilise the cheapest fare opportunity.
-  - ![Weekend Trips to major cities of United States](Output/images/Weekend%20Return%20Trip%20Prices.png)
+  - We can see that flying to Denver, United States from Boston should be planned on either `May 14 2017` or `June 04 2017` to utilise the cheapest fare opportunity.![Weekend Trips to major cities of United States](Output/images/Weekend%20Return%20Trip%20Prices.png)
   - Similary on `June 11 2017` we can plan a trip to San Francisco than any other destination. The rates for San Francisco are cheapest on this weekend and though we are flying farther we will pay the least to have a trip there. 
 ---
 
