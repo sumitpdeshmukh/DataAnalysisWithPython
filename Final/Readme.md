@@ -204,7 +204,8 @@
   ],
   ```
   - This JSON data is read and added into existing dataframe to get prices for every route.
-    Average_Price | Destination | Source | Weekend_Date
+  
+  Average_Price | Destination | Source | Weekend_Date
   --- | --- | --- | ---
   434.5 | DEN | BOS | 2017-04-30 00:00:00
   354.0 | DEN | BOS | 2017-05-07 00:00:00
