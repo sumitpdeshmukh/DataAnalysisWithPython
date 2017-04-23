@@ -2,7 +2,7 @@
 
 - I am using [SkyScanner API](https://www.skyscanner.com/) to get data for Airports and Airline Routes of the world. I am enriching this data even further by getting Airports, Routes and Airlines that fly on these routes from [Openflights](http://openflights.org/data.html).
 
-- [Skyscanner Travel APIs](https://skyscanner.github.io/) connect you to access Quotes on Flights, Schedule and Routes data of Future flights. The free version of Skyscanner Business APIs lets you access cache data(Cached weekly from actual data), which is close to live data.
+- [Skyscanner Travel APIs](https://skyscanner.github.io/slate/#getting-started) connect you to access Quotes on Flights, Schedule and Routes data of Future flights. The free version of Skyscanner Business APIs lets you access cache data(Cached weekly from actual data), which is close to live data.
 
 - [OpenFlights](http://openflights.org/data.html) is a tool that lets you map your flights around the world, search and filter them in all sorts of interesting ways. It's also the name of the open-source project to build the tool.
   - As of January 2017, the OpenFlights Airports Database contains over 10,000 airports.
