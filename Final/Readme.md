@@ -168,6 +168,7 @@
   - This plot has circular markers proportional to the number of routes those airports serve. ![Airports serving major routes](Output/images/Major%20Airports%20According%20to%20Serving%20Routes.png)
   - This is an interactive plot of marker sizes arranged according to the the number of routes they serve. ![Interactive Representation of number of routes served by an airport](Output/images/Major%20hub%20airports%20of%20the%20world.png)
   - Interaction can be observed on the Jupyter notebook
+  - This bar plot shows airports and routes they serve. ![Airports and Routes they serve](Output/images/Airports%20and%20Routes%20they%20serve.png)
   
 ---
 
