@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# # Major Airports (Number of routes they serve)
+# # <span style="color:#f45f42">Major Airports (Number of routes they serve)</span>
 
 # In[1]:
 
@@ -171,6 +171,49 @@ layout = dict(
 
 fig = dict( data=airports, layout=layout )
 offline.iplot( fig, filename='Major hub airports of the world' )
+
+
+# In[9]:
+
+major_hub.info()
+
+
+# In[10]:
+
+trace = go.Bar(
+    x = major_hub['RoutesServed'],
+    y = major_hub['Hub'],
+    text = major_hub['Hub'],
+    marker=dict(
+        color='rgb(158,202,225)',
+        line=dict(
+            color='rgb(8,48,107)',
+            width=1.5,
+        )
+    ),
+    opacity=0.6,
+    orientation = 'h',
+)
+
+data = [trace]
+
+layout = go.Layout(
+    title='Airports and Routes they serve',
+    yaxis = dict(
+        autorange = False,
+        title = "Major Airports"
+    ),
+    margin = dict(
+        l = 100,
+    ),
+    xaxis = dict(
+        title = "Number of Serving Routes",
+    ),
+)
+
+fig = go.Figure(data=data, layout=layout)
+offline.iplot(fig, filename='Airports and Routes they serve', image_width=1024,
+              image_height=768)
 
 
 # In[ ]:
