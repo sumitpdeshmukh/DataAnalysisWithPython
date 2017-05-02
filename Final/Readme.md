@@ -232,7 +232,7 @@
 #### Addtional Instructions to Run the code in this repository
 - Plotly graphs that are not rendered can be viewed after clicking the external nbviewer link dispalyed at the top right corner of the Jupyter Notebook.
 - This code has dependecy on following libraries
-  - mpl_toolkits.basemap, matplotlib, plotly, geopandas, geopy, shapelyhjfdfjdhf
+  - mpl_toolkits.basemap, matplotlib, plotly, geopandas, geopy, shapely
   - conda install basemap
   - pip install plotly
   - pip install geopandas
