@@ -1,4 +1,4 @@
-# Final Exam - Spring 2017 
+# Weekend Trips Analysis
 
 - I am using [SkyScanner API](https://www.skyscanner.com/) to get data for Airports and Airline Routes of the world. I am enriching this data even further by getting Airports, Routes and Airlines that fly on these routes from [Openflights](http://openflights.org/data.html).
 
